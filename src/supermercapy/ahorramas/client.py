@@ -197,8 +197,9 @@ class Ahorramas(BaseClient):
     def iter_catalog(self) -> Iterator[AhorramasProduct]:
         """yield every product by walking the catalogue's root a hundred at a time.
 
-        the root category holds the whole catalogue: about 4,600 products in
-        october 2026, so close to fifty requests of a megabyte each.
+        the root category holds the whole catalogue: a full walk on 4 october
+        2026 read 7,579 products in 76 requests of about a megabyte each, and
+        took nine minutes because each page took about seven seconds.
         """
 
         return self._walk(ROOT_CATEGORY)

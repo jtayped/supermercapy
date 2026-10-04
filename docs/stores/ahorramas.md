@@ -54,7 +54,7 @@ the product model adds `category_names`, the names of the categories a product i
 | `get_categories` | one | about 790 kb |
 | `get_category` | one, plus the menu once per client | about 11 kb per product |
 | `get_offers` | one per hundred offers, plus an empty page when the last is full | 1,000 to 1,500 offers in october 2026, a megabyte per hundred |
-| `iter_catalog` | one per hundred products | about 4,600 products in october 2026, close to fifty megabytes |
+| `iter_catalog` | one per hundred products | a full walk on 4 october 2026 read 7,579 products in 76 requests and 88 mb, in nine minutes, because each page took about seven seconds to answer |
 
 the sizes are the html and json after decompression. the shop compresses its answers, so the wire carries about a fourteenth of that: ten requests that decompress to 2.7 mb arrived as 190 kb in october 2026.
 

@@ -34,7 +34,7 @@ with Consum.from_postal_code("46001") as consum:
 |---|---|---|
 | `POSTAL_CODE` | yes | `from_postal_code` reads the shipping areas of a postcode and binds the first one |
 | `STORES` | yes | `list_stores` returns the areas serving one postcode for home delivery; pickup answers empty, see below |
-| `CATALOG` | yes | `iter_catalog` walks the listing endpoint a hundred rows at a time |
+| `CATALOG` | yes | `iter_catalog` walks the listing endpoint a hundred rows at a time. an unbound walk on 4 october 2026 read 9,084 products in 91 requests and 20 mb, in 16 seconds |
 | `EAN_LOOKUP` | yes | `get_product_by_ean` filters the listing on an exact barcode, in one request |
 | `NEW_ARRIVALS` | yes | `get_new_arrivals` walks every product the storefront flags as new, newest first |
 | `OFFERS` | yes | `get_offers` walks every product carrying an immediate discount, a hundred per request |
