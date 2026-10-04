@@ -10,6 +10,7 @@ import pytest
 from supermercapy import (
     BlockedError,
     Capability,
+    ChallengedError,
     ConfigurationError,
     InvalidResponseError,
     Language,
@@ -23,6 +24,7 @@ from supermercapy.eroski import (
     EroskiProduct,
     EroskiSearchResult,
 )
+from supermercapy.eroski._constants import SITE_URL
 from tests.conftest import read_fixture
 from tests.harness import HARNESSES
 
@@ -362,6 +364,36 @@ def test_the_edges_bare_403_is_a_block_and_is_not_retried() -> None:
         client.search_products("aceite")
 
     assert len(requests) == 1
+
+
+def test_a_recaptcha_page_is_a_challenge_and_is_not_retried() -> None:
+    # cloud armor sends it with http 200 to a client it doubts, in place of a
+    # page or a json fragment
+    requests: list[httpx.Request] = []
+    response = httpx.Response(200, html=read_fixture(STORE, "recaptcha_challenge.html"))
+
+    with replying(response, requests) as client:
+        with pytest.raises(ChallengedError):
+            client.search_products("aceite")
+        with pytest.raises(ChallengedError):
+            client.get_categories()
+
+    assert len(requests) == 2
+
+
+def test_a_recaptcha_page_in_place_of_a_photo_is_a_challenge(tmp_path: Any) -> None:
+    page = read_fixture(STORE, "recaptcha_challenge.html").encode()
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        # an iterator body stays unread, as a real streamed download does
+        headers = {"Content-Type": "text/html; charset=utf-8"}
+        return httpx.Response(200, headers=headers, content=iter([page]))
+
+    client = Eroski(transport=httpx.MockTransport(handler), min_request_interval=0.0)
+    with client, pytest.raises(ChallengedError):
+        client.download(f"{SITE_URL}/images/23666878.jpg", tmp_path / "photo.jpg")
+
+    assert not (tmp_path / "photo.jpg").exists()
 
 
 def test_other_errors_keep_the_core_classification() -> None:

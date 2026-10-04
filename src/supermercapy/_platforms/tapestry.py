@@ -87,6 +87,9 @@ PAGE_HEADERS: Mapping[str, str] = {"Accept": "text/html,application/xhtml+xml"}
 # the edge refuses a handful of user agents (curl, python-requests, an empty
 # one) with a bare 134-byte "403 Forbidden"; the library's own is accepted
 _FORBIDDEN = 403
+# google cloud armor answers a client it doubts, such as a datacenter address,
+# with a recaptcha page and http 200, in place of a page or a json fragment
+_CHALLENGE_MARKER = "google.com/recaptcha/challengepage"
 _REDIRECTS = frozenset({301, 302, 303, 307, 308})
 
 _ADD_COMPONENT = "common/button/productListItemAddComponent:init"
@@ -355,6 +358,19 @@ class _Markup(HTMLParser):
             self.features[-1].rows.append((name, value))
         self._row = None
         self._value = None
+
+
+def _is_challenge(response: httpx.Response) -> bool:
+    """return whether ``response`` is cloud armor's recaptcha page."""
+
+    if not response.headers.get("content-type", "").startswith("text/html"):
+        return False
+    try:
+        body = response.text
+    except httpx.ResponseNotRead:
+        # a streamed answer, such as a download, read only when it is html
+        body = response.read().decode("utf-8", "replace")
+    return _CHALLENGE_MARKER in body
 
 
 def _read(html: str) -> _Markup:
@@ -1182,10 +1198,12 @@ class TapestryClient(BaseClient, Generic[ProductT, CategoryT, ResultT]):
     # ---------------------------------------------------------- transport hooks
 
     def _classify(self, response: httpx.Response) -> ResponseVerdict:
-        """treat the edge's bare http 403 as a refusal that will not clear."""
+        """tell the edge's bare 403, a block, from its recaptcha page, a challenge."""
 
         if response.status_code == _FORBIDDEN:
             return ResponseVerdict.BLOCKED
+        if _is_challenge(response):
+            return ResponseVerdict.CHALLENGED
         return super()._classify(response)
 
     # ---------------------------------------------------------------- internals

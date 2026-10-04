@@ -80,6 +80,8 @@ the sizes are the html after decompression. the storefront compresses its answer
 
 **the user agent.** the edge refuses a few user agents, among them curl, python-requests and an empty one, with a bare 134-byte http 403. the edge accepts the library's own user agent, so it stays the default. a 403 raises `BlockedError` after one request.
 
+**datacenter addresses get a recaptcha page.** google cloud armor answers a client it doubts with its "checking your browser" recaptcha page and http 200, in place of a page, a json fragment or a photo. on 4 october 2026 a hetzner server got it on every request, at eroski and caprabo alike, while a residential connection never did. the client recognises the page and raises `ChallengedError` after one request rather than trying to parse it, and it never tries to solve the challenge.
+
 **pacing.** `min_request_interval` defaults to one second, because a catalog walk is hundreds of quarter-megabyte pages. eroski showed no rate limit or challenge in october 2026.
 
 **languages.** the first path segment picks the language, `/es/`, `/ca/` or `/en/`. the menu and the page labels follow it, and product names stay spanish. the unit price text stays spanish in every language. eroski also speaks basque, galician and german, which `Language` does not hold.
