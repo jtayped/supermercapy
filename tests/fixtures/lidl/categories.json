@@ -1,0 +1,36 @@
+{
+  "type": "search",
+  "version": "v2.0.0",
+  "engine": "ldt-searcher",
+  "locale": "es_ES",
+  "assortment": "ES",
+  "resultType": "search",
+  "numFound": 5605,
+  "offset": 0,
+  "fetchsize": 1,
+  "maxfetchsize": 1000,
+  "items": [],
+  "facets": [
+    {
+      "type": "TEXT",
+      "code": "category",
+      "label": "Categoría",
+      "values": [
+        {
+          "type": "TEXT",
+          "label": "Bricolaje y jardín",
+          "count": 98,
+          "value": "10067761",
+          "children": []
+        },
+        {
+          "type": "TEXT",
+          "label": "Cocina y cuidado del hogar",
+          "count": 12,
+          "value": "10067764",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

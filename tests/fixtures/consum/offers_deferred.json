@@ -1,0 +1,171 @@
+{
+ "totalCount": 82,
+ "totalRecipeCount": 0,
+ "hasMore": false,
+ "products": [
+  {
+   "id": 4905,
+   "productType": 1,
+   "code": "337493",
+   "ean": "5059319036403",
+   "type": "product",
+   "productData": {
+    "name": "Salvado All Bran",
+    "brand": {
+     "id": "KELLOGG'S",
+     "name": "KELLOGG'S",
+     "url": "kellogg-s",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/salvado-all-bran/337493",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/337493.jpg?t=20260827095426",
+    "description": "Salvado All Bran 375 Gr",
+    "seo": "salvado-all-bran",
+    "seoTitle": "",
+    "seoDescription": "salvado-all-bran",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       },
+       {
+        "code": "filter.id.brand.distributor",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "0"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     },
+     {
+      "code": "filter.id.brand.distributor",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "0"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/337493_001.jpg?t=20260420130002",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/337493_002.jpg?t=20260420130002",
+     "order": 2,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/337493_003.jpg?t=20260420130002",
+     "order": 3,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/337493_004.jpg?t=20260420130002",
+     "order": 4,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 4.3,
+       "centUnitAmount": 11.47
+      }
+     }
+    ],
+    "taxPercentage": 10.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 Kg",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 4052,
+     "name": "Cereales",
+     "type": 0
+    },
+    {
+     "id": 999992811,
+     "name": "Ofertas en despensa",
+     "type": 1
+    }
+   ],
+   "offers": [
+    {
+     "id": 12919746,
+     "from": "2026-08-26T22:00:00.000Z",
+     "to": "2026-09-23T21:59:00.000Z",
+     "minDescription": "Acumul",
+     "shortDescription": "Acumulas en tu cheque regalo",
+     "longDescription": "Acumulas en tu cheque regalo",
+     "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+     "promotionId": 430881478,
+     "promotionType": 2,
+     "inmediate": false,
+     "applicationTargetType": 1,
+     "applicationActionType": 1,
+     "visiblePromotionWidget": false,
+     "visibleValidate": false,
+     "visibleProductWidget": true,
+     "amount": 0.7,
+     "pictoType": "default"
+    }
+   ],
+   "coupons": []
+  }
+ ]
+}

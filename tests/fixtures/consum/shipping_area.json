@@ -1,0 +1,35 @@
+[
+ {
+  "groupId": "region",
+  "groupName": "VALENCIA",
+  "shippingAreas": [
+   {
+    "shippingZoneId": "147D",
+    "deliveryTypeId": "D",
+    "enabled": true,
+    "description": "IMPORT-147D",
+    "zone": {
+     "id": 147,
+     "storeCode": "147",
+     "name": "Centro 147",
+     "contact": {
+      "phone": "",
+      "email": ""
+     },
+     "address": {
+      "streetType": "Calle",
+      "street": "Calle Jesús",
+      "streetAnnex": "",
+      "number": "38",
+      "stair": "",
+      "floor": "",
+      "letter": "",
+      "zipCode": "46007",
+      "city": "Valencia",
+      "region": "VALENCIA"
+     }
+    }
+   }
+  ]
+ }
+]

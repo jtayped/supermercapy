@@ -1,0 +1,404 @@
+{
+ "totalCount": 303,
+ "totalRecipeCount": 0,
+ "hasMore": true,
+ "filters": [
+  {
+   "groupName": "group.brand",
+   "filters": [
+    {
+     "id": "filter.brand",
+     "type": "list",
+     "order": 1,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": false,
+     "values": [
+      {
+       "id": "",
+       "name": "",
+       "count": 3
+      },
+      {
+       "id": "ARLA",
+       "name": "ARLA",
+       "count": 2
+      },
+      {
+       "id": "CONSUM",
+       "name": "CONSUM",
+       "count": 47
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "groupName": "group.category",
+   "filters": [
+    {
+     "id": "filter.category",
+     "type": "list",
+     "order": 0,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": true,
+     "values": []
+    }
+   ]
+  },
+  {
+   "groupName": "group.categoryLeaf",
+   "filters": [
+    {
+     "id": "filter.categoryLeaf",
+     "type": "list",
+     "order": 0,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": false,
+     "values": []
+    }
+   ]
+  },
+  {
+   "groupName": "group.offer",
+   "filters": [
+    {
+     "id": "filter.offerImmediate",
+     "type": "boolean",
+     "order": 11,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": true,
+     "values": [
+      {
+       "id": "true",
+       "name": "Ahora más barato",
+       "count": 44
+      }
+     ]
+    },
+    {
+     "id": "filter.offerDeferred",
+     "type": "boolean",
+     "order": 12,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": true,
+     "values": [
+      {
+       "id": "true",
+       "name": "Cheque crece",
+       "count": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "groupName": "group.other",
+   "filters": [
+    {
+     "id": "filter.eco",
+     "type": "boolean",
+     "order": 1,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": false,
+     "values": [
+      {
+       "id": "true",
+       "name": "Ecológico",
+       "count": 5
+      }
+     ]
+    },
+    {
+     "id": "filter.ownBrand",
+     "type": "boolean",
+     "order": 2,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": false,
+     "values": [
+      {
+       "id": "true",
+       "name": "Marca propia",
+       "count": 28
+      }
+     ]
+    },
+    {
+     "id": "filter.bestScore",
+     "type": "boolean",
+     "order": 3,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": true,
+     "values": [
+      {
+       "id": "true",
+       "name": "Mejor valorado",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "id": "filter.novelty",
+     "type": "boolean",
+     "order": 6,
+     "isVisibleGrid": true,
+     "isVisibleSearcher": false,
+     "values": [
+      {
+       "id": "true",
+       "name": "Novedad",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": 5932,
+   "productType": 1,
+   "code": "7080604",
+   "ean": "8414807514219",
+   "type": "product",
+   "productData": {
+    "name": "Leche Semidesnatada Brik",
+    "brand": {
+     "id": "CONSUM",
+     "name": "CONSUM",
+     "url": "consum",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/leche-semidesnatada-brik/7080604",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604.jpg?t=20260812080202",
+    "description": "Leche Semidesnatada Brik 1 L",
+    "seo": "leche-semidesnatada-brik",
+    "seoTitle": "",
+    "seoDescription": "leche-semidesnatada-brik",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       },
+       {
+        "code": "filter.id.brand.distributor",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     },
+     {
+      "code": "filter.id.brand.distributor",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604_001.jpg?t=20250522091502",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604_002.jpg?t=20250522091502",
+     "order": 2,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604_003.jpg?t=20250522091502",
+     "order": 3,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 0.84,
+       "centUnitAmount": 0.84
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 L",
+    "minimumUnit": 1.0,
+    "maximumUnit": 60.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 2075,
+     "name": "Semidesnatada",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  },
+  {
+   "id": 5931,
+   "productType": 1,
+   "code": "7080596",
+   "ean": "8414807514202",
+   "type": "product",
+   "productData": {
+    "name": "Leche Entera Brik",
+    "brand": {
+     "id": "CONSUM",
+     "name": "CONSUM",
+     "url": "consum",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/leche-entera-brik/7080596",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596.jpg?t=20260812080202",
+    "description": "Leche Entera Brik 1 L",
+    "seo": "leche-entera-brik",
+    "seoTitle": "",
+    "seoDescription": "leche-entera-brik",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596_001.jpg?t=20250522091502",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596_002.jpg?t=20250522091502",
+     "order": 2,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596_003.jpg?t=20250522091502",
+     "order": 3,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 0.96,
+       "centUnitAmount": 0.96
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 L",
+    "minimumUnit": 1.0,
+    "maximumUnit": 90.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 2076,
+     "name": "Entera",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  }
+ ]
+}

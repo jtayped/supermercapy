@@ -1,0 +1,80 @@
+{
+  "self": "v4/flyer?flyer_identifier=folleto-alimentacion-14-9-14-9-26-20-9-26-6c4d9a",
+  "version": 4,
+  "success": true,
+  "message": "Requested Flyer found.",
+  "numberOfEntries": 1,
+  "warnings": [
+    "The request contains some unused filter attributes: region_code."
+  ],
+  "flyer": {
+    "id": "01a057c3-adcb-73a0-94bc-2188ec5f72a3",
+    "name": "FOLLETO ALIMENTACIÓN 14/9",
+    "title": "14/9/26-20/9/26",
+    "locale": "es-ES",
+    "clientLocale": "lidl/es-ES",
+    "countryCode": "ES",
+    "category": "Folletos",
+    "subcategory": "Folletos de Alimentación",
+    "isActive": true,
+    "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057c3-adcb-73a0-94bc-2188ec5f72a3/FOLLETO-ALIMENTACION-14-9-14-9-26-20-9-26-00.pdf",
+    "hiResPdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057c3-adcb-73a0-94bc-2188ec5f72a3/FOLLETO-ALIMENTACION-14-9-14-9-26-20-9-26-00.pdf",
+    "fileSize": 20101491,
+    "thumbnailUrl": "https://imgproxy.leaflets.schwarz/tFEF7ZHIeAj1H7OLcgThFOIcGRR_mp9T7PpMxXklzWA/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDFfYzVlNThjMGQ5OGNjODYyMzFkYjExMjlhMjIzMjgwNDUucG5n.jpg",
+    "flyerUrlAbsolute": "https://www.lidl.es/l/folletos/folleto-alimentacion-14-9-14-9-26-20-9-26-6c4d9a/ar/0",
+    "startDate": "2026-09-07",
+    "endDate": "2026-09-20",
+    "offerStartDate": "2026-09-14",
+    "offerEndDate": "2026-09-20",
+    "status": "current",
+    "regions": [
+      {
+        "code": "0"
+      }
+    ],
+    "pages": [
+      {
+        "id": "01a08f34-82eb-7b9d-b779-e3765dd78196",
+        "number": 1,
+        "width": 1415,
+        "height": 2400,
+        "type": "STANDARD",
+        "pageType": "page",
+        "keyWords": "Réc Ahorr Batimos Sabores Mundo Asia Melocotón Rojo",
+        "altText": "Ofertas de alimentación en Lidl con productos asiáticos de la marca Vitasia, langostinos cocidos, quesos Milbona y lomo adobado con descuentos de Lidl Plus.",
+        "image": "https://imgproxy.leaflets.schwarz/Ly6qhtyyNtfy9XFpcfocJslQ8_PftoIuiOWvcw41Yng/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDFfYzVlNThjMGQ5OGNjODYyMzFkYjExMjlhMjIzMjgwNDUucG5n.jpg",
+        "zoom": "https://imgproxy.leaflets.schwarz/5jRZWPNjJ0gT0IV3VVzHhY4QfM4EqFCOIaY2_RWA_cM/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDFfYzVlNThjMGQ5OGNjODYyMzFkYjExMjlhMjIzMjgwNDUucG5n.jpg",
+        "thumbnail": "https://imgproxy.leaflets.schwarz/tFEF7ZHIeAj1H7OLcgThFOIcGRR_mp9T7PpMxXklzWA/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDFfYzVlNThjMGQ5OGNjODYyMzFkYjExMjlhMjIzMjgwNDUucG5n.jpg",
+        "links": [
+          {
+            "id": "01a08f49-ba02-715c-9136-87c6acbee923",
+            "displayType": "standard",
+            "url": "https://recetas.lidl.es/recetas/gazpacho-de-melocoton?utm_source=folleto-dig&utm_medium=folleto&utm_campaign=receta_receta_food&utm_term=link-ft-gazpacho-melocoton&utm_content=link_pag-ft_sc",
+            "title": "Enlace",
+            "icon": "recipe",
+            "width": 13.333333333333,
+            "height": 7.008547008547,
+            "top": 23.760683760684003,
+            "left": 46.95652173913
+          }
+        ]
+      },
+      {
+        "id": "01a08f34-82eb-7b9d-b779-e3765e75cc66",
+        "number": 2,
+        "width": 1415,
+        "height": 2400,
+        "type": "STANDARD",
+        "pageType": "page",
+        "keyWords": "– Consulta Condiciones Promoción App Lidl Pepino Almería",
+        "altText": "Promociones semanales en frutería de Lidl con descuentos en pepino de Almería, nectarina y melocotón rojo de España.",
+        "image": "https://imgproxy.leaflets.schwarz/40nFyfQxqjDtunHMHea1mn3zqUU7enmvJbWoPmvb3ek/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDJfNjZmZTFkM2U5Y2QwMjQ2YjVhYTZlN2Y5YWM5MjI5MjUucG5n.jpg",
+        "zoom": "https://imgproxy.leaflets.schwarz/MCzWPnF7srpybvGey7jKDvbeKhbKv7CXE20Nn--Kb7g/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDJfNjZmZTFkM2U5Y2QwMjQ2YjVhYTZlN2Y5YWM5MjI5MjUucG5n.jpg",
+        "thumbnail": "https://imgproxy.leaflets.schwarz/WjD_6GNKyROtivm_XrnYUM7osKtrSuUCaBGg8E43G2k/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzMtYWRjYi03M2EwLTk0YmMtMjE4OGVjNWY3MmEzL3BhZ2UtMDJfNjZmZTFkM2U5Y2QwMjQ2YjVhYTZlN2Y5YWM5MjI5MjUucG5n.jpg",
+        "links": []
+      }
+    ],
+    "products": [],
+    "topics": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "httpStatus": 404,
+  "message": "Category 00000000-0000-4000-8000-000000000000 not found.",
+  "moreInfo": "",
+  "args": null,
+  "timestamp": "2026-10-04T12:28:25.278437874Z",
+  "code": "product-page-ws-30"
+}

@@ -1,0 +1,779 @@
+{
+ "url_base_img": "/ImatgesProductes/",
+ "category": {
+  "level": 0,
+  "row": 0,
+  "visible": false,
+  "banner_id": "",
+  "leaf_count": 7624,
+  "id": "Root",
+  "icon": "",
+  "order": 0,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "",
+    "type": 7
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "ARREL",
+    "type": 1
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "",
+    "type": 8
+   }
+  ],
+  "childs": [
+   {
+    "level": 1,
+    "row": 1,
+    "visible": true,
+    "banner_id": "",
+    "leaf_count": 6,
+    "childs": [
+     {
+      "promo_type": 0,
+      "promo_subtype": "PromoCru01",
+      "batch_cents": 999,
+      "level": 2,
+      "row": 0,
+      "visible": true,
+      "banner_id": "",
+      "leaf_count": 3,
+      "childs": [],
+      "id": "CategoXXX_00308",
+      "icon": "",
+      "order": 1,
+      "texts": [
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 1
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "/promos/5637170326.jpg",
+        "type": 10
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "PLUSPACK APERITIVO",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 2,
+        "text": "Pack vino EL PERRO FLACO + palitos rústicos DELEITIUM + queso GRAN CAPITAN 450g 9,99€",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 3,
+        "text": "Válida del 25/08/2026 al 14/09/2026",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 4,
+        "text": "",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 1
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "/promos/5637170327.jpg",
+        "type": 10
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "PLUSPACK APERITIU",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 2,
+        "text": "Pack vi EL PERRO FLACO + palets rústics DELEITIUM + formatge GRAN CAPITAN 450g 9,99€",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 3,
+        "text": "Válida del 25/08/2026 al 14/09/2026",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 4,
+        "text": "",
+        "type": 9
+       }
+      ]
+     },
+     {
+      "promo_type": 0,
+      "promo_subtype": "PromoCru01",
+      "batch_cents": 999,
+      "level": 2,
+      "row": 0,
+      "visible": true,
+      "banner_id": "",
+      "leaf_count": 3,
+      "childs": [],
+      "id": "CategoXXX_00309",
+      "icon": "",
+      "order": 2,
+      "texts": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 1
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "/promos/5637170329.jpg",
+        "type": 10
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "PLUSPACK NETEJA",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 2,
+        "text": "Pack detergent COLON gel blau + suavitzant FLOR original + netejador CILLIT BANG humitat 9,99€",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 3,
+        "text": "Válida del 25/08/2026 al 14/09/2026",
+        "type": 9
+       },
+       {
+        "lang": "ca",
+        "order": 4,
+        "text": "",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 1
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "/promos/5637170328.jpg",
+        "type": 10
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "PLUSPACK LIMPIEZA",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 2,
+        "text": "Pack detergente COLON gel azul + suavizante FLOR original + limpiador CILLIT BANG humedad 9,99€",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 3,
+        "text": "Válida del 25/08/2026 al 14/09/2026",
+        "type": 9
+       },
+       {
+        "lang": "es",
+        "order": 4,
+        "text": "",
+        "type": 9
+       }
+      ]
+     }
+    ],
+    "id": "PromoHighlight",
+    "icon": "",
+    "order": -1,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Promocions",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "offer",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Promociones",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "offer",
+      "type": 8
+     }
+    ]
+   },
+   {
+    "level": 1,
+    "row": 1,
+    "visible": true,
+    "banner_id": "",
+    "leaf_count": 52,
+    "childs": [],
+    "id": "Oferta2",
+    "icon": "",
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Ofertes web",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "offer2",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Ofertas web",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "offer2",
+      "type": 8
+     }
+    ]
+   },
+   {
+    "level": 1,
+    "row": 0,
+    "visible": true,
+    "banner_id": "",
+    "leaf_count": 2854,
+    "childs": [
+     {
+      "level": 2,
+      "row": 0,
+      "visible": true,
+      "banner_id": "",
+      "leaf_count": 343,
+      "childs": [
+       {
+        "level": 3,
+        "row": 0,
+        "visible": true,
+        "banner_id": "",
+        "leaf_count": 46,
+        "childs": [],
+        "id": "010101",
+        "icon": "",
+        "order": 1,
+        "texts": [
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "Olis",
+          "type": 1
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 8
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "Aceites",
+          "type": 1
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 8
+         }
+        ]
+       },
+       {
+        "level": 3,
+        "row": 0,
+        "visible": true,
+        "banner_id": "",
+        "leaf_count": 42,
+        "childs": [],
+        "id": "010102",
+        "icon": "",
+        "order": 2,
+        "texts": [
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "Vinagres",
+          "type": 1
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 8
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "Vinagres",
+          "type": 1
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 8
+         }
+        ]
+       }
+      ],
+      "id": "0101",
+      "icon": "",
+      "order": 1,
+      "texts": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Olis i Condiments",
+        "type": 1
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 8
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Aceites y Condimentos",
+        "type": 1
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 8
+       }
+      ]
+     },
+     {
+      "level": 2,
+      "row": 0,
+      "visible": true,
+      "banner_id": "",
+      "leaf_count": 588,
+      "childs": [
+       {
+        "level": 3,
+        "row": 0,
+        "visible": true,
+        "banner_id": "6.Alimentacio",
+        "leaf_count": 40,
+        "childs": [],
+        "id": "010201",
+        "icon": "",
+        "order": 1,
+        "texts": [
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "Arròs",
+          "type": 1
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 8
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "Arroz",
+          "type": 1
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 8
+         }
+        ]
+       },
+       {
+        "level": 3,
+        "row": 0,
+        "visible": true,
+        "banner_id": "6.Alimentacio",
+        "leaf_count": 53,
+        "childs": [],
+        "id": "010202",
+        "icon": "",
+        "order": 2,
+        "texts": [
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "Llegums",
+          "type": 1
+         },
+         {
+          "lang": "ca",
+          "order": 1,
+          "text": "",
+          "type": 8
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 7
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "Legumbres",
+          "type": 1
+         },
+         {
+          "lang": "es",
+          "order": 1,
+          "text": "",
+          "type": 8
+         }
+        ]
+       }
+      ],
+      "id": "0102",
+      "icon": "",
+      "order": 2,
+      "texts": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Primers Plats i Plats Preparats",
+        "type": 1
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 8
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 7
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Primeros Platos y Platos Preparados",
+        "type": 1
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 8
+       }
+      ]
+     }
+    ],
+    "id": "01",
+    "icon": "/ImatgesProductes/01_Alimentacio.png",
+    "order": 2,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "alimentacio",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Alimentació",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "alimentacio",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "alimentacion",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Alimentación",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "alimentacio",
+      "type": 8
+     }
+    ]
+   },
+   {
+    "level": 1,
+    "row": 1,
+    "visible": true,
+    "banner_id": "6.Novetats",
+    "leaf_count": 117,
+    "childs": [
+     {
+      "level": 2,
+      "row": 0,
+      "visible": true,
+      "banner_id": "6.Novetats",
+      "leaf_count": 117,
+      "childs": [],
+      "id": "4001",
+      "icon": "",
+      "order": 1,
+      "texts": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "novetats",
+        "type": 7
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Novetats",
+        "type": 1
+       },
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "",
+        "type": 8
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "novedades",
+        "type": 7
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Novedades",
+        "type": 1
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "",
+        "type": 8
+       }
+      ]
+     }
+    ],
+    "id": "40",
+    "icon": "",
+    "order": 31,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "novetats",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Novetats",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "estacionals",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "novedades",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Novedades",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "estacionals",
+      "type": 8
+     }
+    ]
+   }
+  ]
+ }
+}

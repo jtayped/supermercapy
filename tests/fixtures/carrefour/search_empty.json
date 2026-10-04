@@ -1,0 +1,40 @@
+{
+ "catalog": {
+  "content": [],
+  "tagging": {
+   "query": "https://api.empathy.co/tagging/v1/track/carrefour/query"
+  },
+  "pagination": {
+   "start": 0,
+   "rows": 0,
+   "total": 0
+  },
+  "stats": {
+   "active_price": {
+    "min": "0.84",
+    "max": "7.29"
+   }
+  },
+  "numFound": 0,
+  "facets": [
+   {
+    "facet": "brand",
+    "values": [
+     {
+      "id": "brand:carrefour",
+      "count": 3
+     }
+    ]
+   }
+  ]
+ },
+ "direct": {
+  "content": []
+ },
+ "banner": {
+  "content": []
+ },
+ "promoted": {
+  "content": []
+ }
+}

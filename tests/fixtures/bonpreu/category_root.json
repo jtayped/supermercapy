@@ -1,0 +1,253 @@
+{
+  "productGroups": [
+    {
+      "type": "on_offer",
+      "name": "fop.headertitle.onoffer",
+      "decoratedProducts": [
+        {
+          "productId": "371e6587-1b14-4272-8e9e-488e2d3b879d",
+          "retailerProductId": "03643",
+          "type": "REGULAR",
+          "name": " Nectarina Km0 1 u.",
+          "brand": "",
+          "price": {
+            "amount": "0.49",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.49",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each",
+            "unitName": "EACH"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "promotions": [
+            {
+              "promoId": "8d24ac25-9a47-414b-84bf-112f6e0e7fd6",
+              "retailerPromotionId": "OF03643_2608250001",
+              "description": "Abans 0,58€",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "e4578e9d-8d27-43fd-9cf3-874a3469f0f4"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/e4578e9d-8d27-43fd-9cf3-874a3469f0f4"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/e4578e9d-8d27-43fd-9cf3-874a3469f0f4/300x300.jpg",
+            "description": " Nectarina Km0 1 u.",
+            "imageId": "e4578e9d-8d27-43fd-9cf3-874a3469f0f4"
+          }
+        },
+        {
+          "productId": "53465c7a-a818-4176-8903-a87e93a8c7c8",
+          "retailerProductId": "07464",
+          "type": "REGULAR",
+          "name": " Préssec paraguaià Km0 1 u.",
+          "brand": "",
+          "price": {
+            "amount": "0.35",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.35",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each",
+            "unitName": "EACH"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "promotions": [
+            {
+              "promoId": "17001d02-523b-424c-8fb9-9ae0faeca33a",
+              "retailerPromotionId": "OF07464_2609080001",
+              "description": "Abans 0,41€",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "970f0473-fb8c-4f19-9158-d56f0271aaac"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/970f0473-fb8c-4f19-9158-d56f0271aaac"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/970f0473-fb8c-4f19-9158-d56f0271aaac/300x300.jpg",
+            "description": " Préssec paraguaià Km0 1 u.",
+            "imageId": "970f0473-fb8c-4f19-9158-d56f0271aaac"
+          }
+        },
+        {
+          "productId": "b03fe411-2df6-46c6-bd3c-950a83d0093e",
+          "retailerProductId": "33958",
+          "type": "REGULAR",
+          "name": "ZANETTI Formatge grana padano en pols",
+          "brand": "ZANETTI",
+          "packSizeDescription": "100g",
+          "price": {
+            "amount": "1.99",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "19.90",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "promotions": [
+            {
+              "promoId": "6a1a3f55-bd23-47e2-9913-5a7e3798c7dc",
+              "retailerPromotionId": "216842",
+              "description": "Lot estalvi a 2,95 euros/lot. Clica aquí",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "b49a82e0-8c35-4653-8165-b0132be6c4d5"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/b49a82e0-8c35-4653-8165-b0132be6c4d5"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/b49a82e0-8c35-4653-8165-b0132be6c4d5/300x300.jpg",
+            "description": "ZANETTI Formatge grana padano en pols",
+            "imageId": "b49a82e0-8c35-4653-8165-b0132be6c4d5"
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "9415bca5-0c34-4d71-b38d-81491c968bd0"
+  },
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [],
+        "name": "De temporada",
+        "categoryId": "75f08b61-53b0-4142-acdc-ddfd6f2f8d42",
+        "productCount": 86,
+        "breadcrumbs": [],
+        "retailerCategoryId": "030108"
+      },
+      {
+        "childCategories": [],
+        "name": "Fruita",
+        "categoryId": "9d33281d-d287-4b34-9457-9bfb287d9f6f",
+        "productCount": 118,
+        "breadcrumbs": [],
+        "retailerCategoryId": "030101"
+      },
+      {
+        "childCategories": [],
+        "name": "Verdures i hortalisses",
+        "categoryId": "c5cf8bf4-38be-4764-abff-68a71c876df6",
+        "productCount": 154,
+        "breadcrumbs": [],
+        "retailerCategoryId": "030102"
+      }
+    ],
+    "filters": [
+      {
+        "filterId": "boolean",
+        "label": "boolean",
+        "type": "BOOLEAN",
+        "attributes": [
+          {
+            "filterAttributeId": "onOffer",
+            "label": "onOffer",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "filterId": "brands",
+        "label": "brands",
+        "type": "BRANDS",
+        "attributes": [
+          {
+            "filterAttributeId": "BONPREU",
+            "label": "BONPREU",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "LA COLLITA",
+            "label": "LA COLLITA",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "TERRA I TAST",
+            "label": "TERRA I TAST",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "filterId": "dietaryAndLifestyle",
+        "label": "Característiques",
+        "type": "RETAILER",
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nou",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "bpBrand",
+            "label": "Marca Bonpreu",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "eco",
+            "label": "Eco",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "advertisingBanners": [],
+    "breadcrumb": [],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      }
+    ],
+    "currentCategory": {
+      "name": "Root",
+      "categoryId": "3d91c51c-1228-4f06-9afe-f31a68c3e740",
+      "productCount": 0,
+      "retailerCategoryId": "root"
+    }
+  },
+  "missedPromotions": []
+}

@@ -1,0 +1,311 @@
+{
+  "success": true,
+  "articles": [
+    {
+      "weightGrams": 6000,
+      "daysWithoutService": [],
+      "agrupacions": null,
+      "breadcrumb": null,
+      "caracteristiques": [
+        {
+          "descripcio": "GARANTIA_BONAREA"
+        },
+        {
+          "descripcio": "BONAREA"
+        },
+        {
+          "descripcio": "BENESTAR_ANIMAL_AENOR"
+        }
+      ],
+      "description": "Llet sense lactosa desnatada paq. de 6 brics",
+      "descriptionCatCastToFind": null,
+      "discount": 0,
+      "nameSubFamilyCatCastToFind": null,
+      "euroUnit": "€/u.",
+      "extendedInfo": "",
+      "generalInfo": "",
+      "identifier": "13*0066",
+      "image": [
+        "P13_0066_1.png"
+      ],
+      "itsOnStock": true,
+      "comeStockData": null,
+      "isAnApproximatePrice": false,
+      "idAgrupacio": null,
+      "isGridBuyAllowed": true,
+      "isValid": true,
+      "javascriptPosition": 0,
+      "linePrice": 0,
+      "maximumStock": 10,
+      "measurementUnit": "6 l",
+      "codeFamilySubfamily": null,
+      "codeGroupFamilySubfamilyWhole": null,
+      "txtActiveGroup": null,
+      "txtActiveFamily": null,
+      "txtActiveSubfamily": null,
+      "nameFamilySubfamily": null,
+      "priceToPay": 6.6,
+      "quantity": 0,
+      "referenceWhereItIsLoaded": null,
+      "unitPrice": "1,10 €/l",
+      "unitsPurchased": -1,
+      "searchScore": 0,
+      "priorityOrder": 0,
+      "numberExactWordsFind": 0,
+      "gaDescription": "13*0066",
+      "gaNameFamilySubfamily": "13*0066",
+      "findComenzaPer": false,
+      "dropShipping": "",
+      "urlFriendly": "https://www.bonarea-online.com/online/producte/llet-sense-lactosa-desnatada-paq-de-6-brics/13_0066",
+      "unitatMinimaComanda": 1
+    },
+    {
+      "weightGrams": 6000,
+      "daysWithoutService": [],
+      "agrupacions": null,
+      "breadcrumb": null,
+      "caracteristiques": [
+        {
+          "descripcio": "GARANTIA_BONAREA"
+        },
+        {
+          "descripcio": "BONAREA"
+        },
+        {
+          "descripcio": "BENESTAR_ANIMAL_AENOR"
+        }
+      ],
+      "description": "Llet sense lactosa semidesnatada paq. de 6 brics",
+      "descriptionCatCastToFind": null,
+      "discount": 0,
+      "nameSubFamilyCatCastToFind": null,
+      "euroUnit": "€/u.",
+      "extendedInfo": "",
+      "generalInfo": "",
+      "identifier": "13*0036",
+      "image": [
+        "P13_0036_1.png"
+      ],
+      "itsOnStock": true,
+      "comeStockData": null,
+      "isAnApproximatePrice": false,
+      "idAgrupacio": null,
+      "isGridBuyAllowed": true,
+      "isValid": true,
+      "javascriptPosition": 0,
+      "linePrice": 0,
+      "maximumStock": 10,
+      "measurementUnit": "6 l",
+      "codeFamilySubfamily": null,
+      "codeGroupFamilySubfamilyWhole": null,
+      "txtActiveGroup": null,
+      "txtActiveFamily": null,
+      "txtActiveSubfamily": null,
+      "nameFamilySubfamily": null,
+      "priceToPay": 6.9,
+      "quantity": 0,
+      "referenceWhereItIsLoaded": null,
+      "unitPrice": "1,15 €/l",
+      "unitsPurchased": -1,
+      "searchScore": 0,
+      "priorityOrder": 0,
+      "numberExactWordsFind": 0,
+      "gaDescription": "13*0036",
+      "gaNameFamilySubfamily": "13*0036",
+      "findComenzaPer": false,
+      "dropShipping": "",
+      "urlFriendly": "https://www.bonarea-online.com/online/producte/llet-sense-lactosa-semidesnatada-paq-de-6-brics/13_0036",
+      "unitatMinimaComanda": 1
+    },
+    {
+      "weightGrams": 600,
+      "daysWithoutService": [],
+      "agrupacions": null,
+      "breadcrumb": null,
+      "caracteristiques": [
+        {
+          "descripcio": "GARANTIA_BONAREA"
+        },
+        {
+          "descripcio": "BONAREA"
+        }
+      ],
+      "description": "Llet semidesnatada paq. 3 u. de 200 ml",
+      "descriptionCatCastToFind": null,
+      "discount": 0,
+      "nameSubFamilyCatCastToFind": null,
+      "euroUnit": "€/u.",
+      "extendedInfo": "",
+      "generalInfo": "",
+      "identifier": "13*8493",
+      "image": [
+        "13_8493_1.png"
+      ],
+      "itsOnStock": true,
+      "comeStockData": null,
+      "isAnApproximatePrice": false,
+      "idAgrupacio": null,
+      "isGridBuyAllowed": true,
+      "isValid": true,
+      "javascriptPosition": 0,
+      "linePrice": 0,
+      "maximumStock": 3867,
+      "measurementUnit": "600 ml",
+      "codeFamilySubfamily": null,
+      "codeGroupFamilySubfamilyWhole": null,
+      "txtActiveGroup": null,
+      "txtActiveFamily": null,
+      "txtActiveSubfamily": null,
+      "nameFamilySubfamily": null,
+      "priceToPay": 0.95,
+      "quantity": 0,
+      "referenceWhereItIsLoaded": null,
+      "unitPrice": "1,58 €/l",
+      "unitsPurchased": -1,
+      "searchScore": 0,
+      "priorityOrder": 0,
+      "numberExactWordsFind": 0,
+      "gaDescription": "13*8493",
+      "gaNameFamilySubfamily": "13*8493",
+      "findComenzaPer": false,
+      "dropShipping": "",
+      "urlFriendly": "https://www.bonarea-online.com/online/producte/llet-semidesnatada-paq-3-u-de-200-ml/13_8493",
+      "unitatMinimaComanda": 1
+    },
+    {
+      "weightGrams": 1000,
+      "daysWithoutService": [],
+      "agrupacions": null,
+      "breadcrumb": null,
+      "caracteristiques": [
+        {
+          "descripcio": "GARANTIA_BONAREA"
+        },
+        {
+          "descripcio": "BONAREA"
+        },
+        {
+          "descripcio": "BENESTAR_ANIMAL_AENOR"
+        },
+        {
+          "descripcio": "REFRIGERAT"
+        }
+      ],
+      "description": "Llet pasteuritzada sencera (Mantenir refrigerat)",
+      "descriptionCatCastToFind": null,
+      "discount": 0,
+      "nameSubFamilyCatCastToFind": null,
+      "euroUnit": "€/u.",
+      "extendedInfo": "",
+      "generalInfo": "",
+      "identifier": "13*7668",
+      "image": [
+        "13_7668_1.png"
+      ],
+      "itsOnStock": true,
+      "comeStockData": null,
+      "isAnApproximatePrice": false,
+      "idAgrupacio": null,
+      "isGridBuyAllowed": true,
+      "isValid": true,
+      "javascriptPosition": 0,
+      "linePrice": 0,
+      "maximumStock": 2299,
+      "measurementUnit": "1 l",
+      "codeFamilySubfamily": null,
+      "codeGroupFamilySubfamilyWhole": null,
+      "txtActiveGroup": null,
+      "txtActiveFamily": null,
+      "txtActiveSubfamily": null,
+      "nameFamilySubfamily": null,
+      "priceToPay": 0.98,
+      "quantity": 0,
+      "referenceWhereItIsLoaded": null,
+      "unitPrice": "0,98 €/l",
+      "unitsPurchased": -1,
+      "searchScore": 0,
+      "priorityOrder": 0,
+      "numberExactWordsFind": 0,
+      "gaDescription": "13*7668",
+      "gaNameFamilySubfamily": "13*7668",
+      "findComenzaPer": false,
+      "dropShipping": "",
+      "urlFriendly": "https://www.bonarea-online.com/online/producte/llet-pasteuritzada-sencera-(mantenir-refrigerat)/13_7668",
+      "unitatMinimaComanda": 1
+    },
+    {
+      "weightGrams": 220,
+      "daysWithoutService": [],
+      "agrupacions": [
+        {
+          "agrupacio": "AA*13*0001",
+          "codiArticle": "13*0089562",
+          "descripcio": "Chocolate grageas M&m's",
+          "titolFiltre1": "Tipus",
+          "titolFiltre2": null,
+          "idPlantilla": "fotos",
+          "tipusFiltre1": "FOTO",
+          "tipusFiltre2": null,
+          "filtres": [
+            {
+              "codiArticle": "13*0089562",
+              "filtre1": "CACAUET",
+              "filtre2": null
+            },
+            {
+              "codiArticle": "13*0089561",
+              "filtre1": "XOCOLATA",
+              "filtre2": null
+            }
+          ]
+        }
+      ],
+      "breadcrumb": null,
+      "caracteristiques": [],
+      "description": "Xocolata dragees M&amp;m's cacauet",
+      "descriptionCatCastToFind": null,
+      "discount": 0,
+      "nameSubFamilyCatCastToFind": null,
+      "euroUnit": "€/u.",
+      "extendedInfo": "",
+      "generalInfo": "",
+      "identifier": "13*0089562",
+      "image": [
+        "13_0089562_1.png"
+      ],
+      "itsOnStock": true,
+      "comeStockData": null,
+      "isAnApproximatePrice": false,
+      "idAgrupacio": "AA*13*0001",
+      "isGridBuyAllowed": false,
+      "isValid": true,
+      "javascriptPosition": 0,
+      "linePrice": 0,
+      "maximumStock": 13,
+      "measurementUnit": "200 g",
+      "codeFamilySubfamily": null,
+      "codeGroupFamilySubfamilyWhole": null,
+      "txtActiveGroup": null,
+      "txtActiveFamily": null,
+      "txtActiveSubfamily": null,
+      "nameFamilySubfamily": null,
+      "priceToPay": 3.45,
+      "quantity": 0,
+      "referenceWhereItIsLoaded": null,
+      "unitPrice": "17,25 €/kg",
+      "unitsPurchased": -1,
+      "searchScore": 0,
+      "priorityOrder": 0,
+      "numberExactWordsFind": 0,
+      "gaDescription": "13*0089562",
+      "gaNameFamilySubfamily": "13*0089562",
+      "findComenzaPer": false,
+      "dropShipping": "",
+      "urlFriendly": "https://www.bonarea-online.com/online/producte/xocolata-dragees-mamp;m-s-cacauet/13_0089562",
+      "unitatMinimaComanda": 1
+    }
+  ],
+  "footer": "\r\n<footer class=\"footer\">\r\n    <div class=\"footer__media \">\r\n        <div class=\"container-base container-base--footer\">\r\n            <div class=\"row align-items-sm-center justify-content-center\">\r\n                    <div class=\"col-4 col-sm-4 col-md-5 col-lg-4 col-xl-6\">\r\n                        <div class=\"footer__app d-flex flex-column flex-lg-row\">\r\n                            <h6>App m&#242;bil</h6>\r\n                            <div>\r\n                                <a href=\"https://www.bonarea.com/ca/landing/bonareafan\" title=\"App m&#242;bil\" class=\"icon-app-mobile\" alt=\"Icon App m&#242;bil\"><img src=\"/Content/iconos/icon-app-mobile.svg\" /></a>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                <div class=\"col-8 col-sm-8 col-md-7 col-lg-8 col-xl-6\">\r\n                    <div class=\"footer__rrss d-flex flex-column flex-lg-row\">\r\n                        <h6>Busca&#39;ns a</h6>\r\n                        <div class=\"d-flex gap-sm-3\">\r\n                            <a href=\"https://www.facebook.com/bonarea.oficial/\" target=\"_blank\" title=\"Facebook bonÀrea\" alt=\"Icon Facebook bonÀrea\">\r\n                                <img src=\"/Content/xxss/icon-facebook.svg\">\r\n                            </a>\r\n                            <a href=\"https://www.instagram.com/bonareaoficial_cat/\" target=\"_blank\" title=\"Instagram bonÀrea\" class=\"icon-instagram\" alt=\"Icon Instagram bonÀrea\">\r\n                                <img src=\"/Content/xxss/icon-instagram.svg\">\r\n                            </a>\r\n                            <a href=\"https://www.youtube.com/c/bonareaoficial/ \" target=\"_blank\" title=\"youtube bonÀrea\" alt=\"Icon Youtube bonÀrea\">\r\n                                <img src=\"/Content/xxss/icon-youtube.svg\">\r\n                            </a>\r\n                            <a href=\"https://www.linkedin.com/company/bonarea-agrupa\" target=\"_blank\" title=\"LinkedIn bonÀrea\" alt=\"Icon LinkedIn bonÀrea\">\r\n                                <img src=\"/Content/xxss/icon-linkedin.svg\">\r\n                            </a>\r\n                            <a href=\"https://www.tiktok.com/&#64;bonareaoficial\" target=\"_blank\" title=\"TikTok bonÀrea\" alt=\"Icon TikTok bonÀrea\">\r\n                                <img src=\"/Content/xxss/icon-tiktok.svg\">\r\n                            </a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"footer__info\">\r\n        <div class=\"container-base container-base--footer\">\r\n            <div class=\"row g-3 g-lg-4 justify-content-center\">\r\n                <div class=\"col-12 col-md-6 col-xl\">\r\n                    <div class=\"footer__list\">\r\n                        <h6>Servei al client</h6>\r\n                        <div><a href=\"/ca/shop/Help\">Contactar</a></div>\r\n                        <div><a href=\"/ca/Shop/Faq\">Devolucions</a></div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-12 col-md-6 col-xl\">\r\n                    <div class=\"footer__list\">\r\n                        <h6>Informaci&#243;</h6>\r\n                        <div><a href=\"/ca/Shop/DeliverySystems\">Sistemes entrega</a></div>\r\n                        <div><a href=\"/ca/Shop/Faq\">Preguntes freq&#252;ents</a></div>\r\n                        <div><a href=\"/ca/Shop/Conditions\">Condicions</a></div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"col-12 col-md-6 col-xl\">\r\n                    <div class=\"footer__list\">\r\n                        <h6>Sobre nosaltres</h6>\r\n                        <div><a href=\"https://www.bonarea.com/ca/default/aboutpresentation\" target=\"_blank\">Qui som</a></div>\r\n                        <div><a href=\"https://www.directedelcamp.org/ca/\" target=\"_blank\">Directe del camp</a></div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-12 col-md-6 col-xl-auto\">\r\n                    <div class=\"footer__list\">\r\n                        <div class=\"footer-compromiso d-flex\">\r\n                            <div title=\"Seguridad alimentaria\" class=\"footer-compromiso__icon\" alt=\"Icon seguridad alimentaria frente al COVID-19\"><img class=\"img-fluid\" src=\"/Content/iconos/icon-aenor-ca-sa.svg\" /></div>\r\n                            <a href=\"https://www.directedelcamp.org/ca/\" target=\"_blank\" title=\"Garantia bon&#192;rea\" class=\"footer-compromiso__icon\" alt=\"Icon Garantia bon&#192;rea\"><img class=\"img-fluid\" src=\"/Content/iconos/icon-sello-border-v2.svg\" /></a>\r\n                            <a href=\"/ca/shop/animalwelfare\" onclick=\"ga('send','event','Accions botiga virtual','Banner','benestar_animal_abril2019')\" title=\"Certificaci&#243; animal\" class=\"footer-compromiso__icon\" alt=\"Icon AENOR protocolo frente a COVID-19\"><img class=\"img-fluid\" src=\"/Content/iconos/icon-aenor-ca-ba.svg\" /></a>\r\n                            <a href=\"/ca/shop/SistemaArbitraldeConsumo\" target=\"_blank\" title=\"\" class=\"footer-compromiso__icon\" alt=\"Icon Garantia bon&#192;rea\"><img class=\"img-fluid\" src=\"/Content/sistemaArbitral/logo-sistema-arbitral-de-consumo.svg\" /></a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    \r\n<div class=\"footer__legal\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12 col-xl-7 text-center text-xl-start\">\r\n                © bonÀrea &nbsp;Traspalau, 8\r\n                25210 Guissona (Lleida) &nbsp;|&nbsp;\r\n                <span class=\"text-nowrap\">Tel. 900 899 988</span> (Tel&#232;fon gratu&#239;t)\r\n            </div>\r\n            <div class=\"col-sm-12 col-xl-5 text-center text-xl-end\">\r\n                \r\n                <a href=\"https://www.bonarea-agrupa.com/legalwarning\" target=\"_blank\">Av&#237;s legal</a>\r\n                &nbsp;|&nbsp;\r\n                <a href=\"https://www.bonarea-agrupa.com/privacypolicy\" target=\"_blank\">Pol&#237;tica de privacitat</a>\r\n                &nbsp;|&nbsp;\r\n                <a href=\"/ca/public/cookies\">Cookies</a>\r\n                &nbsp;|&nbsp;\r\n                <a href=\"https://privacyportal-eu.onetrust.com/webform/5d3510b7-6163-4d23-a445-135f8812e590/966a4497-b367-4a7e-b508-1cf266cb7b6d\" target=\"_blank\">Drets ARCO</a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n</footer>",
+  "url": "/ca/shop/find?searchWords=leche",
+  "strQuery": "leche"
+}

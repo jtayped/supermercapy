@@ -1,0 +1,860 @@
+{
+ "totalCount": 3002,
+ "totalRecipeCount": 0,
+ "hasMore": true,
+ "products": [
+  {
+   "id": 4668,
+   "productType": 2,
+   "code": "1826",
+   "ean": "8437007406337",
+   "type": "product",
+   "productData": {
+    "name": "Nuez Cáscara Granel",
+    "brand": {
+     "id": "",
+     "name": ""
+    },
+    "url": "https://tienda.consum.es/es/p/nuez-cascara-granel/1826",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1826.jpg?t=20260812080127",
+    "description": "Nuez Cáscara Granel",
+    "seo": "nuez-cascara-granel",
+    "seoTitle": "",
+    "seoDescription": "nuez-cascara-granel",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "filter.id.weight",
+        "languages": [
+         {
+          "values": [
+           "true"
+          ]
+         }
+        ],
+        "detailProductImageTopRight": {
+         "image": "https://cdn-consum.aktiosdigitalservices.com/assets/product/es/icon-weight.png",
+         "name": "Al peso",
+         "tooltip": "Venta de productos a peso. El precio que se muestra es aproximado y puede variar en función del tamaño de las piezas y del peso final de las mismas.",
+         "remarks": "",
+         "showValue": false,
+         "colorBackground": "#707070"
+        },
+        "widgetProductBottomRight": {
+         "image": "https://cdn-consum.aktiosdigitalservices.com/assets/product/es/icon-weight.png",
+         "name": "Al peso",
+         "tooltip": "Venta de productos a peso. El precio que se muestra es aproximado y puede variar en función del tamaño de las piezas y del peso final de las mismas.",
+         "remarks": "",
+         "showValue": false,
+         "colorBackground": "#707070"
+        }
+       },
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "filter.id.weight",
+      "languages": [
+       {
+        "values": [
+         "true"
+        ]
+       }
+      ],
+      "detailProductImageTopRight": {
+       "image": "https://cdn-consum.aktiosdigitalservices.com/assets/product/es/icon-weight.png",
+       "name": "Al peso",
+       "tooltip": "Venta de productos a peso. El precio que se muestra es aproximado y puede variar en función del tamaño de las piezas y del peso final de las mismas.",
+       "remarks": "",
+       "showValue": false,
+       "colorBackground": "#707070"
+      },
+      "widgetProductBottomRight": {
+       "image": "https://cdn-consum.aktiosdigitalservices.com/assets/product/es/icon-weight.png",
+       "name": "Al peso",
+       "tooltip": "Venta de productos a peso. El precio que se muestra es aproximado y puede variar en función del tamaño de las piezas y del peso final de las mismas.",
+       "remarks": "",
+       "showValue": false,
+       "colorBackground": "#707070"
+      }
+     },
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1826_001.jpg?t=20200923183530",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1826_002.jpg?t=20240822091501",
+     "order": 2,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 6.2,
+       "centUnitAmount": 6.2
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "kg",
+    "unitPriceUnitType": "1 Kg",
+    "minimumUnit": 0.1,
+    "maximumUnit": 10.0,
+    "intervalUnit": 0.15
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 1991,
+     "name": "Nueces",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  },
+  {
+   "id": 4679,
+   "productType": 1,
+   "code": "12542",
+   "ean": "8410128010119",
+   "type": "product",
+   "productData": {
+    "name": "Leche Semidesnatada Brik",
+    "brand": {
+     "id": "PASCUAL",
+     "name": "PASCUAL",
+     "url": "pascual",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/leche-semidesnatada-brik/12542",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542.jpg?t=20260827095114",
+    "description": "Leche Semidesnatada Brik 1 L",
+    "seo": "leche-semidesnatada-brik",
+    "seoTitle": "",
+    "seoDescription": "leche-semidesnatada-brik",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542_001.jpg?t=20230818040001",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542_002.jpg?t=20230818040001",
+     "order": 2,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.35,
+       "centUnitAmount": 1.35
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 L",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 2075,
+     "name": "Semidesnatada",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  },
+  {
+   "id": 4827,
+   "productType": 1,
+   "code": "289512",
+   "ean": "8411700004663",
+   "type": "product",
+   "productData": {
+    "name": "Leche Calcio Desnatada Brik",
+    "brand": {
+     "id": "PULEVA",
+     "name": "PULEVA",
+     "url": "puleva",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/leche-calcio-desnatada-brik/289512",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/289512.jpg?t=20260827095255",
+    "description": "Leche Calcio Desnatada Brik 1 L",
+    "seo": "leche-calcio-desnatada-brik",
+    "seoTitle": "",
+    "seoDescription": "leche-calcio-desnatada-brik",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": true,
+    "actions": [
+     {
+      "key": "adbutler_eligible_url",
+      "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=e959fb862;placementID=3481983;setID=724474;channelID=0;CID=1685594;BID=524376846;TAID=0;place=0;rnd=8005887361;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%22%7D;referrer=;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;mt=1789395533186814;hc=73a82cffac75976153dbb9e315c6919088cbba40"
+     },
+     {
+      "key": "adbutler_redirect_url",
+      "value": "https://servedbyadbutler.com/redirect.spark?MID=185979&plid=3481983&setID=724474&channelID=0&CID=1685594&scheduleID=3663871&placementScheduleId=3663871&adItemScheduleId=0&banID=524376846&PID=0&textadID=0&tc=1&type=tclickcb&data_keys=%7B%22Category%22%3A%222811%22%7D&spr=1&request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e&mt=1&hc=f2bb82bae887f029cc7535ec57a0ebc60204cb9e&location=1"
+     },
+     {
+      "key": "adbutler_viewable_url",
+      "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=v959fb862;placementID=3481983;setID=724474;channelID=0;CID=1685594;BID=524376846;TAID=0;place=0;rnd=8005887361;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%22%7D;referrer=;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;mt=1789395533186810;hc=3049c9d5208b54b4f9dc06942a5b2acb8b7f49d4"
+     },
+     {
+      "key": "adbutler_accupixel_url",
+      "value": "https://servedbyadbutler.com/adserve/;ID=185979;size=1x1;type=p959fb862;setID=724474;plid=3481983;BID=524376846;place=0;rnd=8005887361;psrtype=json;metadata=%5B%5D;_abdk_json=%7B%22Category%22%3A%222811%22%7D;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;currency=EUR;mt=1789395533186805;hc=1c59d44f457f61a02bbdc152a5411bbb1735989e;rnd=2447509"
+     },
+     {
+      "key": "adbutler_track_url",
+      "value": "https://servedbyadbutler.com/convtrack.spark?MID=185979&ad_item_id=524376846&placement_id=3481983&timestamp=0&zone_id=724474&conversion_type=single-ad&productID=289512"
+     }
+    ],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/289512_001.jpg?t=20240823091501",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/289512_002.jpg?t=20240823091501",
+     "order": 2,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/289512_003.jpg?t=20240823091501",
+     "order": 3,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/289512_004.jpg?t=20240823091501",
+     "order": 4,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.59,
+       "centUnitAmount": 1.59
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 L",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 2082,
+     "name": "Leche con calcio",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  },
+  {
+   "id": 4845,
+   "productType": 1,
+   "code": "303370",
+   "ean": "8411700026665",
+   "type": "product",
+   "productData": {
+    "name": "Leche Calcio Entera Brik",
+    "brand": {
+     "id": "PULEVA",
+     "name": "PULEVA",
+     "url": "puleva",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/leche-calcio-entera-brik/303370",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303370.jpg?t=20260827095305",
+    "description": "Leche Calcio Entera Brik 1 L",
+    "seo": "leche-calcio-entera-brik",
+    "seoTitle": "",
+    "seoDescription": "leche-calcio-entera-brik",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       },
+       {
+        "code": "filter.id.brand.distributor",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "0"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     },
+     {
+      "code": "filter.id.brand.distributor",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "0"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": true,
+    "actions": [
+     {
+      "key": "adbutler_eligible_url",
+      "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=e959fb862;placementID=3481983;setID=724474;channelID=0;CID=1685594;BID=524376845;TAID=0;place=0;rnd=8005887361;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%22%7D;referrer=;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;mt=1789395533186680;hc=2898e95b1781baed48b55493bf65d8848dc5087d"
+     },
+     {
+      "key": "adbutler_redirect_url",
+      "value": "https://servedbyadbutler.com/redirect.spark?MID=185979&plid=3481983&setID=724474&channelID=0&CID=1685594&scheduleID=3663871&placementScheduleId=3663871&adItemScheduleId=0&banID=524376845&PID=0&textadID=0&tc=1&type=tclickcb&data_keys=%7B%22Category%22%3A%222811%22%7D&spr=1&request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e&mt=1&hc=66423d3d7b6ee23a40494809e6bbb21d5dcd6133&location=1"
+     },
+     {
+      "key": "adbutler_viewable_url",
+      "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=v959fb862;placementID=3481983;setID=724474;channelID=0;CID=1685594;BID=524376845;TAID=0;place=0;rnd=8005887361;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%22%7D;referrer=;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;mt=1789395533186675;hc=bd476885a83d1efb6f995adb3fd7f0e848602501"
+     },
+     {
+      "key": "adbutler_accupixel_url",
+      "value": "https://servedbyadbutler.com/adserve/;ID=185979;size=1x1;type=p959fb862;setID=724474;plid=3481983;BID=524376845;place=0;rnd=8005887361;psrtype=json;metadata=%5B%5D;_abdk_json=%7B%22Category%22%3A%222811%22%7D;request_uuid=1ad8ecb2-f1d8-4ea7-b98e-5f6608b11d7e;currency=EUR;mt=1789395533186670;hc=70bd612758a788ee4f4aade1265703452ab87782;rnd=7918164"
+     },
+     {
+      "key": "adbutler_track_url",
+      "value": "https://servedbyadbutler.com/convtrack.spark?MID=185979&ad_item_id=524376845&placement_id=3481983&timestamp=0&zone_id=724474&conversion_type=single-ad&productID=303370"
+     }
+    ],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303370_001.jpg?t=20240823091501",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303370_002.jpg?t=20240823091501",
+     "order": 2,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303370_003.jpg?t=20240823091501",
+     "order": 3,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303370_004.jpg?t=20240823091501",
+     "order": 4,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.59,
+       "centUnitAmount": 1.59
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 L",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 2082,
+     "name": "Leche con calcio",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  },
+  {
+   "id": 4699,
+   "productType": 1,
+   "code": "53553",
+   "ean": "46000283265",
+   "type": "product",
+   "productData": {
+    "name": "Tortillas de Trigo Paquete 8 Unidades",
+    "brand": {
+     "id": "OLD EL PASO",
+     "name": "OLD EL PASO",
+     "url": "old-el-paso",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/tortillas-de-trigo-paquete-8-unidades/53553",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553.jpg?t=20260827095140",
+    "description": "Tortillas de Trigo Paquete 8 Unidades 326 Gr",
+    "seo": "tortillas-de-trigo-paquete-8-unidades",
+    "seoTitle": "",
+    "seoDescription": "tortillas-de-trigo-paquete-8-unidades",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       },
+       {
+        "code": "filter.id.brand.distributor",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "0"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     },
+     {
+      "code": "filter.id.brand.distributor",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "0"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553_001.jpg?t=20250228170002",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553_002.jpg?t=20240418040002",
+     "order": 2,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.99,
+       "centUnitAmount": 6.1
+      }
+     },
+     {
+      "id": "OFFER_PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.69,
+       "centUnitAmount": 5.18
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 Kg",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 4508,
+     "name": "Mexicano",
+     "type": 0
+    },
+    {
+     "id": 999992811,
+     "name": "Ofertas en despensa",
+     "type": 1
+    }
+   ],
+   "offers": [
+    {
+     "id": 12915541,
+     "from": "2026-08-26T22:00:00.000Z",
+     "to": "2026-09-23T21:59:00.000Z",
+     "minDescription": "Ahora ",
+     "shortDescription": "Ahora más barato",
+     "longDescription": "Ahora más barato",
+     "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+     "promotionId": 430877092,
+     "promotionType": 1,
+     "inmediate": true,
+     "applicationTargetType": 1,
+     "applicationActionType": 2,
+     "visiblePromotionWidget": false,
+     "visibleValidate": false,
+     "visibleProductWidget": true,
+     "amount": 1.69,
+     "pictoType": "default"
+    }
+   ],
+   "coupons": []
+  },
+  {
+   "id": 4715,
+   "productType": 1,
+   "code": "78329",
+   "ean": "8410998005123",
+   "type": "product",
+   "productData": {
+    "name": "Saladitos Bolsa",
+    "brand": {
+     "id": "VELARTE",
+     "name": "VELARTE",
+     "url": "velarte",
+     "landing": false
+    },
+    "url": "https://tienda.consum.es/es/p/saladitos-bolsa/78329",
+    "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/78329.jpg?t=20260812080128",
+    "description": "Saladitos Bolsa 240 Gr",
+    "seo": "saladitos-bolsa",
+    "seoTitle": "",
+    "seoDescription": "saladitos-bolsa",
+    "attributeGroups": [
+     {
+      "code": "group.attribute.default",
+      "name": "Información del producto",
+      "tooltip": "",
+      "visibility": true,
+      "infoProduct": true,
+      "attributes": [
+       {
+        "code": "hidden.midiadia",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "1"
+          ]
+         }
+        ]
+       },
+       {
+        "code": "filter.id.brand.distributor",
+        "languages": [
+         {
+          "lang": "00",
+          "values": [
+           "0"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "code": "hidden.midiadia",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "1"
+        ]
+       }
+      ]
+     },
+     {
+      "code": "filter.id.brand.distributor",
+      "languages": [
+       {
+        "lang": "00",
+        "values": [
+         "0"
+        ]
+       }
+      ]
+     }
+    ],
+    "format": "",
+    "novelty": false,
+    "featured": false,
+    "sponsored": false,
+    "actions": [],
+    "containAllergensIntolernacies": false,
+    "availability": "1",
+    "temporaryOutOfStock": false
+   },
+   "media": [
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/78329_001.jpg?t=20220413091503",
+     "order": 1,
+     "type": "P"
+    },
+    {
+     "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/78329_002.jpg?t=20220413091503",
+     "order": 2,
+     "type": "P"
+    }
+   ],
+   "priceData": {
+    "prices": [
+     {
+      "id": "PRICE",
+      "toDate": "2099-12-31T22:59:59Z",
+      "value": {
+       "centAmount": 1.95,
+       "centUnitAmount": 8.13
+      }
+     }
+    ],
+    "taxPercentage": 4.0,
+    "priceUnitType": "",
+    "unitPriceUnitType": "1 Kg",
+    "minimumUnit": 1.0,
+    "maximumUnit": 49.0,
+    "intervalUnit": 1.0
+   },
+   "purchaseData": {
+    "allowComments": false
+   },
+   "categories": [
+    {
+     "id": 5162,
+     "name": "Rosquilletas, picos y snacks",
+     "type": 0
+    }
+   ],
+   "offers": [],
+   "coupons": []
+  }
+ ]
+}

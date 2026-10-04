@@ -1,0 +1,10 @@
+{
+  "status": 403,
+  "headers": {
+    "server": "http",
+    "content-length": "0",
+    "requestid": "00000000-0000-4000-8000-000000000000",
+    "ecom-csrf-failure": "true",
+    "x-cache": "Error from cloudfront"
+  }
+}

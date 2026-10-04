@@ -1,0 +1,8 @@
+{
+  "httpStatus": 404,
+  "message": "No productId exists for retailerProductId 1",
+  "moreInfo": "",
+  "args": null,
+  "timestamp": "2026-10-04T12:28:19.258941924Z",
+  "code": "product-page-ws-40"
+}

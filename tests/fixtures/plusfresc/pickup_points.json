@@ -1,0 +1,56 @@
+[
+ {
+  "centername": "VIA AUGUSTA",
+  "centerid": "3",
+  "addressing": "Via Augusta, 188\n08021 BARCELONA\nBarcelona",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "CIUTAT ELISIS",
+  "centerid": "12",
+  "addressing": "Camí de Picos, 6 \n25001 LLEIDA - CAP PONT\nLleida",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "MOLLERUSSA",
+  "centerid": "17",
+  "addressing": "Avinguda de la Pau, 27-29\n25230 MOLLERUSSA\nLleida",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "TARRAGONA",
+  "centerid": "33",
+  "addressing": "Avinguda Roma, 11\n43005 TARRAGONA\nTarragona",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "TÀRREGA",
+  "centerid": "36",
+  "addressing": "Avinguda Catalunya, 67-69\n25300 TARREGA\nLleida",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "MANRESA",
+  "centerid": "58",
+  "addressing": "Passeig Pere III, 89-91\n08240 MANRESA\nBarcelona",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "BALAGUER",
+  "centerid": "61",
+  "addressing": "Carrer Urgell, 31\n25600 BALAGUER\nLleida",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "TERRASSA",
+  "centerid": "110",
+  "addressing": "Francesc Salvans, 71\n08225 TERRASSA\nBarcelona",
+  "TipoRecogida": "0"
+ },
+ {
+  "centername": "LOCKER GARDENY",
+  "centerid": "127899871",
+  "addressing": "Parc de Gardeny\n25007 LLEIDA\nLleida",
+  "TipoRecogida": "1"
+ }
+]

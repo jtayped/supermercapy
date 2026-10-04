@@ -1,0 +1,76 @@
+[
+  {
+    "childCategories": [
+      {
+        "childCategories": [],
+        "name": "Fruites i verdures",
+        "categoryId": "130716f2-795a-4f0b-ad39-b449817921b3",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0301"
+      },
+      {
+        "childCategories": [],
+        "name": "Xarcuteria",
+        "categoryId": "5426a8b4-f65b-49ab-8058-1b3af4ba00a5",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0302"
+      },
+      {
+        "childCategories": [],
+        "name": "Formatges",
+        "categoryId": "c756085a-210c-4531-937a-46967fcc405e",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0303"
+      }
+    ],
+    "name": "Frescos",
+    "categoryId": "c95cfbf2-501d-433f-bae3-10fcef330b11",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "03"
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": [],
+        "name": "Olis, vinagres, sals i espècies",
+        "categoryId": "2822dcdb-e162-4e98-8b4d-42801e26448a",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0101"
+      },
+      {
+        "childCategories": [],
+        "name": "Aperitius i fruita seca",
+        "categoryId": "d78a0d3f-4282-4757-bc7f-d08fedf94da8",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0102"
+      },
+      {
+        "childCategories": [],
+        "name": "Sucres, edulcorants i mels",
+        "categoryId": "9e43d76d-91ae-4212-b917-8501667b9887",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "0103"
+      }
+    ],
+    "name": "Alimentació",
+    "categoryId": "c49d1ef2-bf51-44a7-b631-4a35474a21ac",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "01"
+  },
+  {
+    "childCategories": [],
+    "name": "Novetats",
+    "categoryId": "2068f9ba-b1af-4cf1-ad2b-3301c8d1a977",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "90"
+  }
+]

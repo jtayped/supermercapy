@@ -1,0 +1,91 @@
+{
+  "product": {
+    "productId": "f3ea1055-906f-430a-b024-8bd03feadb9b",
+    "retailerProductId": "29189",
+    "type": "REGULAR",
+    "name": "GALLO Farina de rebosteria",
+    "brand": "GALLO",
+    "packSizeDescription": "1kg",
+    "price": {
+      "amount": "1.69",
+      "currency": "EUR"
+    },
+    "unitPrice": {
+      "price": {
+        "amount": "1.69",
+        "currency": "EUR"
+      },
+      "unit": "fop.price.per.kg",
+      "unitName": "PER_1KG"
+    },
+    "available": true,
+    "isInCurrentCatalog": true,
+    "isNew": false,
+    "timeRestricted": false,
+    "alcohol": false,
+    "imageIds": [
+      "1369342e-b25a-4888-9783-af82983f5345"
+    ],
+    "imagePaths": [
+      "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/1369342e-b25a-4888-9783-af82983f5345"
+    ],
+    "image": {
+      "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/1369342e-b25a-4888-9783-af82983f5345/300x300.jpg",
+      "description": "GALLO Farina de rebosteria",
+      "imageId": "1369342e-b25a-4888-9783-af82983f5345"
+    },
+    "categoryPath": [
+      "Alimentació",
+      "Pastes, arrossos, farines i llegums",
+      "Farines i sèmoles",
+      "Farines de rebosteria i especials"
+    ]
+  },
+  "bopData": {
+    "detailedDescription": "Farina de Rebosteria Gallo en paquet de 1 kg<br />",
+    "fields": [
+      {
+        "title": "brand",
+        "content": "GALLO"
+      },
+      {
+        "title": "furtherDescription",
+        "content": "<br />Farina de blat per rebosteria.<br />País d'origen: Espanya.<br /><br /><b>Nom de l'operador:</b><br />COMERCIAL GALLO SAU<br />C/ Cerdanya, n. 10-12, 3ª Planta 08173, SANT CUGAT DEL VALLÈS<br /><br /><b>Avís:</b><br />La informació del producte pot no estar actualitzada. Et recomanem que revisis la informació de l'envàs del producte abans d'utilitzar-lo o consumir-lo, per confirmar la seva composició i al·lèrgens, entre altres."
+      },
+      {
+        "title": "ingredients",
+        "content": "<br />INGREDIENTS: farina de <b>blat</b>."
+      },
+      {
+        "title": "nutritionalData",
+        "content": "<table><tbody><tr><td></td><td> per 100 g </td></tr><tr><td> Valor energètic </td><td> 363 kcal / 1537 kJ </td></tr><tr><td> Greixos </td><td> 2 g </td></tr><tr><td> dels quals saturats </td><td> 0,7 g </td></tr><tr><td> Hidrats de carboni </td><td> 75 g </td></tr><tr><td> dels quals sucres </td><td> 4,0 g </td></tr><tr><td> Proteïnes </td><td> 10 g </td></tr><tr><td> Sal </td><td> 0,03 g</td></tr></tbody></table>"
+      },
+      {
+        "title": "cookingGuidelines",
+        "content": "<br />Conservar en lloc sec i aïllat del terra."
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "categoryName": "Alimentació",
+        "categoryId": "c49d1ef2-bf51-44a7-b631-4a35474a21ac"
+      },
+      {
+        "categoryName": "Pastes, arrossos, farines i llegums",
+        "categoryId": "afd9efc7-b059-4591-9987-565bfe6deca0"
+      },
+      {
+        "categoryName": "Farines i sèmoles",
+        "categoryId": "d9842982-3801-4594-b0e8-c3d38af6e377"
+      },
+      {
+        "categoryName": "Farines de rebosteria i especials",
+        "categoryId": "4264c8b0-fbf7-4d84-960b-f61c36c9ce58"
+      }
+    ]
+  },
+  "bopPromotions": [],
+  "similarProducts": [],
+  "relatedProducts": [],
+  "detailedImages": []
+}

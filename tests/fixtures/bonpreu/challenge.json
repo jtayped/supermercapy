@@ -1,0 +1,9 @@
+{
+  "status": 202,
+  "headers": {
+    "server": "CloudFront",
+    "content-length": "0",
+    "x-amzn-waf-action": "challenge",
+    "access-control-expose-headers": "x-amzn-waf-action"
+  }
+}

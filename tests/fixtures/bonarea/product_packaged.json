@@ -1,0 +1,76 @@
+{
+  "article": {
+    "weightGrams": 6000,
+    "daysWithoutService": [],
+    "agrupacions": [],
+    "breadcrumb": [
+      {
+        "descripcio": "Alimentación",
+        "idNivell": "13*300",
+        "url": "~/categorias/alimentacion/13_300"
+      },
+      {
+        "descripcio": "Lácteos y derivados",
+        "idNivell": "13*300*080",
+        "url": "~/categorias/lacteos-y-derivados/13_300_080"
+      },
+      {
+        "descripcio": "Leche",
+        "idNivell": "13*300*080*010",
+        "url": "~/categorias/leche/13_300_080_010"
+      }
+    ],
+    "caracteristiques": [
+      {
+        "descripcio": "GARANTIA_BONAREA"
+      },
+      {
+        "descripcio": "BONAREA"
+      },
+      {
+        "descripcio": "BENESTAR_ANIMAL_AENOR"
+      }
+    ],
+    "description": "Leche sin lactosa desnatada paq. de 6 brics",
+    "descriptionCatCastToFind": null,
+    "discount": 0,
+    "nameSubFamilyCatCastToFind": null,
+    "euroUnit": "€/u.",
+    "extendedInfo": "<strong>INGREDIENTES*:</strong><p>LECHE fresca desnatada de vaca, vitaminas A,D,E y ácido fólico.</p><br/><strong>ALÉRGENOS:</strong><p><b>Leche y sus derivados </b></p><br/><strong>INFORMACIÓN NUTRICIONAL:</strong><p>Valor medio por 100 ml de producto: <br>-Valor energético                     156  kJ,                                       37  kcal<br>-Grasas                             < 0,5  g, de las cuales saturadas                0  g<br>-Hidratos de carbono                  4,9  g, de los cuales azúcares               4,8  g<br>-Fibra alimentaria                    0,0  g<br>-Proteínas                            3,2  g<br>-Sal                                  0,1  g<br>-Vitamina A                           120  µg         15 % VRN<br>-Vitamina D                           0,8  µg         15 % VRN<br>-Vitamina E                           1,8  mg         15 % VRN<br>-Ácido fólico                          30  µg         15 % VRN<br>-Calcio                               120  mg         15 % VRN</p><br/><strong>INFORMACIÓN ADICIONAL:</strong><p>Lactosa: < 0,01 g/100 ml.</p><br/><strong>DENOMINACIÓN:</strong><p>Leche desnatada uht sin lactosa, enriquecida en vitaminas A,D,E y ácido fólico            </p><br/><p>*La información sobre la composición de los ingredientes de los productos así como también la información nutricional de los mismos que aparecen en esta web, puede estar sometida a modificaciones pendientes de actualización, con lo que recomendamos a nuestros clientes que siempre lean atentamente las etiquetas de los productos antes de consumirlos. En las etiquetas es donde podrán encontrar la información más detallada y actualizada.</p>",
+    "generalInfo": "<strong>DESCRIPCIÓN</strong><p>Leche desnatada sin lactosa bonÀrea, en formato de 1 litro.</p><br/><strong>CONSERVACIÓN</strong><p>Conservar en lugar fresco y seco. Una vez abierto el envase, conservar en el frigorífico y consumir en un máximo de 4 días.</p><br/><strong>ORIGEN:</strong><p>Origen de la leche: España.</p><br/>",
+    "identifier": "13*0066",
+    "image": [
+      "P13_0066_1.png"
+    ],
+    "itsOnStock": true,
+    "comeStockData": null,
+    "isAnApproximatePrice": false,
+    "idAgrupacio": null,
+    "isGridBuyAllowed": true,
+    "isValid": true,
+    "javascriptPosition": 0,
+    "linePrice": 0,
+    "maximumStock": 10,
+    "measurementUnit": "6 l",
+    "codeFamilySubfamily": null,
+    "codeGroupFamilySubfamilyWhole": null,
+    "txtActiveGroup": null,
+    "txtActiveFamily": null,
+    "txtActiveSubfamily": null,
+    "nameFamilySubfamily": "Lácteos y derivados",
+    "priceToPay": 6.72,
+    "quantity": 0,
+    "referenceWhereItIsLoaded": null,
+    "unitPrice": "1,12 €/l",
+    "unitsPurchased": -1,
+    "searchScore": 0,
+    "priorityOrder": 0,
+    "numberExactWordsFind": 0,
+    "gaDescription": "13*0066",
+    "gaNameFamilySubfamily": "13*0066",
+    "findComenzaPer": false,
+    "dropShipping": "",
+    "urlFriendly": "https://www.bonarea-online.com/online/producto/leche-sin-lactosa-desnatada-paq-de-6-brics/13_0066",
+    "unitatMinimaComanda": 1
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "erpNumber": "100399898",
+  "productId": 100399898,
+  "variantId": 100399898,
+  "productType": "FLAT",
+  "canonicalPath": "/p/parkside-martillo-perforador-y-cincelador-1050-w/p100399898",
+  "canonicalUrl": "/p/parkside-martillo-perforador-y-cincelador-1050-w/p100399898",
+  "category": "Categorías/Tienda de bricolaje/Taller/Baterías y herramientas eléctricas/Taladros y accesorios/Martillo perforador",
+  "categorySecondaryPath": "0/41/4111/411119/41111912/411119121",
+  "eans": [
+    "4052916891476"
+  ],
+  "ians": [
+    "496229"
+  ],
+  "storeStockId": "0496229",
+  "ageRestriction": false,
+  "alcoholic": false,
+  "ratings": {
+    "average": 4.5,
+    "count": 112,
+    "recommendedNo": 7,
+    "recommendedYes": 91,
+    "sizePercentage": 0,
+    "topRated": false
+  },
+  "storeFacts": {
+    "inStoreCampaign": false,
+    "online": true,
+    "retail": false,
+    "store": true,
+    "storeStartDate": 1789077600,
+    "warehouses": []
+  },
+  "stockAvailability": {
+    "availabilityIndicator": 3,
+    "onlineAvailable": true,
+    "minOrderableQuantity": 1,
+    "badgeInfo": {
+      "badges": [
+        {
+          "text": "Desde 11.09. también en tienda",
+          "type": "ALSO_IN_STORE_FROM_DATE_PAST"
+        },
+        {
+          "text": "Disponible online",
+          "type": "AVAILABLE_ONLINE"
+        }
+      ]
+    }
+  },
+  "regionsPrices": {},
+  "lidlPlus": [],
+  "variants": {},
+  "price": {
+    "price": 49.99,
+    "oldPrice": 54.99,
+    "discount": {
+      "deletedPrice": 54.99,
+      "absoluteDiscount": 5.0,
+      "percentageDiscount": 9,
+      "bargainHintText": "Megadescuento",
+      "showDiscount": true,
+      "showPercentage": false
+    },
+    "packaging": {},
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "hasVat": true,
+    "tax": "21",
+    "startDate": "2026-08-30T22:00Z",
+    "endDate": "2026-09-20T21:59:59Z",
+    "endDateExclusive": "2026-09-20T22:00Z",
+    "showEndDate": false
+  },
+  "zones": {
+    "BAL": {
+      "id": "BAL",
+      "zone": "Baleares",
+      "isDefault": false,
+      "currentPrice": {
+        "price": 52.99,
+        "currencyCode": "EUR",
+        "tax": "21",
+        "hasVat": true,
+        "oldPrice": 54.99
+      },
+      "statusOnlineActual": "ONLINE"
+    },
+    "CAN": {
+      "id": "CAN",
+      "zone": "Islas Canarias",
+      "isDefault": false,
+      "currentPrice": {
+        "price": 49.99,
+        "currencyCode": "EUR",
+        "tax": "0",
+        "hasVat": false,
+        "oldPrice": 54.99
+      },
+      "statusOnlineActual": "ONLINE"
+    },
+    "PEN": {
+      "id": "PEN",
+      "zone": "Peninsula",
+      "isDefault": true,
+      "currentPrice": {
+        "price": 49.99,
+        "currencyCode": "EUR",
+        "tax": "21",
+        "hasVat": true,
+        "oldPrice": 54.99
+      },
+      "statusOnlineActual": "ONLINE"
+    }
+  },
+  "media": {
+    "gallery": {
+      "havingOwnImages": true,
+      "images": [
+        -1662836951,
+        2021787318
+      ]
+    },
+    "imageMap": {
+      "-1662836951": {
+        "id": -1662836951,
+        "largeUrl": "https://www.lidl.es/assets/gcp318274100e0a45729119c5ed463a62aa.jpg",
+        "mediumUrl": "https://www.lidl.es/assets/gcp731763c6eb024b45bd8faf153036a118.jpg",
+        "smallUrl": "https://www.lidl.es/assets/gcp01d4bd2fc7d148aebebd3b58f021eeea.jpg",
+        "basketUrl": "https://www.lidl.es/assets/gcp3dbe5800e34c4bddbcb74f3f9cb4fdb2.jpg",
+        "thumbUrl": "https://www.lidl.es/assets/gcpb57710b3e30f44a484aff475047d3276.jpg",
+        "accessibility": "Taladro percutor con brocas, cinceles, grasa y paño de limpieza."
+      },
+      "2021787318": {
+        "id": 2021787318,
+        "largeUrl": "https://www.lidl.es/assets/gcpd59d7c48e8be44348db4595a9ed49e15.jpg",
+        "mediumUrl": "https://www.lidl.es/assets/gcp452c4a39bbcb41ae8770b4db5aaefc25.jpg",
+        "smallUrl": "https://www.lidl.es/assets/gcp9e44b698a8714611a486ea13523ab222.jpg",
+        "basketUrl": "https://www.lidl.es/assets/gcp2b66dfe5b07b43b6a7849ae023979b85.jpg",
+        "thumbUrl": "https://www.lidl.es/assets/gcpb36d4e812cd44faaab9a7b837e40494d.jpg",
+        "accessibility": "Hombre usando un taladro percutor Parkside para quitar azulejos de una pared."
+      }
+    }
+  },
+  "keyfacts": {
+    "title": "Martillo perforador y cincelador 1050 W",
+    "fullTitle": "PARKSIDE® Martillo perforador y cincelador 1050 W",
+    "supplementalDescription": "<p><strong>Potencia</strong>: 1050 W<br /><strong>Energía de percusión</strong>: 3 J<br /><strong>Número de percusiones</strong>: 0&ndash;5300 min<sup>-1</sup></p>",
+    "wonCategoryPrimary": "Mundos de necesidad/Tienda de bricolaje y jardín/Herramientas eléctricas",
+    "wonCategoryPrimaryPath": "0/12/1211"
+  },
+  "info": {
+    "brand": {
+      "displayedOnProductPage": true,
+      "id": "PARK",
+      "logo": "https://www.lidl.es/assets/e04092d839176694263798baaca7efe5.png",
+      "name": "PARKSIDE®",
+      "url": "https://www.lidl.es/c/parkside/s10068914",
+      "showBrand": true
+    }
+  },
+  "meta": {
+    "canonicalLink": "https://www.lidl.es/p/parkside-martillo-perforador-y-cincelador-1050-w/p100399898",
+    "title": "Martillo perforador y cincelador 1050 W | LIDL"
+  }
+}

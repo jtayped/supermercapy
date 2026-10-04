@@ -1,0 +1,156 @@
+{
+  "type": "search",
+  "version": "v2.0.0",
+  "engine": "ldt-searcher",
+  "id": "bbaf946b-4a02-4651-91ed-5474f545113f",
+  "q": "pan",
+  "locale": "es_ES",
+  "assortment": "ES",
+  "resultType": "search",
+  "numFound": 3,
+  "offset": 2,
+  "fetchsize": 2,
+  "maxfetchsize": 1000,
+  "items": [
+    {
+      "resultClass": "product",
+      "type": "product",
+      "code": "100408615001",
+      "url": "/p/parkside-taladro-atornillador-recargable-20-v-edicion-limitada/p100408615001",
+      "gridbox": {
+        "country": "ES",
+        "data": {
+          "erpNumber": "100408615001",
+          "productId": 100408615,
+          "variantId": 100408615001,
+          "parentId": "100408615",
+          "productType": "VARIANT",
+          "ians": [
+            "540689"
+          ],
+          "title": "Taladro atornillador recargable 20 V Edición Limitada (Verde)",
+          "fullTitle": "PARKSIDE® Taladro atornillador recargable 20 V Edición Limitada (Verde)",
+          "brand": {
+            "logo": "https://www.lidl.es/assets/e04092d839176694263798baaca7efe5.png",
+            "name": "PARKSIDE®",
+            "url": "https://www.lidl.es/c/parkside/s10068914",
+            "id": "PARK"
+          },
+          "canonicalPath": "/p/parkside-taladro-atornillador-recargable-20-v-edicion-limitada/p100408615001",
+          "category": "Categorías/Tienda de bricolaje/Taller/Baterías y herramientas eléctricas/Taladro atornillador inalámbrico",
+          "categorySecondaryPath": "0/41/4111/411119/41111997",
+          "image": "https://www.lidl.es/assets/gcp7fd1fdd768f448c2b0b0d55ed2cbc951.jpg",
+          "price": {
+            "currencyCode": "EUR",
+            "currencyCodeSecond": "",
+            "currencySymbol": "€",
+            "currencySymbolSecond": "",
+            "displayedCurrency": "€",
+            "hasStar": false,
+            "hasVat": true,
+            "hasZeroVat": false,
+            "packaging": {},
+            "price": 37.99,
+            "showEndDate": false,
+            "specialTaxes": [],
+            "startDate": "2026-08-12T12:37:52.818Z",
+            "tax": "21"
+          },
+          "stockAvailability": {
+            "availabilityIndicator": 3,
+            "badgeInfo": {
+              "badges": [
+                {
+                  "text": "Disponible online",
+                  "type": "AVAILABLE_ONLINE"
+                }
+              ]
+            },
+            "badgeInfoV2": [
+              {
+                "badges": [
+                  {
+                    "text": "Disponible online",
+                    "type": "AVAILABLE_ONLINE"
+                  }
+                ]
+              }
+            ],
+            "onlineAvailable": true,
+            "minOrderableQuantity": 1,
+            "backInStockNotification": true,
+            "backInStockNotificationSoldOut": true
+          },
+          "ratings": {
+            "average": 4.9,
+            "count": 57,
+            "recommendedNo": 0,
+            "recommendedYes": 52,
+            "sizePercentage": 0,
+            "topRated": true,
+            "text": "Top valorados"
+          },
+          "regionsPrices": {},
+          "zones": {
+            "BAL": {
+              "id": "BAL",
+              "zone": "Baleares",
+              "isDefault": false,
+              "currentPrice": {
+                "price": 39.99,
+                "currencyCode": "EUR",
+                "tax": "21",
+                "hasVat": true
+              },
+              "statusOnlineActual": "ONLINE"
+            },
+            "CAN": {
+              "id": "CAN",
+              "zone": "Islas Canarias",
+              "isDefault": false,
+              "currentPrice": {
+                "price": 39.99,
+                "currencyCode": "EUR",
+                "tax": "0",
+                "hasVat": false
+              },
+              "statusOnlineActual": "ONLINE"
+            },
+            "PEN": {
+              "id": "PEN",
+              "zone": "Peninsula",
+              "isDefault": true,
+              "currentPrice": {
+                "price": 37.99,
+                "currencyCode": "EUR",
+                "tax": "21",
+                "hasVat": true
+              },
+              "statusOnlineActual": "ONLINE"
+            }
+          },
+          "imageList_V1": [
+            {
+              "image": "https://www.lidl.es/assets/gcp7fd1fdd768f448c2b0b0d55ed2cbc951.jpg",
+              "accessibility": "Set de taladro inalámbrico con estuche, cargador, batería y accesorios de brocas."
+            }
+          ]
+        },
+        "meta": {
+          "ean": "4054599289410",
+          "campaignPaths": [
+            [
+              {
+                "id": "10102616",
+                "name": "Parkside 30 cumpleaños",
+                "url": "/c/parkside-30-cumpleanos/a10102616",
+                "hiddenCategory": false
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "facets": []
+}

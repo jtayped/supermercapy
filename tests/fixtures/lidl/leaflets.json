@@ -1,0 +1,331 @@
+{
+  "self": "v4/overview?client_locale=lidl%2Fes-ES",
+  "version": 4,
+  "success": true,
+  "message": "2 flyers in 2 subcategories and 1 categories found.",
+  "dateTime": "2026-09-14T12:09:19+00:00",
+  "numberOfEntries": 1,
+  "isRegionalized": true,
+  "categories": [
+    {
+      "id": "ecf58e29-f298-11e6-aabb-005056ab0fb6",
+      "name": "Folletos",
+      "subcategories": [
+        {
+          "id": "fbff0306-e5ab-11ed-9b76-fa163edb1947",
+          "name": "Folletos de Alimentación",
+          "flyers": [
+            {
+              "id": "01a057b7-bd24-73dc-ab22-f64c4d03558f",
+              "name": "FOLLETO ALIMENTACIÓN 14/9",
+              "title": "14/9/26-20/9/26",
+              "isActive": true,
+              "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057b7-bd24-73dc-ab22-f64c4d03558f/FOLLETO-ALIMENTACION-14-9-14-9-26-20-9-26-00.pdf",
+              "hiResPdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057b7-bd24-73dc-ab22-f64c4d03558f/FOLLETO-ALIMENTACION-14-9-14-9-26-20-9-26-00.pdf",
+              "fileSize": 20101494,
+              "thumbnailUrl": "https://imgproxy.leaflets.schwarz/0e1LPApvMXDbXRjm8bDYR4-TpccflhMbZDryRB0x8vk/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YjctYmQyNC03M2RjLWFiMjItZjY0YzRkMDM1NThmL3BhZ2UtMDFfODc0NDkyNmY1N2U5YWI0ZmJlMWU5ZDE2ZTBhNzFhZDMucG5n.jpg",
+              "flyerUrlAbsolute": "https://www.lidl.es/l/folletos/folleto-alimentacion-14-9-14-9-26-20-9-26-fd8264/ar/23",
+              "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=folleto-alimentacion-14-9-14-9-26-20-9-26-fd8264&client=lidl",
+              "startDate": "2026-09-07",
+              "endDate": "2026-09-20",
+              "offerStartDate": "2026-09-14",
+              "offerEndDate": "2026-09-20",
+              "status": "current",
+              "regions": [
+                {
+                  "type": "offer_region",
+                  "code": "23"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "35"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "36"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "38"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "39"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00319"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00320"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00324"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00352"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00376"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00392"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00946"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03011"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03021"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03025"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03030"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03034"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03037"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03038"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03039"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03040"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03041"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03042"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03046"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03047"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03051"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03052"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03053"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03056"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03060"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03062"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03065"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03068"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f1be3d60-e5ab-11ed-9a0a-fa163eda8875",
+          "name": "Folletos de Bazar",
+          "flyers": [
+            {
+              "id": "01a057b6-f7a7-72f9-ac85-deb428fbe738",
+              "name": "FOLLETO BAZAR 14/9",
+              "title": "14/9/26-20/9/26",
+              "isActive": true,
+              "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057b6-f7a7-72f9-ac85-deb428fbe738/FOLLETO-BAZAR-14-9-14-9-26-20-9-26-01.pdf",
+              "hiResPdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057b6-f7a7-72f9-ac85-deb428fbe738/FOLLETO-BAZAR-14-9-14-9-26-20-9-26-01.pdf",
+              "fileSize": 12561382,
+              "thumbnailUrl": "https://imgproxy.leaflets.schwarz/ZyUQxW8TpzmLwVXU1-1cnnmk64cDPHnnGp52bTkB6oc/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YjYtZjdhNy03MmY5LWFjODUtZGViNDI4ZmJlNzM4L3BhZ2UtMDFfYzRkMzY2N2NlOWY0ODFiNTQwZDliODIyMDRmODYwYTUucG5n.jpg",
+              "flyerUrlAbsolute": "https://www.lidl.es/l/folletos/folleto-bazar-14-9-14-9-26-20-9-26/ar/23",
+              "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=folleto-bazar-14-9-14-9-26-20-9-26&client=lidl",
+              "startDate": "2026-09-07",
+              "endDate": "2026-09-20",
+              "offerStartDate": "2026-09-14",
+              "offerEndDate": "2026-09-20",
+              "status": "current",
+              "regions": [
+                {
+                  "type": "offer_region",
+                  "code": "23"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "35"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "36"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "38"
+                },
+                {
+                  "type": "offer_region",
+                  "code": "39"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00319"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00320"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00324"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00352"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00376"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00392"
+                },
+                {
+                  "type": "store",
+                  "code": "ES00946"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03011"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03021"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03025"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03030"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03034"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03037"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03038"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03039"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03040"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03041"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03042"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03046"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03047"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03051"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03052"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03053"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03056"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03060"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03062"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03065"
+                },
+                {
+                  "type": "store",
+                  "code": "ES03068"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

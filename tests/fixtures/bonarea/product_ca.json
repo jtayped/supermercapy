@@ -1,0 +1,89 @@
+{
+  "article": {
+    "weightGrams": 561,
+    "daysWithoutService": [
+      "1"
+    ],
+    "agrupacions": [],
+    "breadcrumb": [
+      {
+        "descripcio": "Alimentació",
+        "idNivell": "13*300",
+        "url": "~/categories/alimentacio/13_300"
+      },
+      {
+        "descripcio": "Carns i ous",
+        "idNivell": "13*300*010",
+        "url": "~/categories/carns-i-ous/13_300_010"
+      },
+      {
+        "descripcio": "Aus",
+        "idNivell": "13*300*010*010",
+        "url": "~/categories/aus/13_300_010_010"
+      },
+      {
+        "descripcio": "Pollastre",
+        "idNivell": "13*300*010*010*010",
+        "url": "~/categories/pollastre/13_300_010_010_010"
+      }
+    ],
+    "caracteristiques": [
+      {
+        "descripcio": "GARANTIA_BONAREA"
+      },
+      {
+        "descripcio": "BONAREA"
+      },
+      {
+        "descripcio": "BENESTAR_ANIMAL_AENOR"
+      },
+      {
+        "descripcio": "REFRIGERAT"
+      },
+      {
+        "descripcio": "TRACABILITAT"
+      }
+    ],
+    "description": "Ales de pollastre grogues partides",
+    "descriptionCatCastToFind": null,
+    "discount": 0,
+    "nameSubFamilyCatCastToFind": null,
+    "euroUnit": "€/u.",
+    "extendedInfo": "<strong>INFORMACIÓ NUTRICIONAL:</strong><p>Valor mitjà per 100 g de producte: <br>-Valor energètic                      676  kJ,                                      162  kcal<br>-Greixos                             10,0  g, dels quals saturats                    3  g<br>-Hidrats de carboni                   0,0  g, dels quals sucres                      0  g<br>-Proteïnes                           18,0  g<br>-Sal                                  0,2  g</p><br/><strong>INFORMACIÓ ADDICIONAL:</strong><p>Envasat en atmosfera protectora</p><br/><strong>DENOMINACIÓ:</strong><p>Pollastre - Ales partides grogues                   </p><br/><strong>NOM I ADREÇA DE L'OPERADOR:</strong><p>CORPORACIÓN ALIMENTARIA GUISSONA, S.A.<BR>TRASPALAU, 8 - 25210 GUISSONA (LLEIDA)</p><br/><p>*La informació sobre la composició dels ingredients dels productes així com també la informació nutricional dels mateixos que apareixen en aquesta web, pot estar sotmesa a modificacions pendents d'actualització, amb el que recomanem als nostres clients que sempre llegeixin atentament les etiquetes dels productes abans de consumir-los, ja que és on podran trobar-hi la informació més detallada i actualitzada.</p>",
+    "generalInfo": "<strong>DESCRIPCIÓ:</strong><p>Ales de pollastre groc tallades en dues parts, i sense la punta. Producte ideal per fregir, brasa o guisat amb una de les nostres salses bonÀrea. <br><b><a href=\"https://www.bonarea-online.com/ca/shop/recipe/12\" onclick=\"window.open(this.href);return false;\">+ Recepta: Aletes de pollastre marinades amb quinoa</a></b></p><br/><strong>CONSERVACIÓ:</strong><p>Mantenir entre 0 i 4 ºC</p><br/><strong>MODE ÚS:</strong><p>Cuinar abans del seu consum. Un cop obert consumir en 24 hores.</p><br/><strong>ORIGEN:</strong><p>Espanya</p><br/>",
+    "identifier": "13*5361",
+    "image": [
+      "13_5361_1.png"
+    ],
+    "itsOnStock": true,
+    "comeStockData": null,
+    "isAnApproximatePrice": false,
+    "idAgrupacio": null,
+    "isGridBuyAllowed": true,
+    "isValid": true,
+    "javascriptPosition": 0,
+    "linePrice": 0,
+    "maximumStock": 3143,
+    "measurementUnit": "aprox. 561 g",
+    "codeFamilySubfamily": null,
+    "codeGroupFamilySubfamilyWhole": null,
+    "txtActiveGroup": null,
+    "txtActiveFamily": null,
+    "txtActiveSubfamily": null,
+    "nameFamilySubfamily": "Carns i ous",
+    "priceToPay": 2.83,
+    "quantity": 0,
+    "referenceWhereItIsLoaded": null,
+    "unitPrice": "5,05 €/kg",
+    "unitsPurchased": -1,
+    "searchScore": 0,
+    "priorityOrder": 0,
+    "numberExactWordsFind": 0,
+    "gaDescription": "13*5361",
+    "gaNameFamilySubfamily": "13*5361",
+    "findComenzaPer": false,
+    "dropShipping": "",
+    "urlFriendly": "https://www.bonarea-online.com/online/producte/ales-de-pollastre-grogues-partides/13_5361",
+    "unitatMinimaComanda": 1
+  }
+}

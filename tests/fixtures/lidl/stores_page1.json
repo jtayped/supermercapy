@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "created": "2026-09-13T23:58:27Z",
+    "limit": 2,
+    "offset": 0,
+    "total": 3
+  },
+  "items": [
+    {
+      "objectNumber": "ES00219",
+      "storeName": "Bcn-Cartagena",
+      "address": {
+        "streetName": "C/ Cartagena,",
+        "streetNumber": "210",
+        "city": "Barcelona",
+        "zip": "08013",
+        "state": "Cataluña",
+        "longitude": 2.18082,
+        "latitude": 41.40652
+      },
+      "status": {
+        "name": "open"
+      },
+      "openingHours": {
+        "timeZone": "Europe/Madrid",
+        "items": [
+          {
+            "date": "2026-09-13",
+            "timeRanges": [
+              {
+                "from": "2026-09-13T12:00:00",
+                "to": "2026-09-13T19:00:00"
+              }
+            ],
+            "reason": "SUNDAY_PERIOD"
+          }
+        ]
+      },
+      "marketingData": {
+        "offerRegion": 26,
+        "offerRegionName": "Barcelona",
+        "zone": "PEN",
+        "zoneName": "Peninsula",
+        "infoIcons": [
+          {
+            "id": 35,
+            "name": "freeWiFi"
+          },
+          {
+            "id": 13,
+            "name": "shopNGo"
+          }
+        ]
+      }
+    },
+    {
+      "objectNumber": "ES00215",
+      "storeName": "Fraga",
+      "address": {
+        "streetName": "Avda. Madrid,",
+        "streetNumber": "34",
+        "city": "Fraga",
+        "zip": "22520",
+        "state": "Aragón",
+        "longitude": 0.33812,
+        "latitude": 41.5223
+      },
+      "status": {
+        "name": "open"
+      },
+      "openingHours": {
+        "timeZone": "Europe/Madrid",
+        "items": [
+          {
+            "date": "2026-09-13",
+            "timeRanges": [],
+            "reason": "REGULAR"
+          }
+        ]
+      },
+      "marketingData": {
+        "offerRegion": 21,
+        "offerRegionName": "Huesca",
+        "zone": "PEN",
+        "zoneName": "Peninsula",
+        "infoIcons": [
+          {
+            "id": 4,
+            "name": "parking"
+          },
+          {
+            "id": 35,
+            "name": "freeWiFi"
+          }
+        ]
+      }
+    }
+  ]
+}
