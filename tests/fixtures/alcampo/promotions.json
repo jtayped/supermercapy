@@ -1,0 +1,329 @@
+{
+  "productGroups": [
+    {
+      "type": "ON_OFFER",
+      "name": "fop.headertitle.onoffer",
+      "decoratedProducts": [
+        {
+          "productId": "ac0f9237-8b55-4040-a331-201cf2847522",
+          "retailerProductId": "224414",
+          "type": "REGULAR",
+          "name": "SANISOT Maxi rollo de cocina multiusos de doble cara 37,95 m.",
+          "brand": "SANISOT",
+          "packSizeDescription": null,
+          "price": {
+            "amount": 1.0,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "price": {
+              "amount": 1.0,
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each"
+          },
+          "promoUnitPrice": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "promotions": [
+            {
+              "description": "Todo a 1€ (14/09/2026 - 08/10/2026)",
+              "presentationMode": "DEFAULT",
+              "promoId": "d5f6571a-ed6e-4c86-97ef-0e3c3e5c80a6",
+              "requiredProductQuantity": null,
+              "retailerPromotionId": "promo-ui-1109ba88ff8e42a48c835ccf8ac2057f",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/5e473a97-cea8-49fb-9b57-5dd0987dcbf1/300x300.jpg",
+            "description": "SANISOT Maxi rollo de cocina multiusos de doble cara 37,95 m.",
+            "imageId": "5e473a97-cea8-49fb-9b57-5dd0987dcbf1"
+          },
+          "imageIds": [
+            "5e473a97-cea8-49fb-9b57-5dd0987dcbf1"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/5e473a97-cea8-49fb-9b57-5dd0987dcbf1"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": null,
+          "categoryPath": [
+            "Droguería",
+            "Celulosas",
+            "Rollo de Cocina",
+            "Papel de cocina jumbo"
+          ],
+          "ratingSummary": {
+            "count": 4,
+            "overallRating": "1.8"
+          }
+        },
+        {
+          "productId": "b26033aa-e81e-4be5-ab97-367ff075d7ec",
+          "retailerProductId": "50743",
+          "type": "REGULAR",
+          "name": "ESMIAGUA Agua mineral botella de 1,5 L, pack de 6 uds.",
+          "brand": "ESMIAGUA",
+          "packSizeDescription": "9000ml",
+          "price": {
+            "amount": 1.8,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "price": {
+              "amount": 0.2,
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre"
+          },
+          "promoUnitPrice": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "promotions": [
+            {
+              "description": "En pack, más fácil",
+              "presentationMode": "DEFAULT",
+              "promoId": "b845a573-3a93-4242-a6e4-fd8813563348",
+              "requiredProductQuantity": null,
+              "retailerPromotionId": "promo-ui-5c3f226615044d779867d9d654ff6404",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c727f1db-21c1-4171-b011-3600149ad952/300x300.jpg",
+            "description": "ESMIAGUA Agua mineral botella de 1,5 L, pack de 6 uds.",
+            "imageId": "c727f1db-21c1-4171-b011-3600149ad952"
+          },
+          "imageIds": [
+            "c727f1db-21c1-4171-b011-3600149ad952",
+            "cbceb28e-214a-4ced-9dee-8b94488dd2c9"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c727f1db-21c1-4171-b011-3600149ad952",
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/cbceb28e-214a-4ced-9dee-8b94488dd2c9"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": null,
+          "categoryPath": [
+            "Bebidas",
+            "Agua, Soda y Gaseosas",
+            "Aguas sin gas",
+            "Agua botella entre 1 l. y 2,5 l."
+          ],
+          "ratingSummary": {
+            "count": 4,
+            "overallRating": "4.0"
+          }
+        },
+        {
+          "productId": "5d207501-31eb-47b9-a781-c5d55a6cbff4",
+          "retailerProductId": "633548",
+          "type": "REGULAR",
+          "name": "PITAS Huevos de gallina en jaulas acondicionadas clase S 6 uds.",
+          "brand": "PITAS",
+          "packSizeDescription": "6 por envase",
+          "price": {
+            "amount": 1.0,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "price": {
+              "amount": 2.0,
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.dozen"
+          },
+          "promoUnitPrice": null,
+          "available": true,
+          "maxAvailableQuantity": 612,
+          "promotions": [
+            {
+              "description": "Todo a 1€ (14/09/2026 - 08/10/2026)",
+              "presentationMode": "DEFAULT",
+              "promoId": "d5f6571a-ed6e-4c86-97ef-0e3c3e5c80a6",
+              "requiredProductQuantity": null,
+              "retailerPromotionId": "promo-ui-1109ba88ff8e42a48c835ccf8ac2057f",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/3f73530b-5c4f-4c29-9d8c-0f785eb72d4e/300x300.jpg",
+            "description": "PITAS Huevos de gallina en jaulas acondicionadas clase S 6 uds.",
+            "imageId": "3f73530b-5c4f-4c29-9d8c-0f785eb72d4e"
+          },
+          "imageIds": [
+            "3f73530b-5c4f-4c29-9d8c-0f785eb72d4e",
+            "388b2ce2-563b-48fb-af09-825319280e3c"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/3f73530b-5c4f-4c29-9d8c-0f785eb72d4e",
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/388b2ce2-563b-48fb-af09-825319280e3c"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": null,
+          "categoryPath": [
+            "Campañas",
+            "Todo a un EURO",
+            "Leche, huevos, yogures y lácteos",
+            "Huevos"
+          ],
+          "ratingSummary": {
+            "count": 0,
+            "overallRating": "0.0"
+          }
+        },
+        {
+          "productId": "0aa2f831-e1e5-4c48-8be9-a53afb2dc1de",
+          "retailerProductId": "88201",
+          "type": "REGULAR",
+          "name": "NAVIDUL Jamón curado bodega, elaborado sin gluten ni lactosa y cortado en lonchas 45 g.",
+          "brand": "NAVIDUL",
+          "packSizeDescription": "45g",
+          "price": {
+            "amount": 0.9,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "price": {
+              "amount": 0.02,
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.gram"
+          },
+          "promoUnitPrice": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "promotions": [
+            {
+              "description": "Todo a 1€ (14/09/2026 - 08/10/2026)",
+              "presentationMode": "DEFAULT",
+              "promoId": "d5f6571a-ed6e-4c86-97ef-0e3c3e5c80a6",
+              "requiredProductQuantity": null,
+              "retailerPromotionId": "promo-ui-1109ba88ff8e42a48c835ccf8ac2057f",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/a13b4114-58d6-4529-8124-e6b61710d82c/300x300.jpg",
+            "description": "NAVIDUL Jamón curado bodega, elaborado sin gluten ni lactosa y cortado en lonchas 45 g.",
+            "imageId": "a13b4114-58d6-4529-8124-e6b61710d82c"
+          },
+          "imageIds": [
+            "a13b4114-58d6-4529-8124-e6b61710d82c"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/a13b4114-58d6-4529-8124-e6b61710d82c"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": null,
+          "categoryPath": [
+            "Frescos",
+            "Charcutería",
+            "Loncheado curado",
+            "Jamón serrano lonchas"
+          ],
+          "ratingSummary": {
+            "count": 0,
+            "overallRating": "0.0"
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "dd095845-70d3-4701-8f16-2bc5aeb4f564"
+  },
+  "additionalPageInfo": {
+    "breadcrumb": [],
+    "categories": [
+      {
+        "categoryId": "464dc2a7-3e11-4f9c-9979-4b7b7345a1d0",
+        "imageProductId": "fd756cea-fe43-4eb9-abbd-b0bcc21c8899",
+        "localizedMedia": null,
+        "name": "Folletos y Promociones",
+        "productCount": 10232,
+        "retailerCategoryId": "OCFYP"
+      },
+      {
+        "categoryId": "fe16f111-2da2-4c24-9bad-56b10b28b87a",
+        "imageProductId": "52698dec-cd3b-498d-bf11-f3a02ab21825",
+        "localizedMedia": null,
+        "name": "Frescos",
+        "productCount": 5644,
+        "retailerCategoryId": "OC2112"
+      }
+    ],
+    "filters": [
+      {
+        "attributes": [
+          {
+            "filterAttributeId": "PRODUCTO ALCAMPO",
+            "label": "PRODUCTO ALCAMPO",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "NIVEA",
+            "label": "NIVEA",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "PLANETA",
+            "label": "PLANETA",
+            "selected": false
+          }
+        ],
+        "filterId": "brands",
+        "label": "brands",
+        "type": "BRANDS"
+      },
+      {
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nuevo Producto",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "alcampoBrandGeneric",
+            "label": "Marca Alcampo",
+            "selected": false
+          }
+        ],
+        "filterId": "dummyValue",
+        "label": "Filtros",
+        "type": "RETAILER"
+      }
+    ],
+    "sortOptions": [
+      {
+        "messageKey": "sorting.option.favorite",
+        "selected": true,
+        "sortOptionId": "relevance"
+      }
+    ]
+  },
+  "missedPromotions": []
+}

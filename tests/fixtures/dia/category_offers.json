@@ -1,0 +1,119 @@
+{
+ "facets": [
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 28,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI",
+     "url": "/ofertas/L108"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "dia_brand",
+   "field_name": "Marca Dia",
+   "filters": [
+    {
+     "count": 6,
+     "enabled": true,
+     "id": "dia_brand:true:es",
+     "title": "true"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "next_category": {
+  "category_id": "L112",
+  "category_name": "Panadería",
+  "category_offers_url": "/ofertas/L112"
+ },
+ "pagination": {
+  "page_number": 1,
+  "page_size": 0,
+  "total_pages": 2
+ },
+ "plp_items": [
+  {
+   "brand": "Asturiana",
+   "display_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "expiration_days": 0,
+   "headband_promotion": "exclusive_offer",
+   "image": "/product_images/17548P6/17548P6_ISO_0_ES.jpg",
+   "object_id": "17548P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 6,
+    "is_club_price": true,
+    "is_promo_price": true,
+    "measure_unit": "LITRO",
+    "price": 6.54,
+    "price_per_unit": 1.09,
+    "strikethrough_price": 7.02
+   },
+   "promotions": [
+    {
+     "description": "SOLO A 1,09 EUROS LECHE SEMI ASTURIANA 1 L",
+     "only_club_dia": true,
+     "short_description": "LECHE SEMI ASTURIANA"
+    }
+   ],
+   "sku_id": "17548P6",
+   "units_in_cart": 0,
+   "units_in_stock": 299,
+   "url": "/huevos-leche-y-mantequilla/leche/p/17548P6",
+   "weight": 0
+  },
+  {
+   "allergens": [
+    {
+     "name": "Sin gluten"
+    },
+    {
+     "name": "Sin lactosa"
+    }
+   ],
+   "brand": "Alpro",
+   "display_name": "Bebida de almendras Alpro 1 L",
+   "expiration_days": 0,
+   "headband_promotion": "exclusive_online",
+   "image": "/product_images/167442/167442_ISO_0_ES.jpg",
+   "object_id": "167442",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 2.19,
+    "price_per_unit": 2.19,
+    "strikethrough_price": 2.19
+   },
+   "product_info": "Sin lactosa",
+   "promotions": [
+    {
+     "description": "2ª UD AL 50% DTO. SELECCIÓN ALPRO",
+     "exclusive_online": true,
+     "only_club_dia": true,
+     "short_description": "SELECCIÓN ALPRO"
+    }
+   ],
+   "sku_id": "167442",
+   "units_in_cart": 0,
+   "units_in_stock": 105,
+   "url": "/huevos-leche-y-mantequilla/bebidas-vegetales-y-horchatas/p/167442",
+   "weight": 0
+  }
+ ],
+ "query_id": "92a3b491c24951c6b0b286a8bf0c483e",
+ "total_items": 30,
+ "selected_category_id": "L108",
+ "selected_category_name": "Huevos, leche y mantequilla"
+}

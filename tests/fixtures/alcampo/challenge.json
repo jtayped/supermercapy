@@ -1,0 +1,11 @@
+{
+  "status": 202,
+  "headers": {
+    "server": "CloudFront",
+    "content-length": "0",
+    "x-amzn-waf-action": "challenge",
+    "content-type": "text/html; charset=UTF-8",
+    "access-control-expose-headers": "x-amzn-waf-action",
+    "x-cache": "Error from cloudfront"
+  }
+}

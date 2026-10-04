@@ -1,0 +1,116 @@
+{
+  "product": {
+    "productId": "176cfd5e-afa9-4aa1-8b6f-fe3d757c535e",
+    "retailerProductId": "54180",
+    "type": "REGULAR",
+    "name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+    "brand": "PRODUCTO ALCAMPO",
+    "packSizeDescription": "6000ml",
+    "price": {
+      "amount": "5.28",
+      "currency": "EUR"
+    },
+    "unitPrice": {
+      "price": {
+        "amount": "0.88",
+        "currency": "EUR"
+      },
+      "unit": "fop.price.per.litre",
+      "unitName": "PER_LITRE"
+    },
+    "available": true,
+    "promotions": [
+      {
+        "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+        "retailerPromotionId": "1152136_1",
+        "description": "Producto en Folleto (24/09/26_07/10/26)",
+        "type": "OFFER",
+        "presentationMode": "DEFAULT",
+        "requiredProductQuantity": 2,
+        "limitReached": false
+      }
+    ],
+    "image": {
+      "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/1aec1514-3cce-46d9-8133-20fdebbdb2cc/300x300.jpg",
+      "description": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+      "imageId": "1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+    },
+    "imageIds": [
+      "1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+    ],
+    "imagePaths": [
+      "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+    ],
+    "isInCurrentCatalog": true,
+    "isNew": false,
+    "timeRestricted": false,
+    "alcohol": false,
+    "categoryPath": [
+      "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+      "Leche",
+      "Leche semidesnatada"
+    ],
+    "ratingSummary": {
+      "overallRating": "5.0",
+      "count": 1
+    }
+  },
+  "bopData": {
+    "detailedDescription": "Leche semidesnatada UHT: Aporta un equilibrio entre sabor y un menor contenido graso, ideal para el consumo diario.<br>Formato pack 6x1 L: Optimiza la compra y asegura la disponibilidad de leche en la despensa para toda la familia.<br>Fuente de calcio: Contribuye a una dieta equilibrada, siendo un ingrediente básico para desayunos, cafés o recetas.",
+    "fields": [
+      {
+        "title": "brand",
+        "content": "PRODUCTO ALCAMPO"
+      },
+      {
+        "title": "storageAndUsage",
+        "content": "Conservar a temperatura ambiente. Una vez abierto conservar en el frigorífico durante un máximo de 3 días."
+      },
+      {
+        "title": "ingredients",
+        "content": "<h4>Ingredientes:</h4>\n<p>LECHE SEMIDESNATADA DE VACA. ORIGEN DE LA LECHE: ESPAÑA.</p>\n"
+      },
+      {
+        "title": "features",
+        "content": "<table><tbody><tr><td>Nombre operador / Importador</td><td>Alcampo, S.A.</td></tr><tr><td>Dirección operador / Importador</td><td>c/ Santiago de Compostela, Sur s/n, 28029 Madrid</td></tr><tr><td>País de origen</td><td>España</td></tr><tr><td>Denominación legal del alimento</td><td>LECHE UHT SEMIDESNATADA</td></tr><tr><td>Signo de estimación (e)</td><td>No</td></tr><tr><td>Denominación de origen</td><td>España</td></tr><tr><td>Otros datos de Interés</td><td>UHT.</td></tr></tbody></table>"
+      },
+      {
+        "title": "otherInformation",
+        "content": "<div>La leche semidesnatada es una opción versátil y equilibrada para el día a día. Este formato pack de PRODUCTO ALCAMPO te permite tener siempre a mano este alimento fundamental, perfecto para empezar la mañana, preparar un batido o como ingrediente en tus salsas y postres, facilitando la organización de tu compra.</div>\r\n"
+      },
+      {
+        "title": "nutritionalData",
+        "content": "<table><tbody><tr><th>Valores medios por:</th><th>100g</th></tr><tr><td><span>Valor energético (Kj)</span></td><td><span>193.0 Kj</span></td></tr><tr><td><span>Valor energético (Kcal)</span></td><td><span>46.0 Kcal</span></td></tr><tr><td><span>Grasas</span></td><td><span>1.6 g</span></td></tr><tr><td><span>Grasas saturadas</span></td><td><span>1.0 g</span></td></tr><tr><td><span>Hidratos de carbono</span></td><td><span>4.8 g</span></td></tr><tr><td><span>Azúcares</span></td><td><span>4.8 g</span></td></tr><tr><td><span>Proteinas</span></td><td><span>3.2 g</span></td></tr><tr><td><span>Sal</span></td><td><span>0.13 g</span></td></tr><tr><td></td></tr></tbody></table>"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "categoryName": "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+        "categoryId": "e33fcb5b-8a16-4202-b88b-13d7dfc547ce"
+      },
+      {
+        "categoryName": "Leche",
+        "categoryId": "48c34870-c5a3-46c9-870b-590c66fe8848"
+      },
+      {
+        "categoryName": "Leche semidesnatada",
+        "categoryId": "0b0dbaad-0611-4956-8c57-43d48d49f4a8"
+      }
+    ]
+  },
+  "bopPromotions": [
+    {
+      "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+      "retailerPromotionId": "1152136_1",
+      "description": "Producto en Folleto (24/09/26_07/10/26)",
+      "longDescription": "Descubre todos los productos de nuestro folleto vigente.",
+      "type": "OFFER",
+      "presentationMode": "DEFAULT",
+      "limitReached": false,
+      "isMultiBuy": true
+    }
+  ],
+  "similarProducts": [],
+  "relatedProducts": [],
+  "detailedImages": []
+}

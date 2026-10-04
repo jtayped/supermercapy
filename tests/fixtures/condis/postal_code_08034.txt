@@ -1,0 +1,2 @@
+0:{"a":"$@1","f":"","q":"","i":false,"b":"OnBidUfom1roiwTxBcM9C"}
+1:{"postalCode":{"cities":[{"id":"8000","description":"Barcelona","__typename":"City"}],"description":"08034 Les Corts (Pedralbes)","id":"08034","picking_centre_id":"531","__typename":"PostalCodes"},"error":null}

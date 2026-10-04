@@ -1,0 +1,70 @@
+{
+ "cart": {
+  "postal_code": "28041",
+  "total_amount": 0,
+  "total_units": 0
+ },
+ "customer": {},
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "product": {
+  "average_weight": 180,
+  "breadcrumb": [
+   {
+    "link": "/frutas/c/L105",
+    "title": "Frutas"
+   },
+   {
+    "link": "/frutas/platanos-y-bananas/c/L2033",
+    "title": "Plátanos y bananas"
+   }
+  ],
+  "images": [
+   "/product_images/42070/42070_ISO_0_ES.jpg"
+  ],
+  "info_labels": [
+   "Calibre: 20 CM - (=+)",
+   "Categoria: PREMIUM",
+   "Variedad: CAVENDISH",
+   "Origen: VER ENVASE"
+  ],
+  "ingredients": {
+   "text": "<p>BANANA</p>",
+   "title": "Ingredientes"
+  },
+  "instructions": {
+   "instructions_for_preparation": {
+    "title": "Instrucciones de preparación"
+   }
+  },
+  "manufacturer_contact": {
+   "manufacturer_contact_address": "C/F, Nº30/32, 08040, Barcelona",
+   "manufacturer_contact_country": "España",
+   "manufacturer_contact_name": "Hermanos Fernandez Lopez, S.A.U."
+  },
+  "prices": {
+   "currency": "EUR",
+   "measure_unit": "KILO",
+   "price": 1.4,
+   "price_per_unit": 1.55,
+   "strikethrough_price": 1.4
+  },
+  "primary_info": {
+   "title": "Banana granel 900 g aprox."
+  },
+  "product_info": {
+   "description": "BANANA GRANEL",
+   "product": "BANANA GRANEL",
+   "subtitle": "Contenido neto: 1Kg",
+   "variant_description": "Origen"
+  },
+  "seo_text": {
+   "text": "Compra Banana granel 900 g aprox. al mejor precio en la sección de Plátanos y bananas",
+   "title": "Texto SEO"
+  },
+  "sku_id": "42070",
+  "units_in_cart": 0,
+  "units_in_stock": 615,
+  "weight_in_grams": 900
+ }
+}

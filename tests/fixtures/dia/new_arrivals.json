@@ -1,0 +1,145 @@
+{
+ "current_category_url": "/novedades-y-recomendados/novedades/c/L2302",
+ "facets": [
+  {
+   "field": "brand_description",
+   "field_name": "Marca",
+   "filters": [
+    {
+     "count": 1,
+     "enabled": true,
+     "id": "brand_description:Dia:es",
+     "title": "Dia",
+     "url": "/novedades-y-recomendados/novedades/dia/c/12pjF18su"
+    },
+    {
+     "count": 2,
+     "enabled": true,
+     "id": "brand_description:Dia Al Diante:es",
+     "title": "Dia Al Diante",
+     "url": "/novedades-y-recomendados/novedades/dia-al-diante/c/12pjF123j"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 27,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI",
+     "url": "/novedades-y-recomendados/novedades/sin-gluten/c/12pjF1igj"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "item_list_name": "novedades_y_recomendados_novedades",
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 20,
+  "total_pages": 2
+ },
+ "plp_items": [
+  {
+   "brand": "Dia Vegecampo",
+   "display_name": "Pepinillos especiados Dia Vegecampo 190 g",
+   "expiration_days": 0,
+   "image": "/product_images/310173/310173_ISO_0_ES.jpg",
+   "object_id": "310173",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "KILO",
+    "price": 1.65,
+    "price_per_unit": 8.68,
+    "strikethrough_price": 1.65
+   },
+   "sku_id": "310173",
+   "stamp_code": "2",
+   "stamp_color": "#007491",
+   "stamp_description": "Novedad",
+   "stamp_text_color": "#FFFFFF",
+   "units_in_cart": 0,
+   "units_in_stock": 0,
+   "url": "/aperitivos-y-frutos-secos/encurtidos/p/310173",
+   "weight": 0
+  },
+  {
+   "allergens": [
+    {
+     "name": "Sin gluten"
+    }
+   ],
+   "brand": "Dia Salseo",
+   "display_name": "Salsa amatriciana Dia Salseo 350 g",
+   "expiration_days": 0,
+   "image": "/product_images/310294/310294_ISO_0_ES.jpg",
+   "object_id": "310294",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "KILO",
+    "price": 1.99,
+    "price_per_unit": 5.69,
+    "strikethrough_price": 1.99
+   },
+   "sku_id": "310294",
+   "stamp_code": "2",
+   "stamp_color": "#007491",
+   "stamp_description": "Novedad",
+   "stamp_text_color": "#FFFFFF",
+   "units_in_cart": 0,
+   "units_in_stock": 0,
+   "url": "/aceites-salsas-y-especias/salsas-de-tomate-y-pasta/p/310294",
+   "weight": 0
+  }
+ ],
+ "product_marking": {
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "item": {
+     "@type": "Product",
+     "image": "https://www.dia.es/product_images/310173/310173_ISO_0_ES.jpg",
+     "name": "Pepinillos especiados Dia Vegecampo 190 g",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/OutOfStock",
+      "price": 1.65,
+      "priceCurrency": "EUR"
+     }
+    },
+    "position": 1,
+    "url": "https://www.dia.es/aperitivos-y-frutos-secos/encurtidos/p/310173"
+   }
+  ],
+  "numberOfItems": 38,
+  "url": "https://www.dia.es/novedades-y-recomendados/novedades/c/L2302"
+ },
+ "query_id": "60bfa3cd173506b406be4af0cc285f34",
+ "remove_filters_uri": "/novedades-y-recomendados/novedades/c/L2302",
+ "selected_category_id": "L2302",
+ "seo": {
+  "current_category_name": "Novedades",
+  "description": "Novedades",
+  "h1": "Novedades",
+  "title": "Novedades"
+ },
+ "sort": {
+  "direction": "desc",
+  "field": "rating"
+ },
+ "total_items": 38
+}

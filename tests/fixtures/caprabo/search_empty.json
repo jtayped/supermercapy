@@ -1,0 +1,16 @@
+{
+ "content": "",
+ "_tapestry": {
+  "inits": [
+   [
+    "components/product/productList:init",
+    "https://www.capraboacasa.com:443/es/search/results.productlist:showseller?q=zzzqqqxx"
+   ],
+   [
+    "common/tracking:init",
+    "{\"event\":\"view_item_list\"}"
+   ],
+   "pages/supermarket:finishPagination"
+  ]
+ }
+}

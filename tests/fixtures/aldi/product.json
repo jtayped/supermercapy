@@ -1,0 +1,90 @@
+{
+ "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.\nPor razones climatológicas puede no encontrarse disponible este artículo en tienda.",
+ "isAvailable": true,
+ "isRecall": false,
+ "currentPrice": {
+  "priceValue": 1.49,
+  "strikePrice": {
+   "strikePriceValue": 1.89
+  },
+  "basePrice": [
+   {
+    "basePriceValue": 2.98,
+    "basePriceScale": "kg"
+   }
+  ],
+  "priceTagLabels": {
+   "promoText1": "-21%"
+  },
+  "validFrom": 1791151200,
+  "validUntil": 1791755999
+ },
+ "shortDescription": "Origen: España\nVariedad: TimpsonSweetGlobe, Ivory, Itum, SugarCrispSweetGlobeI, IGC7\nCategoría: I",
+ "productSlug": "uva-de-mesa-blanca-sin-semillas-995700",
+ "hierarchicalCategories": {
+  "lvl0": [
+   "Fruta y verdura"
+  ],
+  "lvl1": [
+   "Fruta y verdura > Fruta"
+  ]
+ },
+ "promotionPrices": [
+  {
+   "validFrom": 1791151200,
+   "validUntil": 1791755999,
+   "priceValue": 1.49,
+   "strikePrice": {
+    "strikePriceValue": 1.89
+   },
+   "basePrice": [
+    {
+     "basePriceValue": 2.98,
+     "basePriceScale": "kg"
+    }
+   ],
+   "priceTagLabels": {
+    "promoText1": "-21%"
+   },
+   "validFromLocalDate": "2026-10-05",
+   "validUntilLocalDate": "2026-10-11"
+  }
+ ],
+ "isComingSoon": false,
+ "categoryIDs": [
+  "frutas"
+ ],
+ "assets": [
+  {
+   "type": "primary",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/9957_granel_0_0_es_es_uvas_blancas_2026_cw06",
+   "title": "Uva de mesa blanca sin semillas | ALDI Supermercados",
+   "altText": "Uva de mesa blanca sin semillas | ALDI Supermercados",
+   "isAiGenerated": false
+  },
+  {
+   "type": "gallery",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/9957_granel_0_0_es_es_uva_blanca_sin_pepita_2025_cw43",
+   "title": "Uva de mesa blanca sin semillas | ALDI Supermercados",
+   "altText": "Uva de mesa blanca sin semillas | ALDI Supermercados",
+   "isAiGenerated": false
+  },
+  {
+   "type": "certificate",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional",
+   "title": "Origen nacional | ALDI Supermercados",
+   "altText": "Origen nacional | ALDI Supermercados",
+   "isAiGenerated": false
+  }
+ ],
+ "salesUnit": "500 g unidad",
+ "productReferences": [
+  {
+   "type": "KVArticleNumber",
+   "value": "9957"
+  }
+ ],
+ "name": "Uva de mesa blanca sin semillas",
+ "mainCategoryID": "frutas",
+ "objectID": "995700"
+}

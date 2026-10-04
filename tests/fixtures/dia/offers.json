@@ -1,0 +1,125 @@
+{
+ "facets": [
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 146,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "dia_brand",
+   "field_name": "Marca Dia",
+   "filters": [
+    {
+     "count": 41,
+     "enabled": true,
+     "id": "dia_brand:true:es",
+     "title": "true"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "current_page": "L128,L104",
+  "next_page": "L102,L103"
+ },
+ "plp_items": [
+  {
+   "category_id": "L128",
+   "category_name": "Novedades y recomendados",
+   "has_more_items": true,
+   "items": [
+    {
+     "brand": "Dia Al Punto",
+     "display_name": "Pizza jamón y queso Dia Al Punto 400 g",
+     "expiration_days": 0,
+     "headband_promotion": "exclusive_offer",
+     "image": "/product_images/30479/30479_ISO_0_ES.jpg",
+     "object_id": "30479",
+     "prices": {
+      "currency": "EUR",
+      "discount_percentage": 23,
+      "is_club_price": false,
+      "is_promo_price": true,
+      "measure_unit": "KILO",
+      "price": 1.85,
+      "price_per_unit": 4.63,
+      "strikethrough_price": 2.41
+     },
+     "promotions": [
+      {
+       "description": "SOLO A 1,85 EUR PIZZA JAM-QUES AL PUNTO 400 G",
+       "short_description": "PIZZA JAMÓN Y QUESO"
+      }
+     ],
+     "sku_id": "30479",
+     "units_in_cart": 0,
+     "units_in_stock": 165,
+     "url": "/platos-preparados-y-pizzas/pizzas-refrigeradas/p/30479",
+     "weight": 0
+    }
+   ],
+   "link": "/ofertas/L128",
+   "query_id": "6dcbf2c3ea37ad148a359cdf77ca3796"
+  },
+  {
+   "category_id": "L104",
+   "category_name": "Verduras",
+   "items": [
+    {
+     "brand": "Dia Vegecampo",
+     "display_name": "Menestra de verduras Dia Vegecampo 1 Kg",
+     "expiration_days": 0,
+     "headband_promotion": "exclusive_offer",
+     "image": "/product_images/1389/1389_ISO_0_ES.jpg",
+     "object_id": "1389",
+     "prices": {
+      "currency": "EUR",
+      "discount_percentage": 20,
+      "is_club_price": true,
+      "is_promo_price": true,
+      "measure_unit": "KILO",
+      "price": 1.4,
+      "price_per_unit": 1.4,
+      "strikethrough_price": 1.75
+     },
+     "promotions": [
+      {
+       "description": "20% DTO. MENESTRA VERDURAS DIA VEGECAMPO 1KG",
+       "only_club_dia": true,
+       "short_description": "MENESTRA VERDURA DIA"
+      }
+     ],
+     "sku_id": "1389",
+     "stamp_code": "1",
+     "stamp_color": "#FAAA0D",
+     "stamp_description": "Air Fryer",
+     "stamp_text_color": "#FFFFFF",
+     "units_in_cart": 0,
+     "units_in_stock": 74,
+     "url": "/congelados-y-helados/verduras-y-patatas/p/1389",
+     "weight": 0
+    }
+   ],
+   "link": "/ofertas/L104",
+   "query_id": "38026fceb7a25ebc631716590c36d106"
+  }
+ ],
+ "seo": {
+  "current_category_name": "Ofertas",
+  "description": "En DIA puedes encontrar las mejores ofertas para los productos que necesitas en el día a día. ¿A qué estás esperando?",
+  "h1": "Ofertas",
+  "title": "Ofertas DIA Online | Supermercados DIA"
+ },
+ "total_items": 243,
+ "selected_category_id": "L150"
+}

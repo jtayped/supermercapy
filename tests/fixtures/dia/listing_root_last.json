@@ -1,0 +1,93 @@
+{
+ "current_category": "L131",
+ "current_subcategory": {
+  "id": "L2340",
+  "link": "/salud-y-parafarmacia/protector-solar/c/L2340",
+  "name": "Protector solar",
+  "query_id": "4002ed5c4d26941f8afd75d26e2b0b13",
+  "total_items": 23
+ },
+ "facets": [
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 73,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "dia_brand",
+   "field_name": "Marca Dia",
+   "filters": [
+    {
+     "count": 33,
+     "enabled": true,
+     "id": "dia_brand:true:es",
+     "title": "true"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "items": [
+  {
+   "brand": "Nivea",
+   "display_name": "Protector solar protege & hidrata spf 30 Nivea 270 ml",
+   "expiration_days": 0,
+   "image": "/product_images/293271/293271_ISO_0_ES.jpg",
+   "object_id": "293271",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "100 ML.",
+    "price": 14.49,
+    "price_per_unit": 5.37,
+    "strikethrough_price": 14.49
+   },
+   "sku_id": "293271",
+   "units_in_cart": 0,
+   "units_in_stock": 6,
+   "url": "/salud-y-parafarmacia/protector-solar/p/293271",
+   "weight": 0
+  },
+  {
+   "brand": "Dia Imaqe",
+   "display_name": "Leche solar sensitive spf 50+ Dia Imaqe 250 ml",
+   "expiration_days": 0,
+   "image": "/product_images/274483/274483_ISO_0_ES.jpg",
+   "object_id": "274483",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "100 ML.",
+    "price": 6.99,
+    "price_per_unit": 2.8,
+    "strikethrough_price": 6.99
+   },
+   "sku_id": "274483",
+   "units_in_cart": 0,
+   "units_in_stock": 6,
+   "url": "/salud-y-parafarmacia/protector-solar/p/274483",
+   "weight": 0
+  }
+ ],
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "seo": {
+  "current_category_name": "Salud y parafarmacia",
+  "description": "Salud y parafarmacia",
+  "h1": "Salud y parafarmacia",
+  "title": "Salud y parafarmacia"
+ },
+ "total_items": 74
+}

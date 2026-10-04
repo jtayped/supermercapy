@@ -1,0 +1,233 @@
+{
+  "catalog": {
+    "content": [
+      {
+        "without_gluten": 0,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ]
+        },
+        "volumeLimited": false,
+        "description": "CHOCOLATE LINDT EXCELLENCE 90% 100 G",
+        "pum": "54,90€/Kilo",
+        "section": "Mundo placer",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 48.0,
+        "variety": "Chocolate negro",
+        "price": {
+          "discounted": 5.49,
+          "current": 5.49,
+          "regular": 5.99
+        },
+        "state": "ACTIVE",
+        "id": "204265",
+        "brand": "LINDT",
+        "on_sale": true,
+        "is_novelty": false,
+        "large_promotion_media": "/images/product_icons_corner/promocion_50.png",
+        "images": [
+          "/images/catalog/large/204265.jpg"
+        ],
+        "externalId": "204265",
+        "on_promotion": true,
+        "url": "/chocolate-lindt-excellence-90%-100-g/p/204265/es_ES",
+        "delivery48h": false,
+        "condis_brand": 0,
+        "kcal": 592,
+        "has_lowered_price": false,
+        "promotions": [
+          {
+            "name": "Todas nuestras ofertas y promociones",
+            "id": "promo-ofertas"
+          },
+          {
+            "name": "Promociones Segunda Unidad 50%",
+            "id": "promo-segunda-unidad-50"
+          }
+        ],
+        "netWeight": 100,
+        "product_type": "product",
+        "mobile_promotion_media": "/images/product_icons_corner/mobile_promocion_50_grande.png",
+        "without_lactose": 0,
+        "parentCategory": "c02__cat00110002",
+        "ranking": 5639,
+        "isEco": false,
+        "family": "Chocolate y bombones",
+        "category": [
+          "Chocolate y bombones",
+          "Chocolate negro",
+          "Mundo placer"
+        ],
+        "isPrime": true,
+        "altImages": [
+          "204265.jpg"
+        ],
+        "promotion_text": "2ªu  50%,prod.-valor"
+      },
+      {
+        "without_gluten": 1,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            },
+            {
+              "image": "/images/product_icons/no_gluten.png",
+              "text": "Producto sin gluten"
+            },
+            {
+              "image": "/images/product_icons/marca_propia.png",
+              "text": "Marca propia"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            },
+            {
+              "image": "/images/product_icons/no_gluten_big.png",
+              "text": "Producto sin gluten"
+            },
+            {
+              "image": "/images/product_icons/marca_propia_big.png",
+              "text": "Marca propia"
+            }
+          ]
+        },
+        "pum": "33,13€/Kilo",
+        "volumeLimited": false,
+        "description": "SALCHICHÓN CONDIS PÉTALOS 50% IBÉRICO 80 G",
+        "section": "Frescos",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 34.0,
+        "variety": "Fuet, salchichón y salami",
+        "price": {
+          "current": 2.65,
+          "regular": 2.65
+        },
+        "id": "431090",
+        "state": "ACTIVE",
+        "brand": "CONDIS",
+        "on_sale": false,
+        "is_novelty": false,
+        "large_promotion_media": "/images/product_icons_corner/promocion_70.png",
+        "images": [
+          "/images/catalog/large/431090.jpg"
+        ],
+        "externalId": "431090",
+        "on_promotion": true,
+        "url": "/salchichón-condis-pétalos-50%-ibérico-80-g/p/431090/es_ES",
+        "delivery48h": false,
+        "kcal": 498,
+        "condis_brand": 1,
+        "has_lowered_price": false,
+        "promotions": [
+          {
+            "name": "Todas nuestras ofertas y promociones",
+            "id": "promo-ofertas"
+          },
+          {
+            "name": "Promociones segunda unidad 70%",
+            "id": "promo-segunda-unidad-70"
+          }
+        ],
+        "netWeight": 80,
+        "product_type": "product",
+        "mobile_promotion_media": "/images/product_icons_corner/mobile_promocion_70_grande.png",
+        "without_lactose": 0,
+        "parentCategory": "c03__cat00100002",
+        "ranking": 3209,
+        "isEco": false,
+        "category": [
+          "Fuet, salchichón y salami",
+          "Charcutería",
+          "Frescos"
+        ],
+        "family": "Charcutería",
+        "isPrime": true,
+        "altImages": [
+          "431090.jpg"
+        ],
+        "promotion_text": "2ªu  70%,prod.-valor"
+      }
+    ],
+    "pagination": {
+      "rows": 24,
+      "total": 569,
+      "start": 0
+    },
+    "numFound": 569,
+    "facets": [
+      {
+        "facet": "facetCategory",
+        "filter": "filterCategory",
+        "label": "facetCategory",
+        "type": "hierarchical",
+        "values": [
+          {
+            "id": "c01",
+            "value": "Alimentación",
+            "count": 113,
+            "filter": "filterCategory:c01"
+          },
+          {
+            "id": "c08",
+            "value": "Perfumeria e higiene",
+            "count": 106,
+            "filter": "filterCategory:c08"
+          }
+        ]
+      },
+      {
+        "facet": "is_novelty",
+        "filter": "is_novelty",
+        "label": "is_novelty",
+        "type": "value",
+        "values": [
+          {
+            "id": "false",
+            "value": "false",
+            "count": 569,
+            "filter": "is_novelty:false"
+          }
+        ]
+      },
+      {
+        "facet": "on_sale",
+        "filter": "on_sale",
+        "label": "on_sale",
+        "type": "value",
+        "values": [
+          {
+            "id": "false",
+            "value": "false",
+            "count": 567,
+            "filter": "on_sale:false"
+          },
+          {
+            "id": "true",
+            "value": "true",
+            "count": 2,
+            "filter": "on_sale:true"
+          }
+        ]
+      }
+    ]
+  }
+}

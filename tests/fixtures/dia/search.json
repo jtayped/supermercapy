@@ -1,0 +1,180 @@
+{
+ "cart": {
+  "postal_code": "28041",
+  "total_amount": 0,
+  "total_units": 0
+ },
+ "facets": [
+  {
+   "field": "brand_description",
+   "field_name": "Marca",
+   "filters": [
+    {
+     "count": 1,
+     "enabled": true,
+     "title": "Alpro"
+    },
+    {
+     "count": 11,
+     "enabled": true,
+     "title": "Asturiana"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "caffeine_free",
+   "field_name": "Sin cafeina",
+   "filters": [
+    {
+     "count": 55,
+     "enabled": true,
+     "title": "No Aplica"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 30,
+  "total_pages": 2
+ },
+ "query_id": "f6771414e966becf09081a3f16943ad6",
+ "search_items": [
+  {
+   "allergens": [
+    {
+     "name": "Sin lactosa"
+    }
+   ],
+   "brand": "Dia Láctea",
+   "brand_type": "D",
+   "dia_brand": true,
+   "display_name": "Leche semidesnatada sin lactosa Dia Láctea pack 6 x 1 L",
+   "headband_promotion": "exclusive_offer",
+   "image": "/product_images/130063P6/130063P6_ISO_0_ES.jpg",
+   "l1_category_description": "Huevos, leche y mantequilla",
+   "l2_category_description": "Leche sin lactosa y enriquecidas",
+   "object_id": "130063P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 5,
+    "is_club_price": true,
+    "is_promo_price": true,
+    "measure_unit": "LITRO",
+    "price": 5.34,
+    "price_per_unit": 0.89,
+    "strikethrough_price": 5.64
+   },
+   "product_info": "Sin lactosa",
+   "promotions": [
+    {
+     "description": "SOLO A 0,89 EUR LECHE S.L. SEM DIA LÁCTEA 1 L",
+     "only_club_dia": true,
+     "short_description": "LECHE S/LACTOSA SEMI"
+    }
+   ],
+   "sku_id": "130063P6",
+   "stamp_code": "4",
+   "stamp_color": "#007491",
+   "stamp_description": "Mejor valorado",
+   "stamp_text_color": "#FFFFFF",
+   "units_in_cart": 0,
+   "units_in_stock": 259,
+   "url": "/huevos-leche-y-mantequilla/leche-sin-lactosa-y-enriquecidas/p/130063P6"
+  },
+  {
+   "allergens": [
+    {
+     "name": "Sin lactosa"
+    }
+   ],
+   "brand": "Asturiana",
+   "brand_type": "N",
+   "display_name": "Leche semidesnatada sin lactosa Asturiana pack 6 x 1 L",
+   "image": "/product_images/148777P6/148777P6_ISO_0_ES.jpg",
+   "l1_category_description": "Huevos, leche y mantequilla",
+   "l2_category_description": "Leche sin lactosa y enriquecidas",
+   "object_id": "148777P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 8.22,
+    "price_per_unit": 1.37,
+    "strikethrough_price": 8.22
+   },
+   "product_info": "Sin lactosa",
+   "sku_id": "148777P6",
+   "units_in_cart": 0,
+   "units_in_stock": 110,
+   "url": "/huevos-leche-y-mantequilla/leche-sin-lactosa-y-enriquecidas/p/148777P6"
+  },
+  {
+   "brand": "Dia Láctea",
+   "brand_type": "D",
+   "dia_brand": true,
+   "display_name": "Leche semidesnatada sin lactosa Dia Láctea 3 x 200 ml",
+   "image": "/product_images/309574/309574_ISO_0_ES.jpg",
+   "l1_category_description": "Huevos, leche y mantequilla",
+   "l2_category_description": "Leche sin lactosa y enriquecidas",
+   "object_id": "309574",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 0.95,
+    "price_per_unit": 1.58,
+    "strikethrough_price": 0.95
+   },
+   "sku_id": "309574",
+   "units_in_cart": 0,
+   "units_in_stock": 35,
+   "url": "/huevos-leche-y-mantequilla/leche-sin-lactosa-y-enriquecidas/p/309574"
+  },
+  {
+   "average_weight": 180,
+   "brand_type": "N",
+   "display_name": "Banana granel 900 g aprox.",
+   "image": "/product_images/42070/42070_ISO_0_ES.jpg",
+   "l1_category_description": "Frutas",
+   "l2_category_description": "Plátanos y bananas",
+   "object_id": "42070",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "KILO",
+    "price": 1.4,
+    "price_per_unit": 1.55,
+    "strikethrough_price": 1.4
+   },
+   "sku_id": "42070",
+   "units_in_cart": 0,
+   "units_in_stock": 616,
+   "url": "/frutas/platanos-y-bananas/p/42070",
+   "weight_in_grams": 900
+  }
+ ],
+ "sort": {
+  "direction": "desc",
+  "field": "rating"
+ },
+ "suggestions": {
+  "words": [
+   {
+    "formatted": "+ semidesnatada",
+    "original": "leche sin lactosa semidesnatada"
+   }
+  ]
+ },
+ "total_items": 58
+}

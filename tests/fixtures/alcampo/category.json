@@ -1,0 +1,364 @@
+{
+  "productGroups": [
+    {
+      "type": "on_offer",
+      "name": "fop.headertitle.onoffer",
+      "decoratedProducts": [
+        {
+          "productId": "9c878ad5-703d-4005-9840-f237a2c05e1b",
+          "retailerProductId": "74694",
+          "type": "CATCHWEIGHT",
+          "name": "Manzanas golden al peso.",
+          "brand": "MIS FRUTAS SELECCIONADAS",
+          "packSizeDescription": "750g - 1250g",
+          "price": {
+            "amount": "1.69",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.69",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+              "retailerPromotionId": "1152136_1",
+              "description": "Producto en Folleto (24/09/26_07/10/26)",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/04ed7766-bc6c-4a20-a647-274988317fc3/300x300.jpg",
+            "description": "Manzanas golden al peso.",
+            "imageId": "04ed7766-bc6c-4a20-a647-274988317fc3"
+          },
+          "imageIds": [
+            "04ed7766-bc6c-4a20-a647-274988317fc3"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/04ed7766-bc6c-4a20-a647-274988317fc3"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": {
+            "minQuantity": {
+              "value": "750",
+              "uom": "G"
+            },
+            "typicalQuantity": {
+              "value": "1000",
+              "uom": "G"
+            },
+            "maxQuantity": {
+              "value": "1250",
+              "uom": "G"
+            }
+          },
+          "categoryPath": [
+            "Frescos",
+            "Frutas",
+            "Peras y Manzanas",
+            "Manzanas"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    },
+    {
+      "type": "ungrouped",
+      "name": "fop.headertitle.other",
+      "decoratedProducts": [
+        {
+          "productId": "983c5b9d-3eb9-44c0-83b4-cddfb7693bfd",
+          "retailerProductId": "55452",
+          "type": "CATCHWEIGHT",
+          "name": "Plátano Canario IGP extra bolsa.",
+          "brand": "FRUTA",
+          "packSizeDescription": "750g - 1250g",
+          "price": {
+            "amount": "2.25",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "2.25",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9e7215d8-ee89-46f4-a8a5-db4f22e7bc97/300x300.jpg",
+            "description": "Plátano Canario IGP extra bolsa.",
+            "imageId": "9e7215d8-ee89-46f4-a8a5-db4f22e7bc97"
+          },
+          "imageIds": [
+            "9e7215d8-ee89-46f4-a8a5-db4f22e7bc97"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/9e7215d8-ee89-46f4-a8a5-db4f22e7bc97"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": {
+            "minQuantity": {
+              "value": "750",
+              "uom": "G"
+            },
+            "typicalQuantity": {
+              "value": "1000",
+              "uom": "G"
+            },
+            "maxQuantity": {
+              "value": "1250",
+              "uom": "G"
+            }
+          },
+          "categoryPath": [
+            "Frescos",
+            "Frutas",
+            "Plátanos y Bananas"
+          ],
+          "ratingSummary": {
+            "overallRating": "1.0",
+            "count": 4
+          }
+        },
+        {
+          "productId": "52698dec-cd3b-498d-bf11-f3a02ab21825",
+          "retailerProductId": "59772",
+          "type": "CATCHWEIGHT",
+          "name": "Banana al peso.",
+          "brand": "MIS FRUTAS SELECCIONADAS",
+          "packSizeDescription": "750g - 1250g",
+          "price": {
+            "amount": "1.47",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.47",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/8c930694-a2f9-4f99-8074-23555eb4f728/300x300.jpg",
+            "description": "Banana al peso.",
+            "imageId": "8c930694-a2f9-4f99-8074-23555eb4f728"
+          },
+          "imageIds": [
+            "8c930694-a2f9-4f99-8074-23555eb4f728"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/8c930694-a2f9-4f99-8074-23555eb4f728"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": {
+            "minQuantity": {
+              "value": "750",
+              "uom": "G"
+            },
+            "typicalQuantity": {
+              "value": "1000",
+              "uom": "G"
+            },
+            "maxQuantity": {
+              "value": "1250",
+              "uom": "G"
+            }
+          },
+          "categoryPath": [
+            "Frescos",
+            "Frutas",
+            "Plátanos y Bananas"
+          ],
+          "ratingSummary": {
+            "overallRating": "2.0",
+            "count": 4
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {},
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [],
+        "name": "Frutas y Verduras CALIDAD EXTRA",
+        "categoryId": "6fb3fff5-976a-47ee-984f-45da0619082a",
+        "productCount": 12,
+        "imageProductId": "569c10a8-1331-4035-aa93-54aac7aba92e",
+        "breadcrumbs": [
+          {
+            "name": "Frescos",
+            "categoryId": "fe16f111-2da2-4c24-9bad-56b10b28b87a",
+            "retailerCategoryId": "OC2112"
+          },
+          {
+            "name": "Frutas",
+            "categoryId": "25fd70b8-959e-4633-b14a-0cee7cd3669a",
+            "retailerCategoryId": "OC1701"
+          },
+          {
+            "name": "Frutas y Verduras CALIDAD EXTRA",
+            "categoryId": "6fb3fff5-976a-47ee-984f-45da0619082a",
+            "retailerCategoryId": "OCFyVpremium"
+          }
+        ],
+        "retailerCategoryId": "OCFyVpremium"
+      },
+      {
+        "childCategories": [],
+        "name": "Sandías y Melones",
+        "categoryId": "8a4e5382-e570-4025-baf7-184f4a7b3de9",
+        "productCount": 10,
+        "imageProductId": "b8992a96-f426-42e0-a1cc-394712a31a6d",
+        "breadcrumbs": [
+          {
+            "name": "Frescos",
+            "categoryId": "fe16f111-2da2-4c24-9bad-56b10b28b87a",
+            "retailerCategoryId": "OC2112"
+          },
+          {
+            "name": "Frutas",
+            "categoryId": "25fd70b8-959e-4633-b14a-0cee7cd3669a",
+            "retailerCategoryId": "OC1701"
+          },
+          {
+            "name": "Sandías y Melones",
+            "categoryId": "8a4e5382-e570-4025-baf7-184f4a7b3de9",
+            "retailerCategoryId": "OC170110"
+          }
+        ],
+        "retailerCategoryId": "OC170110"
+      }
+    ],
+    "filters": [
+      {
+        "filterId": "boolean",
+        "label": "boolean",
+        "attributes": [
+          {
+            "filterAttributeId": "onOffer",
+            "label": "onOffer",
+            "selected": false
+          }
+        ],
+        "type": "BOOLEAN"
+      },
+      {
+        "filterId": "brands",
+        "label": "brands",
+        "attributes": [
+          {
+            "filterAttributeId": "FRUTA",
+            "label": "FRUTA",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "MIS FRUTAS SELECCIONADAS",
+            "label": "MIS FRUTAS SELECCIONADAS",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "ZESPRI",
+            "label": "ZESPRI",
+            "selected": false
+          }
+        ],
+        "type": "BRANDS"
+      },
+      {
+        "filterId": "dummyValue",
+        "label": "Filtros",
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nuevo Producto",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "alcampoBrandGeneric",
+            "label": "Marca Alcampo",
+            "selected": false
+          }
+        ],
+        "type": "RETAILER"
+      }
+    ],
+    "advertisingBanners": [],
+    "breadcrumb": [
+      {
+        "name": "Frescos",
+        "categoryId": "fe16f111-2da2-4c24-9bad-56b10b28b87a",
+        "retailerCategoryId": "OC2112"
+      },
+      {
+        "name": "Frutas",
+        "categoryId": "25fd70b8-959e-4633-b14a-0cee7cd3669a",
+        "retailerCategoryId": "OC1701"
+      }
+    ],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      },
+      {
+        "sortOptionId": "pricePerAscending",
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "pricePerDescending",
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceAscending",
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceDescending",
+        "messageKey": "sorting.option.price.descending",
+        "selected": false
+      }
+    ],
+    "currentCategory": {
+      "name": "Frutas",
+      "categoryId": "25fd70b8-959e-4633-b14a-0cee7cd3669a",
+      "productCount": 235,
+      "imageProductId": "52698dec-cd3b-498d-bf11-f3a02ab21825",
+      "retailerCategoryId": "OC1701"
+    }
+  },
+  "missedPromotions": []
+}

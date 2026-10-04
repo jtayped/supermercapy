@@ -1,0 +1,196 @@
+{
+  "catalog": {
+    "content": [
+      {
+        "without_gluten": 0,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ]
+        },
+        "pum": "7,67€/Kilo",
+        "volumeLimited": false,
+        "description": "COMIDA PERRO ULTIMA SALMÓN 150 G",
+        "section": "Mundo mascota",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 45.0,
+        "variety": "Alimentos humedecidos para perros",
+        "price": {
+          "discounted": 1.15,
+          "current": 1.15,
+          "regular": 1.35
+        },
+        "id": "109472",
+        "state": "ACTIVE",
+        "brand": "ULTIMA DOG",
+        "on_sale": true,
+        "is_novelty": true,
+        "large_promotion_media": "/images/product_icons_corner/novedad_grande.png",
+        "images": [
+          "/images/catalog/large/109472.jpg"
+        ],
+        "externalId": "109472",
+        "on_promotion": false,
+        "url": "/comida-perro-ultima-salmón-150-g/p/109472/es_ES",
+        "delivery48h": false,
+        "condis_brand": 0,
+        "has_lowered_price": false,
+        "promotions": [],
+        "netWeight": 0.15,
+        "product_type": "product",
+        "mobile_promotion_media": "/images/product_icons_corner/mobile_novedad_grande.png",
+        "without_lactose": 0,
+        "parentCategory": "c11__cat00040004",
+        "ranking": 5107,
+        "isEco": false,
+        "category": [
+          "Alimentos para perros",
+          "Mundo mascota",
+          "Alimentos humedecidos para perros"
+        ],
+        "family": "Alimentos para perros",
+        "isPrime": true,
+        "altImages": [
+          "109472.jpg"
+        ],
+        "promotion_text": "Novedad"
+      },
+      {
+        "without_gluten": 0,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ]
+        },
+        "pum": "0,76€/Unidad",
+        "volumeLimited": false,
+        "description": "VELA N.6 ANIVERSARIO 1 UNI",
+        "section": "Limpieza y hogar",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 21.0,
+        "variety": "Velas y incienso",
+        "price": {
+          "current": 0.76,
+          "regular": 0.76
+        },
+        "id": "810125",
+        "state": "ACTIVE",
+        "brand": "SIN MARCA",
+        "on_sale": false,
+        "is_novelty": true,
+        "large_promotion_media": "/images/product_icons_corner/novedad_grande.png",
+        "images": [
+          "/images/catalog/large/810125.jpg"
+        ],
+        "externalId": "810125",
+        "on_promotion": false,
+        "url": "/vela-n.6-aniversario-1-uni/p/810125/es_ES",
+        "delivery48h": false,
+        "condis_brand": 0,
+        "has_lowered_price": false,
+        "promotions": [],
+        "product_type": "product",
+        "mobile_promotion_media": "/images/product_icons_corner/mobile_novedad_grande.png",
+        "without_lactose": 0,
+        "parentCategory": "c09__cat00010004",
+        "ranking": 4215,
+        "isEco": false,
+        "category": [
+          "Básicos en el hogar",
+          "Velas y incienso",
+          "Limpieza y hogar"
+        ],
+        "family": "Básicos en el hogar",
+        "isPrime": true,
+        "altImages": [
+          "810125.jpg"
+        ],
+        "promotion_text": "Novedad"
+      }
+    ],
+    "pagination": {
+      "rows": 24,
+      "total": 57,
+      "start": 0
+    },
+    "numFound": 57,
+    "facets": [
+      {
+        "facet": "facetCategory",
+        "filter": "filterCategory",
+        "label": "facetCategory",
+        "type": "hierarchical",
+        "values": [
+          {
+            "id": "c01",
+            "value": "Alimentación",
+            "count": 18,
+            "filter": "filterCategory:c01"
+          },
+          {
+            "id": "c02",
+            "value": "Mundo placer",
+            "count": 16,
+            "filter": "filterCategory:c02"
+          }
+        ]
+      },
+      {
+        "facet": "is_novelty",
+        "filter": "is_novelty",
+        "label": "is_novelty",
+        "type": "value",
+        "values": [
+          {
+            "id": "true",
+            "value": "true",
+            "count": 57,
+            "filter": "is_novelty:true"
+          }
+        ]
+      },
+      {
+        "facet": "on_sale",
+        "filter": "on_sale",
+        "label": "on_sale",
+        "type": "value",
+        "values": [
+          {
+            "id": "false",
+            "value": "false",
+            "count": 56,
+            "filter": "on_sale:false"
+          },
+          {
+            "id": "true",
+            "value": "true",
+            "count": 1,
+            "filter": "on_sale:true"
+          }
+        ]
+      }
+    ]
+  }
+}

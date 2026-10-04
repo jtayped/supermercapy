@@ -1,0 +1,22 @@
+{
+ "cart": {
+  "postal_code": "28041",
+  "total_amount": 0,
+  "total_units": 0
+ },
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 30,
+  "total_pages": 0
+ },
+ "query_id": "a378dd8129edfeffc0f174c0cef4465b",
+ "search_items": [],
+ "sort": {
+  "direction": "desc",
+  "field": "rating"
+ },
+ "suggestions": {},
+ "total_items": 0
+}

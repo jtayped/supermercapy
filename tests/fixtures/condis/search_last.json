@@ -1,0 +1,207 @@
+{
+  "catalog": {
+    "content": [
+      {
+        "without_gluten": 0,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            }
+          ]
+        },
+        "pum": "10,29€/Kilo",
+        "volumeLimited": false,
+        "description": "BAGUETTE MONTESLARA VIENA 2 UNIDADES 170 G",
+        "section": "Alimentación",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 1.0,
+        "variety": "Pan burger, hot dogs y otros",
+        "price": {
+          "discounted": 1.75,
+          "current": 1.75,
+          "regular": 1.98
+        },
+        "id": "216696",
+        "state": "ACTIVE",
+        "brand": "MONTES LARA",
+        "on_sale": true,
+        "is_novelty": false,
+        "large_promotion_media": "/images/product_icons_corner/oferta_grande.png",
+        "images": [
+          "/images/catalog/large/216696.jpg"
+        ],
+        "externalId": "216696",
+        "on_promotion": false,
+        "url": "/baguette-monteslara-viena-2-unidades-170-g/p/216696/es_ES",
+        "delivery48h": false,
+        "kcal": 338,
+        "condis_brand": 0,
+        "has_lowered_price": false,
+        "netWeight": 170,
+        "product_type": "product",
+        "mobile_promotion_media": "/images/product_icons_corner/mobile_oferta_grande.png",
+        "without_lactose": 0,
+        "parentCategory": "c01__cat00190004",
+        "ranking": 1041,
+        "isEco": false,
+        "category": [
+          "Alimentación",
+          "Panes, harinas y masas",
+          "Pan burger, hot dogs y otros"
+        ],
+        "family": "Panes, harinas y masas",
+        "isPrime": true,
+        "altImages": [
+          "216696.jpg"
+        ]
+      },
+      {
+        "without_gluten": 0,
+        "variable_weight": 0,
+        "flags": {
+          "plp": [
+            {
+              "image": "/images/product_icons/icon_subscription.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            },
+            {
+              "image": "/images/product_icons/marca_propia.png",
+              "text": "Marca propia"
+            }
+          ],
+          "pdp": [
+            {
+              "image": "/images/product_icons/icon_subscription_big.png",
+              "text": "10% Descuento para suscriptores Condisline Prime"
+            },
+            {
+              "image": "/images/product_icons/marca_propia_big.png",
+              "text": "Marca propia"
+            }
+          ]
+        },
+        "pum": "9,77€/Kilo",
+        "volumeLimited": false,
+        "description": "AROS CONDIS CHOCOLATE BLANCO 128 GRS",
+        "section": "Mundo placer",
+        "isSeasonable": false,
+        "unitLimited": false,
+        "score": 1.0,
+        "variety": "Galletas bañadas i cubiertas",
+        "price": {
+          "current": 1.25,
+          "regular": 1.25
+        },
+        "id": "210932",
+        "state": "ACTIVE",
+        "brand": "CONDIS",
+        "on_sale": false,
+        "is_novelty": false,
+        "images": [
+          "/images/catalog/large/210932.jpg"
+        ],
+        "externalId": "210932",
+        "on_promotion": false,
+        "url": "/aros-condis-chocolate-blanco-128-grs/p/210932/es_ES",
+        "delivery48h": false,
+        "kcal": 511,
+        "condis_brand": 1,
+        "has_lowered_price": false,
+        "netWeight": 128,
+        "product_type": "product",
+        "without_lactose": 0,
+        "parentCategory": "c02__cat00090003",
+        "ranking": 5746,
+        "isEco": false,
+        "category": [
+          "Galletas",
+          "Galletas bañadas i cubiertas",
+          "Mundo placer"
+        ],
+        "family": "Galletas",
+        "isPrime": true,
+        "altImages": [
+          "210932.jpg"
+        ]
+      }
+    ],
+    "pagination": {
+      "rows": 5,
+      "total": 416,
+      "start": 414
+    },
+    "numFound": 416,
+    "facets": [
+      {
+        "facet": "facetCategory",
+        "filter": "filterCategory",
+        "label": "facetCategory",
+        "type": "hierarchical",
+        "values": [
+          {
+            "id": "c02",
+            "value": "Mundo placer",
+            "count": 120,
+            "filter": "filterCategory:c02"
+          },
+          {
+            "id": "c07",
+            "value": "Bebidas",
+            "count": 99,
+            "filter": "filterCategory:c07"
+          }
+        ]
+      },
+      {
+        "facet": "is_novelty",
+        "filter": "is_novelty",
+        "label": "is_novelty",
+        "type": "value",
+        "values": [
+          {
+            "id": "false",
+            "value": "false",
+            "count": 414,
+            "filter": "is_novelty:false"
+          },
+          {
+            "id": "true",
+            "value": "true",
+            "count": 2,
+            "filter": "is_novelty:true"
+          }
+        ]
+      },
+      {
+        "facet": "on_sale",
+        "filter": "on_sale",
+        "label": "on_sale",
+        "type": "value",
+        "values": [
+          {
+            "id": "false",
+            "value": "false",
+            "count": 383,
+            "filter": "on_sale:false"
+          },
+          {
+            "id": "true",
+            "value": "true",
+            "count": 33,
+            "filter": "on_sale:true"
+          }
+        ]
+      }
+    ]
+  }
+}

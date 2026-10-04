@@ -1,0 +1,158 @@
+[
+  {
+    "childCategories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Verduras y frutas",
+                "categoryId": "419b3a2b-e9c7-479f-8bcc-e6d2e4fe0e25",
+                "productCount": 0,
+                "breadcrumbs": [],
+                "retailerCategoryId": "OCFREVF"
+              }
+            ],
+            "name": "Frescos",
+            "categoryId": "da9d16da-4bd2-4adf-a44b-5c6a7fd5ae63",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OCFRES"
+          }
+        ],
+        "name": "Folleto de Alimentación (excepto Canarias)",
+        "categoryId": "c2b95b00-e737-40d7-b9b5-ec66e06fe77d",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC3009192"
+      },
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "LG",
+                "categoryId": "28a7859b-c860-4c5a-8bda-d0738dcae0f4",
+                "productCount": 0,
+                "breadcrumbs": [],
+                "retailerCategoryId": "OCPROMOLG"
+              }
+            ],
+            "name": "Electrodomésticos",
+            "categoryId": "27a40841-cf81-4059-90bc-26d8370d6e96",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OCELE"
+          }
+        ],
+        "name": "Folleto Hogar y Tecnología",
+        "categoryId": "055db234-d544-4c46-a0ae-32646336f2b0",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC3009191"
+      }
+    ],
+    "name": "Folletos y Promociones",
+    "categoryId": "464dc2a7-3e11-4f9c-9979-4b7b7345a1d0",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "OCFYP"
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [],
+            "name": "Frutas y Verduras CALIDAD EXTRA",
+            "categoryId": "6fb3fff5-976a-47ee-984f-45da0619082a",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OCFyVpremium"
+          }
+        ],
+        "name": "Frutas",
+        "categoryId": "25fd70b8-959e-4633-b14a-0cee7cd3669a",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC1701"
+      },
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Ensaladas Preparadas",
+                "categoryId": "34018958-0b3e-48c5-b0dd-5932e8b7ea40",
+                "productCount": 0,
+                "breadcrumbs": [],
+                "retailerCategoryId": "OC170209001"
+              }
+            ],
+            "name": "Ensaladas y verduras preparadas",
+            "categoryId": "cbe32663-9e5a-45ad-9cc3-d268bbab5e10",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OC170209"
+          }
+        ],
+        "name": "Verduras y hortalizas",
+        "categoryId": "aed1da10-51e1-443c-8951-f83f69243176",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC1702"
+      }
+    ],
+    "name": "Frescos",
+    "categoryId": "fe16f111-2da2-4c24-9bad-56b10b28b87a",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "OC2112"
+  },
+  {
+    "childCategories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [],
+            "name": "Leche semidesnatada",
+            "categoryId": "0b0dbaad-0611-4956-8c57-43d48d49f4a8",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OCSemidesnatada"
+          }
+        ],
+        "name": "Leche",
+        "categoryId": "48c34870-c5a3-46c9-870b-590c66fe8848",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC1603"
+      },
+      {
+        "childCategories": [
+          {
+            "childCategories": [],
+            "name": "Bebidas de soja",
+            "categoryId": "27755eb4-9b60-4613-8fa1-a94ae66ef02e",
+            "productCount": 0,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OC160314"
+          }
+        ],
+        "name": "Bebidas vegetales",
+        "categoryId": "f14cc519-de84-4d4d-a264-a0e726301290",
+        "productCount": 0,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC1609"
+      }
+    ],
+    "name": "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+    "categoryId": "e33fcb5b-8a16-4202-b88b-13d7dfc547ce",
+    "productCount": 0,
+    "breadcrumbs": [],
+    "retailerCategoryId": "OC16"
+  }
+]

@@ -1,0 +1,129 @@
+{
+ "hits": [
+  {
+   "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.",
+   "isAvailable": true,
+   "brandName": "MYVAY®",
+   "isRecall": false,
+   "currentPrice": {
+    "priceValue": 1.05,
+    "validFrom": 1783461600,
+    "validUntil": 1924988399
+   },
+   "shortDescription": "Sin azúcar añadido.\nSin gluten.",
+   "productSlug": "bebida-de-almendras-970000",
+   "hierarchicalCategories": {
+    "lvl0": [
+     "Lácteos y huevos"
+    ],
+    "lvl1": [
+     "Lácteos y huevos > Leche y bebidas vegetales"
+    ]
+   },
+   "isComingSoon": false,
+   "categoryIDs": [
+    "leche-y-bebidas-vegetales"
+   ],
+   "assets": [
+    {
+     "type": "primary",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/9700_pack_0_0_es_es_bebida_de_almendras_2024_cw05"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/07_Sin_gluten"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/V-Label_Vegano_Color"
+    }
+   ],
+   "salesUnit": "1 l unidad",
+   "productReferences": [
+    {
+     "type": "KVArticleNumber",
+     "value": "9700"
+    }
+   ],
+   "name": "Bebida de almendras",
+   "mainCategoryID": "leche-y-bebidas-vegetales",
+   "objectID": "970000"
+  },
+  {
+   "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.",
+   "isAvailable": true,
+   "brandName": "MILSANI®",
+   "isRecall": false,
+   "currentPrice": {
+    "priceValue": 1.03,
+    "validFrom": 1783461600,
+    "validUntil": 1924988399
+   },
+   "shortDescription": "Sin lactosa.\nOrigen nacional.\nBienestar animal.",
+   "productSlug": "leche-entera-sin-lactosa-872200",
+   "hierarchicalCategories": {
+    "lvl0": [
+     "Lácteos y huevos",
+     "Marcas"
+    ],
+    "lvl1": [
+     "Lácteos y huevos > Leche y bebidas vegetales",
+     "Marcas > Milsani"
+    ]
+   },
+   "isComingSoon": false,
+   "categoryIDs": [
+    "leche-y-bebidas-vegetales",
+    "milsani"
+   ],
+   "assets": [
+    {
+     "type": "primary",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/8722_pack_0_0_es_es_leche_entera_sin_lactosa_2024_cw21"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/48_Adilac"
+    }
+   ],
+   "salesUnit": "1 l unidad",
+   "productReferences": [
+    {
+     "type": "KVArticleNumber",
+     "value": "8722"
+    }
+   ],
+   "name": "Leche entera sin lactosa",
+   "mainCategoryID": "leche-y-bebidas-vegetales",
+   "objectID": "872200"
+  }
+ ],
+ "nbHits": 26,
+ "offset": 0,
+ "length": 1000,
+ "exhaustiveNbHits": true,
+ "exhaustiveTypo": true,
+ "exhaustive": {
+  "nbHits": true,
+  "typo": true
+ },
+ "query": "",
+ "params": "query=&offset=0&length=1000&attributesToHighlight=%5B%5D&filters=categoryIDs%3Aleche-y-bebidas-vegetales",
+ "renderingContent": {},
+ "extensions": {
+  "queryCategorization": {}
+ },
+ "processingTimeMS": 1,
+ "processingTimingsMS": {
+  "_request": {
+   "roundTrip": 40
+  },
+  "extensions": 1,
+  "total": 1
+ },
+ "serverTimeMS": 2
+}

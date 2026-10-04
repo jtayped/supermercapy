@@ -1,0 +1,181 @@
+{
+ "hits": [
+  {
+   "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.",
+   "isAvailable": true,
+   "brandName": "MILSANI®",
+   "isRecall": false,
+   "currentPrice": {
+    "priceValue": 1.03,
+    "validFrom": 1783461600,
+    "validUntil": 1924988399
+   },
+   "shortDescription": "Sin lactosa.\nOrigen nacional.\nBienestar animal.",
+   "productSlug": "leche-entera-sin-lactosa-872200",
+   "hierarchicalCategories": {
+    "lvl0": [
+     "Lácteos y huevos",
+     "Marcas"
+    ],
+    "lvl1": [
+     "Lácteos y huevos > Leche y bebidas vegetales",
+     "Marcas > Milsani"
+    ]
+   },
+   "isComingSoon": false,
+   "categoryIDs": [
+    "leche-y-bebidas-vegetales",
+    "milsani"
+   ],
+   "assets": [
+    {
+     "type": "primary",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/8722_pack_0_0_es_es_leche_entera_sin_lactosa_2024_cw21"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/48_Adilac"
+    }
+   ],
+   "salesUnit": "1 l unidad",
+   "productReferences": [
+    {
+     "type": "KVArticleNumber",
+     "value": "8722"
+    }
+   ],
+   "name": "Leche entera sin lactosa",
+   "mainCategoryID": "leche-y-bebidas-vegetales",
+   "objectID": "872200"
+  },
+  {
+   "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Canarias.",
+   "isAvailable": true,
+   "brandName": "MILSANI®",
+   "isRecall": false,
+   "currentPrice": {
+    "priceValue": 0.92,
+    "basePrice": [
+     {
+      "basePriceValue": 2.71,
+      "basePriceScale": "kg"
+     }
+    ],
+    "validFrom": 1783461600,
+    "validUntil": 1924988399
+   },
+   "productSlug": "leche-evaporada-828100",
+   "hierarchicalCategories": {
+    "lvl0": [
+     "Lácteos y huevos",
+     "Marcas"
+    ],
+    "lvl1": [
+     "Lácteos y huevos > Leche y bebidas vegetales",
+     "Marcas > Milsani"
+    ]
+   },
+   "isComingSoon": false,
+   "categoryIDs": [
+    "leche-y-bebidas-vegetales",
+    "milsani"
+   ],
+   "assets": [
+    {
+     "type": "primary",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/8281_pack_0_0_es_es_leche_evaporada_2025_cw12"
+    }
+   ],
+   "salesUnit": "340 g unidad",
+   "productReferences": [
+    {
+     "type": "KVArticleNumber",
+     "value": "8281"
+    }
+   ],
+   "name": "Leche evaporada",
+   "mainCategoryID": "leche-y-bebidas-vegetales",
+   "objectID": "828100"
+  },
+  {
+   "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Canarias.",
+   "isAvailable": true,
+   "brandName": "MILSANI®",
+   "isRecall": false,
+   "currentPrice": {
+    "priceValue": 1.05,
+    "validFrom": 1783461600,
+    "validUntil": 1924988399
+   },
+   "shortDescription": "De origen nacional.\nCon certificado de bienestar animal.",
+   "productSlug": "leche-con-calcio-semidesnatada-82000",
+   "hierarchicalCategories": {
+    "lvl0": [
+     "Lácteos y huevos",
+     "Marcas"
+    ],
+    "lvl1": [
+     "Lácteos y huevos > Leche y bebidas vegetales",
+     "Marcas > Milsani"
+    ]
+   },
+   "isComingSoon": false,
+   "categoryIDs": [
+    "leche-y-bebidas-vegetales",
+    "milsani"
+   ],
+   "assets": [
+    {
+     "type": "primary",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/820_pack_0_0_es_es_leche_con_calcio_semi_1l_2025_cw13"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional"
+    },
+    {
+     "type": "certificate",
+     "url": "https://s7g10.scene7.com/is/image/aldinord/Bienestar_animal_AENOR_conform_0626"
+    }
+   ],
+   "salesUnit": "1 l unidad",
+   "productReferences": [
+    {
+     "type": "KVArticleNumber",
+     "value": "820"
+    }
+   ],
+   "name": "Leche con calcio semidesnatada",
+   "mainCategoryID": "leche-y-bebidas-vegetales",
+   "objectID": "82000"
+  }
+ ],
+ "nbHits": 111,
+ "offset": 0,
+ "length": 24,
+ "exhaustiveNbHits": true,
+ "exhaustiveTypo": true,
+ "exhaustive": {
+  "nbHits": true,
+  "typo": true
+ },
+ "query": "leche",
+ "params": "query=leche&offset=0&length=24&attributesToHighlight=%5B%5D",
+ "renderingContent": {},
+ "extensions": {
+  "queryCategorization": {}
+ },
+ "processingTimeMS": 1,
+ "processingTimingsMS": {
+  "_request": {
+   "roundTrip": 34
+  },
+  "extensions": 1,
+  "total": 1
+ },
+ "serverTimeMS": 2
+}

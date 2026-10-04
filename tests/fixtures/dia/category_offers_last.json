@@ -1,0 +1,62 @@
+{
+ "facets": [
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 10,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI",
+     "url": "/ofertas/L123"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 0,
+  "total_pages": 1
+ },
+ "plp_items": [
+  {
+   "brand": "Gourmet",
+   "display_name": "Alimento para gatos con atún, salmón y trucha Gourmet 6 x 50 g",
+   "expiration_days": 0,
+   "headband_promotion": "exclusive_online",
+   "image": "/product_images/184840/184840_ISO_0_ES.jpg",
+   "object_id": "184840",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "KILO",
+    "price": 3.22,
+    "price_per_unit": 10.73,
+    "strikethrough_price": 3.22
+   },
+   "promotions": [
+    {
+     "description": "2ª UD AL 50% DTO. ALIMENTACIÓN GATOS",
+     "exclusive_online": true,
+     "only_club_dia": true,
+     "short_description": "ALIMENTACIÓN GATOS"
+    }
+   ],
+   "sku_id": "184840",
+   "units_in_cart": 0,
+   "units_in_stock": 12,
+   "url": "/mascotas/gato-comida-humeda/p/184840",
+   "weight": 0
+  }
+ ],
+ "query_id": "6ba75f4b091f8d2dd6188dbe3d1300f5",
+ "total_items": 10,
+ "selected_category_id": "L123",
+ "selected_category_name": "Mascotas"
+}
