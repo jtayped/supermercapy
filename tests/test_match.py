@@ -385,6 +385,25 @@ def test_pack_sizes_come_from_text_or_from_the_unit_price() -> None:
     assert score_same(single, unknown).reasons[1] == "size unknown"
 
 
+def test_a_pack_count_keeps_its_container() -> None:
+    cans = item(
+        "Refresco Coca-Cola Zero Azúcar 33cl Pack lata 6",
+        brand="COCA-COLA",
+        price="5.22",
+        reference="2.64/l",
+    )
+    bottle = item(
+        "Refresco Cola Zero Botella",
+        brand="COCA-COLA",
+        price="2.15",
+        reference="1.08/l",
+    )
+
+    match = score_same(("ahorramas", cans), ("consum", bottle))
+
+    assert "container differs" in match.reasons
+
+
 def test_a_stated_size_without_a_count_is_one_pack() -> None:
     cans = item(
         "Refresco de naranja FANTA ZERO, pack 6x33 cl",

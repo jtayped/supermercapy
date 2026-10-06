@@ -187,8 +187,8 @@ _AFTER_PLUS = re.compile(r"\+\s*(?:(?:proteinas?|fibra|calcio|hierro)\s+)?$")
 # pack 6, paq. de 6, pack-6, pack2, pack lata 12, and ahorramás's p16
 _PACK = re.compile(
     r"\b(?:(?:pack|paq|paquete|paquet|caja|caixa|estoig|lote)(?![a-z])\.?[\s-]*"
-    r"(?:(?:latas?|botellas?|botellines|bri(?:c|ck|k)s?)\s+)?(?:de\s+)?(\d+)"
-    r"|p(\d{1,2}))\b(?![.,]\d)"
+    r"(?:(?P<container>latas?|botellas?|botellines|bri(?:c|ck|k)s?)\s+)?"
+    r"(?:de\s+)?(\d+)|p(\d{1,2}))\b(?![.,]\d)"
 )
 
 # a published unit price is rounded, so a pack size read back from it is only
@@ -247,11 +247,17 @@ def read_size(text: str) -> tuple[SizeText, str]:
     spans: list[tuple[int, int]] = []
     text = _HALF.sub("0.5", text)
 
-    def claim(match: re.Match[str]) -> bool:
+    def claim(match: re.Match[str], keep: str | None = None) -> bool:
+        """take ``match`` out of the text, all but its group named ``keep``."""
+
         start, end = match.span()
         if any(start < last and first < end for first, last in spans):
             return False
-        spans.append((start, end))
+        kept = match.span(keep) if keep is not None else (-1, -1)
+        if kept[0] < 0:
+            spans.append((start, end))
+        else:
+            spans.extend(((start, kept[0]), (kept[1], end)))
         return True
 
     for pattern in (_MULTI, _COUNT_OF):
@@ -289,8 +295,9 @@ def read_size(text: str) -> tuple[SizeText, str]:
         if not extra_or_claim:
             loose = loose or quantity
     for match in _PACK.finditer(text):
-        if claim(match) and count is None:
-            count = int(match.group(1) or match.group(2))
+        # "pack lata 6" leaves "lata" behind, so a can still differs from a bottle
+        if claim(match, keep="container") and count is None:
+            count = int(match.group(2) or match.group(3))
     remaining = text
     for start, end in sorted(spans, reverse=True):
         remaining = f"{remaining[:start]} {remaining[end:]}"
