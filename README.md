@@ -132,6 +132,7 @@ an undeclared operation raises `UnsupportedOperationError` before making any req
 - [async](https://jtayped.github.io/supermercapy/async/)
 - [caching](https://jtayped.github.io/supermercapy/caching/)
 - [matching products across stores](https://jtayped.github.io/supermercapy/matching/)
+- [examples](https://github.com/jtayped/supermercapy/tree/main/examples): a shopping list priced at every store near a postcode, daily catalog snapshots and what changed between them, and the cheapest alternative to a branded product
 - [contribution guide](https://github.com/jtayped/supermercapy/blob/main/CONTRIBUTING.md)
 - [release process](https://github.com/jtayped/supermercapy/blob/main/RELEASING.md)
 - [changelog](https://github.com/jtayped/supermercapy/blob/main/CHANGELOG.md)
