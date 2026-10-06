@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import os
+import stat
 from collections.abc import Iterator
+from pathlib import Path
 from typing import Any
 
 import httpx
 import pytest
 
+import supermercapy._core.client
 from supermercapy import (
     AuthenticationError,
     BaseClient,
@@ -413,6 +417,40 @@ def test_download_follows_redirects_and_accepts_any_type(tmp_path: Any) -> None:
         "https://cdn.test/a.jpg",
     ]
     assert all(request.headers["Accept"] == "*/*" for request in seen)
+
+
+def test_a_download_gets_the_mode_a_new_file_gets(tmp_path: Path) -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, request=request, content=b"img")
+
+    previous = os.umask(0o027)
+    try:
+        with stub_for(handler) as client:
+            result = client.download("https://img.test/a.jpg", tmp_path / "a.jpg")
+    finally:
+        os.umask(previous)
+    assert stat.S_IMODE(result.stat().st_mode) == 0o640
+
+
+def test_a_download_steps_around_a_temporary_name_already_taken(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    names = iter(["taken", "free"])
+    monkeypatch.setattr(supermercapy._core.client, "token_hex", lambda _: next(names))
+    taken = tmp_path / ".a.jpg.taken.tmp"
+    taken.write_bytes(b"someone else's")
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, request=request, content=b"img")
+
+    with stub_for(handler) as client:
+        result = client.download("https://img.test/a.jpg", tmp_path / "a.jpg")
+    assert result.read_bytes() == b"img"
+    assert taken.read_bytes() == b"someone else's"
+    assert sorted(path.name for path in tmp_path.iterdir()) == [
+        ".a.jpg.taken.tmp",
+        "a.jpg",
+    ]
 
 
 def test_json_redirect_is_reported_as_a_move() -> None:

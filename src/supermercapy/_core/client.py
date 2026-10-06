@@ -5,7 +5,6 @@ from __future__ import annotations
 import logging
 import os
 import re
-import tempfile
 import time
 from abc import ABC, abstractmethod
 from collections.abc import Callable, Iterator
@@ -17,6 +16,7 @@ from enum import Enum, auto
 from math import isfinite
 from pathlib import Path
 from random import SystemRandom
+from secrets import token_hex
 from threading import Lock
 from types import TracebackType
 from typing import Any, ClassVar, Self
@@ -177,6 +177,23 @@ def validate_request_interval(value: float) -> float:
             "min_request_interval must be a finite non-negative number"
         )
     return interval
+
+
+def _create_sibling(destination: Path) -> tuple[int, Path]:
+    """open a new, empty temporary file in ``destination``'s directory.
+
+    ``tempfile.mkstemp`` would create it readable by its owner alone, and
+    ``os.replace`` keeps that mode, so the file is opened with the mode a
+    plain ``open()`` gives a new file: 0o666 less the process umask.
+    """
+
+    flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL | getattr(os, "O_BINARY", 0)
+    while True:
+        path = destination.with_name(f".{destination.name}.{token_hex(8)}.tmp")
+        try:
+            return os.open(path, flags, 0o666), path
+        except FileExistsError:
+            continue
 
 
 class BaseClient(ABC):
@@ -371,12 +388,7 @@ class BaseClient(ABC):
         if destination_path.exists() and destination_path.is_dir():
             raise ConfigurationError("destination must be a file path")
         destination_path.parent.mkdir(parents=True, exist_ok=True)
-        descriptor, temporary_name = tempfile.mkstemp(
-            dir=destination_path.parent,
-            prefix=f".{destination_path.name}.",
-            suffix=".tmp",
-        )
-        temporary_path = Path(temporary_name)
+        descriptor, temporary_path = _create_sibling(destination_path)
         try:
             with (
                 os.fdopen(descriptor, "wb") as output,
