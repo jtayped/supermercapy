@@ -1,0 +1,104 @@
+{
+  "articles": [],
+  "nivells": [
+    {
+      "totalArticles": 0,
+      "descripcio": "Alimentación",
+      "children": [
+        {
+          "totalArticles": 0,
+          "descripcio": "Carnes y huevos",
+          "children": [
+            {
+              "totalArticles": 0,
+              "descripcio": "Aves",
+              "children": [
+                {
+                  "totalArticles": 0,
+                  "descripcio": "Codornices y otras aves",
+                  "description": "Codornices y otras aves",
+                  "identifier": "13*300*010*010*030",
+                  "url": "categorias/codornices-y-otras-aves/13_300_010_010_030",
+                  "urlMobile": "~/categorias/codornices-y-otras-aves/13_300_010_010_030"
+                },
+                {
+                  "totalArticles": 0,
+                  "descripcio": "Pavo",
+                  "description": "Pavo",
+                  "identifier": "13*300*010*010*020",
+                  "url": "categorias/pavo/13_300_010_010_020",
+                  "urlMobile": "~/categorias/pavo/13_300_010_010_020"
+                },
+                {
+                  "totalArticles": 0,
+                  "descripcio": "Pollo",
+                  "description": "Pollo",
+                  "identifier": "13*300*010*010*010",
+                  "url": "categorias/pollo/13_300_010_010_010",
+                  "urlMobile": "~/categorias/pollo/13_300_010_010_010"
+                }
+              ],
+              "description": "Aves",
+              "identifier": "13*300*010*010",
+              "url": "categorias/aves/13_300_010_010",
+              "urlMobile": "~/categorias/aves/13_300_010_010"
+            }
+          ],
+          "description": "Carnes y huevos",
+          "firstThirdChild": {
+            "totalArticles": 0,
+            "idNivell": "13*300*010*010",
+            "descripcio": "Aves",
+            "children": [
+              {
+                "totalArticles": 0,
+                "idNivell": "13*300*010*010*030",
+                "descripcio": "Codornices y otras aves"
+              },
+              {
+                "totalArticles": 0,
+                "idNivell": "13*300*010*010*020",
+                "descripcio": "Pavo"
+              },
+              {
+                "totalArticles": 0,
+                "idNivell": "13*300*010*010*010",
+                "descripcio": "Pollo"
+              }
+            ]
+          },
+          "identifier": "13*300*010",
+          "url": "categorias/carnes-y-huevos/13_300_010",
+          "urlMobile": "~/categorias/carnes-y-huevos/13_300_010"
+        }
+      ],
+      "description": "Alimentación",
+      "identifier": "13*300",
+      "url": "categorias/alimentacion/13_300",
+      "urlMobile": "~/categorias/alimentacion/13_300",
+      "icon": "icon-food"
+    },
+    {
+      "totalArticles": 0,
+      "descripcio": "Bebidas",
+      "children": [
+        {
+          "totalArticles": 0,
+          "descripcio": "Vermuts",
+          "description": "Vermuts",
+          "identifier": "13*320*080",
+          "url": "categorias/vermuts/13_320_080",
+          "urlMobile": "~/categorias/vermuts/13_320_080"
+        }
+      ],
+      "description": "Bebidas",
+      "identifier": "13*320",
+      "url": "categorias/bebidas/13_320",
+      "urlMobile": "~/categorias/bebidas/13_320",
+      "icon": "icon-drinks"
+    }
+  ],
+  "navbar": "",
+  "fitosanitari": "",
+  "footer": "<footer class=footer><div class=footer__media><div class=\"container-base container-base--footer\"><div class=\"row align-items-sm-center justify-content-center\"><div class=\"col-4 col-sm-4 col-md-5 col-lg-4 col-xl-6\"><div class=\"footer__app d-flex flex-column flex-lg-row\"><h6>App m&#243;vil</h6><div><a href=https://www.bonarea.com/es/landing/bonareafan title=\"App móvil\" class=icon-app-mobile alt=\"Icon App móvil\"><img src=/Content/iconos/icon-app-mobile.svg></a></div></div></div><div class=\"col-8 col-sm-8 col-md-7 col-lg-8 col-xl-6\"><div class=\"footer__rrss d-flex flex-column flex-lg-row\"><h6>B&#250;scanos en</h6><div class=\"d-flex gap-sm-3\"><a href=\"https://www.facebook.com/bonarea.oficial/\" target=_blank title=\"Facebook bonÀrea\" alt=\"Icon Facebook bonÀrea\"> <img src=/Content/xxss/icon-facebook.svg> </a> <a href=\"https://www.instagram.com/bonareaoficial_es/\" target=_blank title=\"Instagram bonÀrea\" class=icon-instagram alt=\"Icon Instagram bonÀrea\"> <img src=/Content/xxss/icon-instagram.svg> </a> <a href=\"https://www.youtube.com/c/bonareaoficial/\" target=_blank title=\"youtube bonÀrea\" alt=\"Icon Youtube bonÀrea\"> <img src=/Content/xxss/icon-youtube.svg> </a> <a href=https://www.linkedin.com/company/bonarea-agrupa target=_blank title=\"LinkedIn bonÀrea\" alt=\"Icon LinkedIn bonÀrea\"> <img src=/Content/xxss/icon-linkedin.svg> </a> <a href=https://www.tiktok.com/@bonareaoficial target=_blank title=\"TikTok bonÀrea\" alt=\"Icon TikTok bonÀrea\"> <img src=/Content/xxss/icon-tiktok.svg> </a></div></div></div></div></div></div><div class=footer__info><div class=\"container-base container-base--footer\"><div class=\"row g-3 g-lg-4 justify-content-center\"><div class=\"col-12 col-md-6 col-xl\"><div class=footer__list><h6>Servicio al cliente</h6><div><a href=/es/shop/Help>Contactar</a></div><div><a href=/es/Shop/Faq>Devoluciones</a></div></div></div><div class=\"col-12 col-md-6 col-xl\"><div class=footer__list><h6>Informaci&#243;n</h6><div><a href=/es/Shop/DeliverySystems>Sistemas entrega</a></div><div><a href=/es/Shop/Faq>Preguntas frecuentes</a></div><div><a href=/es/Shop/Conditions>Condiciones</a></div></div></div><div class=\"col-12 col-md-6 col-xl\"><div class=footer__list><h6>Sobre nosotros</h6><div><a href=https://www.bonarea.com/es/default/aboutpresentation target=_blank>Qui&#233;nes somos</a></div><div><a href=\"https://www.directedelcamp.org/es/\" target=_blank>Directo del campo</a></div></div></div><div class=\"col-12 col-md-6 col-xl-auto\"><div class=footer__list><div class=\"footer-compromiso d-flex\"><div title=\"Seguridad alimentaria\" class=footer-compromiso__icon alt=\"Icon seguridad alimentaria frente al COVID-19\"><img class=img-fluid src=/Content/iconos/icon-aenor-es-sa.svg></div><a href=\"https://www.directedelcamp.org/es/\" target=_blank title=\"Garantia bonÀrea\" class=footer-compromiso__icon alt=\"Icon Garantia bonÀrea\"><img class=img-fluid src=/Content/iconos/icon-sello-border-v2.svg></a> <a href=/es/shop/animalwelfare onclick=\"ga('send','event','Accions botiga virtual','Banner','benestar_animal_abril2019')\" title=\"Certificación animal\" class=footer-compromiso__icon alt=\"Icon AENOR protocolo frente a COVID-19\"><img class=img-fluid src=/Content/iconos/icon-aenor-es-ba.svg></a> <a href=/es/shop/SistemaArbitraldeConsumo target=_blank class=footer-compromiso__icon alt=\"Icon Garantia bonÀrea\"><img class=img-fluid src=/Content/sistemaArbitral/logo-sistema-arbitral-de-consumo.svg></a></div></div></div></div></div></div><div class=footer__legal><div class=container-fluid><div class=row><div class=\"col-sm-12 col-xl-7 text-center text-xl-start\">© bonÀrea &nbsp;Traspalau, 8 25210 Guissona (Lleida) &nbsp;|&nbsp; <span class=text-nowrap>Tel. 900 899 988</span> (Tel&#233;fono gratuito)</div><div class=\"col-sm-12 col-xl-5 text-center text-xl-end\"><a href=https://www.bonarea-agrupa.com/legalwarning target=_blank>Aviso legal</a> &nbsp;|&nbsp; <a href=https://www.bonarea-agrupa.com/privacypolicy target=_blank>Politica de privacidad</a> &nbsp;|&nbsp; <a href=/es/public/cookies>Cookies</a> &nbsp;|&nbsp; <a href=https://privacyportal-eu.onetrust.com/webform/5d3510b7-6163-4d23-a445-135f8812e590/966a4497-b367-4a7e-b508-1cf266cb7b6d target=_blank>Derechos ARCO</a></div></div></div></div></footer>"
+}

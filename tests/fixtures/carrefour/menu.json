@@ -1,0 +1,75 @@
+{
+ "generic_menu": false,
+ "menu": [
+  {
+   "childs": [
+    {
+     "childs": [
+      {
+       "childs": [],
+       "current_category": false,
+       "food": true,
+       "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20968591_icono.png",
+       "id": "cat20968591",
+       "language": "es",
+       "name": "Ofertas",
+       "sale_point_default": "004737",
+       "show_next_level": false,
+       "url": "https://carrefour.es/supermercado/ofertas/cat20968591/c",
+       "url_rel": "/supermercado/ofertas/cat20968591/c"
+      },
+      {
+       "childs": [],
+       "current_category": false,
+       "food": true,
+       "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20002_icono.png",
+       "id": "cat20002",
+       "language": "es",
+       "name": "Frescos",
+       "sale_point_default": "004737",
+       "show_next_level": true,
+       "url": "https://carrefour.es/supermercado/frescos/cat20002/c",
+       "url_rel": "/supermercado/frescos/cat20002/c"
+      },
+      {
+       "childs": [],
+       "current_category": false,
+       "food": true,
+       "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20001_icono.png",
+       "id": "cat20001",
+       "language": "es",
+       "name": "La Despensa",
+       "sale_point_default": "004737",
+       "show_next_level": true,
+       "url": "https://carrefour.es/supermercado/la-despensa/cat20001/c",
+       "url_rel": "/supermercado/la-despensa/cat20001/c"
+      }
+     ],
+     "current_category": true,
+     "food": true,
+     "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_food_icono.png",
+     "id": "foodRootCategory",
+     "language": "es",
+     "name": "Supermercado",
+     "sale_point_default": "004737",
+     "show_next_level": true,
+     "url": "https://carrefour.es/supermercado",
+     "url_rel": "/supermercado"
+    }
+   ],
+   "current_category": false,
+   "food": false,
+   "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_icono.png",
+   "id": "rootCategory",
+   "language": "es",
+   "name": "Commerce Root",
+   "sale_point_default": "004737",
+   "show_next_level": true,
+   "url": "https://carrefour.es/commerce-root/rootCategory/c",
+   "url_rel": "/commerce-root/rootCategory/c"
+  }
+ ],
+ "translates": {
+  "viewAll": "Ver todo"
+ }
+}

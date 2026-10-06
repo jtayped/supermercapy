@@ -1,0 +1,677 @@
+[
+ {
+  "end_date": "14/09/2026",
+  "new_value_cents": 109,
+  "band_uri": "OfferType_5637145854.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "04010501",
+  "category_id": "040105",
+  "item_id": "000426",
+  "brand_name": "ASTURIANA",
+  "image_url": "000426_Llet_semidesnatada_ASTURIANA_bric_1_litre_gran.jpg",
+  "value_cents": 117,
+  "unit_measure": "L",
+  "value_x_unit": 109,
+  "available": true,
+  "has_format": true,
+  "formats": [
+   {
+    "format_id": "Pa6-1L",
+    "order": 1,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Format de Servei",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Formato de Servicio",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Unitats",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Unidades",
+        "type": 3
+       }
+      ],
+      "option_id": "Unitat",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 1000
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Pack (6 unitats x 1l.)",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Pack (6 unidades x 1l.)",
+        "type": 3
+       }
+      ],
+      "option_id": "Zpack",
+      "min_value_mili": 1000,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 6000
+     }
+    ]
+   }
+  ],
+  "characteristics": [],
+  "id": "04010501000426",
+  "icon": "000426_Llet_semidesnatada_ASTURIANA_bric_1_litre.jpg",
+  "order": 1656,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Llet semidesnatada ASTURIANA, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oferta a preu reduït!",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Leche semidesnatada ASTURIANA, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "¡Oferta a precio reducido!",
+    "type": 6
+   }
+  ]
+ },
+ {
+  "end_date": "14/09/2026",
+  "new_value_cents": 106,
+  "band_uri": "OfferType_5637145854.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "04010601",
+  "category_id": "040106",
+  "item_id": "000428",
+  "brand_name": "ASTURIANA",
+  "image_url": "000428_Llet_desnatada_ASTURIANA_bric_1_litre_gran.jpg",
+  "value_cents": 113,
+  "unit_measure": "L",
+  "value_x_unit": 105,
+  "available": true,
+  "has_format": true,
+  "formats": [
+   {
+    "format_id": "Pa6-1L",
+    "order": 1,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Format de Servei",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Formato de Servicio",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Unitats",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Unidades",
+        "type": 3
+       }
+      ],
+      "option_id": "Unitat",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 1000
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Pack (6 unitats x 1l.)",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Pack (6 unidades x 1l.)",
+        "type": 3
+       }
+      ],
+      "option_id": "Zpack",
+      "min_value_mili": 1000,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 6000
+     }
+    ]
+   }
+  ],
+  "characteristics": [],
+  "id": "04010601000428",
+  "icon": "000428_Llet_desnatada_ASTURIANA_bric_1_litre.jpg",
+  "order": 1635,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Llet desnatada ASTURIANA, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oferta a preu reduït!",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Leche desnatada ASTURIANA, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "¡Oferta a precio reducido!",
+    "type": 6
+   }
+  ]
+ },
+ {
+  "filter_id": "05060101",
+  "category_id": "050601",
+  "item_id": "001364",
+  "brand_name": "DOVE",
+  "image_url": "001364_Llet_corporal_hidratant_DOVE_400_ml_gran.jpg",
+  "value_cents": 549,
+  "unit_measure": "L",
+  "value_x_unit": 1372,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [],
+  "id": "05060101001364",
+  "icon": "001364_Llet_corporal_hidratant_DOVE_400_ml.jpg",
+  "order": 6718,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Llet corporal hidratant DOVE, 400 ml",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Leche corporal hidratante DOVE, 400 ml",
+    "type": 4
+   }
+  ]
+ },
+ {
+  "filter_id": "09050102",
+  "category_id": "090501",
+  "item_id": "001475",
+  "brand_name": "CAMPS",
+  "image_url": "001475_Formatge_de_cabra_amb_llet_crua_CAMPS_gran.jpg",
+  "value_cents": 3650,
+  "unit_measure": "Kg",
+  "value_x_unit": 3650,
+  "available": true,
+  "has_format": true,
+  "formats": [
+   {
+    "format_id": "gr0100",
+    "order": 1,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Pes",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Peso",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Grams",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Gramos",
+        "type": 3
+       }
+      ],
+      "option_id": "gr",
+      "min_value_mili": 100000,
+      "max_value_mili": 0,
+      "interval_mili": 20000,
+      "percentage_mili": 1
+     }
+    ]
+   },
+   {
+    "format_id": "Form 3",
+    "order": 2,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Preparació",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Preparación",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Porció sencera (cunya)",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Porción entera (cuña)",
+        "type": 3
+       }
+      ],
+      "option_id": "Apor",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 0
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Daus",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Dados",
+        "type": 3
+       }
+      ],
+      "option_id": "Daus",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 0
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Triangles",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Triangulos",
+        "type": 3
+       }
+      ],
+      "option_id": "FTrian",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 0
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Llenques",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Lonchas",
+        "type": 3
+       }
+      ],
+      "option_id": "Llenq",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 0
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Ratllat",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Rallado",
+        "type": 3
+       }
+      ],
+      "option_id": "Ratlla",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 0
+     }
+    ]
+   }
+  ],
+  "characteristics": [
+   {
+    "embedded_icon_url": "SGL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 782,
+    "childs": [],
+    "id": "SGL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "SENSE GLUTEN",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "SIN GLUTEN",
+      "type": 5
+     }
+    ]
+   },
+   {
+    "embedded_icon_url": "LOL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 590,
+    "childs": [],
+    "id": "LOL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE LOCAL",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO LOCAL",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "09050102001475",
+  "icon": "001475_Formatge_de_cabra_amb_llet_crua_CAMPS.jpg",
+  "order": 22,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Formatge de cabra amb llet crua CAMPS",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Queso de cabra con leche cruda CAMPS",
+    "type": 4
+   }
+  ]
+ },
+ {
+  "filter_id": "05060101",
+  "category_id": "050601",
+  "item_id": "001545",
+  "brand_name": "NIVEA",
+  "image_url": "001545_Llet_corporal_reafirmant_pell_seca_Q10_NIVEA_400_ml_gran.jpg",
+  "value_cents": 625,
+  "unit_measure": "L",
+  "value_x_unit": 1562,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [],
+  "id": "05060101001545",
+  "icon": "001545_Llet_corporal_reafirmant_pell_seca_Q10_NIVEA_400_ml.jpg",
+  "order": 6720,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Llet corporal reafirmant pell seca Q10 NIVEA, 400 ml",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Leche corporal reafirmante piel seca Q10 NIVEA, 400 ml",
+    "type": 4
+   }
+  ]
+ },
+ {
+  "filter_id": "09050102",
+  "category_id": "090501",
+  "item_id": "001977",
+  "brand_name": "",
+  "image_url": "001977_Formatge_curat_de_llet_crua_de_cabra_CAL_QUITeRIA_gran.jpg",
+  "value_cents": 3695,
+  "unit_measure": "Kg",
+  "value_x_unit": 3695,
+  "available": true,
+  "has_format": true,
+  "formats": [
+   {
+    "format_id": "Fo6474",
+    "order": 1,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Format de servei",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Formato de servicio",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Formatge sencer, peça 1 kg",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Queso entero, pieza 1kg",
+        "type": 3
+       }
+      ],
+      "option_id": "ASe",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 1000
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Mig formatge",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Medio queso",
+        "type": 3
+       }
+      ],
+      "option_id": "Mig",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 500
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Un quart de formatge",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Un cuarto de queso",
+        "type": 3
+       }
+      ],
+      "option_id": "Quart",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 250
+     }
+    ]
+   }
+  ],
+  "characteristics": [
+   {
+    "embedded_icon_url": "LOL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 590,
+    "childs": [],
+    "id": "LOL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE LOCAL",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO LOCAL",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "09050102001977",
+  "icon": "001977_Formatge_curat_de_llet_crua_de_cabra_CAL_QUITeRIA.jpg",
+  "order": 17,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Formatge curat de llet crua de cabra CAL QUITÈRIA",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Queso curado de leche cruda de cabra CAL QUITÈRIA",
+    "type": 4
+   }
+  ]
+ }
+]

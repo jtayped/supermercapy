@@ -1,0 +1,151 @@
+{
+ "url_base_img": "/ImatgesProductes/",
+ "category": {
+  "level": 3,
+  "row": 0,
+  "visible": true,
+  "banner_id": "",
+  "leaf_count": 46,
+  "childs": [
+   {
+    "level": 4,
+    "row": 0,
+    "visible": true,
+    "banner_id": "",
+    "leaf_count": 40,
+    "childs": [],
+    "id": "01010101",
+    "icon": "",
+    "order": 1,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Oli d'Oliva",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Aceite de Oliva",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 8
+     }
+    ]
+   },
+   {
+    "level": 4,
+    "row": 0,
+    "visible": true,
+    "banner_id": "",
+    "leaf_count": 6,
+    "childs": [],
+    "id": "01010102",
+    "icon": "",
+    "order": 2,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Oli Vegetal",
+      "type": 1
+     },
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "",
+      "type": 8
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 7
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Aceite Vegetal",
+      "type": 1
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "",
+      "type": 8
+     }
+    ]
+   }
+  ],
+  "id": "010101",
+  "icon": "",
+  "order": 1,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "",
+    "type": 7
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Olis",
+    "type": 1
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "",
+    "type": 8
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "",
+    "type": 7
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Aceites",
+    "type": 1
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "",
+    "type": 8
+   }
+  ]
+ }
+}

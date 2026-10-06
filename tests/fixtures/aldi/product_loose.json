@@ -1,0 +1,58 @@
+{
+ "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.\nPor razones climatológicas puede no encontrarse disponible este artículo en tienda.",
+ "isAvailable": true,
+ "isComingSoon": false,
+ "categoryIDs": [
+  "lechugas-y-ensaladas"
+ ],
+ "assets": [
+  {
+   "type": "primary",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/9986_pack_0_5_es_es_cogollos_2026_cw35",
+   "title": "Cogollos | ALDI Supermercados",
+   "altText": "Cogollos | ALDI Supermercados",
+   "isAiGenerated": false
+  },
+  {
+   "type": "gallery",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/9986_pack_0_3_es_es_cogollos_2026_cw35",
+   "title": "Cogollos | ALDI Supermercados",
+   "altText": "Cogollos | ALDI Supermercados",
+   "isAiGenerated": false
+  },
+  {
+   "type": "gallery",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/9986_pack_0_4_es_es_cogollos_2026_cw35",
+   "title": "Cogollos | ALDI Supermercados",
+   "altText": "Cogollos | ALDI Supermercados",
+   "isAiGenerated": false
+  },
+  {
+   "type": "certificate",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/01_A_Origen_nacional",
+   "title": "Origen nacional | ALDI Supermercados",
+   "altText": "Origen nacional | ALDI Supermercados",
+   "isAiGenerated": false
+  }
+ ],
+ "productReferences": [
+  {
+   "type": "KVArticleNumber",
+   "value": "9986"
+  }
+ ],
+ "name": "Cogollos",
+ "isRecall": false,
+ "shortDescription": "Origen: España\nCategoría: I",
+ "productSlug": "cogollos-998600",
+ "mainCategoryID": "lechugas-y-ensaladas",
+ "hierarchicalCategories": {
+  "lvl0": [
+   "Fruta y verdura"
+  ],
+  "lvl1": [
+   "Fruta y verdura > Lechuga y ensaladas"
+  ]
+ },
+ "objectID": "998600"
+}

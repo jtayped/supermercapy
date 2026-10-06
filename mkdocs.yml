@@ -1,0 +1,63 @@
+site_name: supermercapy
+site_description: typed clients for the public storefront apis of spanish supermarkets, for sync code and asyncio
+site_url: https://jtayped.github.io/supermercapy/
+repo_url: https://github.com/jtayped/supermercapy
+repo_name: jtayped/supermercapy
+edit_uri: edit/main/docs/
+copyright: copyright © 2026 joel taylor
+strict: true
+
+theme:
+  name: readthedocs
+  locale: en
+
+nav:
+  - home: index.md
+  - usage: usage.md
+  - command line: cli.md
+  - api guide: api.md
+  - generated api: reference.md
+  - reliability: reliability.md
+  - async: async.md
+  - caching: caching.md
+  - matching: matching.md
+  - stores:
+      - mercadona: stores/mercadona.md
+      - consum: stores/consum.md
+      - plusfresc: stores/plusfresc.md
+      - bonàrea: stores/bonarea.md
+      - carrefour: stores/carrefour.md
+      - lidl: stores/lidl.md
+      - bonpreu: stores/bonpreu.md
+      - dia: stores/dia.md
+      - eroski: stores/eroski.md
+      - caprabo: stores/caprabo.md
+      - aldi: stores/aldi.md
+      - ahorramás: stores/ahorramas.md
+      - alcampo: stores/alcampo.md
+      - condis: stores/condis.md
+  - contributing: https://github.com/jtayped/supermercapy/blob/main/CONTRIBUTING.md
+  - releases: https://github.com/jtayped/supermercapy/blob/main/RELEASING.md
+  - changelog: https://github.com/jtayped/supermercapy/blob/main/CHANGELOG.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
+            inherited_members: false
+            members_order: source
+            merge_init_into_class: true
+            separate_signature: true
+            show_root_heading: true
+            show_signature_annotations: true
+            show_source: false
+            signature_crossrefs: true
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true

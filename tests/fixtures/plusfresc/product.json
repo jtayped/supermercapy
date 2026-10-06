@@ -1,0 +1,182 @@
+{
+ "product": {
+  "filter_id": "01050203",
+  "category_id": "010502",
+  "item_id": "002530",
+  "brand_name": "BIRBA",
+  "image_url": "002530_Assortiment_de_galetes_BIRBA_capsa_560_grams_gran.jpg",
+  "value_cents": 995,
+  "unit_measure": "Kg",
+  "value_x_unit": 1776,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [
+   {
+    "embedded_icon_url": "CAT",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 1128,
+    "childs": [],
+    "id": "CAT_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE CATALÀ",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO CATALÁN",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "01050203002530",
+  "icon": "002530_Assortiment_de_galetes_BIRBA_capsa_560_grams.jpg",
+  "order": 4361,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Assortiment de galetes BIRBA, capsa 560 grams",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Surtido de galletas BIRBA, caja 560 gramos",
+    "type": 4
+   }
+  ]
+ },
+ "filedetails": {
+  "desc": "Surtido Camprodon 560g",
+  "etiqueta": "",
+  "descriptions": {},
+  "ingredient_list": "Harina de trigo, azúcar, mantequilla, chocolate (pasta de cacao, azúcar, manteca de cacao, emulgente: lecitina de soja), huevos frescos, almendras, avellanas, aceite de oliva, aceite de coco, coco rallado, leche en polvo, gasificantes (bicarbonato sódico y amónico), dextrosa, jarabe de glucosa, sal y aroma vainillina",
+  "conservation": "Conservar en lugar fresco y seco protegido de la luz solar",
+  "netweight": "560",
+  "nutritionalrationvalue": "100",
+  "foto": "002530_Assortiment_de_galetes_BIRBA_capsa_560_grams_gran.jpg",
+  "additionaldata": "",
+  "isingre": "2",
+  "isnutritional": "1",
+  "isallergens": "1",
+  "isextern": "1",
+  "extended": ""
+ },
+ "ingredients": [
+  {
+   "ingrename": "",
+   "ingrepercentatge": ""
+  }
+ ],
+ "nutritionals": [
+  {
+   "nutritionalname": "Valor energètic",
+   "per_100": "472",
+   "per_ration": "472",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "E14"
+  },
+  {
+   "nutritionalname": "Valor energètic",
+   "per_100": "1980",
+   "per_ration": "1980",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "KJO"
+  },
+  {
+   "nutritionalname": "Greix",
+   "per_100": "18",
+   "per_ration": "18",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  },
+  {
+   "nutritionalname": "Greixos Saturats",
+   "per_100": "10",
+   "per_ration": "10",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  },
+  {
+   "nutritionalname": "Carbohidrats",
+   "per_100": "69",
+   "per_ration": "69",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  },
+  {
+   "nutritionalname": "Sucres",
+   "per_100": "32",
+   "per_ration": "32",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  },
+  {
+   "nutritionalname": "Proteïna",
+   "per_100": "7",
+   "per_ration": "7",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  },
+  {
+   "nutritionalname": "Sal equivalent",
+   "per_100": "1",
+   "per_ration": "1",
+   "per_product": "",
+   "per_ingest": "",
+   "nutritionalunit": "GR"
+  }
+ ],
+ "allergens": [
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Ous"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Llet"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Fruits Secs"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Cereals que contenen gluten"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Soja"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Ametlla"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Avellana"
+  },
+  {
+   "alergendescription": "Conté",
+   "alergensname": "Blat"
+  }
+ ]
+}

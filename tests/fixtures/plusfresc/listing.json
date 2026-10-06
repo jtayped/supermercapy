@@ -1,0 +1,143 @@
+[
+ {
+  "filter_id": "01010101",
+  "category_id": "010101",
+  "item_id": "000105",
+  "brand_name": "GERMANOR",
+  "image_url": "000105_Oli_d_oliva_verge_extra_GERMANOR_ampolla_750_ml_gran.jpg",
+  "value_cents": 849,
+  "unit_measure": "L",
+  "value_x_unit": 1132,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [
+   {
+    "embedded_icon_url": "LOL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 590,
+    "childs": [],
+    "id": "LOL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE LOCAL",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO LOCAL",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "01010101000105",
+  "icon": "000105_Oli_d_oliva_verge_extra_GERMANOR_ampolla_750_ml.jpg",
+  "order": 114,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oli d'oliva verge extra GERMANOR, 750 ml",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Aceite de oliva virgen extra GERMANOR, 750 ml",
+    "type": 4
+   }
+  ]
+ },
+ {
+  "combinable_with": [
+   "004772"
+  ],
+  "promo_id": "CategoMxN_34016",
+  "qty_required": 2,
+  "end_date": "14/09/2026",
+  "new_value_cents": 449,
+  "band_uri": "OfferCombiType_5637146356.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "01010101",
+  "category_id": "010101",
+  "item_id": "000106",
+  "brand_name": "BORGES",
+  "image_url": "000106_Oli_d_oliva_intens_BORGES_ampolla_1_litre_gran.jpg",
+  "value_cents": 599,
+  "unit_measure": "L",
+  "value_x_unit": 448,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [],
+  "id": "01010101000106",
+  "icon": "000106_Oli_d_oliva_intens_BORGES_ampolla_1_litre.jpg",
+  "order": 101,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oli d'oliva intens BORGES, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "La 2ª ut. al 50%",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Aceite de oliva intenso BORGES, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "La 2ª ud. al 50%",
+    "type": 6
+   }
+  ]
+ },
+ {
+  "filter_id": "01010101",
+  "category_id": "010101",
+  "item_id": "000130",
+  "brand_name": "CAPICUA",
+  "image_url": "000130_Oli_d_oliva_de_pinyolada_04_graus_CAPICUA_1_l_gran.jpg",
+  "value_cents": 359,
+  "unit_measure": "L",
+  "value_x_unit": 359,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [],
+  "id": "01010101000130",
+  "icon": "000130_Oli_d_oliva_de_pinyolada_04_graus_CAPICUA_1_l.jpg",
+  "order": 98,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oli d'oliva de pinyolada 0,4 graus CAPICUA, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Aceite de oliva de orujo 0,4 grados CAPICUA, 1 l",
+    "type": 4
+   }
+  ]
+ }
+]

@@ -1,0 +1,101 @@
+{
+ "current_category": "L108",
+ "current_subcategory": {
+  "first_level_placement": true,
+  "id": "L2055",
+  "link": "/huevos-leche-y-mantequilla/huevos/c/L2055",
+  "name": "Huevos",
+  "query_id": "aaf19a64451439ab2c0933ba6567a4d7",
+  "total_items": 11
+ },
+ "facets": [
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 192,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "dia_brand",
+   "field_name": "Marca Dia",
+   "filters": [
+    {
+     "count": 72,
+     "enabled": true,
+     "id": "dia_brand:true:es",
+     "title": "true"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "items": [
+  {
+   "brand": "Dia",
+   "display_name": "Huevos medianos M Dia 24 unidades",
+   "expiration_days": 0,
+   "image": "/product_images/274009/274009_ISO_0_ES.jpg",
+   "object_id": "274009",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "DOCENA",
+    "price": 5.25,
+    "price_per_unit": 2.63,
+    "strikethrough_price": 5.25
+   },
+   "sku_id": "274009",
+   "units_in_cart": 0,
+   "units_in_stock": 130,
+   "url": "/huevos-leche-y-mantequilla/huevos/p/274009",
+   "weight": 0
+  },
+  {
+   "brand": "Dia",
+   "display_name": "Huevos grandes L de gallinas criadas en suelo Dia 12 unidades",
+   "expiration_days": 0,
+   "image": "/product_images/306230/306230_ISO_0_ES.jpg",
+   "object_id": "306230",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "DOCENA",
+    "price": 3.05,
+    "price_per_unit": 3.05,
+    "strikethrough_price": 3.05
+   },
+   "sku_id": "306230",
+   "units_in_cart": 0,
+   "units_in_stock": 379,
+   "url": "/huevos-leche-y-mantequilla/huevos/p/306230",
+   "weight": 0
+  }
+ ],
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 20,
+  "total_pages": 3,
+  "next_url": "/api/v1/plp-back/l1/all/L108/reduced?category_id=L2051&page=1"
+ },
+ "seo": {
+  "current_category_name": "Huevos, leche y mantequilla",
+  "description": "Huevos, leche y mantequilla",
+  "h1": "Huevos, leche y mantequilla",
+  "keywords": "Leche, huevos, mantequilla",
+  "title": "Huevos, leche y mantequilla"
+ },
+ "total_items": 203
+}

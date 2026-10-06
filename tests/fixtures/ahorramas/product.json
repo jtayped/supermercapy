@@ -1,0 +1,588 @@
+{
+ "action": "Product-Variation",
+ "queryString": "pid=52028",
+ "locale": "es",
+ "product": {
+  "uuid": "25e677584c22a98ee7308a334e",
+  "id": "52028",
+  "productName": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+  "productType": "standard",
+  "brand": "AQUAREL",
+  "gtmData": {
+   "id": "52028",
+   "name": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+   "brand": "AQUAREL",
+   "category": "Agua",
+   "categoryID": "agua",
+   "price": "0.64"
+  },
+  "price": {
+   "sales": {
+    "value": 0.48,
+    "currency": "EUR",
+    "formatted": "0,48€",
+    "decimalPrice": "0.48"
+   },
+   "list": {
+    "value": 0.64,
+    "currency": "EUR",
+    "formatted": "0,64€",
+    "decimalPrice": "0.64"
+   },
+   "html": "    <div class=\"price\">\n        \n        \n<div>\n    \n        \n        <del>\n            <span class=\"strike-through list\">\n                <span class=\"value\" content=\"0.64\">\n                    <span class=\"sr-only\">\n                        Price reduced from\n                    </span>\n                    0<span class=\"decimal-part\">,64&euro;</span>\n                    <span class=\"sr-only\">\n                        to\n                    </span>\n                </span>\n            </span>\n        </del>\n    \n    \n    \n    \n        <span class=\"sales\">    \n            \n            \n            \n                <span class=\"value\" content=\"0.48\">\n            \n            0<span class=\"decimal-part\">,48&euro;</span>\n        </span>\n    \n</div>\n    </div>\n\n\n"
+  },
+  "renderedPrice": "    <div class=\"price\">\n        \n        \n<div>\n    \n        \n        <del>\n            <span class=\"strike-through list\">\n                <span class=\"value\" content=\"0.64\">\n                    <span class=\"sr-only\">\n                        Price reduced from\n                    </span>\n                    0<span class=\"decimal-part\">,64&euro;</span>\n                    <span class=\"sr-only\">\n                        to\n                    </span>\n                </span>\n            </span>\n        </del>\n    \n    \n    \n    \n        <span class=\"sales\">    \n            \n            \n            \n                <span class=\"value\" content=\"0.48\">\n            \n            0<span class=\"decimal-part\">,48&euro;</span>\n        </span>\n    \n</div>\n    </div>\n\n\n",
+  "priceOnlineTo": null,
+  "images": {
+   "large": [
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "/on/demandware.static/-/Sites-ahorramas-master/default/dw6680baaf/Assets/052028_C1C1/large/0/7/3/4/07343477286e08da73afe2c77ee53fb612d55fe2_052028_C1C1.jpg",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "/on/demandware.static/-/Sites-ahorramas-master/default/dwaaa6ae6a/Assets/052028_Z0Z1/large/7/c/b/5/7cb5c037002ab04d43b1a4fade0f4c23c20fb6ec_052028_Z0Z1.jpg",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "/on/demandware.static/-/Sites-ahorramas-master/default/dw41aa9eef/Assets/052028_EIAv/large/2/f/3/6/2f36b274dead67e44f5778a9f6c5a07ab3ecdf73_052028_EIAv.jpg",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    }
+   ],
+   "pdp": [
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6680baaf/Assets/052028_C1C1/large/0/7/3/4/07343477286e08da73afe2c77ee53fb612d55fe2_052028_C1C1.jpg?sh=450",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwaaa6ae6a/Assets/052028_Z0Z1/large/7/c/b/5/7cb5c037002ab04d43b1a4fade0f4c23c20fb6ec_052028_Z0Z1.jpg?sh=450",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw41aa9eef/Assets/052028_EIAv/large/2/f/3/6/2f36b274dead67e44f5778a9f6c5a07ab3ecdf73_052028_EIAv.jpg?sh=450",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    }
+   ],
+   "small": [
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw6680baaf/Assets/052028_C1C1/large/0/7/3/4/07343477286e08da73afe2c77ee53fb612d55fe2_052028_C1C1.jpg?sw=140&sh=140",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwaaa6ae6a/Assets/052028_Z0Z1/large/7/c/b/5/7cb5c037002ab04d43b1a4fade0f4c23c20fb6ec_052028_Z0Z1.jpg?sw=140&sh=140",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    },
+    {
+     "alt": "Agua mineral natural Nestlé Aquarel botella 1,5 l",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw41aa9eef/Assets/052028_EIAv/large/2/f/3/6/2f36b274dead67e44f5778a9f6c5a07ab3ecdf73_052028_EIAv.jpg?sw=140&sh=140",
+     "title": "Agua mineral natural Nestlé Aquarel botella 1,5 l"
+    }
+   ]
+  },
+  "selectedQuantity": 1,
+  "minOrderQuantity": 1,
+  "maxOrderQuantity": 100,
+  "variationAttributes": null,
+  "longDescription": "AGUA AQUAREL NESTLE 1,5L",
+  "shortDescription": null,
+  "rating": 5,
+  "promotions": [
+   {
+    "calloutMsg": "Bajada de precio a ",
+    "details": "Bajada de precio a ",
+    "price": "0.48€",
+    "calloutDate": "(Válido del 01/10/26 al 28/10/26)",
+    "detailsDate": "(01/10/26 - 28/10/26)",
+    "agresiva": false,
+    "enabled": true,
+    "id": "576486",
+    "name": "Bajada de precio",
+    "promotionClass": "PRODUCT",
+    "rank": 2026274,
+    "tags": "Descuento"
+   }
+  ],
+  "promocionAgresiva": false,
+  "discountPercent": "25",
+  "attributes": null,
+  "availability": {
+   "warning": false,
+   "messages": [
+    "En stock"
+   ],
+   "listMessages": [
+    "En stock"
+   ],
+   "qtyInStock": 1,
+   "inStockDate": null
+  },
+  "available": true,
+  "options": [],
+  "quantities": [
+   {
+    "value": "1",
+    "selected": true,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=52028&quantity=1"
+   },
+   {
+    "value": "2",
+    "selected": false,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=52028&quantity=2"
+   },
+   {
+    "value": "3",
+    "selected": false,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=52028&quantity=3"
+   }
+  ],
+  "selectedProductUrl": "/agua-mineral-natural-nestle-aquarel-botella-15-l-52028.html?%2Fagua-mineral-natural-nestle-aquarel-botella-15-l-52028.html=undefined&quantity=undefined",
+  "readyToOrder": true,
+  "online": true,
+  "pageTitle": "Agua mineral natural Nestlé Aquarel botella 1,5 l | Ahorramas",
+  "pageDescription": "Compra online Agua mineral natural Nestlé Aquarel botella 1,5 l en nuestro Mercado Online y recíbelo a domicilio en 24h",
+  "pageKeywords": null,
+  "pageMetaTags": [
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {}
+  ],
+  "template": null,
+  "unitPrice": {
+   "sales": {
+    "value": 0.48,
+    "currency": "EUR",
+    "formatted": "0,48€",
+    "decimalPrice": "0.48"
+   },
+   "list": {
+    "value": 0.64,
+    "currency": "EUR",
+    "formatted": "0,64€",
+    "decimalPrice": "0.64"
+   }
+  },
+  "unitData": {
+   "unit": "Kg",
+   "frontUnit": {},
+   "unitLaw": "Kg",
+   "value": 1,
+   "valueUnitWeight": 1,
+   "conversion": 1,
+   "fronValue": 1
+  },
+  "ingredients": null,
+  "nutritionalValues": null,
+  "allergens": {},
+  "dietary": {},
+  "recommendations": {},
+  "akeneoPrecioUdKgHelper": false,
+  "akeneoTipoVentaBalanza": false,
+  "akeneo_envasadoVacioNo": null,
+  "akeneoVolumeUnit": "6",
+  "akeneoTipoDeVentaOnlineMixto": null,
+  "akeneoFormatoSelector": "peso",
+  "attrProductIngredients": [],
+  "attrProductDecription": [
+   {
+    "name": "productDescription",
+    "value": "<h2>Compra Agua Aquarel Nestlé 1,5l online</h2>\n\nEl agua mineral Aquarel se extrae de diferentes manantiales de España, con mineralización débil y una baja concentración de sales minerales.\nEn Aquarel para garantizar la calidad y pureza de sus aguas las someten a un proceso de purificación y filtración."
+   }
+  ],
+  "energyInfo": "Composición química (mg/l): Residuo seco 287, Bicarbonato (HCO3) 197, Cloruro (Cl) 14, Calcio (Ca) 65, Magnesio (Mg) 14, Sodio (Na) 11",
+  "attrGeneralInfo": [
+   {
+    "name": "netWeight",
+    "value": "1,50 KG",
+    "label": "Peso Neto"
+   },
+   {
+    "name": "productVolume",
+    "value": "1,50 LITRO",
+    "label": "Volumen"
+   },
+   {
+    "name": "addedSugar",
+    "value": null,
+    "type": "boolean",
+    "label": "Sin azúcares añadidos"
+   },
+   {
+    "name": "productAdvice",
+    "value": null,
+    "label": "Consejos de utilización"
+   },
+   {
+    "name": "productUse",
+    "value": null,
+    "label": "Modo de empleo"
+   },
+   {
+    "name": "productWarning",
+    "value": null,
+    "label": "Advertencias"
+   },
+   {
+    "name": "conservationMode",
+    "value": null,
+    "label": "Modo de conservación"
+   },
+   {
+    "name": "productDenomination",
+    "value": null,
+    "label": "Denominación científica"
+   },
+   {
+    "name": "animalSpecies",
+    "value": null,
+    "label": "Tipo de animal/especie"
+   },
+   {
+    "name": "pigBreed",
+    "value": {},
+    "label": "Tipo de raza del cerdo"
+   },
+   {
+    "name": "curationType",
+    "value": {},
+    "label": "Tipo de curación"
+   },
+   {
+    "name": "curationMonth",
+    "value": null,
+    "label": "Meses de curación"
+   },
+   {
+    "name": "veganProduct",
+    "value": null,
+    "type": "boolean",
+    "label": "Vegano"
+   },
+   {
+    "name": "vegetarianProduct",
+    "value": null,
+    "type": "boolean",
+    "label": "Vegetariano"
+   },
+   {
+    "name": "productTraces",
+    "value": null,
+    "label": "Trazas"
+   },
+   {
+    "name": "productCountry",
+    "value": "España",
+    "label": "Origen de la leche"
+   },
+   {
+    "name": "coffeOrigin",
+    "value": null,
+    "label": "Origen del café"
+   },
+   {
+    "name": "productOrigin",
+    "value": null,
+    "label": "Denominación de origen"
+   },
+   {
+    "name": "productOperator",
+    "value": "AQUAREL",
+    "label": "Proveedor comercial"
+   },
+   {
+    "name": "withoutCaffeine",
+    "value": null,
+    "type": "boolean",
+    "label": "Sin cafeína"
+   },
+   {
+    "name": "productExpiration",
+    "value": null,
+    "label": "Caducidad una vez abierto"
+   },
+   {
+    "name": "productStartAge",
+    "value": null,
+    "label": "Edad desde"
+   },
+   {
+    "name": "productEndAge",
+    "value": null,
+    "label": "Edad hasta"
+   },
+   {
+    "name": "productMaterial",
+    "value": null,
+    "label": "Material composición"
+   },
+   {
+    "name": "productColor",
+    "value": null,
+    "label": "Color"
+   },
+   {
+    "name": "productSize",
+    "value": {},
+    "label": "Talla"
+   },
+   {
+    "name": "productUnicSize",
+    "value": null,
+    "type": "boolean",
+    "label": "Talla única"
+   },
+   {
+    "name": "alcoholicGrade",
+    "value": null,
+    "label": "Grado alcohólico"
+   },
+   {
+    "name": "dermTested",
+    "value": null,
+    "type": "boolean",
+    "label": "Testado dermatológicamente"
+   },
+   {
+    "name": "internalCode",
+    "value": "52028",
+    "label": "Código"
+   }
+  ],
+  "attrAkeneoBadges": [
+   {
+    "name": "sinGluten",
+    "value": null,
+    "title": "SIN GLUTEN",
+    "icon": {}
+   },
+   {
+    "name": "sinLactosa",
+    "value": null,
+    "title": "SIN LACTOSA",
+    "icon": {}
+   },
+   {
+    "name": "sinAzucar",
+    "value": null,
+    "title": "SIN AZÚCAR",
+    "icon": {}
+   },
+   {
+    "name": "sinAzucaresAnadidos",
+    "value": null,
+    "title": "SIN AZÚCARES AÑADIDOS",
+    "icon": {}
+   },
+   {
+    "name": "productLigth",
+    "value": null,
+    "title": "LIGHT",
+    "icon": {}
+   },
+   {
+    "name": "sinCafeina",
+    "value": null,
+    "title": "SIN CAFEINA",
+    "icon": {}
+   },
+   {
+    "name": "bajoEnSal",
+    "value": null,
+    "title": "BAJO EN SAL",
+    "icon": {}
+   },
+   {
+    "name": "ceroMateriaGrasa",
+    "value": null,
+    "title": "0 MATERIA GRASA",
+    "icon": {}
+   },
+   {
+    "name": "bioEcoOrganico",
+    "value": null,
+    "title": "BIO",
+    "icon": {}
+   },
+   {
+    "name": "congelado",
+    "value": null,
+    "title": "CONGELADO",
+    "icon": {}
+   },
+   {
+    "name": "descongelado",
+    "value": null,
+    "title": "DESCONGELADO",
+    "icon": {}
+   },
+   {
+    "name": "refrigerado",
+    "value": null,
+    "title": "PRODUCTO REFRIGERADO",
+    "icon": {}
+   },
+   {
+    "name": "alcohol",
+    "value": null,
+    "title": "BEBIDA ALCOHOLICA",
+    "icon": {}
+   },
+   {
+    "name": "disponibilidadPescado",
+    "value": null,
+    "title": "",
+    "icon": {}
+   }
+  ],
+  "akeneoFilters": [
+   {
+    "name": "sinGluten",
+    "value": null
+   },
+   {
+    "name": "sinLactosa",
+    "value": null
+   },
+   {
+    "name": "sinAzucar",
+    "value": null
+   },
+   {
+    "name": "sinAzucaresAnadidos",
+    "value": null
+   },
+   {
+    "name": "productLigth",
+    "value": null
+   },
+   {
+    "name": "sinCafeina",
+    "value": null
+   },
+   {
+    "name": "bajoEnSal",
+    "value": null
+   },
+   {
+    "name": "ceroMateriaGrasa",
+    "value": null
+   },
+   {
+    "name": "bioEcoOrganico",
+    "value": null
+   },
+   {
+    "name": "congelado",
+    "value": null
+   },
+   {
+    "name": "refrigerado",
+    "value": null
+   },
+   {
+    "name": "vegano",
+    "value": null
+   },
+   {
+    "name": "tipoVenta",
+    "value": {}
+   },
+   {
+    "name": "marca",
+    "value": null
+   },
+   {
+    "name": "tipoCafe",
+    "value": {}
+   },
+   {
+    "name": "origenCafe",
+    "value": null
+   },
+   {
+    "name": "descongelado",
+    "value": null
+   },
+   {
+    "name": "claseCerveza",
+    "value": {}
+   },
+   {
+    "name": "tipoDePiel",
+    "value": {}
+   },
+   {
+    "name": "edadDesde",
+    "value": null
+   },
+   {
+    "name": "edadHasta",
+    "value": null
+   },
+   {
+    "name": "tipoDeEspecieAnimal",
+    "value": null
+   },
+   {
+    "name": "tipoRazaCerdo",
+    "value": {}
+   },
+   {
+    "name": "talla",
+    "value": {}
+   },
+   {
+    "name": "tallaUnica",
+    "value": null
+   },
+   {
+    "name": "funcionCosmetico",
+    "value": null
+   }
+  ],
+  "akeneoPesoMedio": null,
+  "akeneoAvailabilityLabel": null,
+  "akeneo_codigoMedida": "LITRO",
+  "akeneoPrecioUnidadKg": false,
+  "akeneo_unidadMedida": {
+   "list": "0,43€",
+   "sales": "0,32€"
+  },
+  "akeneoUnidadMedidaFront": "Kg",
+  "multiplicadorPeso": 1,
+  "akeneoNovedad": null,
+  "stepQuantity": 1,
+  "primaryCategory": "agua",
+  "categoryId": [
+   "Bebidas",
+   "Agua"
+  ],
+  "attributesHtml": "",
+  "promotionsHtml": "    \n    \n        \n            <div aria-controls=\"collapsible-promotion-details-0\" aria-expanded=\"false\" class=\"title callout mt-2\">\n                Bajada de precio a \n\n                \n                    <span class=\"promo-price\">0.48€</span>\n                \n\n                \n                    (Válido del 01/10/26 al 28/10/26)\n                \n            </div>\n        \n    \n\n\n",
+  "optionsHtml": ""
+ },
+ "resources": {
+  "info_selectforstock": "Seleccionar estilos para disponibilidad",
+  "assistiveSelectedText": "seleccionado"
+ },
+ "__gtmEvents": [
+  null
+ ]
+}

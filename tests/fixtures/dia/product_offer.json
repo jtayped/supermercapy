@@ -1,0 +1,147 @@
+{
+ "cart": {
+  "postal_code": "28041",
+  "total_amount": 0,
+  "total_units": 0
+ },
+ "customer": {},
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "product": {
+  "breadcrumb": [
+   {
+    "link": "/congelados-y-helados/c/L119",
+    "title": "Congelados y helados"
+   },
+   {
+    "link": "/congelados-y-helados/verduras-y-patatas/c/L2210",
+    "title": "Verduras y patatas"
+   }
+  ],
+  "images": [
+   "/product_images/1389/1389_ISO_0_ES.jpg",
+   "/product_images/1389/1389_TRA_0_ES.jpg"
+  ],
+  "info_labels": [
+   "Tipo de producto: Verduras"
+  ],
+  "ingredients": {
+   "text": "<p>Judía verde plana, guisante, zanahoria en rodajas, coliflor, alcachofa en trozos.</p>",
+   "title": "Ingredientes"
+  },
+  "instructions": {
+   "instructions_for_preparation": {
+    "text": "En air fryer: echar el producto de la bolsa directamente sin descongelar en la cesta de la air fryer sobre un papel de horno o recipiente apto para air fryer y cocinar durante 14 minutos a 175 °C. Remover a mitad del cocinado. Ajustar cantidad de producto a cocinar en función del tamaño de la air fryer. En olla expr echar el producto directamente sin descongelar en la olla exprés con agua, cerrar la tapa, cocinar durante 4-5 minutos a partir de que suba la válvula. Escurrir el agua de cocción y aderezar al gusto. En cazuela: echar el producto directamente sin descongelar en agua hirviendo y cocer durante 11-13 minutos aproximadamente a partir de que vuelva a hervir. Escurrir el agua de cocción y aderezar al gusto.",
+    "title": "Instrucciones de preparación"
+   },
+   "storage_instructions": {
+    "text": "Conservar en congelación a -18 °C. Una vez descongelado, no volver a congelar. Una vez abierto, si queda producto sin consumir, cerrar bien el envase y devolverlo al congelador lo más rápido posible.",
+    "title": "Instrucciones de almacenaje"
+   }
+  },
+  "manufacturer_contact": {
+   "manufacturer_contact_address": "Pol. Ind. de Arguedas N°4 31513 Arguedas (Navarra), España.",
+   "manufacturer_contact_name": "Congelados de Navarra S.A.U. "
+  },
+  "nutritional_info": {
+   "nutri_measurement_unit": {
+    "name": "Medida tamaño",
+    "value": "g"
+   },
+   "nutri_size": {
+    "name": "Tamaño en origen",
+    "value": 100
+   },
+   "nutritional_values": {
+    "energy_value": 40,
+    "energy_value_kj": 168,
+    "measure_unit": "kcal",
+    "measure_unit_kj": "kJ",
+    "values": [
+     {
+      "items": [
+       {
+        "measure_unit": "g",
+        "title": "de las cuales saturadas",
+        "value": 0,
+        "value_per_100_g": 0
+       }
+      ],
+      "measure_unit": "g",
+      "title": "Grasas",
+      "value": 0.2,
+      "value_per_100_g": 0.2
+     },
+     {
+      "items": [
+       {
+        "measure_unit": "g",
+        "title": "de los cuales azúcares",
+        "value": 2.9,
+        "value_per_100_g": 2.9
+       }
+      ],
+      "measure_unit": "g",
+      "title": "Hidratos de Carbono",
+      "value": 5.2,
+      "value_per_100_g": 5.2
+     },
+     {
+      "measure_unit": "g",
+      "title": "Fibra alimentaria",
+      "value": 3.6,
+      "value_per_100_g": 3.6
+     },
+     {
+      "measure_unit": "g",
+      "title": "Proteínas",
+      "value": 2.5,
+      "value_per_100_g": 2.5
+     },
+     {
+      "measure_unit": "g",
+      "title": "Sal",
+      "value": 0.05,
+      "value_per_100_g": 0.05
+     }
+    ]
+   }
+  },
+  "prices": {
+   "currency": "EUR",
+   "discount_percentage": 20,
+   "is_club_price": true,
+   "is_promo_price": true,
+   "measure_unit": "KILO",
+   "price": 1.4,
+   "price_per_unit": 1.4,
+   "strikethrough_price": 1.75
+  },
+  "primary_info": {
+   "title": "Menestra de verduras Dia Vegecampo 1 Kg"
+  },
+  "product_info": {
+   "product": "Mezcla de hortalizas para menestra.",
+   "subtitle": "Contenido neto: 1Kg"
+  },
+  "promotions": [
+   {
+    "description": "20% DTO. MENESTRA VERDURAS DIA VEGECAMPO 1KG",
+    "document_type": "promotion",
+    "only_club_dia": true,
+    "short_description": "MENESTRA VERDURA DIA"
+   }
+  ],
+  "seo_text": {
+   "text": "Compra Menestra de verduras Dia Vegecampo 1 Kg al mejor precio en la sección de Verduras y patatas. Todos los productos de Dia Vegecampo disponibles en supermercados DIA.",
+   "title": "Texto SEO"
+  },
+  "sku_id": "1389",
+  "stamp_code": "1",
+  "stamp_color": "#FAAA0D",
+  "stamp_description": "Air Fryer",
+  "stamp_text_color": "#FFFFFF",
+  "units_in_cart": 0,
+  "units_in_stock": 74
+ }
+}

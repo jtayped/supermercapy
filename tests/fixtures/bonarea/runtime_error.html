@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error en runtime</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>body {font-family:"Verdana";}</style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Error de servidor en la aplicación '/'.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>Error en runtime</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Descripción: </b>Error de aplicación en el servidor. La configuración actual de errores personalizados de esta aplicación evita que se muestren los detalles del error de la aplicación de manera remota (por razones de seguridad). Sin embargo, se pueden ver los detalles en los exploradores que se ejecuten localmente en el servidor.
+            <br><br>
+
+            <b>Detalles:</b> Para habilitar los detalles de este mensaje de error espec&#237;fico de forma que sean visibles en equipos remotos, cree una etiqueta &lt;customErrors&gt; en el archivo de configuraci&#243;n &quot;web.config&quot; ubicado en el directorio ra&#237;z de la aplicaci&#243;n Web actual. La etiqueta &lt;customErrors&gt; debe tener el atributo &quot;mode&quot; establecido como &quot;Off&quot;.<br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+&lt;!-- Web.Config Configuration File --&gt;
+
+&lt;configuration&gt;
+    &lt;system.web&gt;
+        &lt;customErrors mode=&quot;Off&quot;/&gt;
+    &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            </font>
+
+    </body>
+</html>

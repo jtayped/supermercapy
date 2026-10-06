@@ -1,0 +1,66 @@
+{
+ "catalog": {
+  "content": [
+   {
+    "product_id": "VC4AECOMM-481229",
+    "catalog_ref_id": "4812290000",
+    "sms": "481229",
+    "ean13": "8431876481229",
+    "display_name": "Leche semidesnatada Carrefour pack de 9 briks de 1 l.",
+    "brand": "CARREFOUR",
+    "active_price": 7.29,
+    "list_price": 7.65,
+    "measure_unit": "l",
+    "recipient": "9 x 1 l.",
+    "image_path": {
+     "food": "https://static.carrefour.es/hd_350x_/img_pim_food/481229_00_1.jpg"
+    },
+    "urls": {
+     "food": "/supermercado/leche-semidesnatada-carrefour-pack-de-9-briks-de-1-l/R-VC4AECOMM-481229/p"
+    },
+    "parent_category": {
+     "food": "cat20093"
+    },
+    "document_type": [
+     "food"
+    ],
+    "sale_point_available": false
+   }
+  ],
+  "tagging": {
+   "query": "https://api.empathy.co/tagging/v1/track/carrefour/query"
+  },
+  "pagination": {
+   "start": 0,
+   "rows": 1,
+   "total": 3
+  },
+  "stats": {
+   "active_price": {
+    "min": "0.84",
+    "max": "7.29"
+   }
+  },
+  "numFound": 3,
+  "facets": [
+   {
+    "facet": "brand",
+    "values": [
+     {
+      "id": "brand:carrefour",
+      "count": 3
+     }
+    ]
+   }
+  ]
+ },
+ "direct": {
+  "content": []
+ },
+ "banner": {
+  "content": []
+ },
+ "promoted": {
+  "content": []
+ }
+}

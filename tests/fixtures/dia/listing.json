@@ -1,0 +1,154 @@
+{
+ "current_category_url": "/huevos-leche-y-mantequilla/leche/c/L2051",
+ "facets": [
+  {
+   "field": "brand_description",
+   "field_name": "Marca",
+   "filters": [
+    {
+     "count": 17,
+     "enabled": true,
+     "id": "brand_description:Asturiana:es",
+     "title": "Asturiana",
+     "url": "/huevos-leche-y-mantequilla/leche/asturiana/c/13uoF1i0z"
+    },
+    {
+     "count": 4,
+     "enabled": true,
+     "id": "brand_description:Celta:es",
+     "title": "Celta",
+     "url": "/huevos-leche-y-mantequilla/leche/celta/c/13uoF1byk"
+    }
+   ],
+   "selected_count": 0
+  },
+  {
+   "field": "custom_gluten_free",
+   "field_name": "Sin gluten",
+   "filters": [
+    {
+     "count": 50,
+     "enabled": true,
+     "id": "custom_gluten_free:SI:es",
+     "title": "SI",
+     "url": "/huevos-leche-y-mantequilla/leche/sin-gluten/c/13uoF1igj"
+    }
+   ],
+   "selected_count": 0
+  }
+ ],
+ "item_list_name": "huevos_leche_y_mantequilla_leche",
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "pagination": {
+  "page_number": 1,
+  "page_size": 20,
+  "total_pages": 3
+ },
+ "plp_items": [
+  {
+   "brand": "Dia Láctea",
+   "display_name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+   "expiration_days": 0,
+   "image": "/product_images/504P6/504P6_ISO_0_ES.jpg",
+   "object_id": "504P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 5.04,
+    "price_per_unit": 0.84,
+    "strikethrough_price": 5.04
+   },
+   "sku_id": "504P6",
+   "units_in_cart": 0,
+   "units_in_stock": 764,
+   "url": "/huevos-leche-y-mantequilla/leche/p/504P6",
+   "weight": 0
+  },
+  {
+   "brand": "Dia Láctea",
+   "display_name": "Leche entera Dia Láctea pack 6 x 1 L",
+   "expiration_days": 0,
+   "image": "/product_images/608P6/608P6_ISO_0_ES.jpg",
+   "object_id": "608P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 5.76,
+    "price_per_unit": 0.96,
+    "strikethrough_price": 5.76
+   },
+   "sku_id": "608P6",
+   "units_in_cart": 0,
+   "units_in_stock": 486,
+   "url": "/huevos-leche-y-mantequilla/leche/p/608P6",
+   "weight": 0
+  },
+  {
+   "brand": "Dia Láctea",
+   "display_name": "Leche desnatada Dia Láctea pack 6 x 1 L",
+   "expiration_days": 0,
+   "image": "/product_images/607P6/607P6_ISO_0_ES.jpg",
+   "object_id": "607P6",
+   "prices": {
+    "currency": "EUR",
+    "discount_percentage": 0,
+    "is_club_price": false,
+    "is_promo_price": false,
+    "measure_unit": "LITRO",
+    "price": 4.92,
+    "price_per_unit": 0.82,
+    "strikethrough_price": 4.92
+   },
+   "sku_id": "607P6",
+   "units_in_cart": 0,
+   "units_in_stock": 375,
+   "url": "/huevos-leche-y-mantequilla/leche/p/607P6",
+   "weight": 0
+  }
+ ],
+ "product_marking": {
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "item": {
+     "@type": "Product",
+     "image": "https://www.dia.es/product_images/504P6/504P6_ISO_0_ES.jpg",
+     "name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+     "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 5.04,
+      "priceCurrency": "EUR"
+     }
+    },
+    "position": 1,
+    "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/p/504P6"
+   }
+  ],
+  "numberOfItems": 50,
+  "url": "https://www.dia.es/huevos-leche-y-mantequilla/leche/c/L2051"
+ },
+ "query_id": "1d10d27b89257ce02610b05f00277ec4",
+ "remove_filters_uri": "/huevos-leche-y-mantequilla/leche/c/L2051",
+ "selected_category_id": "L2051",
+ "seo": {
+  "current_category_name": "Leche",
+  "description": "Leche",
+  "h1": "Leche",
+  "title": "Leche"
+ },
+ "sort": {
+  "direction": "desc",
+  "field": "rating"
+ },
+ "total_items": 50
+}

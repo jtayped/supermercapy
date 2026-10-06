@@ -1,0 +1,11 @@
+{
+ "action": "Product-Variation",
+ "queryString": "pid=99999999",
+ "locale": "es",
+ "tracking_consent": null,
+ "error": {},
+ "message": "Ha ocurrido algún problema técnico, y no podemos mostrarte la página a la que intentabas acceder. Por favor, inténtalo de nuevo.",
+ "__gtmEvents": [
+  null
+ ]
+}

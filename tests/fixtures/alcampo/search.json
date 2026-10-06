@@ -1,0 +1,365 @@
+{
+  "productGroups": [
+    {
+      "type": "personalized",
+      "name": "fop.headertitle.personalised",
+      "decoratedProducts": [
+        {
+          "productId": "176cfd5e-afa9-4aa1-8b6f-fe3d757c535e",
+          "retailerProductId": "54180",
+          "type": "REGULAR",
+          "name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "6000ml",
+          "price": {
+            "amount": "5.28",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.88",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+              "retailerPromotionId": "1152136_1",
+              "description": "Producto en Folleto (24/09/26_07/10/26)",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/1aec1514-3cce-46d9-8133-20fdebbdb2cc/300x300.jpg",
+            "description": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo.",
+            "imageId": "1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+          },
+          "imageIds": [
+            "1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/1aec1514-3cce-46d9-8133-20fdebbdb2cc"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+            "Leche",
+            "Leche semidesnatada"
+          ],
+          "ratingSummary": {
+            "overallRating": "5.0",
+            "count": 1
+          }
+        },
+        {
+          "productId": "6ab4700b-58f9-4d2c-942a-7ddce3286b57",
+          "retailerProductId": "54178",
+          "type": "REGULAR",
+          "name": "AUCHAN Leche entera de vaca 6 x 1 l Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "6000ml",
+          "price": {
+            "amount": "5.76",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.96",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+              "retailerPromotionId": "1152136_1",
+              "description": "Producto en Folleto (24/09/26_07/10/26)",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/845a9f8d-6b50-4055-81ce-1b7e621987f3/300x300.jpg",
+            "description": "AUCHAN Leche entera de vaca 6 x 1 l Producto Alcampo.",
+            "imageId": "845a9f8d-6b50-4055-81ce-1b7e621987f3"
+          },
+          "imageIds": [
+            "845a9f8d-6b50-4055-81ce-1b7e621987f3"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/845a9f8d-6b50-4055-81ce-1b7e621987f3"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+            "Leche",
+            "Leche entera"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    },
+    {
+      "type": "cluster",
+      "name": "fop.headertitle.other",
+      "decoratedProducts": [
+        {
+          "productId": "47d644cf-07ee-49f1-8f38-b8da5a169f65",
+          "retailerProductId": "54497",
+          "type": "REGULAR",
+          "name": "PASCUAL Leche entera procedente de animales con bienestar garantizado 6x 1l.",
+          "brand": "PASCUAL",
+          "packSizeDescription": "6000ml",
+          "price": {
+            "amount": "7.38",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.23",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "c5ca3d4d-acb7-410c-aff4-7216e52cb500",
+              "retailerPromotionId": "1152136_1",
+              "description": "Producto en Folleto (24/09/26_07/10/26)",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/13c90d4d-b9f4-4790-b445-692c63a0d91e/300x300.jpg",
+            "description": "PASCUAL Leche entera procedente de animales con bienestar garantizado 6x 1l.",
+            "imageId": "13c90d4d-b9f4-4790-b445-692c63a0d91e"
+          },
+          "imageIds": [
+            "13c90d4d-b9f4-4790-b445-692c63a0d91e"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/13c90d4d-b9f4-4790-b445-692c63a0d91e"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+            "Leche",
+            "Leche entera"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        },
+        {
+          "productId": "5c677217-b6fa-48c6-99cf-9edee89371a8",
+          "retailerProductId": "216880",
+          "type": "REGULAR",
+          "name": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "1200ml",
+          "price": {
+            "amount": "1.68",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.40",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/4a470824-e7cb-46c4-8806-0677718bfc93/300x300.jpg",
+            "description": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo.",
+            "imageId": "4a470824-e7cb-46c4-8806-0677718bfc93"
+          },
+          "imageIds": [
+            "4a470824-e7cb-46c4-8806-0677718bfc93",
+            "daaa0807-f418-483c-8d83-7df92fd7e55a"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/4a470824-e7cb-46c4-8806-0677718bfc93",
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/daaa0807-f418-483c-8d83-7df92fd7e55a"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+            "Leche",
+            "Leche entera"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "bc6d1b6c-cf6c-48db-a1a5-947ef0f4ed8e"
+  },
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Leche entera",
+                "categoryId": "c63004e5-e774-453f-ba20-2881c6c43561",
+                "productCount": 73,
+                "breadcrumbs": [],
+                "retailerCategoryId": "OCEntera"
+              }
+            ],
+            "name": "Leche",
+            "categoryId": "48c34870-c5a3-46c9-870b-590c66fe8848",
+            "productCount": 332,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OC1603"
+          }
+        ],
+        "name": "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+        "categoryId": "e33fcb5b-8a16-4202-b88b-13d7dfc547ce",
+        "productCount": 533,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC16"
+      },
+      {
+        "childCategories": [],
+        "name": "Desayuno y Merienda",
+        "categoryId": "d611a12e-a365-4ec5-9f0f-d2baf03e1f69",
+        "productCount": 20,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC10"
+      }
+    ],
+    "filters": [
+      {
+        "filterId": "boolean",
+        "label": "boolean",
+        "attributes": [
+          {
+            "filterAttributeId": "onOffer",
+            "label": "onOffer",
+            "selected": false
+          }
+        ],
+        "type": "BOOLEAN"
+      },
+      {
+        "filterId": "brands",
+        "label": "brands",
+        "attributes": [
+          {
+            "filterAttributeId": "CENTRAL LECHERA ASTURIANA",
+            "label": "CENTRAL LECHERA ASTURIANA",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "L.R.",
+            "label": "L.R.",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "PULEVA",
+            "label": "PULEVA",
+            "selected": false
+          }
+        ],
+        "type": "BRANDS"
+      },
+      {
+        "filterId": "dummyValue",
+        "label": "Filtros",
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nuevo Producto",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "alcampoBrandGeneric",
+            "label": "Marca Alcampo",
+            "selected": false
+          }
+        ],
+        "type": "RETAILER"
+      }
+    ],
+    "advertisingBanners": [],
+    "breadcrumb": [],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      },
+      {
+        "sortOptionId": "pricePerAscending",
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "pricePerDescending",
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceAscending",
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceDescending",
+        "messageKey": "sorting.option.price.descending",
+        "selected": false
+      }
+    ],
+    "currentCategory": {
+      "name": "Root",
+      "categoryId": "038fa25b-9e7d-4463-a66a-b88b47bf2f0f",
+      "productCount": 0,
+      "retailerCategoryId": "root"
+    },
+    "query": {
+      "searchTerm": "leche"
+    }
+  },
+  "missedPromotions": []
+}

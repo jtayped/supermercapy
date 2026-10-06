@@ -1,0 +1,328 @@
+{
+  "productGroups": [
+    {
+      "type": "on_offer",
+      "name": "fop.headertitle.onoffer",
+      "decoratedProducts": [
+        {
+          "productId": "e9cc5740-e0f6-4555-b439-7d1de44d3214",
+          "retailerProductId": "25140",
+          "type": "CATCHWEIGHT",
+          "name": "AUCHAN Solomillo de pavo al vacío, bipack Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "450g - 750g",
+          "price": {
+            "amount": "4.74",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "7.90",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "93aaa741-2fb8-46b7-a6ab-71836812126e",
+              "retailerPromotionId": "promo-ui-4cff55dc24b34a2eb8575fef65470b44",
+              "description": "Novedad Alcampo",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/064cf5f1-bbde-4d0d-9653-7f2e82a1ad1d/300x300.jpg",
+            "description": "AUCHAN Solomillo de pavo al vacío, bipack Producto Alcampo.",
+            "imageId": "064cf5f1-bbde-4d0d-9653-7f2e82a1ad1d"
+          },
+          "imageIds": [
+            "064cf5f1-bbde-4d0d-9653-7f2e82a1ad1d"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/064cf5f1-bbde-4d0d-9653-7f2e82a1ad1d"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": true,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": {
+            "minQuantity": {
+              "value": "450",
+              "uom": "G"
+            },
+            "typicalQuantity": {
+              "value": "600",
+              "uom": "G"
+            },
+            "maxQuantity": {
+              "value": "750",
+              "uom": "G"
+            }
+          },
+          "categoryPath": [
+            "Frescos",
+            "Carne",
+            "Pavo"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        },
+        {
+          "productId": "dc184971-8eda-46d0-a48a-5b6b3a1de290",
+          "retailerProductId": "24858",
+          "type": "CATCHWEIGHT",
+          "name": "AUCHAN Jamoncito de pavo al vacío 1 ud. Producto Alcampo.",
+          "brand": "PRODUCTO ALCAMPO",
+          "packSizeDescription": "150g - 250g",
+          "price": {
+            "amount": "0.96",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "4.79",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.kg",
+            "unitName": "PER_1KG"
+          },
+          "available": true,
+          "promotions": [
+            {
+              "promoId": "93aaa741-2fb8-46b7-a6ab-71836812126e",
+              "retailerPromotionId": "promo-ui-4cff55dc24b34a2eb8575fef65470b44",
+              "description": "Novedad Alcampo",
+              "type": "OFFER",
+              "presentationMode": "DEFAULT",
+              "limitReached": false
+            }
+          ],
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/a4598bf1-559c-42b3-ace6-cb5ada402ded/300x300.jpg",
+            "description": "AUCHAN Jamoncito de pavo al vacío 1 ud. Producto Alcampo.",
+            "imageId": "a4598bf1-559c-42b3-ace6-cb5ada402ded"
+          },
+          "imageIds": [
+            "a4598bf1-559c-42b3-ace6-cb5ada402ded"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/a4598bf1-559c-42b3-ace6-cb5ada402ded"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": true,
+          "timeRestricted": false,
+          "alcohol": false,
+          "catchweight": {
+            "minQuantity": {
+              "value": "150",
+              "uom": "G"
+            },
+            "typicalQuantity": {
+              "value": "200",
+              "uom": "G"
+            },
+            "maxQuantity": {
+              "value": "250",
+              "uom": "G"
+            }
+          },
+          "categoryPath": [
+            "Frescos",
+            "Carne",
+            "Pavo"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    },
+    {
+      "type": "ungrouped",
+      "name": "fop.headertitle.other",
+      "decoratedProducts": [
+        {
+          "productId": "8a977198-aa8b-479d-8b11-6f24385d44c5",
+          "retailerProductId": "747889",
+          "type": "REGULAR",
+          "name": "Cafetera expresso usb COMELEC CR4008, 5W, presión 15 bar, 1 tazas, café molido y cápsulas ese, capacidad 0,07L, recargable 1800mAh",
+          "brand": "COMELEC",
+          "price": {
+            "amount": "39.90",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "39.90",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each",
+            "unitName": "EACH"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/d925672e-acb0-4a95-8c58-ebff53421297/300x300.jpg",
+            "description": "Cafetera expresso usb COMELEC CR4008, 5W, presión 15 bar, 1 tazas, café molido y cápsulas ese, capacidad 0,07L, recargable 1800mAh",
+            "imageId": "d925672e-acb0-4a95-8c58-ebff53421297"
+          },
+          "imageIds": [
+            "d925672e-acb0-4a95-8c58-ebff53421297",
+            "f05f4e2d-38b3-47b5-a7cd-f27aca075e02"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/d925672e-acb0-4a95-8c58-ebff53421297",
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/f05f4e2d-38b3-47b5-a7cd-f27aca075e02"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": true,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Electrodomésticos",
+            "Cafeteras",
+            "Cafeteras espresso"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {},
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [],
+        "name": "Folletos y Promociones",
+        "categoryId": "7f02c6f2-3f6f-4e5a-8299-e953589591ce",
+        "productCount": 27,
+        "imageProductId": "fd756cea-fe43-4eb9-abbd-b0bcc21c8899",
+        "breadcrumbs": [
+          {
+            "name": "Folletos y Promociones",
+            "categoryId": "7f02c6f2-3f6f-4e5a-8299-e953589591ce",
+            "retailerCategoryId": "OCFYP"
+          }
+        ],
+        "retailerCategoryId": "OCFYP"
+      },
+      {
+        "childCategories": [],
+        "name": "Frescos",
+        "categoryId": "5ebb1e46-1db0-46d4-b7b6-f00b64516627",
+        "productCount": 5,
+        "imageProductId": "52698dec-cd3b-498d-bf11-f3a02ab21825",
+        "breadcrumbs": [
+          {
+            "name": "Frescos",
+            "categoryId": "5ebb1e46-1db0-46d4-b7b6-f00b64516627",
+            "retailerCategoryId": "OC2112"
+          }
+        ],
+        "retailerCategoryId": "OC2112"
+      }
+    ],
+    "filters": [
+      {
+        "filterId": "boolean",
+        "label": "boolean",
+        "attributes": [
+          {
+            "filterAttributeId": "onOffer",
+            "label": "onOffer",
+            "selected": false
+          }
+        ],
+        "type": "BOOLEAN"
+      },
+      {
+        "filterId": "brands",
+        "label": "brands",
+        "attributes": [
+          {
+            "filterAttributeId": "PRODUCTO ALCAMPO",
+            "label": "PRODUCTO ALCAMPO",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "YUZZ",
+            "label": "YUZZ",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "PULEVA",
+            "label": "PULEVA",
+            "selected": false
+          }
+        ],
+        "type": "BRANDS"
+      },
+      {
+        "filterId": "dummyValue",
+        "label": "Filtros",
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nuevo Producto",
+            "selected": true
+          },
+          {
+            "filterAttributeId": "alcampoBrandGeneric",
+            "label": "Marca Alcampo",
+            "selected": false
+          }
+        ],
+        "type": "RETAILER"
+      }
+    ],
+    "advertisingBanners": [],
+    "breadcrumb": [],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      },
+      {
+        "sortOptionId": "pricePerAscending",
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "pricePerDescending",
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceAscending",
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceDescending",
+        "messageKey": "sorting.option.price.descending",
+        "selected": false
+      }
+    ],
+    "currentCategory": {
+      "name": "Root",
+      "categoryId": "79c7aedc-5c77-4429-913a-83c6e6508138",
+      "productCount": 0,
+      "retailerCategoryId": "root"
+    }
+  },
+  "missedPromotions": []
+}

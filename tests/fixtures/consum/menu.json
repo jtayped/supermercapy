@@ -1,0 +1,129 @@
+[
+ {
+  "id": 2811,
+  "nombre": "Despensa",
+  "name": "Despensa",
+  "iconUrl": "https://cdn-consum.aktiosdigitalservices.com/assets/category/es/icon-food.svg",
+  "type": 0,
+  "level": 1,
+  "url": "https://tienda.consum.es/es/c/despensa/2811",
+  "seo": "despensa",
+  "subcategories": [
+   {
+    "id": 1970,
+    "nombre": "Aperitivos y frutos secos",
+    "name": "Aperitivos y frutos secos",
+    "type": 0,
+    "level": 2,
+    "url": "https://tienda.consum.es/es/c/despensa/aperitivos-frutos-secos/1970",
+    "seo": "despensa/aperitivos-frutos-secos",
+    "subcategories": [
+     {
+      "id": 1985,
+      "nombre": "Frutos secos",
+      "name": "Frutos secos",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/despensa/aperitivos-frutos-secos/frutos-secos/1985",
+      "seo": "despensa/aperitivos-frutos-secos/frutos-secos",
+      "subcategories": []
+     },
+     {
+      "id": 1980,
+      "nombre": "Fruta desecada",
+      "name": "Fruta desecada",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/despensa/aperitivos-frutos-secos/fruta-desecada/1980",
+      "seo": "despensa/aperitivos-frutos-secos/fruta-desecada",
+      "subcategories": []
+     }
+    ]
+   },
+   {
+    "id": 1639,
+    "nombre": "Arroz, pastas, legumbres",
+    "name": "Arroz, pastas, legumbres",
+    "type": 0,
+    "level": 2,
+    "url": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/1639",
+    "seo": "despensa/arroz-pastas-legumbres",
+    "subcategories": [
+     {
+      "id": 1640,
+      "nombre": "Arroz",
+      "name": "Arroz",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/arroz/1640",
+      "seo": "despensa/arroz-pastas-legumbres/arroz",
+      "subcategories": []
+     },
+     {
+      "id": 1793,
+      "nombre": "Bases y masas",
+      "name": "Bases y masas",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/despensa/arroz-pastas-legumbres/bases-masas/1793",
+      "seo": "despensa/arroz-pastas-legumbres/bases-masas",
+      "subcategories": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 1690,
+  "nombre": "Bebidas",
+  "name": "Bebidas",
+  "iconUrl": "https://cdn-consum.aktiosdigitalservices.com/assets/category/es/icon-drinks.svg",
+  "type": 0,
+  "level": 1,
+  "url": "https://tienda.consum.es/es/c/bebidas/1690",
+  "seo": "bebidas",
+  "subcategories": [
+   {
+    "id": 2482,
+    "nombre": "Aguas",
+    "name": "Aguas",
+    "type": 0,
+    "level": 2,
+    "url": "https://tienda.consum.es/es/c/bebidas/aguas/2482",
+    "seo": "bebidas/aguas",
+    "subcategories": [
+     {
+      "id": 1691,
+      "nombre": "Agua con gas",
+      "name": "Agua con gas",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/bebidas/aguas/agua-con-gas/1691",
+      "seo": "bebidas/aguas/agua-con-gas",
+      "subcategories": []
+     },
+     {
+      "id": 2483,
+      "nombre": "Agua con sabores",
+      "name": "Agua con sabores",
+      "type": 0,
+      "level": 3,
+      "url": "https://tienda.consum.es/es/c/bebidas/aguas/agua-con-sabores/2483",
+      "seo": "bebidas/aguas/agua-con-sabores",
+      "subcategories": []
+     }
+    ]
+   },
+   {
+    "id": 1701,
+    "nombre": "Cavas y sidras",
+    "name": "Cavas y sidras",
+    "type": 0,
+    "level": 2,
+    "url": "https://tienda.consum.es/es/c/bebidas/cavas-sidras/1701",
+    "seo": "bebidas/cavas-sidras",
+    "subcategories": []
+   }
+  ]
+ }
+]

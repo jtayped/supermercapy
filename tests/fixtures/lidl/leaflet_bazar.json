@@ -1,0 +1,78 @@
+{
+  "self": "v4/flyer?flyer_identifier=folleto-bazar-14-9-14-9-26-20-9-26-125083",
+  "version": 4,
+  "success": true,
+  "message": "Requested Flyer found.",
+  "numberOfEntries": 1,
+  "flyer": {
+    "id": "01a057c8-ba51-787d-8844-6ad44cad76b2",
+    "name": "FOLLETO BAZAR 14/9",
+    "title": "14/9/26-20/9/26",
+    "isActive": true,
+    "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a057c8-ba51-787d-8844-6ad44cad76b2/FOLLETO-BAZAR-14-9-14-9-26-20-9-26-00.pdf",
+    "startDate": "2026-09-07",
+    "endDate": "2026-09-20",
+    "offerStartDate": "2026-09-14",
+    "offerEndDate": "2026-09-20",
+    "status": "current",
+    "regions": [
+      {
+        "code": "0"
+      }
+    ],
+    "pages": [
+      {
+        "id": "01a07c57-6c0c-79f5-8b66-b2366703ae36",
+        "number": 1,
+        "width": 1415,
+        "height": 2400,
+        "type": "STANDARD",
+        "pageType": "page",
+        "keyWords": "Online Principales Centros Bricolaje Venta Crivit Zapatillas Deportivas",
+        "altText": "Catálogo de ofertas de Lidl con zapatillas deportivas Crivit, set de organización de herramientas Parkside y sartén de acero inoxidable Silvercrest.",
+        "image": "https://imgproxy.leaflets.schwarz/-NNtO7nLywDT5p3AAtvMjDEV0M_8FvchomDUQh-xKuo/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzgtYmE1MS03ODdkLTg4NDQtNmFkNDRjYWQ3NmIyL3BhZ2UtMDFfZGRjZDg5MDQ0ODhkYTU4YWNmZjc2ZGU4Yzc3MjQ1MDMucG5n.jpg",
+        "zoom": "https://imgproxy.leaflets.schwarz/1lbzMHX0qlGltpLCWjh9xJFQyeZkVg-iGBy69u0iHX0/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzgtYmE1MS03ODdkLTg4NDQtNmFkNDRjYWQ3NmIyL3BhZ2UtMDFfZGRjZDg5MDQ0ODhkYTU4YWNmZjc2ZGU4Yzc3MjQ1MDMucG5n.jpg",
+        "thumbnail": "https://imgproxy.leaflets.schwarz/EM9O-LgW91mClaketGAw5BfnvPaWMiKElKYSDtZe92o/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDFhMDU3YzgtYmE1MS03ODdkLTg4NDQtNmFkNDRjYWQ3NmIyL3BhZ2UtMDFfZGRjZDg5MDQ0ODhkYTU4YWNmZjc2ZGU4Yzc3MjQ1MDMucG5n.jpg",
+        "links": [
+          {
+            "id": "01a0809b-0485-7660-b74d-c7d4b13da2c1",
+            "displayType": "product",
+            "url": "https://www.lidl.es/p/crivit-zapatillas-de-deporte-para-hombre/p100408856#searchTrackingMasterId=Product.100408856&searchTrackingTitle=Zapatillas%2Bde%2Bdeporte%2Bpara%2Bhombre&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.100408856&searchTrackingQuery=541198&searchTrackingOrigPos=1&searchTrackingPos=1&searchTrackingOrigPageSize=48&searchTrackingChannel=ES&list=search%2F541198",
+            "title": "CRIVIT Zapatillas de deporte para hombre",
+            "icon": "link",
+            "width": 19.960861056751,
+            "height": 4.2774566473988,
+            "top": 52.254335260116,
+            "left": 9.7847358121331
+          }
+        ]
+      }
+    ],
+    "products": {
+      "01a0809b-0485-7660-b74d-c7d4b13da2c1": {
+        "productId": "100408856",
+        "title": "CRIVIT Zapatillas de deporte para hombre",
+        "brand": "CRIVIT",
+        "price": "12.99",
+        "currencyText": "EUR",
+        "currencySymbol": "€",
+        "canonicalUrl": "/p/crivit-zapatillas-de-deporte-para-hombre/p100408856",
+        "image": "https://www.lidl.es/assets/gcp30f8c459122547cea8f09bd4f544cd23.jpg",
+        "description": "Color: gris; negro Característica: plantilla de espuma viscoelástica Particularidad: acolchado en la lengüeta y en el borde del cañón",
+        "categoryPrimary": "Categorías/Moda/Ropa de caballero/Ropa deportiva para hombre/Calzado deportivo"
+      },
+      "01a0809b-0485-7660-b74d-c7d4b19c9f3c": {
+        "productId": "100407105",
+        "title": "SILVERCREST® Sartén de acero inoxidable prémium con estructura de panal, Ø 24 cm.",
+        "brand": "SILVERCREST®",
+        "price": "14.99",
+        "currencyText": "EUR",
+        "currencySymbol": "€",
+        "canonicalUrl": "/p/silvercrest-sarten-de-acero-inoxidable-premium-con-estructura-de-panal-o-24-cm/p100407105",
+        "image": "https://www.lidl.es/assets/gcp09b7ac1394d14250b9d906783b613deb.jpg",
+        "description": "Sartén de acero inoxidable prémium, Ø 24 cm — sartén robusta para el día a día para cocinar con poca grasa en todo tipo de placas Construcción multicapa de alta calidad con núcleo de aluminioAntiadherente de panal ILAG® para una superficie resistente a los arañazosApta para todo tipo de placas, incl. inducciónApta para lavavajillas y resistente al calor hasta aprox. 250 °CIncluye borde vertedor para verter sin gotear",
+        "categoryPrimary": "Categorías/Hogar y cocina/Batería de cocina/Cacerolas"
+      }
+    }
+  }
+}

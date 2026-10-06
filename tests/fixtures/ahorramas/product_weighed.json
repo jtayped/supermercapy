@@ -1,0 +1,553 @@
+{
+ "action": "Product-Variation",
+ "queryString": "pid=75248",
+ "locale": "es",
+ "product": {
+  "uuid": "d656357a61c71a6a05a8893217",
+  "id": "75248",
+  "productName": "Plátano canario Gabaceras",
+  "productType": "standard",
+  "brand": "GABACERAS",
+  "gtmData": {
+   "id": "75248",
+   "name": "Plátano canario Gabaceras",
+   "brand": "GABACERAS",
+   "category": "Plátanos y uvas",
+   "categoryID": "platanos/y/uvas",
+   "price": "2.85"
+  },
+  "price": {
+   "sales": {
+    "value": 2.85,
+    "currency": "EUR",
+    "formatted": "2,85€",
+    "decimalPrice": "2.85"
+   },
+   "list": null,
+   "html": "    <div class=\"price\">\n        \n        \n<div>\n    \n    \n    \n    \n        <span class=\"sales\">    \n            \n            \n            \n                <span class=\"value\" content=\"2.85\">\n            \n            2<span class=\"decimal-part\">,85&euro;</span>\n        </span>\n    \n</div>\n    </div>\n\n\n"
+  },
+  "renderedPrice": "    <div class=\"price\">\n        \n        \n<div>\n    \n    \n    \n    \n        <span class=\"sales\">    \n            \n            \n            \n                <span class=\"value\" content=\"2.85\">\n            \n            2<span class=\"decimal-part\">,85&euro;</span>\n        </span>\n    \n</div>\n    </div>\n\n\n",
+  "priceOnlineTo": null,
+  "images": {
+   "large": [
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "/on/demandware.static/-/Sites-ahorramas-master/default/dw41d9d772/Assets/075248_C1C1/large/0/8/0/e/080e3a1663fec8a199e20d703ef43c217a3973fe_075248_C1C1.jpg",
+     "title": "Plátano canario Gabaceras"
+    },
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "/on/demandware.static/-/Sites-ahorramas-master/default/dwaa187a12/Assets/075248_marca/large/b/5/7/1/b571867471d234d60c383e7b92e8dc0a2424555f_b63a112893f9ad1cd4f8e00c6c3bfa5054cd3881_c93f9a587df2d0acc61acbd3cbe49d34b5630df8_075248_marca.png",
+     "title": "Plátano canario Gabaceras"
+    }
+   ],
+   "pdp": [
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw41d9d772/Assets/075248_C1C1/large/0/8/0/e/080e3a1663fec8a199e20d703ef43c217a3973fe_075248_C1C1.jpg?sh=450",
+     "title": "Plátano canario Gabaceras"
+    },
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwaa187a12/Assets/075248_marca/large/b/5/7/1/b571867471d234d60c383e7b92e8dc0a2424555f_b63a112893f9ad1cd4f8e00c6c3bfa5054cd3881_c93f9a587df2d0acc61acbd3cbe49d34b5630df8_075248_marca.png?sh=450",
+     "title": "Plátano canario Gabaceras"
+    }
+   ],
+   "small": [
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dw41d9d772/Assets/075248_C1C1/large/0/8/0/e/080e3a1663fec8a199e20d703ef43c217a3973fe_075248_C1C1.jpg?sw=140&sh=140",
+     "title": "Plátano canario Gabaceras"
+    },
+    {
+     "alt": "Plátano canario Gabaceras",
+     "url": "https://www.ahorramas.com/dw/image/v2/BFNH_PRD/on/demandware.static/-/Sites-ahorramas-master/default/dwaa187a12/Assets/075248_marca/large/b/5/7/1/b571867471d234d60c383e7b92e8dc0a2424555f_b63a112893f9ad1cd4f8e00c6c3bfa5054cd3881_c93f9a587df2d0acc61acbd3cbe49d34b5630df8_075248_marca.png?sw=140&sh=140",
+     "title": "Plátano canario Gabaceras"
+    }
+   ]
+  },
+  "selectedQuantity": 0.19,
+  "minOrderQuantity": 0.19,
+  "maxOrderQuantity": 100,
+  "variationAttributes": null,
+  "longDescription": "PLÁTANO GABACERAS CANARIO",
+  "shortDescription": null,
+  "rating": 5,
+  "promotions": null,
+  "promocionAgresiva": false,
+  "discountPercent": "0",
+  "attributes": null,
+  "availability": {
+   "warning": false,
+   "messages": [
+    "En stock"
+   ],
+   "listMessages": [
+    "En stock"
+   ],
+   "qtyInStock": 0.19,
+   "inStockDate": null
+  },
+  "available": true,
+  "options": [],
+  "quantities": [
+   {
+    "value": "0.0361",
+    "selected": false,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=75248&quantity=0.0361"
+   },
+   {
+    "value": "0.0722",
+    "selected": false,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=75248&quantity=0.0722"
+   },
+   {
+    "value": "0.10830000000000001",
+    "selected": false,
+    "url": "/on/demandware.store/Sites-Ahorramas-Site/es/Product-Variation?pid=75248&quantity=0.10830000000000001"
+   }
+  ],
+  "selectedProductUrl": "/platano-canario-gabaceras-75248.html?%2Fplatano-canario-gabaceras-75248.html=undefined&quantity=undefined",
+  "readyToOrder": true,
+  "online": true,
+  "pageTitle": "Plátano canario Gabaceras | Ahorramas",
+  "pageDescription": "Compra online Plátano canario Gabaceras en nuestro Mercado Online y recíbelo a domicilio en 24h",
+  "pageKeywords": null,
+  "pageMetaTags": [
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {},
+   {}
+  ],
+  "template": null,
+  "unitPrice": {
+   "sales": {
+    "value": 2.85,
+    "currency": "EUR",
+    "formatted": "2,85€",
+    "decimalPrice": "2.85"
+   },
+   "list": null
+  },
+  "unitData": {
+   "unit": "Kg",
+   "frontUnit": {},
+   "unitLaw": "Kg",
+   "value": 1,
+   "valueUnitWeight": 1,
+   "conversion": 1,
+   "fronValue": 1
+  },
+  "ingredients": null,
+  "nutritionalValues": null,
+  "allergens": {},
+  "dietary": {},
+  "recommendations": {},
+  "akeneoPrecioUdKgHelper": true,
+  "akeneoTipoVentaBalanza": true,
+  "akeneo_envasadoVacioNo": null,
+  "akeneoVolumeUnit": null,
+  "akeneoTipoDeVentaOnlineMixto": true,
+  "akeneoFormatoSelector": "peso",
+  "attrProductIngredients": [],
+  "attrProductDecription": [
+   {
+    "name": "productDescription",
+    "value": "<h2>Compra plátano canario Gabaceras online</h2><p>Plátano canario Gabaceras está reconocido con el premio sabor 2023. </p><p>Su cuidado cultivo, por pequeños agricultores canarios, consiguen que el grado de madurez se alcance poco a poco, con una permanencia en la planta de seis meses. Esto confiere al plátano un mayor grado de madurez, y un sabor y aroma difícil de conseguir en ninguna otra localización.</p>"
+   }
+  ],
+  "energyInfo": null,
+  "attrGeneralInfo": [
+   {
+    "name": "netWeight",
+    "value": null,
+    "label": "Peso Neto"
+   },
+   {
+    "name": "netWeight2",
+    "value": null,
+    "label": "Peso Neto escurrido"
+   },
+   {
+    "name": "productVolume",
+    "value": null,
+    "label": "Volumen"
+   },
+   {
+    "name": "addedSugar",
+    "value": null,
+    "type": "boolean",
+    "label": "Sin azúcares añadidos"
+   },
+   {
+    "name": "productAdvice",
+    "value": null,
+    "label": "Consejos de utilización"
+   },
+   {
+    "name": "productUse",
+    "value": null,
+    "label": "Modo de empleo"
+   },
+   {
+    "name": "productWarning",
+    "value": null,
+    "label": "Advertencias"
+   },
+   {
+    "name": "conservationMode",
+    "value": null,
+    "label": "Modo de conservación"
+   },
+   {
+    "name": "productDenomination",
+    "value": null,
+    "label": "Denominación científica"
+   },
+   {
+    "name": "animalSpecies",
+    "value": null,
+    "label": "Tipo de animal/especie"
+   },
+   {
+    "name": "pigBreed",
+    "value": {},
+    "label": "Tipo de raza del cerdo"
+   },
+   {
+    "name": "curationType",
+    "value": {},
+    "label": "Tipo de curación"
+   },
+   {
+    "name": "curationMonth",
+    "value": null,
+    "label": "Meses de curación"
+   },
+   {
+    "name": "veganProduct",
+    "value": null,
+    "type": "boolean",
+    "label": "Vegano"
+   },
+   {
+    "name": "vegetarianProduct",
+    "value": null,
+    "type": "boolean",
+    "label": "Vegetariano"
+   },
+   {
+    "name": "productTraces",
+    "value": null,
+    "label": "Trazas"
+   },
+   {
+    "name": "productCountry",
+    "value": null,
+    "label": "Origen de la leche"
+   },
+   {
+    "name": "coffeOrigin",
+    "value": null,
+    "label": "Origen del café"
+   },
+   {
+    "name": "productOrigin",
+    "value": null,
+    "label": "Denominación de origen"
+   },
+   {
+    "name": "productOperator",
+    "value": null,
+    "label": "Proveedor comercial"
+   },
+   {
+    "name": "withoutCaffeine",
+    "value": null,
+    "type": "boolean",
+    "label": "Sin cafeína"
+   },
+   {
+    "name": "productExpiration",
+    "value": null,
+    "label": "Caducidad una vez abierto"
+   },
+   {
+    "name": "productStartAge",
+    "value": null,
+    "label": "Edad desde"
+   },
+   {
+    "name": "productEndAge",
+    "value": null,
+    "label": "Edad hasta"
+   },
+   {
+    "name": "productMaterial",
+    "value": null,
+    "label": "Material composición"
+   },
+   {
+    "name": "productColor",
+    "value": null,
+    "label": "Color"
+   },
+   {
+    "name": "productSize",
+    "value": {},
+    "label": "Talla"
+   },
+   {
+    "name": "productUnicSize",
+    "value": null,
+    "type": "boolean",
+    "label": "Talla única"
+   },
+   {
+    "name": "alcoholicGrade",
+    "value": null,
+    "label": "Grado alcohólico"
+   },
+   {
+    "name": "dermTested",
+    "value": null,
+    "type": "boolean",
+    "label": "Testado dermatológicamente"
+   },
+   {
+    "name": "internalCode",
+    "value": "75248",
+    "label": "Código"
+   }
+  ],
+  "attrAkeneoBadges": [
+   {
+    "name": "sinGluten",
+    "value": null,
+    "title": "SIN GLUTEN",
+    "icon": {}
+   },
+   {
+    "name": "sinLactosa",
+    "value": null,
+    "title": "SIN LACTOSA",
+    "icon": {}
+   },
+   {
+    "name": "sinAzucar",
+    "value": null,
+    "title": "SIN AZÚCAR",
+    "icon": {}
+   },
+   {
+    "name": "sinAzucaresAnadidos",
+    "value": null,
+    "title": "SIN AZÚCARES AÑADIDOS",
+    "icon": {}
+   },
+   {
+    "name": "productLigth",
+    "value": null,
+    "title": "LIGHT",
+    "icon": {}
+   },
+   {
+    "name": "sinCafeina",
+    "value": null,
+    "title": "SIN CAFEINA",
+    "icon": {}
+   },
+   {
+    "name": "bajoEnSal",
+    "value": null,
+    "title": "BAJO EN SAL",
+    "icon": {}
+   },
+   {
+    "name": "ceroMateriaGrasa",
+    "value": null,
+    "title": "0 MATERIA GRASA",
+    "icon": {}
+   },
+   {
+    "name": "bioEcoOrganico",
+    "value": null,
+    "title": "BIO",
+    "icon": {}
+   },
+   {
+    "name": "congelado",
+    "value": null,
+    "title": "CONGELADO",
+    "icon": {}
+   },
+   {
+    "name": "descongelado",
+    "value": null,
+    "title": "DESCONGELADO",
+    "icon": {}
+   },
+   {
+    "name": "refrigerado",
+    "value": null,
+    "title": "PRODUCTO REFRIGERADO",
+    "icon": {}
+   },
+   {
+    "name": "alcohol",
+    "value": null,
+    "title": "BEBIDA ALCOHOLICA",
+    "icon": {}
+   },
+   {
+    "name": "disponibilidadPescado",
+    "value": null,
+    "title": "",
+    "icon": {}
+   }
+  ],
+  "akeneoFilters": [
+   {
+    "name": "sinGluten",
+    "value": null
+   },
+   {
+    "name": "sinLactosa",
+    "value": null
+   },
+   {
+    "name": "sinAzucar",
+    "value": null
+   },
+   {
+    "name": "sinAzucaresAnadidos",
+    "value": null
+   },
+   {
+    "name": "productLigth",
+    "value": null
+   },
+   {
+    "name": "sinCafeina",
+    "value": null
+   },
+   {
+    "name": "bajoEnSal",
+    "value": null
+   },
+   {
+    "name": "ceroMateriaGrasa",
+    "value": null
+   },
+   {
+    "name": "bioEcoOrganico",
+    "value": null
+   },
+   {
+    "name": "congelado",
+    "value": null
+   },
+   {
+    "name": "refrigerado",
+    "value": null
+   },
+   {
+    "name": "vegano",
+    "value": null
+   },
+   {
+    "name": "tipoVenta",
+    "value": {}
+   },
+   {
+    "name": "marca",
+    "value": null
+   },
+   {
+    "name": "tipoCafe",
+    "value": {}
+   },
+   {
+    "name": "origenCafe",
+    "value": null
+   },
+   {
+    "name": "descongelado",
+    "value": null
+   },
+   {
+    "name": "claseCerveza",
+    "value": {}
+   },
+   {
+    "name": "tipoDePiel",
+    "value": {}
+   },
+   {
+    "name": "edadDesde",
+    "value": null
+   },
+   {
+    "name": "edadHasta",
+    "value": null
+   },
+   {
+    "name": "tipoDeEspecieAnimal",
+    "value": null
+   },
+   {
+    "name": "tipoRazaCerdo",
+    "value": {}
+   },
+   {
+    "name": "talla",
+    "value": {}
+   },
+   {
+    "name": "tallaUnica",
+    "value": null
+   },
+   {
+    "name": "funcionCosmetico",
+    "value": null
+   }
+  ],
+  "akeneoPesoMedio": 0.19,
+  "akeneoAvailabilityLabel": null,
+  "akeneo_codigoMedida": "KILO",
+  "akeneoPrecioUnidadKg": true,
+  "akeneo_unidadMedida": {
+   "sales": "7,13€"
+  },
+  "akeneoUnidadMedidaFront": "gr",
+  "multiplicadorPeso": 1000,
+  "akeneoNovedad": null,
+  "stepQuantity": 0.19,
+  "primaryCategory": "platanos_y_uvas",
+  "categoryId": [
+   "Frescos",
+   "Frutas",
+   "Plátanos y uvas"
+  ],
+  "attributesHtml": "",
+  "promotionsHtml": "",
+  "optionsHtml": ""
+ },
+ "resources": {
+  "info_selectforstock": "Seleccionar estilos para disponibilidad",
+  "assistiveSelectedText": "seleccionado"
+ },
+ "__gtmEvents": [
+  null
+ ]
+}

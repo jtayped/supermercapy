@@ -1,0 +1,190 @@
+{
+  "erpNumber": "11150856",
+  "productId": 11150856,
+  "itemId": 11150856,
+  "variantId": 11150856,
+  "productType": "RETAIL",
+  "canonicalPath": "/p/melocoton-rojo-granel/p11150856",
+  "canonicalUrl": "/p/melocoton-rojo-granel/p11150856",
+  "category": "F+V",
+  "eans": [],
+  "ians": [
+    "80395"
+  ],
+  "storeStockId": "0080395",
+  "ageRestriction": false,
+  "alcoholic": false,
+  "storeFacts": {
+    "inStoreCampaign": false,
+    "online": false,
+    "retail": true,
+    "showStoreAvailability": false,
+    "showStoreAvailabilityPreview": false,
+    "store": true,
+    "storeStartDate": 1789336800,
+    "warehouses": []
+  },
+  "regionsPrices": {
+    "1": {
+      "currentLidlPlusPrice": {
+        "price": {
+          "basePrice": {
+            "prefix": false
+          },
+          "currencyCode": "EUR",
+          "currencyCodeSecond": "",
+          "currencySymbol": "€",
+          "currencySymbolSecond": "",
+          "discount": {
+            "absoluteDiscount": 0.7,
+            "deletedPrice": 2.69,
+            "discountHasStar": false,
+            "fromNormalPriceForLidlPlus": false,
+            "fromRecommendedPrice": false,
+            "hideBargainHint": false,
+            "bargainHintEnabled": false,
+            "bargainHintText": "Megadescuento",
+            "percentageDiscount": 26,
+            "showDiscount": true,
+            "showFrom": false,
+            "showPercentage": true,
+            "showUpTo": false
+          },
+          "displayedCurrency": "€",
+          "endDate": "2026-09-20T21:59:59Z",
+          "endDateExclusive": "2026-09-20T22:00Z",
+          "hasStar": false,
+          "hasVat": true,
+          "oldPrice": 2.69,
+          "packaging": {
+            "text": "A granel"
+          },
+          "price": 1.99,
+          "priceTheme": "white_red",
+          "specialTaxes": [],
+          "startDate": "2026-09-13T22:00Z",
+          "variantsHaveDifferentPrices": false
+        },
+        "lidlPlusText": "Con Lidl Plus",
+        "highlightText": "-26%"
+      },
+      "futureLidlPlusPrices": []
+    }
+  },
+  "lidlPlus": [
+    {
+      "price": {
+        "basePrice": {
+          "prefix": false
+        },
+        "displayedCurrency": "€",
+        "hasStar": false,
+        "hasVat": false,
+        "packaging": {
+          "text": "A granel"
+        },
+        "price": 1.99,
+        "priceTheme": "red_yellow",
+        "specialTaxes": []
+      },
+      "lidlPlusText": "Con Lidl Plus"
+    }
+  ],
+  "variants": {},
+  "zones": {},
+  "price": {
+    "currencyCode": "EUR",
+    "currencyCodeSecond": "",
+    "currencySymbol": "€",
+    "currencySymbolSecond": "",
+    "displayedCurrency": "€",
+    "hasStar": false,
+    "hasVat": false,
+    "specialTaxes": [],
+    "variantsHaveDifferentPrices": false
+  },
+  "keyfacts": {
+    "title": "Melocotón rojo granel",
+    "fullTitle": "Melocotón rojo granel",
+    "description": "<ul><li>Fresco del día.</li><li>Unidad 190 g aprox.</li></ul>",
+    "analyticsCategory": "F+V",
+    "wonCategoryPrimary": "Mundos de necesidad/Comida y cerca de la comida/Frutas y hortalizas/Fruta",
+    "wonCategoryPrimaryPath": "0/17/1710/171010"
+  },
+  "media": {
+    "gallery": {
+      "havingOwnImages": true,
+      "images": [
+        2067732689,
+        728886895
+      ]
+    },
+    "imageMap": {
+      "2067732689": {
+        "id": 2067732689,
+        "largeUrl": "https://www.lidl.es/assets/gcp12003b22ec75438eb0c231096c007126.png",
+        "mediumUrl": "https://www.lidl.es/assets/gcp8c3f7d82e47948e98f776326fe3f3ee4.png",
+        "smallUrl": "https://www.lidl.es/assets/gcp0d2a63d025a44ce3ae0e191c2fe8703e.png",
+        "basketUrl": "https://www.lidl.es/assets/gcpc0c06c7ddd694122955e8b00d0899fa5.png",
+        "thumbUrl": "https://www.lidl.es/assets/gcp1497c12b4b8349e190f4bebf46e7c6a8.png",
+        "accessibility": "Melocotones frescos y trozos de melocotón con reflejo sobre fondo blanco."
+      },
+      "728886895": {
+        "id": 728886895,
+        "largeUrl": "https://www.lidl.es/assets/gcpe4f4bc19189e49f5a8ead00af863ee38.png",
+        "mediumUrl": "https://www.lidl.es/assets/gcp6b1d680c46d944228e36f6548374159a.png",
+        "smallUrl": "https://www.lidl.es/assets/gcp914cff002efb4f1690882324ef025071.png",
+        "basketUrl": "https://www.lidl.es/assets/gcpe3588a2c165c452da6ed9700b90a1598.png",
+        "thumbUrl": "https://www.lidl.es/assets/gcp6e856cf48ffb4c5280ad22138e8a5e8b.png",
+        "accessibility": "Melocotones frescos, algunos enteros y otros cortados por la mitad, sobre fondo blanco."
+      }
+    }
+  },
+  "regions": [
+    1,
+    26,
+    49
+  ],
+  "regionsV2": {
+    "1": {
+      "regionName": "A Coruña",
+      "isDefault": false,
+      "regionPriceId": "1",
+      "status": "ONLINE",
+      "hasVat": true,
+      "priceHasZeroVat": false
+    },
+    "26": {
+      "regionName": "Barcelona",
+      "isDefault": true,
+      "regionPriceId": "1",
+      "status": "ONLINE",
+      "hasVat": true,
+      "priceHasZeroVat": false
+    },
+    "49": {
+      "regionName": "Santa Cruz de Tenerife",
+      "isDefault": false,
+      "status": "ONLINE",
+      "hasVat": false,
+      "priceHasZeroVat": true
+    }
+  },
+  "stockAvailability": {
+    "availabilityIndicator": 0,
+    "onlineAvailable": false,
+    "minOrderableQuantity": 1,
+    "badgeInfo": {
+      "badges": [
+        {
+          "text": "Ya disponible en tienda",
+          "type": "IN_STORE_TODAY_DATE_RANGE"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "canonicalLink": "https://www.lidl.es/p/melocoton-rojo-granel/p11150856",
+    "title": "Melocotón rojo granel | LIDL"
+  }
+}

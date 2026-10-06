@@ -1,0 +1,42 @@
+[
+ {
+  "tag": "almendras",
+  "query": "leche almendras"
+ },
+ {
+  "tag": "soja",
+  "query": "leche soja"
+ },
+ {
+  "tag": "entera",
+  "query": "leche entera"
+ },
+ {
+  "tag": "consum",
+  "query": "leche consum"
+ },
+ {
+  "tag": "avena",
+  "query": "leche avena"
+ },
+ {
+  "tag": "sin lactosa",
+  "query": "leche sin lactosa"
+ },
+ {
+  "tag": "semi",
+  "query": "leche semi"
+ },
+ {
+  "tag": "almendra",
+  "query": "leche almendra"
+ },
+ {
+  "tag": "desnatada",
+  "query": "leche desnatada"
+ },
+ {
+  "tag": "polvo",
+  "query": "leche polvo"
+ }
+]

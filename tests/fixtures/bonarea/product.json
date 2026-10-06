@@ -1,0 +1,89 @@
+{
+  "article": {
+    "weightGrams": 561,
+    "daysWithoutService": [
+      "1"
+    ],
+    "agrupacions": [],
+    "breadcrumb": [
+      {
+        "descripcio": "Alimentación",
+        "idNivell": "13*300",
+        "url": "~/categorias/alimentacion/13_300"
+      },
+      {
+        "descripcio": "Carnes y huevos",
+        "idNivell": "13*300*010",
+        "url": "~/categorias/carnes-y-huevos/13_300_010"
+      },
+      {
+        "descripcio": "Aves",
+        "idNivell": "13*300*010*010",
+        "url": "~/categorias/aves/13_300_010_010"
+      },
+      {
+        "descripcio": "Pollo",
+        "idNivell": "13*300*010*010*010",
+        "url": "~/categorias/pollo/13_300_010_010_010"
+      }
+    ],
+    "caracteristiques": [
+      {
+        "descripcio": "GARANTIA_BONAREA"
+      },
+      {
+        "descripcio": "BONAREA"
+      },
+      {
+        "descripcio": "BENESTAR_ANIMAL_AENOR"
+      },
+      {
+        "descripcio": "REFRIGERAT"
+      },
+      {
+        "descripcio": "TRACABILITAT"
+      }
+    ],
+    "description": "Alas de pollo amarillas partidas",
+    "descriptionCatCastToFind": null,
+    "discount": 0,
+    "nameSubFamilyCatCastToFind": null,
+    "euroUnit": "€/u.",
+    "extendedInfo": "<strong>INFORMACIÓN NUTRICIONAL:</strong><p>Valor medio por 100 g de producto: <br>-Valor energético                     676  kJ,                                      162  kcal<br>-Grasas                              10,0  g, de las cuales saturadas                3  g<br>-Hidratos de carbono                  0,0  g, de los cuales azúcares                 0  g<br>-Proteínas                           18,0  g<br>-Sal                                  0,2  g</p><br/><strong>INFORMACIÓN ADICIONAL:</strong><p>Envasado en atmósfera protectora</p><br/><strong>DENOMINACIÓN:</strong><p>Pollo - Alas partidas amarillas                   </p><br/><strong>NOMBRE I DIRECCIÓN DEL OPERADOR:</strong><p>CORPORACIÓN ALIMENTARIA GUISSONA, S.A.<BR>TRASPALAU, 8 - 25210 GUISSONA (LLEIDA)</p><br/><p>*La información sobre la composición de los ingredientes de los productos así como también la información nutricional de los mismos que aparecen en esta web, puede estar sometida a modificaciones pendientes de actualización, con lo que recomendamos a nuestros clientes que siempre lean atentamente las etiquetas de los productos antes de consumirlos. En las etiquetas es donde podrán encontrar la información más detallada y actualizada.</p>",
+    "generalInfo": "<strong>DESCRIPCIÓN</strong><p>Alas de pollo amarillo cortadas en dos partes, y sin la punta. Producto ideal para freír, brasa o guisado con una de nuestras salsas bonÀrea. <br><b><a href=\"https://www.bonarea-online.com/es/shop/recipe/12\" onclick=\"window.open(this.href);return false;\">+ Receta: Alitas de pollo marinadas con quinoa</a></b></p><br/><strong>CONSERVACIÓN</strong><p>Mantener entre 0 y 4 °C.</p><br/><strong>MODO DE USO</strong><p>Cocinar antes de su consumo. Una vez abierto consumir en 24 horas.</p><br/><strong>ORIGEN:</strong><p>España</p><br/>",
+    "identifier": "13*5361",
+    "image": [
+      "13_5361_1.png"
+    ],
+    "itsOnStock": true,
+    "comeStockData": null,
+    "isAnApproximatePrice": false,
+    "idAgrupacio": null,
+    "isGridBuyAllowed": true,
+    "isValid": true,
+    "javascriptPosition": 0,
+    "linePrice": 0,
+    "maximumStock": 618,
+    "measurementUnit": "aprox. 561 g",
+    "codeFamilySubfamily": null,
+    "codeGroupFamilySubfamilyWhole": null,
+    "txtActiveGroup": null,
+    "txtActiveFamily": null,
+    "txtActiveSubfamily": null,
+    "nameFamilySubfamily": "Carnes y huevos",
+    "priceToPay": 2.83,
+    "quantity": 0,
+    "referenceWhereItIsLoaded": null,
+    "unitPrice": "5,05 €/kg",
+    "unitsPurchased": -1,
+    "searchScore": 0,
+    "priorityOrder": 0,
+    "numberExactWordsFind": 0,
+    "gaDescription": "13*5361",
+    "gaNameFamilySubfamily": "13*5361",
+    "findComenzaPer": false,
+    "dropShipping": "",
+    "urlFriendly": "https://www.bonarea-online.com/online/producto/alas-de-pollo-amarillas-partidas/13_5361",
+    "unitatMinimaComanda": 1
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "missedPromotions": [
+    {
+      "promoId": "5dbc8140-d04e-49a1-bca2-66a529e70345",
+      "retailerPromotionId": "1152136_1",
+      "countBy": "ALL_PRODUCTS",
+      "counters": [
+        {
+          "productIds": [
+            "177a16a8-5984-4ac6-8ab3-5ef844d20fff"
+          ],
+          "requiredProductQuantity": 1
+        }
+      ]
+    }
+  ],
+  "restrictedGroups": {},
+  "products": [
+    {
+      "productId": "48747470-bb9c-4c05-b79b-354f405c374a",
+      "retailerProductId": "54434",
+      "type": "REGULAR",
+      "name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1 l.",
+      "brand": "PRÉSIDENT",
+      "packSizeDescription": "6000ml",
+      "price": {
+        "amount": "5.94",
+        "currency": "EUR"
+      },
+      "unitPrice": {
+        "price": {
+          "amount": "0.99",
+          "currency": "EUR"
+        },
+        "unit": "fop.price.per.litre",
+        "unitName": "PER_LITRE"
+      },
+      "available": true,
+      "image": {
+        "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/eba90c53-371c-424d-bc9e-36c1a916d9c9/300x300.jpg",
+        "description": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1 l.",
+        "imageId": "eba90c53-371c-424d-bc9e-36c1a916d9c9"
+      },
+      "imageIds": [
+        "eba90c53-371c-424d-bc9e-36c1a916d9c9"
+      ],
+      "imagePaths": [
+        "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/eba90c53-371c-424d-bc9e-36c1a916d9c9"
+      ],
+      "isInCurrentCatalog": true,
+      "isNew": false,
+      "timeRestricted": false,
+      "alcohol": false,
+      "categoryPath": [
+        "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+        "Leche",
+        "Leche entera"
+      ],
+      "ratingSummary": {
+        "overallRating": "0.0",
+        "count": 0
+      }
+    },
+    {
+      "productId": "177a16a8-5984-4ac6-8ab3-5ef844d20fff",
+      "retailerProductId": "50733",
+      "type": "REGULAR",
+      "name": "PASCUAL Leche entera de vaca 1 l.",
+      "brand": "PASCUAL",
+      "packSizeDescription": "1000ml",
+      "price": {
+        "amount": "1.25",
+        "currency": "EUR"
+      },
+      "unitPrice": {
+        "price": {
+          "amount": "1.25",
+          "currency": "EUR"
+        },
+        "unit": "fop.price.per.litre",
+        "unitName": "PER_LITRE"
+      },
+      "available": true,
+      "promotions": [
+        {
+          "promoId": "5dbc8140-d04e-49a1-bca2-66a529e70345",
+          "retailerPromotionId": "1152136_1",
+          "description": "Producto en Folleto (24/09/26_07/10/26)",
+          "type": "OFFER",
+          "presentationMode": "DEFAULT",
+          "requiredProductQuantity": 2,
+          "limitReached": false
+        }
+      ],
+      "image": {
+        "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c22ffa43-7963-459c-8ee9-120f29ee4dcc/300x300.jpg",
+        "description": "PASCUAL Leche entera de vaca 1 l.",
+        "imageId": "c22ffa43-7963-459c-8ee9-120f29ee4dcc"
+      },
+      "imageIds": [
+        "c22ffa43-7963-459c-8ee9-120f29ee4dcc"
+      ],
+      "imagePaths": [
+        "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/c22ffa43-7963-459c-8ee9-120f29ee4dcc"
+      ],
+      "isInCurrentCatalog": true,
+      "isNew": false,
+      "timeRestricted": false,
+      "alcohol": false,
+      "categoryPath": [
+        "Folletos y Promociones",
+        "Folleto de Alimentación (excepto Canarias)",
+        "Leche, Huevos, Yogures y Lácteos",
+        "Leche"
+      ],
+      "ratingSummary": {
+        "overallRating": "0.0",
+        "count": 0
+      }
+    }
+  ]
+}

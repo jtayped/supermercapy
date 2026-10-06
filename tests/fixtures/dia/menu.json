@@ -1,0 +1,86 @@
+{
+ "categories": [
+  {
+   "children": [
+    {
+     "id": "L2302",
+     "level": 0,
+     "link": "/novedades-y-recomendados/novedades/c/L2302",
+     "name": "Novedades"
+    },
+    {
+     "id": "L2352",
+     "level": 0,
+     "link": "/novedades-y-recomendados/oktoberfest/c/L2352",
+     "name": "Oktoberfest"
+    }
+   ],
+   "icon": "/category_images/L128/L128_icon.png",
+   "id": "L128",
+   "level": 0,
+   "link": "/novedades-y-recomendados/c/L128",
+   "name": "Novedades y recomendados"
+  },
+  {
+   "children": [
+    {
+     "id": "L105",
+     "level": 0,
+     "link": "/frutas/c/L105",
+     "name": "Todo frutas"
+    },
+    {
+     "id": "L2040",
+     "level": 0,
+     "link": "/frutas/frutas-de-temporada/c/L2040",
+     "name": "Frutas de temporada"
+    },
+    {
+     "id": "L2033",
+     "level": 0,
+     "link": "/frutas/platanos-y-bananas/c/L2033",
+     "name": "Plátanos y bananas"
+    }
+   ],
+   "icon": "/category_images/L105/L105_icon.png",
+   "id": "L105",
+   "level": 0,
+   "link": "/frutas/c/L105",
+   "name": "Frutas"
+  },
+  {
+   "children": [
+    {
+     "id": "L108",
+     "level": 0,
+     "link": "/huevos-leche-y-mantequilla/c/L108",
+     "name": "Todo huevos, leche y mantequilla"
+    },
+    {
+     "id": "L2055",
+     "level": 0,
+     "link": "/huevos-leche-y-mantequilla/huevos/c/L2055",
+     "name": "Huevos"
+    },
+    {
+     "id": "L2051",
+     "level": 0,
+     "link": "/huevos-leche-y-mantequilla/leche/c/L2051",
+     "name": "Leche"
+    }
+   ],
+   "icon": "/category_images/L108/L108_icon.png",
+   "id": "L108",
+   "level": 0,
+   "link": "/huevos-leche-y-mantequilla/c/L108",
+   "name": "Huevos, leche y mantequilla"
+  }
+ ],
+ "offer_category": {
+  "icon": "/category_images/L150/L150_icon.png",
+  "id": "L150",
+  "level": 0,
+  "link": "/ofertas",
+  "name": "Ofertas"
+ }
+}

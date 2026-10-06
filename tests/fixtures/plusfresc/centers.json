@@ -1,0 +1,50 @@
+[
+ {
+  "centerId": 3,
+  "street": "Via Augusta, 188",
+  "nameCa": "Barcelona",
+  "nameEs": "Barcelona"
+ },
+ {
+  "centerId": 12,
+  "street": "Camí de Picos, 6",
+  "nameCa": "Lleida",
+  "nameEs": "Lleida"
+ },
+ {
+  "centerId": 17,
+  "street": "Avinguda de la Pau, 27-29",
+  "nameCa": "Mollerussa",
+  "nameEs": "Mollerussa"
+ },
+ {
+  "centerId": 33,
+  "street": "Avinguda Roma, 11",
+  "nameCa": "Tarragona",
+  "nameEs": "Tarragona"
+ },
+ {
+  "centerId": 36,
+  "street": "Avinguda Catalunya, 67-69",
+  "nameCa": "Tàrrega",
+  "nameEs": "Tàrrega"
+ },
+ {
+  "centerId": 58,
+  "street": "Passeig Pere III, 89-91",
+  "nameCa": "Manresa",
+  "nameEs": "Manresa"
+ },
+ {
+  "centerId": 61,
+  "street": "Carrer Urgell, 31",
+  "nameCa": "Balaguer",
+  "nameEs": "Balaguer"
+ },
+ {
+  "centerId": 110,
+  "street": "Francesc Salvans, 71",
+  "nameCa": "Terrassa",
+  "nameEs": "Terrassa"
+ }
+]

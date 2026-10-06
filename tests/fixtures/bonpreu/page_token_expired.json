@@ -1,0 +1,8 @@
+{
+  "code": "CC-090",
+  "timestamp": "2026-10-04T13:38:29.396916763Z",
+  "args": null,
+  "moreInfo": "",
+  "message": "Unauthorized",
+  "httpStatus": 401
+}

@@ -1,0 +1,78 @@
+{
+ "longDescription": "El precio puede variar para las tiendas ubicadas en las Islas Baleares.\nEl precio puede variar para las tiendas ubicadas en las Islas Canarias.\nConsulta en tu tienda habitual la disponibilidad de este artículo. El precio no incluye elementos decorativos.\nEl diseño del producto puede variar.",
+ "isAvailable": true,
+ "brandName": "CUCINA®",
+ "isRecall": false,
+ "currentPrice": {
+  "priceValue": 2.29,
+  "basePrice": [
+   {
+    "basePriceValue": 9.16,
+    "basePriceScale": "kg"
+   }
+  ],
+  "validFrom": 1790978400,
+  "validUntil": 1791583199
+ },
+ "shortDescription": "Producido en Italia.",
+ "productSlug": "farfalle-de-3-colores-856703",
+ "hierarchicalCategories": {
+  "lvl0": [
+   "Despensa"
+  ],
+  "lvl1": [
+   "Despensa > Pasta"
+  ]
+ },
+ "promotionPrices": [
+  {
+   "validFrom": 1790978400,
+   "validUntil": 1791583199,
+   "priceValue": 2.29,
+   "basePrice": [
+    {
+     "basePriceValue": 9.16,
+     "basePriceScale": "kg"
+    }
+   ],
+   "validFromLocalDate": "2026-10-03",
+   "validUntilLocalDate": "2026-10-09"
+  },
+  {
+   "validFrom": 1791583200,
+   "validUntil": 1791928799,
+   "priceValue": 2.29,
+   "basePrice": [
+    {
+     "basePriceValue": 9.16,
+     "basePriceScale": "kg"
+    }
+   ],
+   "validFromLocalDate": "2026-10-10",
+   "validUntilLocalDate": "2026-10-13"
+  }
+ ],
+ "isComingSoon": false,
+ "categoryIDs": [
+  "pasta"
+ ],
+ "assets": [
+  {
+   "type": "primary",
+   "url": "https://s7g10.scene7.com/is/image/aldinord/8567_03_packshot_3_colori_es_pt_pl",
+   "title": "Farfalle de  3 colores | CUCINA® | ALDI Supermercados",
+   "altText": "Farfalle de  3 colores | CUCINA® | ALDI Supermercados",
+   "isAiGenerated": false
+  }
+ ],
+ "salesUnit": "250 g unidad",
+ "productReferences": [
+  {
+   "type": "KVArticleNumber",
+   "value": "8567"
+  }
+ ],
+ "name": "Farfalle de  3 colores",
+ "mainCategoryID": "pasta",
+ "objectID": "856703"
+}

@@ -1,0 +1,38 @@
+{
+ "matching-results": 2,
+ "stores": [
+  {
+   "address": "Carretera Madrid - La Coruña, km., 22, 28230 El pinar de las rozas, Comunidad de Madrid",
+   "click_and_collect": true,
+   "click_and_collect2": false,
+   "distance": 1.2,
+   "hours": "09:00-22:00",
+   "id": "005D",
+   "name": "Carrefour El Pinar",
+   "phone_number": "900123456",
+   "position": "40.5238314 , -3.8836743",
+   "postal_code": "28230",
+   "sap_code": "0070",
+   "stock_state": "in_stock",
+   "store_type": "Carrefour"
+  },
+  {
+   "address": "Calle Moreras,, 2, 28220 Majadahonda, Comunidad de Madrid",
+   "click_and_collect": true,
+   "distance": 7.9,
+   "hours": "09:00-22:00",
+   "id": "005Y",
+   "name": "Carrefour Majadahonda",
+   "phone_number": "900123457",
+   "position": "40.4522047 , -3.8688586",
+   "postal_code": "28220",
+   "sap_code": "0108",
+   "stock_state": "in_stock",
+   "store_type": "Carrefour"
+  },
+  {
+   "id": "",
+   "name": "unnamed"
+  }
+ ]
+}

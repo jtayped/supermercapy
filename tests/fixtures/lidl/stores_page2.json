@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "created": "2026-09-13T23:58:27Z",
+    "limit": 2,
+    "offset": 2,
+    "total": 3
+  },
+  "items": [
+    {
+      "objectNumber": "ES00272",
+      "storeName": "Mall-Plm-Cas Capiscol",
+      "address": {
+        "streetName": "Carrer de Leocàdia de Togores",
+        "streetNumber": "s/n",
+        "city": "Palma de Mallorca",
+        "zip": "07010",
+        "state": "Baleares",
+        "longitude": 2.65231,
+        "latitude": 39.59561
+      },
+      "status": {
+        "name": "open"
+      },
+      "openingHours": {
+        "timeZone": "Europe/Madrid",
+        "items": [
+          {
+            "date": "2026-09-13",
+            "timeRanges": [],
+            "reason": "REGULAR"
+          }
+        ]
+      },
+      "marketingData": {
+        "offerRegion": 48,
+        "offerRegionName": "Palma de mallorca",
+        "zone": "BAL",
+        "zoneName": "Baleares",
+        "infoIcons": [
+          {
+            "id": 4,
+            "name": "parking"
+          },
+          {
+            "id": 35,
+            "name": "freeWiFi"
+          }
+        ]
+      }
+    }
+  ]
+}

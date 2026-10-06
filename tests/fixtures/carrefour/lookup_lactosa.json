@@ -1,0 +1,86 @@
+{
+ "catalog": {
+  "content": [
+   {
+    "product_id": "714713105",
+    "color_rollup": "714713105",
+    "catalog_ref_id": "4704010000",
+    "sms": "470401",
+    "ean13": "8431876234121",
+    "display_name": "Leche semidesnatada Carrefour sin lactosa brik 1 l.",
+    "brand": "CARREFOUR",
+    "active_price": 0.94,
+    "list_price": 0.99,
+    "measure_unit": "l",
+    "unit_conversion_factor": 1,
+    "average_weight": 1000,
+    "recipient": "1 l.",
+    "num_images": 1,
+    "image_path": {
+     "food": "https://static.carrefour.es/hd_350x_/img_pim_food/470401_00_1.jpg"
+    },
+    "urls": {
+     "food": "/supermercado/leche-semidesnatada-carrefour-sin-lactosa-brik-1-l/R-714713105/p"
+    },
+    "parent_category": {
+     "food": "cat20093"
+    },
+    "document_type": [
+     "food"
+    ],
+    "sale_point_available": true,
+    "active_food": true,
+    "start_date_food": "2021-09-02T11:55:59.534+02:00",
+    "end_date_food": "2126-09-02T11:55:59.534+02:00",
+    "start_date": "0001-01-01T00:00:00.000Z",
+    "end_date": "0001-01-01T00:00:00.000Z",
+    "info_tags": [
+     {
+      "message": "Sin lactosa",
+      "color_code": "#efdef9"
+     }
+    ],
+    "score": 136.6,
+    "tagging": {
+     "add2cart": "https://api.empathy.co/tagging/v1/track/carrefour/add2cart?q=leche",
+     "click": "https://api.empathy.co/tagging/v1/track/carrefour/click?q=leche"
+    }
+   }
+  ],
+  "tagging": {
+   "query": "https://api.empathy.co/tagging/v1/track/carrefour/query"
+  },
+  "pagination": {
+   "start": 0,
+   "rows": 1,
+   "total": 1
+  },
+  "stats": {
+   "active_price": {
+    "min": "0.84",
+    "max": "7.29"
+   }
+  },
+  "numFound": 1,
+  "facets": [
+   {
+    "facet": "brand",
+    "values": [
+     {
+      "id": "brand:carrefour",
+      "count": 3
+     }
+    ]
+   }
+  ]
+ },
+ "direct": {
+  "content": []
+ },
+ "banner": {
+  "content": []
+ },
+ "promoted": {
+  "content": []
+ }
+}

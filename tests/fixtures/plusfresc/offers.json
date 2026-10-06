@@ -1,0 +1,295 @@
+[
+ {
+  "end_date": "14/09/2026",
+  "new_value_cents": 100,
+  "band_uri": "OfferType_5637145854.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "Oferta2",
+  "category_id": "Field not used",
+  "item_id": "007404",
+  "brand_name": "EL CASTILLO",
+  "image_url": "007404_Llet_sencera_EL_CASTILLO_bric_1_litre_gran.jpg",
+  "value_cents": 119,
+  "unit_measure": "L",
+  "value_x_unit": 100,
+  "available": true,
+  "has_format": true,
+  "formats": [
+   {
+    "format_id": "Pa6-1L",
+    "order": 1,
+    "title": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "Format de Servei",
+      "type": 2
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "Formato de Servicio",
+      "type": 2
+     }
+    ],
+    "options": [
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Unitats",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Unidades",
+        "type": 3
+       }
+      ],
+      "option_id": "Unitat",
+      "min_value_mili": 0,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 1000
+     },
+     {
+      "description": [
+       {
+        "lang": "ca",
+        "order": 1,
+        "text": "Pack (6 unitats x 1l.)",
+        "type": 3
+       },
+       {
+        "lang": "es",
+        "order": 1,
+        "text": "Pack (6 unidades x 1l.)",
+        "type": 3
+       }
+      ],
+      "option_id": "Zpack",
+      "min_value_mili": 1000,
+      "max_value_mili": 0,
+      "interval_mili": 0,
+      "percentage_mili": 6000
+     }
+    ]
+   }
+  ],
+  "characteristics": [
+   {
+    "embedded_icon_url": "LOL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 590,
+    "childs": [],
+    "id": "LOL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE LOCAL",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO LOCAL",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "Oferta2007404",
+  "icon": "007404_Llet_sencera_EL_CASTILLO_bric_1_litre.jpg",
+  "order": 1681,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Llet sencera EL CASTILLO, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Oferta a preu reduït!",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Leche entera EL CASTILLO, 1 l",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "¡Oferta a precio reducido!",
+    "type": 6
+   }
+  ]
+ },
+ {
+  "promo_id": "CategoMxN_34084",
+  "qty_required": 2,
+  "end_date": "14/09/2026",
+  "new_value_cents": 273,
+  "band_uri": "OfferType_5637146104.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "Oferta2",
+  "category_id": "Field not used",
+  "item_id": "002500",
+  "brand_name": "NESQUIK",
+  "image_url": "002500_Cacau_en_pols_NESQUIK_Soluble_instant_pot_390_grams_gran.jpg",
+  "value_cents": 420,
+  "unit_measure": "Kg",
+  "value_x_unit": 700,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [
+   {
+    "embedded_icon_url": "SGL_SI",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 782,
+    "childs": [],
+    "id": "SGL_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "SENSE GLUTEN",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "SIN GLUTEN",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "Oferta2002500",
+  "icon": "002500_Cacau_en_pols_NESQUIK_Soluble_instant_pot_390_grams.jpg",
+  "order": 1601,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Cacau en pols NESQUIK, 390 g",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "La 2ª unitat al 70%",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Cacao en polvo NESQUIK, 390 g",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "La 2ª unidad al 70 %",
+    "type": 6
+   }
+  ]
+ },
+ {
+  "combinable_with": [
+   "003231",
+   "003232"
+  ],
+  "promo_id": "CategoMxN_34041",
+  "qty_required": 2,
+  "end_date": "14/09/2026",
+  "new_value_cents": 374,
+  "band_uri": "OfferCombiType_5637146356.png",
+  "chip_color": "250;193;21;255",
+  "filter_id": "Oferta2",
+  "category_id": "Field not used",
+  "item_id": "003230",
+  "brand_name": "BACH",
+  "image_url": "003230_Vi_blanc_sec_DO_Catalunya_BACH_75_cl_gran.jpg",
+  "value_cents": 499,
+  "unit_measure": "L",
+  "value_x_unit": 498,
+  "available": true,
+  "has_format": false,
+  "formats": [],
+  "characteristics": [
+   {
+    "embedded_icon_url": "CAT",
+    "level": 0,
+    "row": 0,
+    "visible": false,
+    "banner_id": null,
+    "leaf_count": 1128,
+    "childs": [],
+    "id": "CAT_SI",
+    "icon": null,
+    "order": 0,
+    "texts": [
+     {
+      "lang": "ca",
+      "order": 1,
+      "text": "PRODUCTE CATALÀ",
+      "type": 5
+     },
+     {
+      "lang": "es",
+      "order": 1,
+      "text": "PRODUCTO CATALÁN",
+      "type": 5
+     }
+    ]
+   }
+  ],
+  "id": "Oferta2003230",
+  "icon": "003230_Vi_blanc_sec_DO_Catalunya_BACH_75_cl.jpg",
+  "order": 3298,
+  "texts": [
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "Vi blanc sec D.O. Catalunya BACH, 75 cl",
+    "type": 4
+   },
+   {
+    "lang": "ca",
+    "order": 1,
+    "text": "La 2ª ut. al 50%",
+    "type": 6
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "Vino blanco seco D.O. Catalunya BACH, 75 cl",
+    "type": 4
+   },
+   {
+    "lang": "es",
+    "order": 1,
+    "text": "La 2ª ud. al 50%",
+    "type": 6
+   }
+  ]
+ }
+]

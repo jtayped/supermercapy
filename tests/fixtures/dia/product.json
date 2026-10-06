@@ -1,0 +1,136 @@
+{
+ "cart": {
+  "postal_code": "28041",
+  "total_amount": 0,
+  "total_units": 0
+ },
+ "customer": {},
+ "locale": "es",
+ "login_status": "ANONYMOUS",
+ "product": {
+  "breadcrumb": [
+   {
+    "link": "/huevos-leche-y-mantequilla/c/L108",
+    "title": "Huevos, leche y mantequilla"
+   },
+   {
+    "link": "/huevos-leche-y-mantequilla/leche/c/L2051",
+    "title": "Leche"
+   }
+  ],
+  "images": [
+   "/product_images/504P6/504P6_ISO_0_ES.jpg",
+   "/product_images/504P6/504P6_FRO_0_ES.jpg",
+   "/product_images/504P6/504P6_TRA_0_ES.jpg"
+  ],
+  "info_labels": [
+   "Tipo de leche: Semidesnatada"
+  ],
+  "ingredients": {
+   "text": "<p><strong>Leche&nbsp;</strong>semidesnatada de vaca.</p>",
+   "title": "Ingredientes"
+  },
+  "instructions": {
+   "instructions_for_preparation": {
+    "title": "Instrucciones de preparación"
+   },
+   "storage_instructions": {
+    "text": "Conservar en un lugar fresco y seco. Una vez abierto, mantener en refrigeración y consumir en los 3 días siguientes.",
+    "title": "Instrucciones de almacenaje"
+   }
+  },
+  "manufacturer_contact": {
+   "manufacturer_contact_address": "Camino de Purchil, 66, 18004 Granada, España.",
+   "manufacturer_contact_name": "Lactalis P., S.L."
+  },
+  "nutritional_info": {
+   "nutri_measurement_unit": {
+    "name": "Medida tamaño",
+    "value": "ml"
+   },
+   "nutri_size": {
+    "name": "Tamaño en origen",
+    "value": 100
+   },
+   "nutritional_values": {
+    "energy_value": 46,
+    "energy_value_kj": 192,
+    "measure_unit": "kcal",
+    "measure_unit_kj": "kJ",
+    "values": [
+     {
+      "items": [
+       {
+        "measure_unit": "g",
+        "title": "de las cuales saturadas",
+        "value": 1.1,
+        "value_per_100_g": 1.11
+       }
+      ],
+      "measure_unit": "g",
+      "title": "Grasas",
+      "value": 1.6,
+      "value_per_100_g": 1.6
+     },
+     {
+      "items": [
+       {
+        "measure_unit": "g",
+        "title": "de los cuales azúcares",
+        "value": 4.7,
+        "value_per_100_g": 4.7
+       }
+      ],
+      "measure_unit": "g",
+      "title": "Hidratos de Carbono",
+      "value": 4.7,
+      "value_per_100_g": 4.7
+     },
+     {
+      "measure_unit": "g",
+      "title": "Proteínas",
+      "value": 3.1,
+      "value_per_100_g": 3.1
+     },
+     {
+      "measure_unit": "g",
+      "title": "Sal",
+      "value": 0.1,
+      "value_per_100_g": 0.1
+     }
+    ]
+   },
+   "vitamins": {
+    "values": [
+     {
+      "measure_unit": "mg",
+      "title": "Calcio",
+      "value": 110,
+      "value_per_100_g": 0.11
+     }
+    ]
+   }
+  },
+  "prices": {
+   "currency": "EUR",
+   "measure_unit": "LITRO",
+   "price": 5.04,
+   "price_per_unit": 0.84,
+   "strikethrough_price": 5.04
+  },
+  "primary_info": {
+   "title": "Leche semidesnatada Dia Láctea pack 6 x 1 L"
+  },
+  "product_info": {
+   "product": "Leche semidesnatada UHT.",
+   "subtitle": "Contenido neto: 6L"
+  },
+  "seo_text": {
+   "text": "Compra Leche semidesnatada Dia Láctea pack 6 x 1 L al mejor precio en la sección de Leche. Todos los productos de Dia Láctea disponibles en supermercados DIA.",
+   "title": "Texto SEO"
+  },
+  "sku_id": "504P6",
+  "units_in_cart": 0,
+  "units_in_stock": 764
+ }
+}

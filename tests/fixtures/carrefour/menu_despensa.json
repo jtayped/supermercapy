@@ -1,0 +1,89 @@
+{
+ "generic_menu": false,
+ "menu": [
+  {
+   "childs": [
+    {
+     "childs": [
+      {
+       "childs": [
+        {
+         "childs": [],
+         "current_category": false,
+         "food": true,
+         "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat21078001_icono.png",
+         "id": "cat21078001",
+         "language": "es",
+         "name": "Ofertas en La Despensa",
+         "sale_point_default": "004737",
+         "show_next_level": false,
+         "url": "https://carrefour.es/supermercado/la-despensa-promocion/F-13ji8Z13rjo/c",
+         "url_rel": "/supermercado/la-despensa-promocion/F-13ji8Z13rjo/c"
+        },
+        {
+         "childs": [],
+         "current_category": false,
+         "food": true,
+         "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20009_icono.png",
+         "id": "cat20009",
+         "language": "es",
+         "name": "Alimentación",
+         "sale_point_default": "004737",
+         "show_next_level": false,
+         "url": "https://carrefour.es/supermercado/la-despensa/alimentacion/cat20009/c",
+         "url_rel": "/supermercado/la-despensa/alimentacion/cat20009/c"
+        },
+        {
+         "childs": [],
+         "current_category": false,
+         "food": true,
+         "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat33207691_icono.png",
+         "id": "cat33207691",
+         "language": "es",
+         "name": "Aceites y vinagres",
+         "sale_point_default": "004737",
+         "show_next_level": false,
+         "url": "https://carrefour.es/supermercado/la-despensa/aceites-y-vinagres/cat33207691/c",
+         "url_rel": "/supermercado/la-despensa/aceites-y-vinagres/cat33207691/c"
+        }
+       ],
+       "current_category": true,
+       "food": true,
+       "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20001_icono.png",
+       "id": "cat20001",
+       "language": "es",
+       "name": "La Despensa",
+       "sale_point_default": "004737",
+       "show_next_level": true,
+       "url": "https://carrefour.es/supermercado/la-despensa/cat20001/c",
+       "url_rel": "/supermercado/la-despensa/cat20001/c"
+      }
+     ],
+     "current_category": false,
+     "food": true,
+     "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_food_icono.png",
+     "id": "foodRootCategory",
+     "language": "es",
+     "name": "Supermercado",
+     "sale_point_default": "004737",
+     "show_next_level": true,
+     "url": "https://carrefour.es/supermercado",
+     "url_rel": "/supermercado"
+    }
+   ],
+   "current_category": false,
+   "food": false,
+   "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_icono.png",
+   "id": "rootCategory",
+   "language": "es",
+   "name": "Commerce Root",
+   "sale_point_default": "004737",
+   "show_next_level": true,
+   "url": "https://carrefour.es/commerce-root/rootCategory/c",
+   "url_rel": "/commerce-root/rootCategory/c"
+  }
+ ],
+ "translates": {
+  "viewAll": "Ver todo"
+ }
+}

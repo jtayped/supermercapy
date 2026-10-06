@@ -1,0 +1,15 @@
+{
+  "productGroups": [
+    {
+      "type": "on_offer",
+      "name": "fop.headertitle.onoffer",
+      "decoratedProducts": [],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "9415bca5-0c34-4d71-b38d-81491c968bd0"
+  },
+  "missedPromotions": []
+}

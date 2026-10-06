@@ -1,0 +1,63 @@
+{
+ "groups": [
+  {
+   "name": "1. Madrid",
+   "sale_points": [
+    {
+     "city": "Madrid",
+     "country": "Spain",
+     "group": "Madrid",
+     "latitude": "40.49302",
+     "longitude": "-3.610906",
+     "name": "Drive Peatón Market Valdebebas",
+     "postal_code": "28055",
+     "province": "Madrid",
+     "sale_point_id": "005851",
+     "store_id": "7400004",
+     "street_type": "Avda.",
+     "street_name": "Juan Antonio Samaranch",
+     "street_number": "64"
+    },
+    {
+     "city": "Las Rozas",
+     "country": "Spain",
+     "group": "Madrid",
+     "latitude": "40.52383",
+     "longitude": "-3.883674",
+     "name": "Drive Hiper El Pinar",
+     "postal_code": "28230",
+     "province": "Madrid",
+     "sale_point_id": "005290",
+     "store_id": "800002",
+     "street_type": "Carretera",
+     "street_name": "Nacional VI",
+     "street_number": "km. 22"
+    }
+   ]
+  },
+  {
+   "name": "2. Cataluña",
+   "sale_points": [
+    {
+     "city": "Barcelona",
+     "country": "Spain",
+     "group": "Cataluña",
+     "latitude": "41.44012",
+     "longitude": "2.19012",
+     "name": "Drive Hiper Barcelona",
+     "postal_code": "08019",
+     "province": "Barcelona",
+     "sale_point_id": "0000GP",
+     "store_id": "900001",
+     "street_type": "Avda.",
+     "street_name": "Diagonal",
+     "street_number": "1"
+    },
+    {
+     "name": "",
+     "sale_point_id": "005299"
+    }
+   ]
+  }
+ ]
+}

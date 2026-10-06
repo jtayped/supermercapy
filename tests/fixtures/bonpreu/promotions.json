@@ -1,0 +1,364 @@
+{
+  "productGroups": [
+    {
+      "clusterCategories": [],
+      "featuredProductCampaigns": null,
+      "featuredProductsPerViewportMap": null,
+      "name": "fop.headertitle.onoffer",
+      "otherProductIds": [],
+      "type": "ON_OFFER",
+      "unitOfMeasureGroup": null,
+      "decoratedProducts": [
+        {
+          "productId": "30cfd28b-76c3-4a0b-b3dd-2786e0b46315",
+          "retailerProductId": "23201",
+          "type": "REGULAR",
+          "name": "NOEL DELIZIAS Pernil serrano gran reserva",
+          "brand": "NOEL DELIZIAS",
+          "packSizeDescription": "100g",
+          "price": {
+            "amount": 3.09,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "accessiblePricePerSuffix": null,
+            "price": {
+              "amount": 30.9,
+              "currency": "EUR"
+            },
+            "pricePerSuffix": null,
+            "unit": "fop.price.per.kg"
+          },
+          "promoUnitPrice": null,
+          "promotions": [
+            {
+              "description": "2a unitat 50% de descompte",
+              "presentationMode": "DEFAULT",
+              "promoId": "4f3e28f6-b0ac-459d-ba8d-f469a3025c7f",
+              "requiredProductQuantity": 2,
+              "retailerPromotionId": "218143",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "unavailablePromotions": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "categoryPath": [
+            "Ofertes",
+            "2es unitats amb descompte"
+          ],
+          "catchweight": null,
+          "countryOfOrigin": null,
+          "alcohol": false,
+          "ageRestriction": null,
+          "medicalQuestionnaireRequired": null,
+          "verifyMode": null,
+          "timeRestricted": false,
+          "iconAttributes": [
+            {
+              "file": "refrigerated",
+              "label": "Refrigerat"
+            },
+            {
+              "file": "glutenFree",
+              "label": "Sense gluten"
+            }
+          ],
+          "imageIds": [
+            "bf77913c-ded2-47c5-89a4-93bee3d0f245"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/bf77913c-ded2-47c5-89a4-93bee3d0f245"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/bf77913c-ded2-47c5-89a4-93bee3d0f245/300x300.jpg",
+            "description": "NOEL DELIZIAS Pernil serrano gran reserva",
+            "imageId": "bf77913c-ded2-47c5-89a4-93bee3d0f245"
+          },
+          "images": [
+            {
+              "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/bf77913c-ded2-47c5-89a4-93bee3d0f245/500x500.jpg",
+              "description": "NOEL DELIZIAS Pernil serrano gran reserva",
+              "imageId": "bf77913c-ded2-47c5-89a4-93bee3d0f245"
+            }
+          ]
+        },
+        {
+          "productId": "bf83bdc1-df70-492c-8c09-12d260955d57",
+          "retailerProductId": "36338",
+          "type": "REGULAR",
+          "name": "MORITZ Cervesa 100% malta",
+          "brand": "MORITZ",
+          "packSizeDescription": "0.33L",
+          "price": {
+            "amount": 0.87,
+            "currency": "EUR"
+          },
+          "promoPrice": null,
+          "unitPrice": {
+            "accessiblePricePerSuffix": null,
+            "price": {
+              "amount": 2.64,
+              "currency": "EUR"
+            },
+            "pricePerSuffix": null,
+            "unit": "fop.price.per.litre"
+          },
+          "promoUnitPrice": null,
+          "promotions": [
+            {
+              "description": "2a unitat 50% de descompte",
+              "presentationMode": "DEFAULT",
+              "promoId": "4ef64297-fcc8-46f7-8464-548d645a72c5",
+              "requiredProductQuantity": 2,
+              "retailerPromotionId": "218150",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "unavailablePromotions": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "categoryPath": [
+            "Begudes",
+            "Cerveses",
+            "Cervesa en llauna",
+            "Cervesa rossa"
+          ],
+          "catchweight": null,
+          "countryOfOrigin": null,
+          "alcohol": true,
+          "ageRestriction": 18,
+          "medicalQuestionnaireRequired": null,
+          "verifyMode": null,
+          "timeRestricted": false,
+          "iconAttributes": [],
+          "imageIds": [
+            "8568b45c-c7fe-4e7a-9a6d-8092e9220741"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/8568b45c-c7fe-4e7a-9a6d-8092e9220741"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/8568b45c-c7fe-4e7a-9a6d-8092e9220741/300x300.jpg",
+            "description": "MORITZ Cervesa 100% malta",
+            "imageId": "8568b45c-c7fe-4e7a-9a6d-8092e9220741"
+          },
+          "images": [
+            {
+              "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/8568b45c-c7fe-4e7a-9a6d-8092e9220741/500x500.jpg",
+              "description": "MORITZ Cervesa 100% malta",
+              "imageId": "8568b45c-c7fe-4e7a-9a6d-8092e9220741"
+            }
+          ]
+        },
+        {
+          "productId": "ef88841b-2490-4a25-88ad-344ff8a79305",
+          "retailerProductId": "42519",
+          "type": "REGULAR",
+          "name": "BONPREU Burger meat de pollastre",
+          "brand": "BONPREU",
+          "packSizeDescription": "0.4kg",
+          "price": {
+            "amount": 4.65,
+            "currency": "EUR"
+          },
+          "promoPrice": {
+            "amount": 4.42,
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "accessiblePricePerSuffix": null,
+            "price": {
+              "amount": 11.63,
+              "currency": "EUR"
+            },
+            "pricePerSuffix": null,
+            "unit": "fop.price.per.kg"
+          },
+          "promoUnitPrice": {
+            "accessiblePricePerSuffix": null,
+            "price": {
+              "amount": 11.05,
+              "currency": "EUR"
+            },
+            "pricePerSuffix": null,
+            "unit": "fop.price.per.kg"
+          },
+          "promotions": [
+            {
+              "description": "5% de descompte",
+              "presentationMode": "DEFAULT",
+              "promoId": "f0247c9f-759d-48f3-9569-9d7c394b5853",
+              "requiredProductQuantity": null,
+              "retailerPromotionId": "218074",
+              "type": "OFFER",
+              "limitReached": false
+            }
+          ],
+          "unavailablePromotions": null,
+          "available": true,
+          "maxAvailableQuantity": null,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "categoryPath": [
+            "Frescos",
+            "Carnisseria",
+            "Hamburgueses i picades",
+            "Hamburguesa de pollastre"
+          ],
+          "catchweight": null,
+          "countryOfOrigin": null,
+          "alcohol": false,
+          "ageRestriction": null,
+          "medicalQuestionnaireRequired": null,
+          "verifyMode": null,
+          "timeRestricted": false,
+          "iconAttributes": [
+            {
+              "file": "refrigerated",
+              "label": "Refrigerat"
+            },
+            {
+              "file": "glutenFree",
+              "label": "Sense gluten"
+            }
+          ],
+          "imageIds": [
+            "7fec8b10-ce41-4598-8b8f-4060bfb76cd0",
+            "4085ecd4-10c7-4417-adc3-fc11fbd1f567"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/7fec8b10-ce41-4598-8b8f-4060bfb76cd0",
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/4085ecd4-10c7-4417-adc3-fc11fbd1f567"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/7fec8b10-ce41-4598-8b8f-4060bfb76cd0/300x300.jpg",
+            "description": "BONPREU Burger meat de pollastre",
+            "imageId": "7fec8b10-ce41-4598-8b8f-4060bfb76cd0"
+          },
+          "images": [
+            {
+              "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/7fec8b10-ce41-4598-8b8f-4060bfb76cd0/500x500.jpg",
+              "description": "BONPREU Burger meat de pollastre",
+              "imageId": "7fec8b10-ce41-4598-8b8f-4060bfb76cd0"
+            },
+            {
+              "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/4085ecd4-10c7-4417-adc3-fc11fbd1f567/500x500.jpg",
+              "description": "BONPREU Burger meat de pollastre",
+              "imageId": "4085ecd4-10c7-4417-adc3-fc11fbd1f567"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "00000000-0000-4000-8000-000000000001"
+  },
+  "additionalPageInfo": {
+    "breadcrumb": [],
+    "categories": [
+      {
+        "categoryId": "c95cfbf2-501d-433f-bae3-10fcef330b11",
+        "imageProductId": "62142e01-a6ef-4ce3-afc5-0cdc6728e557",
+        "localizedMedia": null,
+        "name": "Frescos",
+        "productCount": 2207,
+        "retailerCategoryId": "03"
+      },
+      {
+        "categoryId": "c49d1ef2-bf51-44a7-b631-4a35474a21ac",
+        "imageProductId": "5ced22d2-3f2e-4a88-9d93-235c6789fc1f",
+        "localizedMedia": null,
+        "name": "Alimentació",
+        "productCount": 3993,
+        "retailerCategoryId": "01"
+      }
+    ],
+    "filters": [
+      {
+        "attributes": [
+          {
+            "filterAttributeId": "ABACUS",
+            "label": "ABACUS",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "HEALTH 4U",
+            "label": "HEALTH 4U",
+            "selected": false
+          }
+        ],
+        "filterId": "brands",
+        "label": "brands",
+        "type": "BRANDS"
+      },
+      {
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nou",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "bpBrand",
+            "label": "Marca Bonpreu",
+            "selected": false
+          }
+        ],
+        "filterId": "dietaryAndLifestyle",
+        "label": "Característiques",
+        "type": "RETAILER"
+      }
+    ],
+    "sortOptions": [
+      {
+        "messageKey": "sorting.option.favorite",
+        "selected": true,
+        "sortOptionId": "relevance"
+      },
+      {
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false,
+        "sortOptionId": "pricePerAscending"
+      },
+      {
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false,
+        "sortOptionId": "pricePerDescending"
+      },
+      {
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false,
+        "sortOptionId": "priceAscending"
+      },
+      {
+        "messageKey": "sorting.option.price.descending",
+        "selected": false,
+        "sortOptionId": "priceDescending"
+      }
+    ]
+  },
+  "missedPromotions": [
+    {
+      "countBy": "ALL_PRODUCTS",
+      "counters": [
+        {
+          "productIds": [
+            "889e09fe-1cfd-4bf4-97f2-1fd555193f54"
+          ],
+          "requiredProductQuantity": 2
+        }
+      ],
+      "promoId": "f88b15b2-a3e3-4e6e-90f9-44a7a2962d41",
+      "retailerPromotionId": "218560"
+    }
+  ]
+}

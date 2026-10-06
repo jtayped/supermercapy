@@ -1,0 +1,158 @@
+[
+  {
+    "deliveryDestinationId": "edce624e-28ca-436d-bbd8-1000de76caef",
+    "addressId": "59750a47-ec5f-4420-a5b8-fa0d2ace45a1",
+    "formattedAddress": "C. de Bravo Murillo, 16, 28015 Madrid, Spain",
+    "name": "Bravo Murillo Supermercado",
+    "coordinates": {
+      "latitude": 40.4353833,
+      "longitude": -3.704108
+    },
+    "timeZoneId": "Europe/Madrid",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "4ccafbad-0ed4-4271-a4d0-37ade6710304",
+    "countryCode": "ES",
+    "postalCode": "28015",
+    "collectionPointType": "SERVICED",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "4ccafbad-0ed4-4271-a4d0-37ade6710304"
+      }
+    ]
+  },
+  {
+    "deliveryDestinationId": "740211d7-9b75-408d-aa97-53e019da86c1",
+    "addressId": "20a9e30d-e56b-45b6-9b07-7c1d0a9c05d7",
+    "formattedAddress": "C. de Bravo Murillo, 245, 28020 Madrid, Spain",
+    "name": "Bravo Murillo Supermercado",
+    "coordinates": {
+      "latitude": 40.4588693,
+      "longitude": -3.7008243
+    },
+    "timeZoneId": "Europe/Madrid",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "ac90d761-9d58-4918-a37d-dd14e1ce384a",
+    "countryCode": "ES",
+    "postalCode": "28020",
+    "collectionPointType": "SERVICED",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "ac90d761-9d58-4918-a37d-dd14e1ce384a"
+      }
+    ]
+  },
+  {
+    "deliveryDestinationId": "9fd70583-0b9f-4043-a4c0-2268e123c2f3",
+    "addressId": "bafb7905-fb3c-4ffe-8855-55c3b91cb3ca",
+    "formattedAddress": "Plaça Diagonal Mar, 15, 08019 Barcelona, Spain",
+    "name": "Diagonal Mar Hipermercado",
+    "coordinates": {
+      "latitude": 41.4110451,
+      "longitude": 2.2140089
+    },
+    "timeZoneId": "Europe/Madrid",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "0e859bc4-dfe7-413c-a25b-715154498548",
+    "countryCode": "ES",
+    "postalCode": "08019",
+    "collectionPointType": "SERVICED",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "0e859bc4-dfe7-413c-a25b-715154498548"
+      }
+    ]
+  },
+  {
+    "deliveryDestinationId": "d1b49bd7-94c0-4485-b657-a1509fd11964",
+    "addressId": "c659eff8-a82b-4380-a00c-3a7de7c3f703",
+    "formattedAddress": "Carrer de Laureà Miró, 4, 08950 Esplugues de Llobregat, Barcelona, Spain",
+    "name": "Esplugues Taquillas",
+    "coordinates": {
+      "latitude": 41.3768488,
+      "longitude": 2.0992651
+    },
+    "timeZoneId": "Europe/Madrid",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "478c0cbe-082d-4790-8bb0-fb66c3706658",
+    "countryCode": "ES",
+    "postalCode": "08950",
+    "collectionPointType": "LOCKER",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "478c0cbe-082d-4790-8bb0-fb66c3706658"
+      }
+    ]
+  },
+  {
+    "deliveryDestinationId": "8dc5dfb5-0628-44b7-9fb2-62e8c4ac537e",
+    "addressId": "83057d60-4db1-49ae-b701-b9590e5b0957",
+    "formattedAddress": "Carrer de la Guineueta, 23, 08042 Barcelona, Spain",
+    "name": "Guineueta Supermercado",
+    "coordinates": {
+      "latitude": 41.4406488,
+      "longitude": 2.1664138
+    },
+    "timeZoneId": "Europe/Madrid",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "0e859bc4-dfe7-413c-a25b-715154498548",
+    "countryCode": "ES",
+    "postalCode": "08042",
+    "collectionPointType": "SERVICED",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "0e859bc4-dfe7-413c-a25b-715154498548"
+      }
+    ]
+  },
+  {
+    "deliveryDestinationId": "9c767992-4437-4cad-a914-0ff6ce7eebfa",
+    "addressId": "a2f533a3-91f7-47be-a6cc-822c0c4e8a85",
+    "formattedAddress": "Ctra. Santa Cruz Laguna, s/n, La Laguna, España",
+    "name": "La Laguna Hipermercado",
+    "coordinates": {
+      "latitude": 28.462871,
+      "longitude": -16.3059399
+    },
+    "timeZoneId": "Atlantic/Canary",
+    "deliverability": "DELIVERABLE",
+    "deliveryType": "C_N_C",
+    "deliveryMethod": "CUSTOMER_COLLECTION",
+    "resolvedRegionId": "5c2a56e0-dc3b-4d29-8b67-24f8b3c78f38",
+    "countryCode": "ES",
+    "postalCode": "38108",
+    "collectionPointType": "SERVICED",
+    "isPrimary": false,
+    "propositions": [
+      {
+        "deliveryPropositionId": "a3af914b-394c-4cfb-9289-f5d3c838ed9d",
+        "propositionType": "SCHEDULED",
+        "regionId": "5c2a56e0-dc3b-4d29-8b67-24f8b3c78f38"
+      }
+    ]
+  }
+]

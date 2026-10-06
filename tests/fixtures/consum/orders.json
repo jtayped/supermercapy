@@ -1,0 +1,47 @@
+[
+ {
+  "id": 1,
+  "label": "order.price.asc",
+  "description": "Más barato primero"
+ },
+ {
+  "id": 2,
+  "label": "order.price.desc",
+  "description": "Más caro primero"
+ },
+ {
+  "id": 3,
+  "label": "order.name.asc",
+  "description": "Nombre: A-Z"
+ },
+ {
+  "id": 4,
+  "label": "order.name.desc",
+  "description": "Nombre: Z-A"
+ },
+ {
+  "id": 5,
+  "label": "order.offers.desc",
+  "description": "Ofertas primero"
+ },
+ {
+  "id": 7,
+  "label": "order.relevance.desc",
+  "description": "Relevancia"
+ },
+ {
+  "id": 11,
+  "label": "order.unitPrice.asc",
+  "description": "Precio por kilo"
+ },
+ {
+  "id": 12,
+  "label": "order.novelty.desc",
+  "description": "Más nuevo primero"
+ },
+ {
+  "id": 13,
+  "label": "order.searcher.desc",
+  "description": "Por defecto"
+ }
+]

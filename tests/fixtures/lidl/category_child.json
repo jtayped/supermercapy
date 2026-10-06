@@ -1,0 +1,170 @@
+{
+  "type": "search",
+  "version": "v2.0.0",
+  "engine": "ldt-searcher",
+  "locale": "es_ES",
+  "assortment": "ES",
+  "resultType": "search",
+  "numFound": 316,
+  "offset": 0,
+  "fetchsize": 1,
+  "maxfetchsize": 1000,
+  "items": [
+    {
+      "resultClass": "product",
+      "type": "product",
+      "code": "100406166",
+      "url": "",
+      "gridbox": {
+        "country": "ES",
+        "data": {
+          "erpNumber": "100406166",
+          "productId": 100406166,
+          "productType": "FLAT",
+          "ians": [
+            "506427"
+          ],
+          "title": "Láser de líneas en cruz con batería de 4 V »PKLLP 360 B3«, con láser de rotación de 360°.",
+          "fullTitle": "PARKSIDE PERFORMANCE® Láser de líneas en cruz con batería de 4 V »PKLLP 360 B3«, con láser de rotación de 360°.",
+          "brand": {
+            "name": "PARKSIDE PERFORMANCE®"
+          },
+          "canonicalPath": "/p/parkside-performance-laser-de-lineas-en-cruz-con-bateria-de-4-v-pkllp-360-b3-con-laser-de-rotacion-de-360/p100406166",
+          "category": "Categorías/Tienda de bricolaje/Taller/Equipamiento para talleres/Herramientas de medición",
+          "image": "https://www.lidl.es/assets/gcp8d2430e6411542479beb17e53e72fbb4.jpg",
+          "price": {
+            "currencyCode": "EUR",
+            "hasVat": true,
+            "packaging": {},
+            "price": 33.99,
+            "startDate": "2026-09-22T15:17:07.996Z",
+            "tax": "21"
+          },
+          "stockAvailability": {
+            "availabilityIndicator": 3,
+            "badgeInfo": {
+              "badges": [
+                {
+                  "text": "Disponible online",
+                  "type": "AVAILABLE_ONLINE"
+                }
+              ]
+            },
+            "onlineAvailable": true,
+            "minOrderableQuantity": 1
+          },
+          "ratings": {
+            "average": 4.4,
+            "count": 259
+          },
+          "regionsPrices": {},
+          "zones": {
+            "BAL": {
+              "id": "BAL",
+              "zone": "Baleares",
+              "isDefault": false,
+              "currentPrice": {
+                "price": 33.99,
+                "currencyCode": "EUR",
+                "tax": "21",
+                "hasVat": true,
+                "discount": {
+                  "deletedPrice": 48.99,
+                  "percentageDiscount": 30,
+                  "bargainHintText": "Megadescuento"
+                }
+              },
+              "statusOnlineActual": "ONLINE"
+            },
+            "CAN": {
+              "id": "CAN",
+              "zone": "Islas Canarias",
+              "isDefault": false,
+              "currentPrice": {
+                "price": 33.99,
+                "currencyCode": "EUR",
+                "tax": "0",
+                "hasVat": false,
+                "discount": {
+                  "deletedPrice": 48.99,
+                  "percentageDiscount": 30,
+                  "bargainHintText": "Megadescuento"
+                }
+              },
+              "statusOnlineActual": "ONLINE"
+            },
+            "PEN": {
+              "id": "PEN",
+              "zone": "Peninsula",
+              "isDefault": true,
+              "currentPrice": {
+                "price": 33.99,
+                "currencyCode": "EUR",
+                "tax": "21",
+                "hasVat": true,
+                "discount": {
+                  "deletedPrice": 48.99,
+                  "percentageDiscount": 30,
+                  "bargainHintText": "Megadescuento"
+                }
+              },
+              "statusOnlineActual": "ONLINE"
+            }
+          },
+          "imageList_V1": [
+            {
+              "image": "https://www.lidl.es/assets/gcp8d2430e6411542479beb17e53e72fbb4.jpg",
+              "accessibility": "Nivel láser 3D sobre un trípode"
+            }
+          ]
+        },
+        "meta": {
+          "ean": "4054599212210"
+        }
+      }
+    }
+  ],
+  "facets": [
+    {
+      "type": "TEXT",
+      "code": "category",
+      "label": "Categoría",
+      "values": [
+        {
+          "type": "TEXT",
+          "label": "Bricolaje y jardín",
+          "count": 316,
+          "value": "10067761",
+          "selected": true,
+          "children": [
+            {
+              "type": "TEXT",
+              "label": "Herramientas y accesorios para vehículos",
+              "count": 316,
+              "value": "10067538",
+              "selected": true,
+              "children": [
+                {
+                  "type": "TEXT",
+                  "label": "Herramientas taller mecánico",
+                  "count": 264,
+                  "value": "10084754",
+                  "selected": false,
+                  "children": []
+                },
+                {
+                  "type": "TEXT",
+                  "label": "Accesorios coche",
+                  "count": 38,
+                  "value": "10084753",
+                  "selected": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

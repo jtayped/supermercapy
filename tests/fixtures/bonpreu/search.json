@@ -1,0 +1,389 @@
+{
+  "productGroups": [
+    {
+      "type": "featured",
+      "name": "fop.headertitle.other",
+      "decoratedProducts": [
+        {
+          "productId": "ec11323b-d00b-48ce-9571-9939dbb97ba6",
+          "retailerProductId": "49637",
+          "type": "REGULAR",
+          "name": "DOLCE GUSTO Càpsules de cafè Espresso Intens",
+          "brand": "DOLCE GUSTO",
+          "packSizeDescription": "30 per paquet",
+          "price": {
+            "amount": "8.55",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.28",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each",
+            "unitName": "EACH"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "externalAdvertId": "49637_61rWVS03lHw85dO286vITU_c4af5575-469f-4189-8540-128815a5f043",
+          "featuredProductCampaign": {
+            "campaignId": "61rWVS03lHw85dO286vITU",
+            "campaignName": "Dest. cerca cafè caps Nestlé iSM",
+            "externalAdvertId": "49637_61rWVS03lHw85dO286vITU_c4af5575-469f-4189-8540-128815a5f043",
+            "trackId": "49637_61rWVS03lHw85dO286vITU_c4af5575-469f-4189-8540-128815a5f043",
+            "source": "CONTENTFUL",
+            "pricingModel": "FIXED_TENANCY"
+          },
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "324887d2-c299-4503-97b8-cc419e4ad147"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/324887d2-c299-4503-97b8-cc419e4ad147"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/324887d2-c299-4503-97b8-cc419e4ad147/300x300.jpg",
+            "description": "DOLCE GUSTO Càpsules de cafè Espresso Intens",
+            "imageId": "324887d2-c299-4503-97b8-cc419e4ad147"
+          }
+        },
+        {
+          "productId": "84928256-c7ab-489c-b3d5-c167740de834",
+          "retailerProductId": "49644",
+          "type": "REGULAR",
+          "name": "DOLCE GUSTO Càpsules de cafè amb llet",
+          "brand": "DOLCE GUSTO",
+          "packSizeDescription": "30 per paquet",
+          "price": {
+            "amount": "8.55",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.28",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.each",
+            "unitName": "EACH"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "externalAdvertId": "49644_61rWVS03lHw85dO286vITU_1e675831-a836-4641-a196-f14d26aeff17",
+          "featuredProductCampaign": {
+            "campaignId": "61rWVS03lHw85dO286vITU",
+            "campaignName": "Dest. cerca cafè caps Nestlé iSM",
+            "externalAdvertId": "49644_61rWVS03lHw85dO286vITU_1e675831-a836-4641-a196-f14d26aeff17",
+            "trackId": "49644_61rWVS03lHw85dO286vITU_1e675831-a836-4641-a196-f14d26aeff17",
+            "source": "CONTENTFUL",
+            "pricingModel": "FIXED_TENANCY"
+          },
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "bd781dd3-cdff-456c-903b-c0b238a274d4"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/bd781dd3-cdff-456c-903b-c0b238a274d4"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/bd781dd3-cdff-456c-903b-c0b238a274d4/300x300.jpg",
+            "description": "DOLCE GUSTO Càpsules de cafè amb llet",
+            "imageId": "bd781dd3-cdff-456c-903b-c0b238a274d4"
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": [],
+      "promotedProductsCampaignId": "61rWVS03lHw85dO286vITU",
+      "promotedProductsCampaignName": "Dest. cerca cafè caps Nestlé iSM"
+    },
+    {
+      "type": "personalized",
+      "name": "fop.headertitle.personalised",
+      "decoratedProducts": [
+        {
+          "productId": "6f57a0e4-c823-458f-9e79-02dc94e91c29",
+          "retailerProductId": "23597",
+          "type": "REGULAR",
+          "name": "BONPREU Llet sencera 6x1L en cartró",
+          "brand": "BONPREU",
+          "packSizeDescription": "6 x 1L",
+          "price": {
+            "amount": "5.76",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.96",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "db1344da-b65f-4b79-a7f2-d6756315ecf8",
+            "2f053ae9-bac0-4d09-bce2-37e652e21e48"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/db1344da-b65f-4b79-a7f2-d6756315ecf8",
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/2f053ae9-bac0-4d09-bce2-37e652e21e48"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/db1344da-b65f-4b79-a7f2-d6756315ecf8/300x300.jpg",
+            "description": "BONPREU Llet sencera 6x1L en cartró",
+            "imageId": "db1344da-b65f-4b79-a7f2-d6756315ecf8"
+          }
+        },
+        {
+          "productId": "01930566-e3aa-451a-a506-4ec624f737d9",
+          "retailerProductId": "23882",
+          "type": "REGULAR",
+          "name": "BONPREU Llet semidesnatada 6x1L en cartró",
+          "brand": "BONPREU",
+          "packSizeDescription": "6 x 1L",
+          "price": {
+            "amount": "5.04",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "0.84",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "imageIds": [
+            "f2383b42-83e1-461b-8282-b3045cb338f2",
+            "c7bcfe7d-3545-4cb0-9111-9c11d86daf24"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/f2383b42-83e1-461b-8282-b3045cb338f2",
+            "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/c7bcfe7d-3545-4cb0-9111-9c11d86daf24"
+          ],
+          "image": {
+            "src": "https://www.compraonline.bonpreuesclat.cat/images-v3/dcbcfd72-cf23-44a2-8e14-8a38edd645a3/f2383b42-83e1-461b-8282-b3045cb338f2/300x300.jpg",
+            "description": "BONPREU Llet semidesnatada 6x1L en cartró",
+            "imageId": "f2383b42-83e1-461b-8282-b3045cb338f2"
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {
+    "nextPageToken": "56f27f77-f00f-4f4b-85ae-b5c65627c546"
+  },
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Packs",
+                "categoryId": "20707a2a-01c9-45fc-8d4f-96a49f05f68c",
+                "productCount": 39,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050108"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet sencera",
+                "categoryId": "7a425422-8ca4-45f1-8294-29fa0deafcef",
+                "productCount": 20,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050101"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet sense lactosa",
+                "categoryId": "dcf3ea44-7023-4905-90cb-57155b8612f8",
+                "productCount": 35,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050104"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet semidesnatada",
+                "categoryId": "8562b67b-8349-4a10-a6e7-712bd194bdf0",
+                "productCount": 21,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050103"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet desnatada",
+                "categoryId": "f67c875e-f6df-4aab-845c-cce60ab055df",
+                "productCount": 11,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050102"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet fresca",
+                "categoryId": "575c6813-bd6e-4102-bfe8-fc1a2dadf606",
+                "productCount": 9,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050110"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet enriquida",
+                "categoryId": "ec3e7715-0bf3-42e3-b7bc-ad4226760c88",
+                "productCount": 33,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050105"
+              },
+              {
+                "childCategories": [],
+                "name": "Llet en pols, condensada i evaporada",
+                "categoryId": "d0c95436-cb78-487f-8715-77c88c5aaae7",
+                "productCount": 12,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050109"
+              },
+              {
+                "childCategories": [],
+                "name": "Preparats lactis",
+                "categoryId": "d9a9d886-55ca-4fb0-9f07-5b48ec3c4aa9",
+                "productCount": 3,
+                "breadcrumbs": [],
+                "retailerCategoryId": "050107"
+              }
+            ],
+            "name": "Llets i begudes vegetals",
+            "categoryId": "b6d7a293-4cfd-4a21-ae81-131001c12588",
+            "productCount": 183,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0501"
+          },
+          {
+            "childCategories": [],
+            "name": "Postres",
+            "categoryId": "42137ec9-15cc-4783-a577-f5459980f1af",
+            "productCount": 2,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0504"
+          },
+          {
+            "childCategories": [],
+            "name": "Iogurts",
+            "categoryId": "d9daaac4-9169-4f7b-b9df-b91ebce102a5",
+            "productCount": 7,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0505"
+          },
+          {
+            "childCategories": [],
+            "name": "Batuts, orxates, cafès preparats",
+            "categoryId": "63b05d55-44e7-48a4-82ef-ece9d72cce64",
+            "productCount": 12,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0503"
+          }
+        ],
+        "name": "Làctics i ous",
+        "categoryId": "8e6bb6f8-67ac-4a57-8260-c861830774f0",
+        "productCount": 204,
+        "retailerCategoryId": "05"
+      },
+      {
+        "childCategories": [
+          {
+            "childCategories": [],
+            "name": "Cereals i galetes",
+            "categoryId": "3b0d5f38-67f5-4bd8-a79a-c410aecdb701",
+            "productCount": 1,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0105"
+          },
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Xocolates i bombons",
+                "categoryId": "87685f78-8e90-4e99-8b3c-4ae87dfeedcd",
+                "productCount": 12,
+                "breadcrumbs": [],
+                "retailerCategoryId": "011701"
+              },
+              {
+                "childCategories": [],
+                "name": "Cremes per untar",
+                "categoryId": "27b5ea06-f371-4c12-8ec1-7600f64e4de2",
+                "productCount": 1,
+                "breadcrumbs": [],
+                "retailerCategoryId": "011703"
+              }
+            ],
+            "name": "Xocolates i cacau",
+            "categoryId": "33322281-eb65-4efa-9b7b-b2baedc2097d",
+            "productCount": 13,
+            "breadcrumbs": [],
+            "retailerCategoryId": "0117"
+          }
+        ],
+        "name": "Alimentació",
+        "categoryId": "c49d1ef2-bf51-44a7-b631-4a35474a21ac",
+        "productCount": 14,
+        "retailerCategoryId": "01"
+      }
+    ],
+    "filters": [],
+    "advertisingBanners": [],
+    "breadcrumb": [],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      },
+      {
+        "sortOptionId": "pricePerAscending",
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "pricePerDescending",
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceAscending",
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceDescending",
+        "messageKey": "sorting.option.price.descending",
+        "selected": false
+      }
+    ],
+    "currentCategory": {
+      "name": "Root",
+      "categoryId": "3d91c51c-1228-4f06-9afe-f31a68c3e740",
+      "productCount": 0,
+      "retailerCategoryId": "root"
+    },
+    "query": {
+      "searchTerm": "llet"
+    }
+  },
+  "missedPromotions": []
+}

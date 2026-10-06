@@ -1,0 +1,76 @@
+{
+  "article": {
+    "weightGrams": 6000,
+    "daysWithoutService": [],
+    "agrupacions": [],
+    "breadcrumb": [
+      {
+        "descripcio": "Alimentació",
+        "idNivell": "13*300",
+        "url": "~/categories/alimentacio/13_300"
+      },
+      {
+        "descripcio": "Làctics i derivats",
+        "idNivell": "13*300*080",
+        "url": "~/categories/lactics-i-derivats/13_300_080"
+      },
+      {
+        "descripcio": "Llet",
+        "idNivell": "13*300*080*010",
+        "url": "~/categories/llet/13_300_080_010"
+      }
+    ],
+    "caracteristiques": [
+      {
+        "descripcio": "GARANTIA_BONAREA"
+      },
+      {
+        "descripcio": "BONAREA"
+      },
+      {
+        "descripcio": "BENESTAR_ANIMAL_AENOR"
+      }
+    ],
+    "description": "Llet sense lactosa desnatada paq. de 6 brics",
+    "descriptionCatCastToFind": null,
+    "discount": 0,
+    "nameSubFamilyCatCastToFind": null,
+    "euroUnit": "€/u.",
+    "extendedInfo": "<strong>INGREDIENTS*:</strong><p>LLET fresca desnatada de vaca, vitamines A,D,E i àcid fòlic.</p><br/><strong>AL&middot;LÈRGENS:</strong><p><b>Llet i els seus derivats </b></p><br/><strong>INFORMACIÓ NUTRICIONAL:</strong><p>Valor mitjà per 100 ml de producte: <br>-Valor energètic                      156  kJ,                                       37  kcal<br>-Greixos                            < 0,5  g, dels quals saturats                    0  g<br>-Hidrats de carboni                   4,9  g, dels quals sucres                    4,8  g<br>-Fibra alimentaria                    0,0  g<br>-Proteïnes                            3,2  g<br>-Sal                                  0,1  g<br>-Vitamina A                           120  µg         15% VRN<br>-Vitamina D                           0,8  µg         15% VRN<br>-Vitamina E                           1,8  mg         15% VRN<br>-Àcid fòlic                            30  µg         15% VRN<br>-Calci                                120  mg         15% VRN</p><br/><strong>INFORMACIÓ ADDICIONAL:</strong><p>Lactosa: < 0,01 g/100 ml.</p><br/><strong>DENOMINACIÓ:</strong><p>Llet desnatada uht sense lactosa, enriquida amb vitamines A,D,E i àcid fòlic      </p><br/><p>*La informació sobre la composició dels ingredients dels productes així com també la informació nutricional dels mateixos que apareixen en aquesta web, pot estar sotmesa a modificacions pendents d'actualització, amb el que recomanem als nostres clients que sempre llegeixin atentament les etiquetes dels productes abans de consumir-los, ja que és on podran trobar-hi la informació més detallada i actualitzada.</p>",
+    "generalInfo": "<strong>DESCRIPCIÓ:</strong><p>Llet desnatada sense lactosa bonÀrea, en format d'1 litre.</p><br/><strong>CONSERVACIÓ:</strong><p>Conservar en un lloc fresc i sec. Un cop obert l' envàs, conservar a la nevera i consumir en un màxim de 4 dies.</p><br/><strong>ORIGEN:</strong><p>Origen de la llet: Espanya.</p><br/>",
+    "identifier": "13*0066",
+    "image": [
+      "P13_0066_1.png"
+    ],
+    "itsOnStock": true,
+    "comeStockData": null,
+    "isAnApproximatePrice": false,
+    "idAgrupacio": null,
+    "isGridBuyAllowed": true,
+    "isValid": true,
+    "javascriptPosition": 0,
+    "linePrice": 0,
+    "maximumStock": 10,
+    "measurementUnit": "6 l",
+    "codeFamilySubfamily": null,
+    "codeGroupFamilySubfamilyWhole": null,
+    "txtActiveGroup": null,
+    "txtActiveFamily": null,
+    "txtActiveSubfamily": null,
+    "nameFamilySubfamily": "Làctics i derivats",
+    "priceToPay": 6.72,
+    "quantity": 0,
+    "referenceWhereItIsLoaded": null,
+    "unitPrice": "1,12 €/l",
+    "unitsPurchased": -1,
+    "searchScore": 0,
+    "priorityOrder": 0,
+    "numberExactWordsFind": 0,
+    "gaDescription": "13*0066",
+    "gaNameFamilySubfamily": "13*0066",
+    "findComenzaPer": false,
+    "dropShipping": "",
+    "urlFriendly": "https://www.bonarea-online.com/online/producte/llet-sense-lactosa-desnatada-paq-de-6-brics/13_0066",
+    "unitatMinimaComanda": 1
+  }
+}

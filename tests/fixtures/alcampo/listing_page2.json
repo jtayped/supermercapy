@@ -1,0 +1,233 @@
+{
+  "productGroups": [
+    {
+      "type": "cluster",
+      "name": "fop.headertitle.other",
+      "decoratedProducts": [
+        {
+          "productId": "0fa49f17-163f-4758-a7e8-6eb8e02489f5",
+          "retailerProductId": "801307",
+          "type": "REGULAR",
+          "name": "ATO Leche entera de vacas con alimentación ecológica 1 l.",
+          "brand": "ATO",
+          "packSizeDescription": "1000ml",
+          "price": {
+            "amount": "1.82",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.82",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/f77d60d4-7fc3-4a2e-9b59-e652ba6a5ed8/300x300.jpg",
+            "description": "ATO Leche entera de vacas con alimentación ecológica 1 l.",
+            "imageId": "f77d60d4-7fc3-4a2e-9b59-e652ba6a5ed8"
+          },
+          "imageIds": [
+            "f77d60d4-7fc3-4a2e-9b59-e652ba6a5ed8"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/f77d60d4-7fc3-4a2e-9b59-e652ba6a5ed8"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Supermercado Ecológico",
+            "Lácteos y Huevos de producción ecológica",
+            "Leches y natas Ecológicas"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        },
+        {
+          "productId": "296deaad-d235-45ef-832c-6f77714b15b1",
+          "retailerProductId": "53559",
+          "type": "REGULAR",
+          "name": "LLET NOSTRA Leche entera 1 l.",
+          "brand": "LLET NOSTRA",
+          "packSizeDescription": "1000ml",
+          "price": {
+            "amount": "1.22",
+            "currency": "EUR"
+          },
+          "unitPrice": {
+            "price": {
+              "amount": "1.22",
+              "currency": "EUR"
+            },
+            "unit": "fop.price.per.litre",
+            "unitName": "PER_LITRE"
+          },
+          "available": true,
+          "image": {
+            "src": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/7d2e043f-876e-42a4-91cf-0ba767969a52/300x300.jpg",
+            "description": "LLET NOSTRA Leche entera 1 l.",
+            "imageId": "7d2e043f-876e-42a4-91cf-0ba767969a52"
+          },
+          "imageIds": [
+            "7d2e043f-876e-42a4-91cf-0ba767969a52"
+          ],
+          "imagePaths": [
+            "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/7d2e043f-876e-42a4-91cf-0ba767969a52"
+          ],
+          "isInCurrentCatalog": true,
+          "isNew": false,
+          "timeRestricted": false,
+          "alcohol": false,
+          "categoryPath": [
+            "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+            "Leche",
+            "Leche entera"
+          ],
+          "ratingSummary": {
+            "overallRating": "0.0",
+            "count": 0
+          }
+        }
+      ],
+      "otherProductIds": [],
+      "clusterCategories": []
+    }
+  ],
+  "metadata": {},
+  "additionalPageInfo": {
+    "categories": [
+      {
+        "childCategories": [
+          {
+            "childCategories": [
+              {
+                "childCategories": [],
+                "name": "Leche entera",
+                "categoryId": "c2d650db-f03a-450f-9d1f-cc66734ae03f",
+                "productCount": 72,
+                "breadcrumbs": [],
+                "retailerCategoryId": "OCEntera"
+              }
+            ],
+            "name": "Leche",
+            "categoryId": "6ce1724b-9cc9-444e-9445-8e7d215e172d",
+            "productCount": 325,
+            "breadcrumbs": [],
+            "retailerCategoryId": "OC1603"
+          }
+        ],
+        "name": "Leche, Huevos, Lácteos, Yogures y Bebidas vegetales",
+        "categoryId": "07fe24a8-8c8f-4c2c-9d1d-26a8cff285da",
+        "productCount": 516,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC16"
+      },
+      {
+        "childCategories": [],
+        "name": "Desayuno y Merienda",
+        "categoryId": "7b358c30-db81-4d96-9075-e735a959f337",
+        "productCount": 19,
+        "breadcrumbs": [],
+        "retailerCategoryId": "OC10"
+      }
+    ],
+    "filters": [
+      {
+        "filterId": "boolean",
+        "label": "boolean",
+        "attributes": [
+          {
+            "filterAttributeId": "onOffer",
+            "label": "onOffer",
+            "selected": false
+          }
+        ],
+        "type": "BOOLEAN"
+      },
+      {
+        "filterId": "brands",
+        "label": "brands",
+        "attributes": [
+          {
+            "filterAttributeId": "CENTRAL LECHERA ASTURIANA",
+            "label": "CENTRAL LECHERA ASTURIANA",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "L.R.",
+            "label": "L.R.",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "PULEVA",
+            "label": "PULEVA",
+            "selected": false
+          }
+        ],
+        "type": "BRANDS"
+      },
+      {
+        "filterId": "dummyValue",
+        "label": "Filtros",
+        "attributes": [
+          {
+            "filterAttributeId": "new",
+            "label": "Nuevo Producto",
+            "selected": false
+          },
+          {
+            "filterAttributeId": "alcampoBrandGeneric",
+            "label": "Marca Alcampo",
+            "selected": false
+          }
+        ],
+        "type": "RETAILER"
+      }
+    ],
+    "advertisingBanners": [],
+    "breadcrumb": [],
+    "sortOptions": [
+      {
+        "sortOptionId": "favorite",
+        "messageKey": "sorting.option.favorite",
+        "selected": true
+      },
+      {
+        "sortOptionId": "pricePerAscending",
+        "messageKey": "sorting.option.price.per.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "pricePerDescending",
+        "messageKey": "sorting.option.price.per.descending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceAscending",
+        "messageKey": "sorting.option.price.ascending",
+        "selected": false
+      },
+      {
+        "sortOptionId": "priceDescending",
+        "messageKey": "sorting.option.price.descending",
+        "selected": false
+      }
+    ],
+    "currentCategory": {
+      "name": "Root",
+      "categoryId": "79c7aedc-5c77-4429-913a-83c6e6508138",
+      "productCount": 0,
+      "retailerCategoryId": "root"
+    },
+    "query": {
+      "searchTerm": "leche"
+    }
+  },
+  "missedPromotions": []
+}
