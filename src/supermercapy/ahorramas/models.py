@@ -45,7 +45,7 @@ from .._core.models import (
     Promotion,
     SearchResult,
 )
-from .._core.units import SHARED_UNITS
+from .._core.units import UnitReader
 from ._constants import SITE_URL
 
 __all__ = ["AhorramasCategory", "AhorramasProduct", "AhorramasSearchResult"]
@@ -56,6 +56,8 @@ _CATEGORY_URL = re.compile(r"^/(?:[a-z0-9-]+/)+$")
 _UNIT_PRICE = re.compile(
     r"^(?P<amount>\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*€\s*/\s*(?P<unit>\S.*)$"
 )
+# canned and jarred food is priced per kilogram of drained weight
+_UNITS = UnitReader({"kg.peso esc": "kg"})
 _DATE_RANGE = re.compile(
     r"(?P<start>\d{1,2}/\d{1,2}/\d{2,4})\s*(?:-|al)\s*(?P<end>\d{1,2}/\d{1,2}/\d{2,4})"
 )
@@ -188,7 +190,7 @@ def _price(
         unit_price=unit_amount,
         unit_price_unit=unit if unit_amount is not None else None,
         unit_price_text=unit_text,
-        reference=SHARED_UNITS.unit_price(unit_amount, unit),
+        reference=_UNITS.unit_price(unit_amount, unit),
         is_discounted=discounted,
         discount_percentage=discount if discounted else None,
     )

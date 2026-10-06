@@ -56,11 +56,9 @@ _NEXT_DATA = re.compile(
 )
 _HUNDRED = Decimal(100)
 _PRODUCTS_PATH = "/productos/"
-# basePriceScale is a slug: "kg", "l", "100-ml", "lavado", "m-(metro)". "g" and
-# "100-g" are sent on prices that are per kilogram (1.59 € for 200 g with a
-# base price of 7.95), so both read as unknown; "par" (a pair) has no shared
-# unit. the rest are one piece of what the pack counts: capsules, tea bags,
-# wipes and tissues.
+# basePriceScale is a slug: "kg", "l", "100-ml", "lavado", "m-(metro)". "par"
+# (a pair) has no shared unit. the rest are one piece of what the pack counts:
+# capsules, tea bags, wipes and tissues.
 _UNITS = UnitReader(
     {
         "m (metro)": "m",
@@ -72,6 +70,9 @@ _UNITS = UnitReader(
         "par": None,
     }
 )
+# "g" and "100-g" are sent on prices that are per kilogram: 1.59 € for 200 g
+# with a base price of 7.95
+_PER_KILOGRAM = frozenset({"g", "100-g"})
 
 
 class Region(StrEnum):
@@ -209,7 +210,9 @@ def parse_price(data: object) -> AldiPrice:
         reference=(
             None
             if scale is None
-            else _UNITS.unit_price(unit_price, scale.replace("-", " "))
+            else _UNITS.unit_price(
+                unit_price, "kg" if scale in _PER_KILOGRAM else scale.replace("-", " ")
+            )
         ),
         is_discounted=previous is not None,
         discount_percentage=discount,

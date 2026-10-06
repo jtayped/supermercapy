@@ -281,12 +281,14 @@ def test_the_reference_price_is_read_from_the_display_string() -> None:
         ("4,46 €/kg", UnitPrice(amount=Decimal("4.46"), unit=Unit.KILOGRAM)),
         ("9,5 €/kg", UnitPrice(amount=Decimal("9.50"), unit=Unit.KILOGRAM)),
         ("25,67 €/kg.", UnitPrice(amount=Decimal("25.67"), unit=Unit.KILOGRAM)),
+        ("10,35 €/kg..", UnitPrice(amount=Decimal("10.35"), unit=Unit.KILOGRAM)),
+        ("0,56 €/k.", UnitPrice(amount=Decimal("0.56"), unit=Unit.KILOGRAM)),
         ("0,22 €/u.", UnitPrice(amount=Decimal("0.22"), unit=Unit.PIECE)),
         ("0,18 €/d.", UnitPrice(amount=Decimal("0.18"), unit=Unit.DOSE)),
         ("0,08 €/m", UnitPrice(amount=Decimal("0.08"), unit=Unit.METRE)),
         ("0,03 €/m.", UnitPrice(amount=Decimal("0.03"), unit=Unit.METRE)),
-        # 12,17 € for 200 ml of sun cream, labelled per millilitre
-        ("60,85 €/ml.", None),
+        # 12,17 € for 200 ml of sun cream: labelled per millilitre, priced per litre
+        ("60,85 €/ml.", UnitPrice(amount=Decimal("60.85"), unit=Unit.LITRE)),
         ("", None),
         ("1,00 €/xx", None),
     ],

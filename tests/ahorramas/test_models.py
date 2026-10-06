@@ -282,6 +282,19 @@ def test_a_callout_left_open_or_without_a_price_still_reads() -> None:
     assert row.promotions == (Promotion(description="Abierta"),)
 
 
+def test_drained_weight_is_priced_per_kilogram() -> None:
+    body = (
+        '<h2 class="product-name-gtm">Garbanzo cocido Alipende 400g</h2>'
+        '<span class="unit-price-per-unit grey">2,00€/KG.PESO ESC</span>'
+    )
+
+    (row,) = parse_grid(tile("7", body), query="", offset=0, page_size=24).products
+
+    assert row.price.unit_price == Decimal("2.00")
+    assert row.price.unit_price_unit == "KG.PESO ESC"
+    assert row.price.reference == UnitPrice(amount=Decimal("2.00"), unit=Unit.KILOGRAM)
+
+
 def test_unit_text_that_is_not_a_unit_price_is_kept_as_text() -> None:
     body = (
         '<h2 class="product-name-gtm">Uno</h2>'

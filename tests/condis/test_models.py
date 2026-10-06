@@ -178,6 +178,9 @@ def test_a_promotion_keeps_the_text_with_its_spacing_collapsed() -> None:
         ("28,96€/Kg", UnitPrice(amount=Decimal("28.96"), unit=Unit.KILOGRAM)),
         ("1,25€/100 ml", UnitPrice(amount=Decimal("12.50"), unit=Unit.LITRE)),
         ("2,99€/Unidad", UnitPrice(amount=Decimal("2.99"), unit=Unit.PIECE)),
+        ("1,55€/Pieza", UnitPrice(amount=Decimal("1.55"), unit=Unit.PIECE)),
+        # per kilogram of drained weight
+        ("19,98€/Kilo PNE", UnitPrice(amount=Decimal("19.98"), unit=Unit.KILOGRAM)),
         ("", None),
         ("precio", None),
     ],

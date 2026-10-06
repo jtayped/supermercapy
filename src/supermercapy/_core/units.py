@@ -17,7 +17,7 @@ mapping a new store's unit text, a checklist:
 2. try :data:`SHARED_UNITS` on each string. it reads an optional leading
    number and one word of the shared vocabulary (``"kg"``, ``"100 g"``,
    ``"1 L"``, ``"docena"``, ``"lavado"``, ``"ud"``, ``"m"``), ignoring case,
-   surrounding space, a leading ``€`` or ``/`` and a trailing dot.
+   surrounding space, a leading ``€`` or ``/`` and trailing dots.
 3. give every code the shared vocabulary does not know an alias in the
    store's own reader, written as shared text:
    ``UnitReader({"dc": "docena", "lv": "lavado"})``. an abbreviation that
@@ -89,9 +89,9 @@ _CONTEXT = Context(prec=28, rounding=ROUND_HALF_UP)
 _PLACES = (Decimal("0.01"), Decimal("0.001"), Decimal("0.0001"))
 
 # an optional "€" or "/", an optional count, then the unit word. the word must
-# not start with a digit, and one trailing dot is dropped.
+# not start with a digit, and trailing dots are dropped.
 _UNIT_TEXT = re.compile(
-    r"(?:€\s*)?(?:/\s*)?(?:(?P<count>\d+(?:[.,]\d+)?)\s*)?(?P<word>[^\d\s].*?)\.?"
+    r"(?:€\s*)?(?:/\s*)?(?:(?P<count>\d+(?:[.,]\d+)?)\s*)?(?P<word>[^\d\s].*?)\.*"
 )
 _PRICE_PER_UNIT = re.compile(
     r"\s*(?P<amount>\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*€\s*/\s*(?P<unit>[^€/]+?)\s*"
@@ -200,7 +200,7 @@ class UnitReader:
     ``aliases`` maps each code the store writes to shared unit text, such as
     ``{"dc": "docena"}`` or ``{"per_100ml": "100 ml"}``, or to ``None`` for a
     code that must read as unknown. codes are matched like any unit text,
-    without regard to case or a trailing dot. an alias whose target the
+    without regard to case or trailing dots. an alias whose target the
     shared vocabulary cannot read raises ``ValueError`` when the reader is
     built, so a typo fails at import rather than as a silent ``None``.
     """

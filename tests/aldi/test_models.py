@@ -160,8 +160,8 @@ def test_the_url_follows_the_region() -> None:
         ("panuelo", UnitPrice(amount=Decimal("2"), unit=Unit.PIECE)),
         ("m-(metro)", UnitPrice(amount=Decimal("2"), unit=Unit.METRE)),
         # sent on prices that are per kilogram
-        ("g", None),
-        ("100-g", None),
+        ("g", UnitPrice(amount=Decimal("2"), unit=Unit.KILOGRAM)),
+        ("100-g", UnitPrice(amount=Decimal("2"), unit=Unit.KILOGRAM)),
         ("par", None),
         ("caja", None),
     ],

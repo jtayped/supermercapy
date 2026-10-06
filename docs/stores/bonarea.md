@@ -74,7 +74,7 @@ with Bonarea(language="ca") as bonarea:
 
 **unit prices are display strings.** the numeric price is clean, but the per-kilo or per-litre figure arrives as prose such as a euro amount and a unit glued together, and the client parses it out of that text. the original stays in `unit_price_text`.
 
-**the units are kg, l, u., m and d.** each may or may not carry a trailing dot, and `d.` is a dose of detergent. `price.reference` reads all five. one row in october 2026 said `€/ml.` on a figure that was per litre (12,17 € for 200 ml, labelled 60,85 €/ml.), so `ml.` reads as unknown. a row whose `unitPrice` is an empty string, common on loose produce, has no reference.
+**the units are kg, l, u., m and d.** each may carry one trailing dot or two, `k.` is a kilogram too, and `d.` is a dose of detergent. `price.reference` reads all of them. `€/ml.` is on figures that are per litre, such as 12,17 € for 200 ml labelled 60,85 €/ml., and it was on all 44 priced rows that carried it in the october 2026 catalog, so `ml.` reads per litre. a row whose `unitPrice` is an empty string, common on loose produce, has no reference.
 
 **badges are catalan in both locales.** the badge vocabulary is a fixed catalan constant whatever language you ask in. known ones become `supermercapy.bonarea.Characteristic` members, and an unknown one stays a plain string instead of being dropped.
 

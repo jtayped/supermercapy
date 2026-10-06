@@ -72,7 +72,7 @@ the sizes are the html and json after decompression. the shop compresses its ans
 
 **products sold by weight are priced per kilogram.** fresh meat, fish and produce show a price per kilogram, a `PESO VARIABLE` badge, and purchase steps in kilograms, such as `0.19` for one banana. `is_variable_weight` is set, `average_weight` is the weight of an average piece, and `price.reference` is the price per kilogram. the record's own measure fields disagree with the tile for these products, sometimes by a factor of five, so the client never reads them for a weighed product.
 
-**units.** tiles print the unit price as `0,83€/LITRO`, and the units seen were `LITRO`, `KILO`, `Kg`, `UNIDAD`, `DOCENA` and `LAVADO`, all in the shared vocabulary, so `price.reference` restates them per litre, kilogram, piece or dose. a record carries the same figure and unit as two separate fields, which fill `unit_price` and `unit_price_unit` and leave `unit_price_text` empty.
+**units.** tiles print the unit price as `0,83€/LITRO`, and the units seen were `LITRO`, `KILO`, `Kg`, `UNIDAD`, `DOCENA`, `LAVADO`, and `KG.PESO ESC` on canned and jarred food, per kilogram of drained weight, so `price.reference` restates them per litre, kilogram, piece or dose. a record carries the same figure and unit as two separate fields, which fill `unit_price` and `unit_price_unit` and leave `unit_price_text` empty.
 
 **promotions carry their dates.** a callout reads `Bajada de precio a 0.48€ (01/10/26 - 28/10/26)` or `Comprando 2, la unidad te sale a 0.50€ (24/09/26 - 28/10/26)`. each becomes a `Promotion` with its price, its start and end dates at midnight utc, and, for a multi-buy, `requires_quantity`. a record adds the promotion's id and its name in `kind`, such as `Pack 2 unidades`.
 

@@ -45,7 +45,7 @@ from .._core.models import (
     Promotion,
     SearchResult,
 )
-from .._core.units import SHARED_UNITS
+from .._core.units import UnitReader
 from ._constants import CDN_URL, INDEX_LANGUAGE, PHOTO_SIZE, SITE_URL
 
 __all__ = [
@@ -67,6 +67,8 @@ __all__ = [
 _FLIGHT_CHUNK = re.compile(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)')
 # "0,99€/Litro": the amount, then the unit after the slash
 _UNIT_PRICE = re.compile(r"^\s*[\d.,]+\s*€\s*/\s*(?P<unit>.+?)\s*$")
+# fish and canned food are priced per kilogram of drained weight, "Kilo PNE"
+_UNITS = UnitReader({"kilo pne": "kg", "pieza": "ud"})
 # allergens are bolded inside the ingredients html
 _BOLD = re.compile(r"<b\b[^>]*>(.*?)</b>", re.IGNORECASE | re.DOTALL)
 # the product page names its own address, with the real slug, in its head
@@ -243,7 +245,7 @@ def _price(
         unit_price=as_euro_text(unit_text) if unit else None,
         unit_price_unit=unit.group("unit") if unit else None,
         unit_price_text=unit_text or None,
-        reference=SHARED_UNITS.unit_price_from_text(unit_text),
+        reference=_UNITS.unit_price_from_text(unit_text),
         is_discounted=discounted or previous is not None,
     )
 

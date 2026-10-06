@@ -66,9 +66,9 @@ __all__ = [
 ]
 
 _UNIT_PRICE_UNIT = re.compile(r"€\s*/\s*(\S+)")
-# "€/d." is per dose. "€/ml." has been seen once, on a price that is per litre
-# (12,17 € for 200 ml labelled 60,85 €/ml.), so it reads as unknown
-_UNITS = UnitReader({"d": "dosis", "ml": None})
+# "€/d." is per dose and "€/k." per kilogram. "€/ml." is on prices that are
+# per litre: 12,17 € for 200 ml is labelled 60,85 €/ml.
+_UNITS = UnitReader({"d": "dosis", "k": "kg", "ml": "l"})
 _COLUMN_GAP = re.compile(r"\s{2,}")
 _MEASUREMENT_VALUE = re.compile(r"^[<>]?\s*-?\d+(?:[.,]\d+)?\s+(\S+)")
 _HEADING_TRIM = " \t:*.-"
