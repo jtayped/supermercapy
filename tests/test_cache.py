@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import gzip
 import logging
+import os
 import threading
+import urllib.request
 from collections.abc import Iterator
-from typing import Any
+from typing import Any, ClassVar
 
 import httpx
 import pytest
@@ -356,6 +358,72 @@ def test_clear_and_close_forget_everything() -> None:
     client.close()
     assert closed == [True]
     CacheTransport(ttl=1).close()
+
+
+class FakeNetwork(httpx.BaseTransport):
+    """stands in for ``httpx.HTTPTransport`` and answers with its proxy."""
+
+    built: ClassVar[list[FakeNetwork]] = []
+
+    def __init__(self, *, proxy: str | None = None) -> None:
+        self.proxy = proxy
+        self.closed = False
+        FakeNetwork.built.append(self)
+
+    def handle_request(self, request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, request=request, json={"via": self.proxy})
+
+    def close(self) -> None:
+        self.closed = True
+
+
+@pytest.fixture
+def environment(monkeypatch: pytest.MonkeyPatch) -> pytest.MonkeyPatch:
+    """clear the proxy variables, and read only them, never system settings."""
+
+    for name in list(os.environ):
+        if name.lower().endswith("_proxy"):
+            monkeypatch.delenv(name)
+    monkeypatch.setattr(
+        supermercapy.cache, "getproxies", urllib.request.getproxies_environment
+    )
+    monkeypatch.setattr(
+        supermercapy.cache, "proxy_bypass", urllib.request.proxy_bypass_environment
+    )
+    monkeypatch.setattr(supermercapy.cache.httpx, "HTTPTransport", FakeNetwork)
+    FakeNetwork.built = []
+    return monkeypatch
+
+
+def via(cache: CacheTransport, url: str) -> str | None:
+    response = cache.handle_request(httpx.Request("GET", url))
+    response.read()
+    result: str | None = response.json()["via"]
+    return result
+
+
+def test_without_proxy_variables_every_request_goes_direct(
+    environment: pytest.MonkeyPatch,
+) -> None:
+    cache = CacheTransport(ttl=60)
+    assert via(cache, "https://store.test/a") is None
+    assert via(cache, "http://store.test/a") is None
+    assert len(FakeNetwork.built) == 1
+
+
+def test_the_default_transport_honours_the_proxy_variables(
+    environment: pytest.MonkeyPatch,
+) -> None:
+    environment.setenv("HTTPS_PROXY", "proxy.test:3128")
+    environment.setenv("ALL_PROXY", "http://all.test:8080")
+    environment.setenv("NO_PROXY", "mercadona.es")
+    cache = CacheTransport(ttl=60)
+    assert via(cache, "https://store.test/a") == "http://proxy.test:3128"
+    assert via(cache, "http://store.test/a") == "http://all.test:8080"
+    assert via(cache, "https://tienda.mercadona.es/a") is None
+    cache.close()
+    assert all(network.closed for network in FakeNetwork.built)
+    assert len(FakeNetwork.built) == 3
 
 
 def test_hits_and_stores_are_logged_at_debug(

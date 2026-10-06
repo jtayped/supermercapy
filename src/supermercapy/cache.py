@@ -10,6 +10,7 @@ from math import isfinite
 from threading import Lock
 from time import monotonic
 from typing import Any
+from urllib.request import getproxies, proxy_bypass
 
 import httpx
 
@@ -54,8 +55,9 @@ class CacheTransport(httpx.BaseTransport):
     :func:`~supermercapy.search_all`, which leaves it open. a request is
     answered from memory when the same method, url, body and request headers,
     ``cookie`` and ``authorization`` aside, were answered within ``ttl``
-    seconds; anything else goes to ``transport``, an ``httpx.HTTPTransport``
-    by default.
+    seconds; anything else goes to ``transport``. the default sends through
+    ``httpx.HTTPTransport``, directly or through the proxy that
+    ``HTTP_PROXY``, ``HTTPS_PROXY``, ``ALL_PROXY`` and ``NO_PROXY`` name.
 
     only a 2xx response with a json content type is stored, so errors,
     redirects, images, and the html pages that warm sessions up or carry csrf
@@ -102,7 +104,7 @@ class CacheTransport(httpx.BaseTransport):
         self._ttl = float(ttl)
         self._max_bytes = max_bytes
         self._methods = frozenset(name.strip().upper() for name in names)
-        self._transport = transport or httpx.HTTPTransport()
+        self._transport = transport or _EnvironmentTransport()
         self._entries: OrderedDict[_Key, _Entry] = OrderedDict()
         self._size = 0
         self._lock = Lock()
@@ -206,6 +208,37 @@ class CacheTransport(httpx.BaseTransport):
         # the caller holds the lock
         entry = self._entries.pop(key)
         self._size -= len(entry.content)
+
+
+class _EnvironmentTransport(httpx.BaseTransport):
+    """send each request directly or through the proxy the environment names.
+
+    httpx reads the proxy variables only for a client built without a
+    transport of its own, so a client handed a cache would otherwise ignore
+    them.
+    """
+
+    def __init__(self) -> None:
+        proxies = getproxies()
+        self._direct = httpx.HTTPTransport()
+        self._proxied: dict[str, httpx.BaseTransport] = {}
+        for scheme in ("http", "https"):
+            url = proxies.get(scheme) or proxies.get("all")
+            if url:
+                self._proxied[scheme] = httpx.HTTPTransport(
+                    proxy=url if "://" in url else f"http://{url}"
+                )
+
+    def handle_request(self, request: httpx.Request) -> httpx.Response:
+        transport = self._proxied.get(request.url.scheme)
+        if transport is None or proxy_bypass(request.url.host):
+            transport = self._direct
+        return transport.handle_request(request)
+
+    def close(self) -> None:
+        self._direct.close()
+        for transport in self._proxied.values():
+            transport.close()
 
 
 def _storable(response: httpx.Response) -> bool:

@@ -83,7 +83,7 @@ the `supermercapy.cache` logger records each hit and each stored answer at `DEBU
 
 ## proxies and other transports
 
-`CacheTransport` sends what it cannot answer through its own `transport`, an `httpx.HTTPTransport()` by default. httpx ignores the proxy environment variables once a client has a transport, so pass a proxy through explicitly:
+`CacheTransport` sends what it cannot answer through its own `transport`. httpx ignores the proxy environment variables once a client has a transport, so the default transport reads them itself: a request goes through the proxy that `HTTP_PROXY`, `HTTPS_PROXY` or `ALL_PROXY` names, or directly when there is none or `NO_PROXY` covers the host, the way a client without a cache sends it. to choose a proxy in code instead, pass a transport:
 
 ```python
 import httpx
