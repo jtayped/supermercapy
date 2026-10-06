@@ -100,7 +100,7 @@ store brands are known by name: hacendado, deliplus, bosque verde and compy at m
 
 ### pack size
 
-the size comes from the name and from `pack_size_text`, read with the same unit vocabulary as `price.reference`. multipacks such as `6 x 1 l`, `pack 2x2 l.`, `2 botellas de 2 l` and `paq. 3 u. de 200 ml` give a count and a total. counts such as `6 latas`, `4+2 rollos`, `pack-6` and `6 per paquet` give a count alone. `pack 2 unitats 4 l` is four litres in all, while carrefour's `pack 2 botellas 2 l` is two litres each, and the price decides which one a text means.
+the size comes from the name and from `pack_size_text`, read with the same unit vocabulary as `price.reference`. multipacks such as `6 x 1 l`, `pack 2x2 l.`, `5+1 x 25 cl`, `2 botellas de 2 l` and `paq. 3 u. de 200 ml` give a count and a total. counts such as `6 latas`, `4+2 rollos`, `4 rollos más 2 gratis`, `pack-6` and `6 per paquet` give a count alone. free quantities add up when they are in the same unit, so `300g + 100g` and `440 +10 ml` are the whole pack. a quantity that follows a `+` on its own is never the pack size: `+35G 300 G` is 300 g, a nappy for `+13kg` names no size, and neither does a claim such as `+Proteínas 14 g`. `pack 2 unitats 4 l` is four litres in all, while carrefour's `pack 2 botellas 2 l` is two litres each, and the price decides which one a text means. a size stated without a count is one pack, so `pack 6x33 cl` is never the `2 L` bottle, though both hold about two litres.
 
 when the text says nothing, as at mercadona and consum, the size is read back from the price: 4.98 at 0.83 per litre is six litres. a unit price is rounded, so the size read back from it only counts while that rounding moves it by less than 5%. two totals agree within 2%, plus that rounding. two different counts always disagree.
 
@@ -144,13 +144,13 @@ the threshold trades recall for precision, and 0.8 sits on a cliff. at 0.75 a si
 | 0.85 | 1.00 | 0.68 | 0.996 | 0.64 |
 | 0.90 | 1.00 | 0.59 | 0.996 | 0.64 |
 
-for alternatives, five development searches carry kind labels such as plain semi-skimmed milk, lactose-free milk, tuna in olive oil and tuna in sunflower oil. over every ordered pair of labelled listings, the default of 0.6 gives precision 0.998 and recall 0.60. that threshold lets names differ only by descriptors. at 0.55 one other word may differ, which gives precision 0.88 and recall 0.75. that suits a shopper who would take a picual oil for a plain extra virgen one.
+for alternatives, five development searches carry kind labels such as plain semi-skimmed milk, lactose-free milk, tuna in olive oil and tuna in sunflower oil. over every ordered pair of labelled listings, the default of 0.6 gives precision 0.998 and recall 0.61. that threshold lets names differ only by descriptors. at 0.55 one other word may differ, which gives precision 0.88 and recall 0.75. that suits a shopper who would take a picual oil for a plain extra virgen one.
 
 ## limits
 
 - **store brands.** two store brands are never the same product, even when one factory fills both. the list of store brands is in the code, and a house name it does not know reads as an ordinary brand.
 - **renamed products.** a promotional name such as carrefour's `la velada del año` matches only through a barcode. names one store spells its own way, such as nocilla's `1 sabor` against `original` or `2 sabores` against `dúo` and `chocoleche`, do not match, and that accounts for most of the missing recall.
-- **multipacks and promotions.** a pack of two bottles is not one bottle, and `600 g + 33% gratis` is not 600 g. a promotional bundle whose size a store states differently is missed.
+- **multipacks and promotions.** a pack of two bottles is not one bottle, and `600 g + 33% gratis` is not 600 g. a promotional pack is a different size from the plain one, so `300g + 100g` never matches the 300 g pack, and a bundle whose size a store states differently is missed.
 - **claims some stores add.** carrefour writes `sin gluten` on products other stores describe without it, and a negation costs too much to ignore, so those pairs are missed.
 - **unit prices a store gets wrong.** plusfresc prices one twelve-roll pack at 3.99 per piece. a count in the text beats a piece count read back from the price, but a wrong total can still keep two listings apart.
 - **bare summaries.** without a store, the one-listing-per-store rule does not apply and a store brand cannot be checked against its store.

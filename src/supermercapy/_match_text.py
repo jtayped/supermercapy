@@ -150,22 +150,45 @@ _COUNT_WORDS = (
     r"capsulas?|capsules|pastillas?|pastilles|paquets?|bolsitas?|botes|"
     r"piezas?|peces|tarrinas?|tabletas?"
 )
-# 6 x 1 l, 12x33 cl, 3 x 0.052kg
-_MULTI = re.compile(rf"(?<![\d.,])(\d+)\s*[x\u00d7]\s*({_NUMBER})\s*([a-z]+)\b")
+# 6 x 1 l, 12x33 cl, 3 x 0.052kg, 5+1 x 25 cl
+_MULTI = re.compile(
+    rf"(?<![\d.,])(\d+)(?:\s*\+\s*(\d+))?\s*[x\u00d7]\s*({_NUMBER})\s*([a-z]+)\b"
+)
 # 2 botellas de 2 l, 3 u. de 200 ml
 _COUNT_OF = re.compile(
-    rf"(?<![\d.,])(\d+)\s*(?:{_COUNT_WORDS})\b\.?\s+de\s+({_NUMBER})\s*([a-z]+)\b"
+    rf"(?<![\d.,])(\d+)(?:\s*\+\s*(\d+))?\s*(?:{_COUNT_WORDS})\b\.?"
+    rf"\s+de\s+({_NUMBER})\s*([a-z]+)\b"
 )
 # 6 latas, 4+2 rollos, 6 per paquet
 _COUNTED = re.compile(
     rf"(?<![\d.,])(\d+)(?:\s*\+\s*(\d+))?\s*(?:(?:{_COUNT_WORDS})\b\.?|per paquet\b)"
 )
-# 200 g, 1,5 l, 40+5 dosis
-_QUANTITY = re.compile(rf"(?<![\d.,])({_NUMBER})(?:\s*\+\s*(\d+))?\s*([a-z]+)\b\.?")
-# pack 6, paq. de 6, pack-6
+# más 2 gratis, más 4 ud de regalo, més 1 de regal: free units of the same
+# kind, which "+ 1 aparato gratis" is not
+_BONUS = re.compile(
+    rf"(?:\+|\bmas\b|\bmes\b)\s*(\d+)\s*(?:(?:{_COUNT_WORDS})\b\.?\s*)?"
+    r"(?:de\s+)?(?:gratis|regalo|regal)\b"
+)
+# 200 g, 1,5 l, 40+5 dosis, 120 más 20 g, 300 g + 100 g
+_QUANTITY = re.compile(
+    rf"(?<![\d.,/])({_NUMBER})(?:\s*(?:\+|\bmas\b|\bmes\b)\s*(\d+))?\s*([a-z]+)\b\.?"
+    rf"(?:\s*\+\s*({_NUMBER})\s*\3\b\.?)?"
+)
+# 1/2 docena, media docena, 1/2 kg
+_HALF = re.compile(r"(?<![\d.,/])1/2(?=\s*[a-z])|\bmedia(?=\s+docenas?\b)")
+# a quantity followed by one of these words measures a claim, not the pack:
+# "1,3 g mg" of fat, "10 g de proteinas"
+_CLAIM_AFTER = re.compile(
+    r"\s*(?:de\s+)?(?:mg|materia grasa|grasas?|proteinas?|fibra|azucares?)\b"
+)
+# what comes right after a "+" is extra, never the pack: "+35 g" free on a
+# 300 g bottle, a nappy for "+13 kg", or a claim such as "+proteinas 14 g"
+_AFTER_PLUS = re.compile(r"\+\s*(?:(?:proteinas?|fibra|calcio|hierro)\s+)?$")
+# pack 6, paq. de 6, pack-6, pack2, pack lata 12, and ahorramás's p16
 _PACK = re.compile(
-    r"\b(?:pack|paq|paquete|paquet|caja|caixa|estoig|lote)\b\.?[\s-]*(?:de\s+)?"
-    r"(\d+)\b(?![.,]\d)"
+    r"\b(?:(?:pack|paq|paquete|paquet|caja|caixa|estoig|lote)(?![a-z])\.?[\s-]*"
+    r"(?:(?:latas?|botellas?|botellines|bri(?:c|ck|k)s?)\s+)?(?:de\s+)?(\d+)"
+    r"|p(\d{1,2}))\b(?![.,]\d)"
 )
 
 # a published unit price is rounded, so a pack size read back from it is only
@@ -222,6 +245,7 @@ def read_size(text: str) -> tuple[SizeText, str]:
     total: Quantity | None = None
     loose: Quantity | None = None
     spans: list[tuple[int, int]] = []
+    text = _HALF.sub("0.5", text)
 
     def claim(match: re.Match[str]) -> bool:
         start, end = match.span()
@@ -232,22 +256,41 @@ def read_size(text: str) -> tuple[SizeText, str]:
 
     for pattern in (_MULTI, _COUNT_OF):
         for match in pattern.finditer(text):
-            each = _quantity(match.group(2), match.group(3))
+            each = _quantity(match.group(3), match.group(4))
             if each is None or not claim(match) or total is not None:
                 continue
-            count = int(match.group(1))
+            count = int(match.group(1)) + int(match.group(2) or 0)
             total = _times(count, each)
+    # read before the counts, so the "4 ud" of "mas 4 ud de regalo" is free
+    bonus = sum(int(match.group(1)) for match in _BONUS.finditer(text) if claim(match))
     for match in _COUNTED.finditer(text):
         if claim(match) and count is None:
             count = int(match.group(1)) + int(match.group(2) or 0)
+    if count is not None and total is None:
+        count += bonus
     for match in _QUANTITY.finditer(text):
         quantity = _quantity(match.group(1), match.group(3), match.group(2))
         if quantity is None or not claim(match):
             continue
-        loose = loose or quantity
+        if match.group(4) and (more := _quantity(match.group(4), match.group(3))):
+            quantity = Quantity(
+                amount=quantity.amount + more.amount, unit=quantity.unit
+            )
+        extra = match.group(2)
+        # a bonus is never bigger than its pack, so "talla 6 +13 kg" is a band
+        banded = extra is not None and int(extra) > Decimal(
+            match.group(1).replace(",", ".")
+        )
+        extra_or_claim = (
+            banded
+            or _AFTER_PLUS.search(text, 0, match.start()) is not None
+            or _CLAIM_AFTER.match(text, match.end()) is not None
+        )
+        if not extra_or_claim:
+            loose = loose or quantity
     for match in _PACK.finditer(text):
         if claim(match) and count is None:
-            count = int(match.group(1))
+            count = int(match.group(1) or match.group(2))
     remaining = text
     for start, end in sorted(spans, reverse=True):
         remaining = f"{remaining[:start]} {remaining[end:]}"
@@ -303,6 +346,10 @@ def pack_size(product: ProductSummary, name: SizeText, pack: SizeText) -> Size |
         whole = total.amount.to_integral_value()
         if whole and close(Quantity(amount=whole, unit=Unit.PIECE), total, slack):
             count = int(whole)
+    if count is None and total is loose and total is not None:
+        # "2 l" names one bottle, so six cans of 33 cl are not it; a size read
+        # back from the price says nothing about how many packs it covers
+        count = 1
     if count is None and total is None:
         return None
     return Size(count=count, total=total, slack=slack)
@@ -403,6 +450,13 @@ _SYNONYMS: Mapping[str, str] = MappingProxyType(
         **{"ensucrat": "azucarado", "ensucrada": "azucarada", "grec": "griego"},
         **{"casolana": "casera", "casola": "casero", "desnatat": "desnatado"},
         **{"pressec": "melocoton", "nabius": "arandanos", "tofona": "trufa"},
+        **{"rodo": "redondo", "rodona": "redonda", "blat": "trigo", "pit": "pechuga"},
+        **{"cigro": "garbanzo", "cigrons": "garbanzos", "molt": "molido"},
+        **{"cuit": "cocido", "cuits": "cocidos", "ceba": "cebolla"},
+        **{"cebes": "cebollas"},
+        # the italian spellings spanish shelves use
+        **{"spaghetti": "espagueti", "spagueti": "espagueti", "spaguetti": "espagueti"},
+        **{"spaguettis": "espaguetis", "spaghettis": "espaguetis"},
     }
 )
 _VOWELS = frozenset("aeiou")

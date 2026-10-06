@@ -247,9 +247,9 @@ def test_same_product_on_the_held_out_set() -> None:
 def test_alternatives_on_the_development_set() -> None:
     counts = evaluate_alternatives()
 
-    assert (counts.tp, counts.fp, counts.fn) == (7892, 12, 5158)
+    assert (counts.tp, counts.fp, counts.fn) == (7902, 12, 5148)
     assert round(counts.precision, 3) == 0.998
-    assert round(counts.recall, 2) == 0.60
+    assert round(counts.recall, 2) == 0.61
 
 
 # ------------------------------------------------------------- same product
@@ -383,6 +383,25 @@ def test_pack_sizes_come_from_text_or_from_the_unit_price() -> None:
     assert score_same(mercadona, carrefour).reasons[:2] == ("brand", "size")
     assert score_same(single, carrefour).reasons[1] == "size differs"
     assert score_same(single, unknown).reasons[1] == "size unknown"
+
+
+def test_a_stated_size_without_a_count_is_one_pack() -> None:
+    cans = item(
+        "Refresco de naranja FANTA ZERO, pack 6x33 cl",
+        brand="FANTA",
+        price="4.85",
+        reference="2.45/l",
+    )
+    bottle = item("FANTA ZERO NARANJA 2 L", brand="FANTA", price="1.85")
+    # the size is read back from the price, so it may be a bottle or a pack
+    terse = item(
+        "Refresco Naranja Zero Botella", brand="FANTA", price="1.59", reference="0.80/l"
+    )
+
+    assert score_same(("caprabo", cans), ("condis", bottle)).reasons[1] == (
+        "size differs"
+    )
+    assert score_same(("consum", terse), ("condis", bottle)).reasons[1] == "size"
 
 
 def test_a_container_that_differs_contradicts() -> None:
@@ -729,6 +748,13 @@ def test_matches_serialise_to_plain_data() -> None:
         ("Galletas Maria dorada 0% azúcares añadidos 2x200gr", 2, "0.400 kg"),
         ("Leche semidesnatada paq. 3 u. de 200 ml", 3, "0.600 l"),
         ("Papel higiénico FOXY SEDA, paquete 4+2 rollos", 6, None),
+        ("Cerveza Heineken pack 5+1 x 25 cl", 6, "1.50 l"),
+        ("Higiénico Bouquet Color 4 Rollos Más 2 Gratis", 6, None),
+        ("Estropajos Salvauñas Classic 2u más 1 regalo", 3, None),
+        ("Kill paff anti-mosquitos recambio 2 uds + 1 aparato gratis", 2, None),
+        ("Cerveza Rubia Mahou 5* 33CL P16", 16, None),
+        ("Pasta dental Oral-B 75ml Pack2 Pro Expert", 2, None),
+        ("Refresco cola Coca-Cola 33cl pack lata 12 zero azúcar", 12, None),
         ("Detergente en gel COLON, garrafa 40+5 dosis", None, None),
         ("Leche semidesnatada paq. de 6 brics", 6, None),
         ("Pack-6", 6, None),
@@ -750,6 +776,33 @@ def test_pack_sizes_are_read_from_text(
     else:
         amount, unit = total.split()
         assert read.total == Quantity(amount=Decimal(amount), unit=Unit(unit))
+
+
+@pytest.mark.parametrize(
+    ("text", "loose"),
+    [
+        ("MOSTAZA PRIMA ORIGINAL PET +35G 300 G", "0.300 kg"),
+        ("Cacahuete en polvo desgrasado +Proteínas 14 g 70% reducido en grasa", None),
+        ("Dodot etapas T/6 +13kg", None),
+        ("HELLMANN'S Mayonesa frasco 440 +10 ml.", "0.450 l"),
+        ("Galleta digestive zero sin azúcares Gullón 300g + 100g", "0.400 kg"),
+        ("Galleta Digestive sin Azúcar + 100g Gratis", None),
+        ("Gofre con Chocolate 120 Más 20 g", "0.140 kg"),
+        ("Natillas con chocolate +Proteínas 10 g 1,3 g MG", None),
+        ("Huevo Campero 1/2 Docena", "6 piece"),
+        ("Huevos frescos media docena", "6 piece"),
+    ],
+)
+def test_extras_claims_and_halves_in_a_quantity(text: str, loose: str | None) -> None:
+    from supermercapy._match_text import plain
+
+    read, _ = read_size(plain(text))
+
+    if loose is None:
+        assert read.loose is None
+    else:
+        amount, unit = loose.split()
+        assert read.loose == Quantity(amount=Decimal(amount), unit=Unit(unit))
 
 
 def test_a_loose_quantity_is_a_total_unless_the_price_says_each() -> None:
