@@ -2,7 +2,7 @@
 
 this project follows [semantic versioning](https://semver.org/).
 
-## [0.1.0] - unreleased
+## [0.1.0] - 2026-10-06
 
 the first release. one package, `supermercapy`, importable as `supermercapy`, with one client per store on a shared base, usable from sync code and from asyncio.
 
