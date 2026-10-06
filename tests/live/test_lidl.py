@@ -49,7 +49,8 @@ SEARCH_PATH = "/q/api/search"
 
 # fields a tile or a detail carries only for some products: a variant's parent
 # and variant ids, a brand, ratings, a member price, a promotional price
-# window, and the store-availability preview of a product not yet on sale.
+# window, a discount and the price it cuts, which a tile priced for next week
+# lacks, and the store-availability preview of a product not yet on sale.
 PRODUCT_OPTIONAL = (
     "brand",
     "categorySecondaryPath",
@@ -57,11 +58,15 @@ PRODUCT_OPTIONAL = (
     "variantId",
     "ratings",
     "keyfacts.description",
+    "price.discount",
     "price.hasZeroVat",
+    "price.oldPrice",
     "price.showEndDate",
     "price.startDate",
     "price.tax",
     "regionsPrices[].currentLidlPlusPrice",
+    "regionsPrices[].currentPrice.discount",
+    "regionsPrices[].currentPrice.oldPrice",
     "storeFacts.showStoreAvailability",
     "storeFacts.showStoreAvailabilityPreview",
     "storeFacts.storeStartDate",
@@ -337,6 +342,7 @@ def test_this_weeks_offers_are_priced_grocery_tiles(lidl: Lidl) -> None:
     priced = [product for product in offers if product.price.amount is not None]
     assert len(priced) > len(offers) // 2
     assert all(product.price.currency == "EUR" for product in priced)
+    assert any(product.price.is_discounted for product in priced)
 
 
 def test_next_weeks_campaign_carries_future_prices(

@@ -65,3 +65,7 @@ a live audit on 2026-10-04 called every public method of every store. it found t
 - bonpreu's promotions listing sends numbers instead of strings and drops `unitName`.
 - eroski's and caprabo's edge answers a datacenter address with google cloud armor's recaptcha page and http 200. the client raises `ChallengedError` for it instead of failing to parse the page.
 - plusfresc's `CategoXXX_` bundles send quantities such as 1000 and 2000 that match nothing the storefront shows, so `requires_quantity` is read only for `CategoMxN_` multi-buys, where it is the number of units the deal needs.
+
+### live contract
+
+the live contract ran on 2026-10-06 from a residential address. every test of twelve stores passed. bonpreu and alcampo passed until their firewalls' per-address request budget ran out, so 5 bonpreu tests and 4 alcampo tests were skipped as inconclusive.
