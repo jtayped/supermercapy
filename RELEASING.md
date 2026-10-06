@@ -15,7 +15,11 @@ the pypi `supermercapy` project must define a trusted publisher with these value
 
 github must have a protected `pypi` environment with a required reviewer. the repository and environment must not contain a `PYPI_API_TOKEN` secret.
 
-the publish job alone receives `id-token: write`. every other workflow job receives `contents: read`. see the [pypa trusted publishing guide](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/) for the identity exchange the publish job uses.
+in the release workflow, the publish job alone receives `id-token: write`, and the other jobs receive `contents: read`. see the [pypa trusted publishing guide](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/) for the identity exchange the publish job uses.
+
+github pages must take its source from github actions (settings → pages → build and deployment). the `docs` workflow builds the site on every push to `main` that touches it, and deploys it only while the repository is public.
+
+the `live contract` workflow runs on a self-hosted runner, as [contributing](CONTRIBUTING.md) explains. on a public repository, a pull request from a fork can edit any workflow to run on that runner, so actions must require approval for every outside contributor's workflows (settings → actions → general → approval for running fork pull request workflows from contributors → require approval for all external contributors). github offers that setting on public repositories only, so set it as soon as the repository goes public, or take the runner offline first.
 
 ## release checklist
 

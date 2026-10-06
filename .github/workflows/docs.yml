@@ -39,6 +39,9 @@ jobs:
           path: site/
 
   deploy:
+    # github pages serves a private repository's site only on paid plans, and
+    # publicly even then, so a private repository builds the site and stops
+    if: ${{ !github.event.repository.private }}
     needs: build
     runs-on: ubuntu-latest
     environment:
