@@ -339,10 +339,16 @@ def test_this_weeks_offers_are_priced_grocery_tiles(lidl: Lidl) -> None:
 
     assert offers
     assert all(product.family is ProductFamily.GROCERY for product in offers)
-    priced = [product for product in offers if product.price.amount is not None]
-    assert len(priced) > len(offers) // 2
-    assert all(product.price.currency == "EUR" for product in priced)
-    assert any(product.price.is_discounted for product in priced)
+    # from sunday on, the page lists the week that starts on monday, and those
+    # tiles are priced only through their future prices
+    prices = [
+        product.price if product.price.amount is not None else product.future_prices[0]
+        for product in offers
+        if product.price.amount is not None or product.future_prices
+    ]
+    assert len(prices) > len(offers) // 2
+    assert all(price.currency == "EUR" for price in prices)
+    assert any(price.is_discounted for price in prices)
 
 
 def test_next_weeks_campaign_carries_future_prices(
