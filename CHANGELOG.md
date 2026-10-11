@@ -2,6 +2,12 @@
 
 this project follows [semantic versioning](https://semver.org/).
 
+## [unreleased]
+
+### fixed
+
+- lidl: an upcoming lidl plus price is now listed in `LidlProduct.future_prices`. lidl wraps it with its badge texts like the current lidl plus price, and the wrapper was read as an empty price, so a tile priced only for lidl plus members next week had no price at all.
+
 ## [0.1.0] - 2026-10-06
 
 the first release. one package, `supermercapy`, importable as `supermercapy`, with one client per store on a shared base, usable from sync code and from asyncio.

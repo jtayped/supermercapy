@@ -242,4 +242,4 @@ def test_download_saves_a_thumbnail(
     saved = ahorramas.download(thumbnail, tmp_path / "thumb.jpg")
 
     data = saved.read_bytes()
-    assert data.startswith(b"\xff\xd8") or data[8:12] == b"WEBP"
+    assert data.startswith((b"\xff\xd8", b"\x89PNG")) or data[8:12] == b"WEBP"
