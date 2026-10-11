@@ -386,7 +386,8 @@ class Lidl(BaseClient):
         ``current``, ``next``, ``weekend``, ``weekend_next``,
         ``permanent_cuts``, or ``other_brands``. next week's page prices its
         products through :attr:`LidlProduct.future_prices` rather than
-        :attr:`~supermercapy.Product.price`.
+        :attr:`~supermercapy.Product.price`, and from sunday so does the
+        current page, which already lists the week that starts on monday.
         """
 
         try:

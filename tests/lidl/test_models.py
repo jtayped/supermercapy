@@ -363,7 +363,11 @@ def test_an_upcoming_member_price_is_read_through_its_wrapper() -> None:
                     "futureLidlPlusPrices": [
                         {
                             "price": {
-                                "price": {"price": 1.69, "oldPrice": 2.19},
+                                "price": {
+                                    "price": 1.69,
+                                    "oldPrice": 2.19,
+                                    "startDate": "2026-10-11T22:00Z",
+                                },
                                 "lidlPlusText": "Con Lidl Plus",
                                 "highlightText": "-22%",
                             },
@@ -377,6 +381,8 @@ def test_an_upcoming_member_price_is_read_through_its_wrapper() -> None:
     assert product.price.amount is None
     [upcoming] = product.future_prices
     assert upcoming.amount == Decimal("1.69")
+    assert upcoming.valid_from is not None
+    assert upcoming.valid_from.isoformat() == "2026-10-11T22:00:00+00:00"
     assert upcoming.is_member_price is True
     assert upcoming.member_text == "Con Lidl Plus"
     assert upcoming.highlight_text == "-22%"

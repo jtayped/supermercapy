@@ -116,7 +116,7 @@ def test_the_cursor_slices_the_same_result_set(
 
     assert second.offset == 5
     # each page re-requests the whole result set, and the store's assortment
-    # can move by a hit or two between those requests
+    # can move by a few hits between those requests
     assert second.total_hits == pytest.approx(first_page.total_hits, abs=5)
     assert not {row.id for row in second.products} & {
         row.id for row in first_page.products

@@ -346,7 +346,7 @@ def test_this_weeks_offers_are_priced_grocery_tiles(lidl: Lidl) -> None:
         for product in offers
         if product.price.amount is not None or product.future_prices
     ]
-    assert len(prices) > len(offers) // 2
+    assert len(prices) >= len(offers) * 9 // 10
     assert all(price.currency == "EUR" for price in prices)
     assert any(price.is_discounted for price in prices)
 
