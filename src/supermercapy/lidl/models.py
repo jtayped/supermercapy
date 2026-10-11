@@ -516,8 +516,10 @@ def _member_price(data: object) -> LidlPrice | None:
 def _future_prices(data: object, *, is_member_price: bool) -> tuple[LidlPrice, ...]:
     prices: list[LidlPrice] = []
     for item in as_items(data):
-        entry = as_object(item)
-        price = parse_price(entry.get("price"), is_member_price=is_member_price)
+        entry = as_object(item).get("price")
+        # a lidl plus entry wraps its price with the badge texts, like the
+        # current lidl plus price does
+        price = _member_price(entry) if is_member_price else parse_price(entry)
         if price is not None:
             prices.append(price)
     return tuple(prices)
