@@ -27,7 +27,9 @@ jobs:
     timeout-minutes: 15
     strategy:
       fail-fast: false
-      max-parallel: 2
+      # one live runner serves the whole matrix, and a job dispatched while it
+      # is busy can wait long enough for its assignment to expire
+      max-parallel: 1
       matrix:
         store:
           - mercadona
@@ -97,6 +99,9 @@ jobs:
           || steps.verdict.outputs.inconclusive == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          # names the repository so gh does not look for git, which the live
+          # runner lacks
+          GH_REPO: ${{ github.repository }}
           STORE: ${{ matrix.store }}
           INCONCLUSIVE: ${{ steps.verdict.outputs.inconclusive }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
