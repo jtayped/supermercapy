@@ -253,8 +253,14 @@ def test_the_weekly_offers(aldi: Aldi, module_recorder: RecordingTransport) -> N
         embedded(read_fixture(STORE, "offers.html")),
         label="offers page",
         # the records are keyed by product id, which changes weekly; their
-        # shape is checked against search and the record endpoint
-        ignore=("$.OFFER_GET.algoliaDataMap", "$.PAGE_MGNL_GET"),
+        # shape is checked against search and the record endpoint. the parser
+        # never reads the teaser tiles, which are empty and which the cms writes
+        # as either [] or {"@nodes": []}
+        ignore=(
+            "$.OFFER_GET.algoliaDataMap",
+            "$.OFFER_GET.categories[].content[].teaserTiles",
+            "$.PAGE_MGNL_GET",
+        ),
     )
 
 
