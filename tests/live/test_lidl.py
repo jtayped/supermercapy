@@ -50,7 +50,8 @@ SEARCH_PATH = "/q/api/search"
 # fields a tile or a detail carries only for some products: a variant's parent
 # and variant ids, a brand, ratings, a member price, a promotional price
 # window, a discount and the price it cuts, which a tile priced for next week
-# lacks, and the store-availability preview of a product not yet on sale.
+# lacks, a price announced for a coming week, and the store-availability
+# preview of a product not yet on sale.
 PRODUCT_OPTIONAL = (
     "brand",
     "categorySecondaryPath",
@@ -67,13 +68,17 @@ PRODUCT_OPTIONAL = (
     "regionsPrices[].currentLidlPlusPrice",
     "regionsPrices[].currentPrice.discount",
     "regionsPrices[].currentPrice.oldPrice",
+    "regionsPrices[].futurePrices",
     "storeFacts.showStoreAvailability",
     "storeFacts.showStoreAvailabilityPreview",
     "storeFacts.storeStartDate",
+    "zones[].currentPrice.discount",
+    "zones[].currentPrice.oldPrice",
 )
 
-# objects keyed by image hash, price band, region id, or leaflet product uuid
-KEYED = frozenset({"imageMap", "regionsPrices", "regionsV2", "products"})
+# objects keyed by image hash, price band, region id, delivery zone, or leaflet
+# product uuid
+KEYED = frozenset({"imageMap", "regionsPrices", "regionsV2", "zones", "products"})
 
 
 def keyed_as_list(document: Any, keys: frozenset[str] = KEYED) -> Any:
