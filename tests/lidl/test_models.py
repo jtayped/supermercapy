@@ -352,6 +352,42 @@ def test_a_member_entry_without_a_price_is_dropped() -> None:
     assert product.lidl_plus == ()
 
 
+def test_an_upcoming_member_price_is_read_through_its_wrapper() -> None:
+    product = parse_product(
+        {
+            "erpNumber": "11150785",
+            "title": "Naranja mesa",
+            "regionsV2": {"1": {"regionPriceId": "1", "isDefault": True}},
+            "regionsPrices": {
+                "1": {
+                    "futureLidlPlusPrices": [
+                        {
+                            "price": {
+                                "price": {
+                                    "price": 1.69,
+                                    "oldPrice": 2.19,
+                                    "startDate": "2026-10-11T22:00Z",
+                                },
+                                "lidlPlusText": "Con Lidl Plus",
+                                "highlightText": "-22%",
+                            },
+                            "startDate": "2026-10-11T22:00:00.000Z",
+                        }
+                    ]
+                }
+            },
+        }
+    )
+    assert product.price.amount is None
+    [upcoming] = product.future_prices
+    assert upcoming.amount == Decimal("1.69")
+    assert upcoming.valid_from is not None
+    assert upcoming.valid_from.isoformat() == "2026-10-11T22:00:00+00:00"
+    assert upcoming.is_member_price is True
+    assert upcoming.member_text == "Con Lidl Plus"
+    assert upcoming.highlight_text == "-22%"
+
+
 # --------------------------------------------------------------------- product
 
 
