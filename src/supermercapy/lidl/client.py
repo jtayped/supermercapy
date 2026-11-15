@@ -20,6 +20,7 @@ from .._core.exceptions import (
     ConfigurationError,
     NotFoundError,
     OutOfCoverageError,
+    TransportError,
 )
 from .._core.html import attribute_values
 from .._core.models import Language
@@ -402,7 +403,7 @@ class Lidl(BaseClient):
     def get_campaign_products(
         self, slug: str, campaign_id: str | int
     ) -> tuple[LidlProduct, ...]:
-        """return the products of any ``/c/<slug>/a<id>`` campaign page.
+        """return the products of any ``/c/store/<slug>/a<id>`` campaign page.
 
         campaign listings have no json endpoint, so the page is fetched as
         html and each tile's ``data-grid-data`` attribute — the same gridbox a
@@ -413,11 +414,17 @@ class Lidl(BaseClient):
         if not isinstance(slug, str) or not slug.strip():
             raise ConfigurationError("slug must be a non-empty string")
         identifier = validate_identifier(campaign_id, "campaign_id")
-        page = self._request_text(
-            "GET",
-            f"{API_URL}{CAMPAIGN_PATH}/{slug.strip()}/a{identifier}",
-            headers={"Accept": _HTML_ACCEPT},
-        )
+        url = f"{API_URL}{CAMPAIGN_PATH}/{slug.strip()}/a{identifier}"
+        response = self._request("GET", url, headers={"Accept": _HTML_ACCEPT})
+        if response.is_redirect:
+            # a moved campaign page has an empty body, which would read as a
+            # campaign without products
+            raise TransportError(
+                f"GET {url} redirected (HTTP {response.status_code}) to "
+                f"{response.headers.get('Location') or 'nowhere'}",
+                status_code=response.status_code,
+            )
+        page = response.text
         products: list[LidlProduct] = []
         for value in attribute_values(page, "div", "data-grid-data"):
             try:

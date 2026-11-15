@@ -48,7 +48,7 @@ with Lidl(region=26, family=ProductFamily.GROCERY) as lidl:
 | method | what it does |
 |---|---|
 | `get_offers(week=)` | one of `current`, `next`, `weekend`, `weekend_next`, `permanent_cuts`, `other_brands` |
-| `get_campaign_products(slug, campaign_id)` | any other `/c/<slug>/a<id>` campaign page |
+| `get_campaign_products(slug, campaign_id)` | any other `/c/store/<slug>/a<id>` campaign page |
 | `get_leaflets(region=, store=)` | the leaflets on offer, with dates, pdfs, and thumbnails |
 | `get_leaflet(identifier, region=, store=)` | one leaflet's pages, images, and hotspots |
 | `iter_catalog_ids(family=)` | the sitemap ids alone, one request, no hydration |

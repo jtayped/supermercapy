@@ -62,6 +62,17 @@ def records(path: str) -> tuple[str, ...]:
     return tuple(f"{path}.{key}" for key in RECORD_OPTIONAL)
 
 
+# algolia's per-request timing diagnostics, processingTimingsMS and
+# serverTimeMS, come and go between responses
+LISTING_IGNORE = (
+    *records("$.hits[]"),
+    "$.extensions",
+    "$.renderingContent",
+    "$.processingTimingsMS",
+    "$.serverTimeMS",
+)
+
+
 def embedded(html: str) -> dict[str, Any]:
     """return the api answers a site page embeds, by name."""
 
@@ -115,7 +126,7 @@ def test_search_returns_records_and_an_offset_cursor(
         module_recorder.last_json(f"{INDEX_PATH}/query"),
         read_fixture(STORE, "search.json"),
         label="search",
-        ignore=(*records("$.hits[]"), "$.extensions", "$.renderingContent"),
+        ignore=LISTING_IGNORE,
     )
 
 
@@ -215,7 +226,7 @@ def test_a_top_level_and_a_child_category(
         module_recorder.last_json(f"{INDEX_PATH}/query"),
         read_fixture(STORE, "category.json"),
         label="category listing",
-        ignore=(*records("$.hits[]"), "$.extensions", "$.renderingContent"),
+        ignore=LISTING_IGNORE,
     )
 
 
