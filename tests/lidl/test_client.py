@@ -15,6 +15,7 @@ from supermercapy import (
     Lidl,
     NotFoundError,
     OutOfCoverageError,
+    TransportError,
     UnsupportedOperationError,
 )
 from supermercapy.lidl import LidlProduct, OfferWeek, PriceZone, ProductFamily
@@ -527,7 +528,7 @@ def test_offers_parse_the_campaign_page_tiles() -> None:
         offers = lidl.get_offers()
 
     assert len(requests) == 1
-    assert str(requests[0].url) == f"{BASE}/c/ofertas-semanales/a10089449"
+    assert str(requests[0].url) == f"{BASE}/c/store/ofertas-semanales/a10089449"
     assert requests[0].headers["Accept"].startswith("text/html")
     assert [product.id for product in offers] == ["11038819", "11137251"]
     assert offers[0].price.amount == Decimal("1.25")
@@ -546,15 +547,26 @@ def test_next_week_prices_are_published_before_they_go_live() -> None:
     )
 
 
+def test_a_redirected_campaign_page_raises_instead_of_reading_as_empty() -> None:
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(301, request=request, headers={"Location": "/c/store/x"})
+
+    with (
+        Lidl(transport=httpx.MockTransport(handler)) as lidl,
+        pytest.raises(TransportError, match=r"redirected.*/c/store/x"),
+    ):
+        lidl.get_campaign_products("x", 1)
+
+
 @pytest.mark.parametrize(
     ("week", "url"),
     [
-        ("current", "/c/ofertas-semanales/a10089449"),
-        ("next", "/c/ofertas-proxima-semana/a10088432"),
-        ("weekend", "/c/super-finde/a10089450"),
-        ("weekend_next", "/c/super-finde-proxima-semana/a10089609"),
-        ("permanent_cuts", "/c/bajadas-permanentes/a10089468"),
-        ("other_brands", "/c/tus-otras-marcas-de-siempre/a10089613"),
+        ("current", "/c/store/ofertas-semanales/a10089449"),
+        ("next", "/c/store/ofertas-proxima-semana/a10088432"),
+        ("weekend", "/c/store/super-finde/a10089450"),
+        ("weekend_next", "/c/store/super-finde-proxima-semana/a10089609"),
+        ("permanent_cuts", "/c/store/bajadas-permanentes/a10089468"),
+        ("other_brands", "/c/store/tus-otras-marcas-de-siempre/a10089613"),
     ],
 )
 def test_every_offer_week_maps_to_its_campaign_page(week: str, url: str) -> None:
@@ -583,7 +595,7 @@ def test_a_campaign_page_can_be_read_by_slug_and_id() -> None:
         with pytest.raises(ConfigurationError, match="slug"):
             lidl.get_campaign_products("  ", 10091863)
 
-    assert requests[0].url.path == "/c/italiamo/a10091863"
+    assert requests[0].url.path == "/c/store/italiamo/a10091863"
     assert all(product.family is ProductFamily.GROCERY for product in products)
 
 

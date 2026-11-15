@@ -9,7 +9,7 @@ from .._core.models import Language
 API_URL = "https://www.lidl.es"
 SEARCH_PATH = "/q/api/search"
 DETAIL_PATH = "/p/api/detail"
-CAMPAIGN_PATH = "/c"
+CAMPAIGN_PATH = "/c/store"
 SITEMAP_PATH = "/p/export/{country}/{language}/product_sitemap.xml.gz"
 
 STORES_URL = "https://live.api.schwarz/odj/stores-api/v2/myapi/stores-frontend"
@@ -42,9 +42,9 @@ LANGUAGE_PATHS = MappingProxyType({Language.SPANISH: "es"})
 DEFAULT_FETCH_SIZE = 48
 MAX_FETCH_SIZE = 1000
 
-# grocery offer pages, verified 2026-09-14. campaign ids change rarely but they
+# grocery offer pages, verified 2026-11-15. campaign ids change rarely but they
 # are not eternal; :meth:`~supermercapy.lidl.Lidl.get_campaign_products` takes any
-# other ``/c/<slug>/a<id>`` page.
+# other ``/c/store/<slug>/a<id>`` page.
 OFFER_CAMPAIGNS = MappingProxyType(
     {
         "current": ("ofertas-semanales", "10089449"),

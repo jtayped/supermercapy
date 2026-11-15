@@ -6,6 +6,7 @@ this project follows [semantic versioning](https://semver.org/).
 
 ### fixed
 
+- lidl: `get_offers` and `get_campaign_products` return the campaign's products again. lidl moved its campaign pages from `/c/<slug>/a<id>` to `/c/store/<slug>/a<id>` and answers the old address with a redirect, which the client does not follow, so every campaign came back empty. a campaign page that redirects now raises `TransportError` instead of reading as a campaign without products.
 - lidl: an upcoming lidl plus price is now listed in `LidlProduct.future_prices`. lidl wraps it with its badge texts like the current lidl plus price, and the wrapper was read as an empty price, so a tile priced only for lidl plus members next week had no price at all.
 
 ## [0.1.0] - 2026-10-06

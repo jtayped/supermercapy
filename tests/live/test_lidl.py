@@ -369,7 +369,7 @@ def test_next_weeks_campaign_carries_future_prices(
     future = upcoming[0].future_prices[0]
     assert future.amount is not None
     assert future.valid_from is not None
-    page = module_recorder.last(f"/c/{slug}/a{campaign_id}").response.text
+    page = module_recorder.last(f"/c/store/{slug}/a{campaign_id}").response.text
     assert_no_drift(
         keyed_as_list(tiles(page)),
         keyed_as_list(tiles(read_fixture(STORE, "campaign.html"))),
